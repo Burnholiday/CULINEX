@@ -1,0 +1,590 @@
+{
+  "file_id": "file_lxng24i",
+  "filename": "AhaConvert_20260701_151313.jpg",
+  "file_type": "IMAGE",
+  "extraction_status": "completed",
+  "extracted_text": "Tax Invoice\nInvoice From\nTelephone\nFarm Fresh Direct\n044 873 0076\nFax\nfarmfresh\n24 Meul Street\nE Mail\nCaledon Industrial Park\ndeliveries\ndirect\naccounts@farmfreshdirect.co.za\nstraight from the farms\nVat Registration No\n4310269016\n4 Unit George\nInvoice Date\n01/07/2026\nDeliver To\nInvoice To\nButterfly Blu T/A Shavi Shavi Restaurant\nButterfly Blu T/A Shavi Shavi Restaurant\n198 CR Swart Drive, Brenton on Sea,Knysn\nRepresentative\nInvoice Number\nPage\nOrder Number\nInvoice Date\nAccount No\nRep 1\nINV1837\n1 of 1\n01/07/2026 MG\n1\n01/07/2026\nD2604\nUnitPrice\nDisc %\nVatAmnt\nLine Total\nQuantity\nDescription\nItem Code\n35.85\n0.00\n41.94\n1.17\nHeads-kg\nWHO -BROCCOLI\nHEADS\n25.85\n0.00\n25.85\n1\nPunnet-125g\nWHO - BLUEBERRIES\n0.00\n77.01\n29.85\n2.58\nWHO - APPLES GRANNY kg Green\nSMITH\n0.00\n158.85\n158.85\n1\nWHO - ONION POCKET Brown 10kg\n0.00\n471.40\n117.85\n4\nWHO - POTATOES\n10kg Pocket Potatoes- LARGE\n0.00\n87.36\n4.19\n20.85\nkg\nWHO-BUTTERNUT\nWHOLE\n0.00\n535.00\n535.00\n1\nWHO-MUSHROOMS\n5KG White Mushrooms\n5KG\n0.00\n17.44\n1.1\n15.85\nkg -\nWHO - ORANGES\n0.00\n80.33\n2.18\n36.85\nTomatoe - kg\nWHO - TOMATOES\n0.00\n221.40\n4\n55.35\nCocktail Tomatoes - 500g\nWHO-COCKTAIL\nTOMATOES\n0.00\n271.95\n7\n38.85\n150g\nWHO - BABY LEAF\nSPINACH\n0.00\n73.40\n4\n18.35\nEach\nWHO -PINEAPPLE\nNumber of Items\n2,061.94\nExtra Charges\nSubtotal (Exclusive)\n33.22\nPromotional\nDiscount\nDiscount Received\nRounding\n0.00\nVat\n0.00\nTotal\n2,061.94\nCurrency:\nZAR\nCurrencyRate:\n1.00\nBanking Details:\nCreated: 01/07/2026 01:59:02\nStandard Bank\n302784187\nCurrent\nDewill\n051001",
+  "extracted_tables": [],
+  "invoice_table_rows": [
+    {
+      "supplier_code": "WHO -BROCCOLI HEADS",
+      "ingredient": "Broccoli",
+      "description": "Heads-kg",
+      "quantity": 1.17,
+      "purchase_unit": "Heads-kg",
+      "unit": "Heads-kg",
+      "unit_price": 35.85,
+      "line_total": 41.94,
+      "vat": 0.0,
+      "validation": {
+        "status": "ok",
+        "expected_total": 41.94,
+        "actual_total": 41.94,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "parser_debug": {
+        "source": "ocr_text",
+        "raw_row": [
+          "35.85",
+          "0.00",
+          "41.94",
+          "1.17",
+          "Heads-kg",
+          "WHO -BROCCOLI",
+          "HEADS"
+        ],
+        "mapped_quantity": 1.17,
+        "mapped_unit_price": 35.85,
+        "mapped_line_total": 41.94,
+        "mapped_vat": 0.0,
+        "validation": {
+          "status": "ok",
+          "expected_total": 41.94,
+          "actual_total": 41.94,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      "field_confidence": {
+        "ingredient": 0.78,
+        "quantity": 0.9,
+        "unit": 0.85,
+        "unit_price": 0.9,
+        "line_total": 0.9
+      }
+    },
+    {
+      "supplier_code": "WHO - BLUEBERRIES",
+      "ingredient": "Blueberries",
+      "description": "Punnet-125g",
+      "quantity": 1.0,
+      "purchase_unit": "Punnet-125g",
+      "unit": "Punnet-125g",
+      "unit_price": 25.85,
+      "line_total": 25.85,
+      "vat": 0.0,
+      "validation": {
+        "status": "ok",
+        "expected_total": 25.85,
+        "actual_total": 25.85,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "parser_debug": {
+        "source": "ocr_text",
+        "raw_row": [
+          "25.85",
+          "0.00",
+          "25.85",
+          "1",
+          "Punnet-125g",
+          "WHO - BLUEBERRIES"
+        ],
+        "mapped_quantity": 1.0,
+        "mapped_unit_price": 25.85,
+        "mapped_line_total": 25.85,
+        "mapped_vat": 0.0,
+        "validation": {
+          "status": "ok",
+          "expected_total": 25.85,
+          "actual_total": 25.85,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      "field_confidence": {
+        "ingredient": 0.78,
+        "quantity": 0.9,
+        "unit": 0.85,
+        "unit_price": 0.9,
+        "line_total": 0.9
+      }
+    },
+    {
+      "supplier_code": "WHO - APPLES GRANNY kg Green",
+      "ingredient": "Apples Granny Green",
+      "description": "SMITH",
+      "quantity": 2.58,
+      "purchase_unit": "SMITH",
+      "unit": "SMITH",
+      "unit_price": 29.85,
+      "line_total": 77.01,
+      "vat": 0.0,
+      "validation": {
+        "status": "ok",
+        "expected_total": 77.01,
+        "actual_total": 77.01,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "parser_debug": {
+        "source": "ocr_text",
+        "raw_row": [
+          "0.00",
+          "77.01",
+          "29.85",
+          "2.58",
+          "WHO - APPLES GRANNY kg Green",
+          "SMITH"
+        ],
+        "mapped_quantity": 2.58,
+        "mapped_unit_price": 29.85,
+        "mapped_line_total": 77.01,
+        "mapped_vat": 0.0,
+        "validation": {
+          "status": "ok",
+          "expected_total": 77.01,
+          "actual_total": 77.01,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      "field_confidence": {
+        "ingredient": 0.78,
+        "quantity": 0.9,
+        "unit": 0.85,
+        "unit_price": 0.9,
+        "line_total": 0.9
+      }
+    },
+    {
+      "supplier_code": "WHO - ONION POCKET Brown 10kg",
+      "ingredient": "Onion Brown 10Kg",
+      "description": null,
+      "quantity": 1.0,
+      "purchase_unit": null,
+      "unit": null,
+      "unit_price": 158.85,
+      "line_total": 158.85,
+      "vat": 0.0,
+      "validation": {
+        "status": "ok",
+        "expected_total": 158.85,
+        "actual_total": 158.85,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "parser_debug": {
+        "source": "ocr_text",
+        "raw_row": [
+          "0.00",
+          "158.85",
+          "158.85",
+          "1",
+          "WHO - ONION POCKET Brown 10kg"
+        ],
+        "mapped_quantity": 1.0,
+        "mapped_unit_price": 158.85,
+        "mapped_line_total": 158.85,
+        "mapped_vat": 0.0,
+        "validation": {
+          "status": "ok",
+          "expected_total": 158.85,
+          "actual_total": 158.85,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      "field_confidence": {
+        "ingredient": 0.78,
+        "quantity": 0.9,
+        "unit": 0.45,
+        "unit_price": 0.9,
+        "line_total": 0.9
+      }
+    },
+    {
+      "supplier_code": "WHO - POTATOES",
+      "ingredient": "Potatoes",
+      "description": "10kg Pocket Potatoes- LARGE",
+      "quantity": 4.0,
+      "purchase_unit": "10kg Pocket Potatoes- LARGE",
+      "unit": "10kg Pocket Potatoes- LARGE",
+      "unit_price": 117.85,
+      "line_total": 471.4,
+      "vat": 0.0,
+      "validation": {
+        "status": "ok",
+        "expected_total": 471.4,
+        "actual_total": 471.4,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "parser_debug": {
+        "source": "ocr_text",
+        "raw_row": [
+          "0.00",
+          "471.40",
+          "117.85",
+          "4",
+          "WHO - POTATOES",
+          "10kg Pocket Potatoes- LARGE"
+        ],
+        "mapped_quantity": 4.0,
+        "mapped_unit_price": 117.85,
+        "mapped_line_total": 471.4,
+        "mapped_vat": 0.0,
+        "validation": {
+          "status": "ok",
+          "expected_total": 471.4,
+          "actual_total": 471.4,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      "field_confidence": {
+        "ingredient": 0.78,
+        "quantity": 0.9,
+        "unit": 0.85,
+        "unit_price": 0.9,
+        "line_total": 0.9
+      }
+    },
+    {
+      "supplier_code": "WHO-BUTTERNUT WHOLE",
+      "ingredient": "Butternut Whole",
+      "description": "kg",
+      "quantity": 4.19,
+      "purchase_unit": "KG",
+      "unit": "KG",
+      "unit_price": 20.85,
+      "line_total": 87.36,
+      "vat": 0.0,
+      "validation": {
+        "status": "ok",
+        "expected_total": 87.36,
+        "actual_total": 87.36,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "parser_debug": {
+        "source": "ocr_text",
+        "raw_row": [
+          "0.00",
+          "87.36",
+          "4.19",
+          "20.85",
+          "kg",
+          "WHO-BUTTERNUT",
+          "WHOLE"
+        ],
+        "mapped_quantity": 4.19,
+        "mapped_unit_price": 20.85,
+        "mapped_line_total": 87.36,
+        "mapped_vat": 0.0,
+        "validation": {
+          "status": "ok",
+          "expected_total": 87.36,
+          "actual_total": 87.36,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      "field_confidence": {
+        "ingredient": 0.78,
+        "quantity": 0.9,
+        "unit": 0.85,
+        "unit_price": 0.9,
+        "line_total": 0.9
+      }
+    },
+    {
+      "supplier_code": "WHO-MUSHROOMS",
+      "ingredient": "Mushrooms",
+      "description": "5KG White Mushrooms 5KG",
+      "quantity": 1.0,
+      "purchase_unit": "5KG White Mushrooms 5KG",
+      "unit": "5KG White Mushrooms 5KG",
+      "unit_price": 535.0,
+      "line_total": 535.0,
+      "vat": 0.0,
+      "validation": {
+        "status": "ok",
+        "expected_total": 535.0,
+        "actual_total": 535.0,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "parser_debug": {
+        "source": "ocr_text",
+        "raw_row": [
+          "0.00",
+          "535.00",
+          "535.00",
+          "1",
+          "WHO-MUSHROOMS",
+          "5KG White Mushrooms",
+          "5KG"
+        ],
+        "mapped_quantity": 1.0,
+        "mapped_unit_price": 535.0,
+        "mapped_line_total": 535.0,
+        "mapped_vat": 0.0,
+        "validation": {
+          "status": "ok",
+          "expected_total": 535.0,
+          "actual_total": 535.0,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      "field_confidence": {
+        "ingredient": 0.78,
+        "quantity": 0.9,
+        "unit": 0.85,
+        "unit_price": 0.9,
+        "line_total": 0.9
+      }
+    },
+    {
+      "supplier_code": "WHO - ORANGES",
+      "ingredient": "Oranges",
+      "description": "kg -",
+      "quantity": 1.1,
+      "purchase_unit": "kg -",
+      "unit": "kg -",
+      "unit_price": 15.85,
+      "line_total": 17.44,
+      "vat": 0.0,
+      "validation": {
+        "status": "ok",
+        "expected_total": 17.44,
+        "actual_total": 17.44,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "parser_debug": {
+        "source": "ocr_text",
+        "raw_row": [
+          "0.00",
+          "17.44",
+          "1.1",
+          "15.85",
+          "kg -",
+          "WHO - ORANGES"
+        ],
+        "mapped_quantity": 1.1,
+        "mapped_unit_price": 15.85,
+        "mapped_line_total": 17.44,
+        "mapped_vat": 0.0,
+        "validation": {
+          "status": "ok",
+          "expected_total": 17.44,
+          "actual_total": 17.44,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      "field_confidence": {
+        "ingredient": 0.78,
+        "quantity": 0.9,
+        "unit": 0.85,
+        "unit_price": 0.9,
+        "line_total": 0.9
+      }
+    },
+    {
+      "supplier_code": "WHO - TOMATOES",
+      "ingredient": "Tomatoes",
+      "description": "Tomatoe - kg",
+      "quantity": 2.18,
+      "purchase_unit": "Tomatoe - kg",
+      "unit": "Tomatoe - kg",
+      "unit_price": 36.85,
+      "line_total": 80.33,
+      "vat": 0.0,
+      "validation": {
+        "status": "ok",
+        "expected_total": 80.33,
+        "actual_total": 80.33,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "parser_debug": {
+        "source": "ocr_text",
+        "raw_row": [
+          "0.00",
+          "80.33",
+          "2.18",
+          "36.85",
+          "Tomatoe - kg",
+          "WHO - TOMATOES"
+        ],
+        "mapped_quantity": 2.18,
+        "mapped_unit_price": 36.85,
+        "mapped_line_total": 80.33,
+        "mapped_vat": 0.0,
+        "validation": {
+          "status": "ok",
+          "expected_total": 80.33,
+          "actual_total": 80.33,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      "field_confidence": {
+        "ingredient": 0.78,
+        "quantity": 0.9,
+        "unit": 0.85,
+        "unit_price": 0.9,
+        "line_total": 0.9
+      }
+    },
+    {
+      "supplier_code": "WHO-COCKTAIL TOMATOES",
+      "ingredient": "Cocktail Tomatoes",
+      "description": "Cocktail Tomatoes - 500g",
+      "quantity": 4.0,
+      "purchase_unit": "Cocktail Tomatoes - 500g",
+      "unit": "Cocktail Tomatoes - 500g",
+      "unit_price": 55.35,
+      "line_total": 221.4,
+      "vat": 0.0,
+      "validation": {
+        "status": "ok",
+        "expected_total": 221.4,
+        "actual_total": 221.4,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "parser_debug": {
+        "source": "ocr_text",
+        "raw_row": [
+          "0.00",
+          "221.40",
+          "4",
+          "55.35",
+          "Cocktail Tomatoes - 500g",
+          "WHO-COCKTAIL",
+          "TOMATOES"
+        ],
+        "mapped_quantity": 4.0,
+        "mapped_unit_price": 55.35,
+        "mapped_line_total": 221.4,
+        "mapped_vat": 0.0,
+        "validation": {
+          "status": "ok",
+          "expected_total": 221.4,
+          "actual_total": 221.4,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      "field_confidence": {
+        "ingredient": 0.78,
+        "quantity": 0.9,
+        "unit": 0.85,
+        "unit_price": 0.9,
+        "line_total": 0.9
+      }
+    },
+    {
+      "supplier_code": "WHO - BABY LEAF SPINACH",
+      "ingredient": "Baby Leaf Spinach",
+      "description": "150g",
+      "quantity": 7.0,
+      "purchase_unit": "150g",
+      "unit": "150g",
+      "unit_price": 38.85,
+      "line_total": 271.95,
+      "vat": 0.0,
+      "validation": {
+        "status": "ok",
+        "expected_total": 271.95,
+        "actual_total": 271.95,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "parser_debug": {
+        "source": "ocr_text",
+        "raw_row": [
+          "0.00",
+          "271.95",
+          "7",
+          "38.85",
+          "150g",
+          "WHO - BABY LEAF",
+          "SPINACH"
+        ],
+        "mapped_quantity": 7.0,
+        "mapped_unit_price": 38.85,
+        "mapped_line_total": 271.95,
+        "mapped_vat": 0.0,
+        "validation": {
+          "status": "ok",
+          "expected_total": 271.95,
+          "actual_total": 271.95,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      "field_confidence": {
+        "ingredient": 0.78,
+        "quantity": 0.9,
+        "unit": 0.85,
+        "unit_price": 0.9,
+        "line_total": 0.9
+      }
+    },
+    {
+      "supplier_code": "WHO -PINEAPPLE",
+      "ingredient": "Pineapple",
+      "description": "Each",
+      "quantity": 4.0,
+      "purchase_unit": "Each",
+      "unit": "Each",
+      "unit_price": 18.35,
+      "line_total": 73.4,
+      "vat": 0.0,
+      "validation": {
+        "status": "ok",
+        "expected_total": 73.4,
+        "actual_total": 73.4,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "parser_debug": {
+        "source": "ocr_text",
+        "raw_row": [
+          "0.00",
+          "73.40",
+          "4",
+          "18.35",
+          "Each",
+          "WHO -PINEAPPLE"
+        ],
+        "mapped_quantity": 4.0,
+        "mapped_unit_price": 18.35,
+        "mapped_line_total": 73.4,
+        "mapped_vat": 0.0,
+        "validation": {
+          "status": "ok",
+          "expected_total": 73.4,
+          "actual_total": 73.4,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      "field_confidence": {
+        "ingredient": 0.78,
+        "quantity": 0.9,
+        "unit": 0.85,
+        "unit_price": 0.9,
+        "line_total": 0.9
+      }
+    }
+  ],
+  "invoice_metadata": {
+    "supplier": "Telephone",
+    "invoice_number": "4310269016",
+    "invoice_date": "01/07/2026",
+    "customer": "Butterfly Blu T/A Shavi Shavi Restaurant",
+    "total": null,
+    "currency": "ZAR"
+  },
+  "errors": [],
+  "created_at": "2026-07-03T11:01:19",
+  "engine": "PaddleOCR",
+  "fallback_used": false
+}

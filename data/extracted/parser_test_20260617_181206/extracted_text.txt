@@ -1,0 +1,149 @@
+a
+DA
+DP.10
+TAX INVOICE
+Robberg Fast Foods SA (PTY) Ltd
+Theron Street
+Industrial Area
+ID712766
+Number
+Plettenberg Bay WESTERN CAPE 6600
+2026-06-17
+ROBBERG
+Date:
+R
+Ph: 044-501-2600 Fax:044-533-6259
+Page 1 of 1
+Page:
+Email: lucy@robberg.co.za
+Bernard
+fine foods
+Reference:
+Tammy
+Reg:1995/007260/07 VAT:4700151600
+User:
+BUT002
+Liquor License Number: 6984
+Account:
+Knysna
+Route:
+7 Days from Statement
+Ship To:
+Sold To:
+Butterfly Blu Restaurant
+Shavi Shavi Restaurant t/a Butterfly Blu
+198 Cr Swart Drive
+R
+Restaurant
+Knysna
+198 Cr Swart Drive
+WESTERN CAPE
+Knysna
+Sales Person:
+Total
+Customer VAT:
+9096717278
+VAT
+Unit Price
+Unit
+Quantity
+735.88
+95.98
+Line
+Item
+Description
+ause
+319.95
+2.00 ea
+Break
+237.30
+###
+CHE008
+Cream Cheese L/Wood Plain
+30.95
+206.35
+2.5kg Red Lid(71911)
+1.00 ea
+Creme Fraiche 2.5kg Beige
+139.20
+#/#
+CHE009
+0.00
+34.80
+Lid(71520) Lancewood
+4.00 500g
+779.93
+101.73
+Edamame 500gr (Green Label)
+678.20
+#/#
+EDA001
+1.00 box
+CHI0009
+Free Range Chicken Fillets
+1 266.53
+#/#
+165.20
+203.95
+10x1kgs Frzn Noorsveld
+5.40 kg
+NOR008
+Norwegian Salmon Fresh Whole
+#/#
+5/6kg (Salmo Salar)
+686.44
+89.54
+1 fish
+596.90
+1.00 box
+1 666.29
+217.34
+Ostrich Fillet Port.20x200g
+OST0001
+1 448.95
+#//#
+1.00 box
+PAT002
+Patagonica Cleaned Tubes & Tent
+#/
+544.30
+71.00
+(8x1kg) Pereira
+473.30
+100 bag
+CHI068
+Rainbow Chicken IQF Mixed Port
+#//#
+1337.05
+174.40
+6x2kg
+1 162.65
+1.00 box
+390.94
+50.99
+Salmon Smoked Strips 10x500gr
+#//#
+SAL010
+339.95
+1.00 kg
+Scallop Half Shell 10-20pcs 1kg
+#//#
+SCA002
+Please Note: Claims will only be accepted if made within 24 hours of delivery. Prices are subject to change without prior notice.
+6,786.73
+Subtotal:
+For Payment:
+Signature :
+Robberg Fast Foods SA
+First National Bank
+Simon
+Branch No: 210514
+997.
+Acc No: 533 750 529 09
+VAT:
+7,783.
+Totat
+Timestamp:15/06/2026 11:31:09AM
+Cash Collected:
+Signed by:
+Co-ordinates:

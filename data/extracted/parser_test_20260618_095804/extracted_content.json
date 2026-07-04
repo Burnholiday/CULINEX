@@ -1,0 +1,711 @@
+{
+  "file_id": "parser_test_20260618_095804",
+  "filename": "20260618_095804.jpg",
+  "file_type": "IMAGE",
+  "extraction_status": "completed",
+  "extracted_text": "7X\nr\nAGE\nREE\nRD\nMO\nMORNINGSIDE POULTRY cc t/a\nTAX INVOICE\nReg No. 2008/191415/23\nMorningside\nVAT No. 4630236125\nACCOUNT No.\nDATE\nPAGE No.\nB53\n18/06/26\nEggs\n1\nINVOICE No.\nYOUR REF.\n044 873 5792\nINW10573\n15 Langenhoven Street\n044 874 4920\n1823 George 6530\nadmin@morningsideeggs.co.za\nmorningside@mweb.co.za\nDeliver to:\nInvoice to:\nBUTTERFLY BLU RESTAURANT\n198 CR SWART DRIVE\nBRENTON-ON-SEA\nSHAVI SHAVI RESTAURANT\nKNYSNA\nt/a BUTTERFLY BLU RESTAURANT\n6570\nRicardo\nTEL NO: 044 381 0027\n11\nVAT NO: 466 031 6862\nNETT PRICE\nDESCRIPTION\nQTY\nVAT\nCODE\nUNIT PRICE\n2,010.00\nMORNINGSIDEX-LARGETRAYS\n75.00\n0.00\nUXI\n26.80\n1\nQuality\nFed\nGrain\nRECEIVED IN GOOD ORDER\nTOTAL\n2,010.00\nNETT PRICE\nDATE)8106126\nBANKING DETAILS\nAMOUNT\n2,010.00\nEXCL. VAT\nBernard\nFIRST NATIONAL BANK\nNAME\nAcc.:621 969 22069\nVAT\n0.00\nBranch:210114\nSIGNATURE\nTOTAL\n2,010.00",
+  "extracted_tables": [
+    {
+      "type": "ocr_items",
+      "items": [
+        {
+          "text": "7X",
+          "x": 2859.0,
+          "y": 58.0,
+          "w": 553.0,
+          "h": 363.0,
+          "page": 1
+        },
+        {
+          "text": "r",
+          "x": 2457.0,
+          "y": 90.0,
+          "w": 271.0,
+          "h": 330.0,
+          "page": 1
+        },
+        {
+          "text": "AGE",
+          "x": 1812.0,
+          "y": 140.0,
+          "w": 420.0,
+          "h": 132.0,
+          "page": 1
+        },
+        {
+          "text": "REE",
+          "x": 1863.0,
+          "y": 268.0,
+          "w": 330.0,
+          "h": 135.0,
+          "page": 1
+        },
+        {
+          "text": "RD",
+          "x": 2961.0,
+          "y": 499.0,
+          "w": 440.0,
+          "h": 138.0,
+          "page": 1
+        },
+        {
+          "text": "MO",
+          "x": 1015.0,
+          "y": 1179.0,
+          "w": 433.0,
+          "h": 651.0,
+          "page": 1
+        },
+        {
+          "text": "MORNINGSIDE POULTRY cc t/a",
+          "x": 773.0,
+          "y": 1881.0,
+          "w": 687.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "TAX INVOICE",
+          "x": 2480.0,
+          "y": 1892.0,
+          "w": 522.0,
+          "h": 100.0,
+          "page": 1
+        },
+        {
+          "text": "Reg No. 2008/191415/23",
+          "x": 838.0,
+          "y": 1927.0,
+          "w": 555.0,
+          "h": 58.0,
+          "page": 1
+        },
+        {
+          "text": "Morningside",
+          "x": 328.0,
+          "y": 1951.0,
+          "w": 1579.0,
+          "h": 294.0,
+          "page": 1
+        },
+        {
+          "text": "VAT No. 4630236125",
+          "x": 2460.0,
+          "y": 1964.0,
+          "w": 564.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "ACCOUNT No.",
+          "x": 3022.0,
+          "y": 2004.0,
+          "w": 343.0,
+          "h": 82.0,
+          "page": 1
+        },
+        {
+          "text": "DATE",
+          "x": 2234.0,
+          "y": 2047.0,
+          "w": 130.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "PAGE No.",
+          "x": 2625.0,
+          "y": 2050.0,
+          "w": 224.0,
+          "h": 58.0,
+          "page": 1
+        },
+        {
+          "text": "B53",
+          "x": 3182.0,
+          "y": 2124.0,
+          "w": 190.0,
+          "h": 89.0,
+          "page": 1
+        },
+        {
+          "text": "18/06/26",
+          "x": 2134.0,
+          "y": 2155.0,
+          "w": 245.0,
+          "h": 87.0,
+          "page": 1
+        },
+        {
+          "text": "Eggs",
+          "x": 786.0,
+          "y": 2187.0,
+          "w": 649.0,
+          "h": 285.0,
+          "page": 1
+        },
+        {
+          "text": "1",
+          "x": 2664.0,
+          "y": 2189.0,
+          "w": 50.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "INVOICE No.",
+          "x": 2938.0,
+          "y": 2298.0,
+          "w": 308.0,
+          "h": 82.0,
+          "page": 1
+        },
+        {
+          "text": "YOUR REF.",
+          "x": 2281.0,
+          "y": 2333.0,
+          "w": 244.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "044 873 5792",
+          "x": 1299.0,
+          "y": 2454.0,
+          "w": 360.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "INW10573",
+          "x": 2928.0,
+          "y": 2417.0,
+          "w": 485.0,
+          "h": 121.0,
+          "page": 1
+        },
+        {
+          "text": "15 Langenhoven Street",
+          "x": 223.0,
+          "y": 2462.0,
+          "w": 610.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "044 874 4920",
+          "x": 1297.0,
+          "y": 2521.0,
+          "w": 360.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "1823 George 6530",
+          "x": 219.0,
+          "y": 2527.0,
+          "w": 549.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "admin@morningsideeggs.co.za",
+          "x": 1169.0,
+          "y": 2589.0,
+          "w": 851.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "morningside@mweb.co.za",
+          "x": 213.0,
+          "y": 2594.0,
+          "w": 695.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "Deliver to:",
+          "x": 2051.0,
+          "y": 2660.0,
+          "w": 389.0,
+          "h": 110.0,
+          "page": 1
+        },
+        {
+          "text": "Invoice to:",
+          "x": 203.0,
+          "y": 2692.0,
+          "w": 356.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "BUTTERFLY BLU RESTAURANT",
+          "x": 331.0,
+          "y": 2709.0,
+          "w": 1212.0,
+          "h": 96.0,
+          "page": 1
+        },
+        {
+          "text": "198 CR SWART DRIVE",
+          "x": 2011.0,
+          "y": 2718.0,
+          "w": 589.0,
+          "h": 96.0,
+          "page": 1
+        },
+        {
+          "text": "BRENTON-ON-SEA",
+          "x": 2007.0,
+          "y": 2796.0,
+          "w": 501.0,
+          "h": 90.0,
+          "page": 1
+        },
+        {
+          "text": "SHAVI SHAVI RESTAURANT",
+          "x": 325.0,
+          "y": 2811.0,
+          "w": 727.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "KNYSNA",
+          "x": 2005.0,
+          "y": 2866.0,
+          "w": 235.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "t/a BUTTERFLY BLU RESTAURANT",
+          "x": 321.0,
+          "y": 2874.0,
+          "w": 881.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "6570",
+          "x": 2004.0,
+          "y": 2934.0,
+          "w": 144.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "Ricardo",
+          "x": 3202.0,
+          "y": 2953.0,
+          "w": 289.0,
+          "h": 92.0,
+          "page": 1
+        },
+        {
+          "text": "TEL NO: 044 381 0027",
+          "x": 312.0,
+          "y": 3007.0,
+          "w": 590.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "11",
+          "x": 28.0,
+          "y": 3076.0,
+          "w": 96.0,
+          "h": 90.0,
+          "page": 1
+        },
+        {
+          "text": "VAT NO: 466 031 6862",
+          "x": 310.0,
+          "y": 3070.0,
+          "w": 598.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "NETT PRICE",
+          "x": 3182.0,
+          "y": 3265.0,
+          "w": 384.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "DESCRIPTION",
+          "x": 1110.0,
+          "y": 3298.0,
+          "w": 399.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "QTY",
+          "x": 2168.0,
+          "y": 3303.0,
+          "w": 144.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "VAT",
+          "x": 2880.0,
+          "y": 3287.0,
+          "w": 140.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "CODE",
+          "x": 239.0,
+          "y": 3310.0,
+          "w": 180.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "UNIT PRICE",
+          "x": 2417.0,
+          "y": 3302.0,
+          "w": 349.0,
+          "h": 85.0,
+          "page": 1
+        },
+        {
+          "text": "2,010.00",
+          "x": 3310.0,
+          "y": 3371.0,
+          "w": 325.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "MORNINGSIDEX-LARGETRAYS",
+          "x": 607.0,
+          "y": 3405.0,
+          "w": 942.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "75.00",
+          "x": 2160.0,
+          "y": 3410.0,
+          "w": 189.0,
+          "h": 54.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2892.0,
+          "y": 3400.0,
+          "w": 156.0,
+          "h": 52.0,
+          "page": 1
+        },
+        {
+          "text": "UXI",
+          "x": 274.0,
+          "y": 3421.0,
+          "w": 112.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "26.80",
+          "x": 2475.0,
+          "y": 3423.0,
+          "w": 185.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "1",
+          "x": 0.0,
+          "y": 3992.0,
+          "w": 61.0,
+          "h": 94.0,
+          "page": 1
+        },
+        {
+          "text": "Quality",
+          "x": 1397.0,
+          "y": 3870.0,
+          "w": 738.0,
+          "h": 424.0,
+          "page": 1
+        },
+        {
+          "text": "Fed",
+          "x": 1867.0,
+          "y": 4065.0,
+          "w": 400.0,
+          "h": 285.0,
+          "page": 1
+        },
+        {
+          "text": "Grain",
+          "x": 1399.0,
+          "y": 4147.0,
+          "w": 566.0,
+          "h": 376.0,
+          "page": 1
+        },
+        {
+          "text": "RECEIVED IN GOOD ORDER",
+          "x": 52.0,
+          "y": 5010.0,
+          "w": 1081.0,
+          "h": 90.0,
+          "page": 1
+        },
+        {
+          "text": "TOTAL",
+          "x": 2742.0,
+          "y": 5018.0,
+          "w": 269.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "2,010.00",
+          "x": 3360.0,
+          "y": 5045.0,
+          "w": 349.0,
+          "h": 84.0,
+          "page": 1
+        },
+        {
+          "text": "NETT PRICE",
+          "x": 2643.0,
+          "y": 5092.0,
+          "w": 474.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "DATE)8106126",
+          "x": 9.0,
+          "y": 5107.0,
+          "w": 1236.0,
+          "h": 194.0,
+          "page": 1
+        },
+        {
+          "text": "BANKING DETAILS",
+          "x": 1561.0,
+          "y": 5204.0,
+          "w": 752.0,
+          "h": 94.0,
+          "page": 1
+        },
+        {
+          "text": "AMOUNT",
+          "x": 2692.0,
+          "y": 5208.0,
+          "w": 384.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "2,010.00",
+          "x": 3370.0,
+          "y": 5236.0,
+          "w": 356.0,
+          "h": 93.0,
+          "page": 1
+        },
+        {
+          "text": "EXCL. VAT",
+          "x": 2675.0,
+          "y": 5281.0,
+          "w": 419.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "Bernard",
+          "x": 477.0,
+          "y": 5289.0,
+          "w": 535.0,
+          "h": 146.0,
+          "page": 1
+        },
+        {
+          "text": "FIRST NATIONAL BANK",
+          "x": 1504.0,
+          "y": 5316.0,
+          "w": 864.0,
+          "h": 95.0,
+          "page": 1
+        },
+        {
+          "text": "NAME",
+          "x": 18.0,
+          "y": 5351.0,
+          "w": 256.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "Acc.:621 969 22069",
+          "x": 1536.0,
+          "y": 5407.0,
+          "w": 793.0,
+          "h": 98.0,
+          "page": 1
+        },
+        {
+          "text": "VAT",
+          "x": 2802.0,
+          "y": 5443.0,
+          "w": 174.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 3542.0,
+          "y": 5442.0,
+          "w": 198.0,
+          "h": 95.0,
+          "page": 1
+        },
+        {
+          "text": "Branch:210114",
+          "x": 1624.0,
+          "y": 5501.0,
+          "w": 616.0,
+          "h": 89.0,
+          "page": 1
+        },
+        {
+          "text": "SIGNATURE",
+          "x": 0.0,
+          "y": 5603.0,
+          "w": 453.0,
+          "h": 89.0,
+          "page": 1
+        },
+        {
+          "text": "TOTAL",
+          "x": 2605.0,
+          "y": 5599.0,
+          "w": 468.0,
+          "h": 151.0,
+          "page": 1
+        },
+        {
+          "text": "2,010.00",
+          "x": 3280.0,
+          "y": 5597.0,
+          "w": 472.0,
+          "h": 109.0,
+          "page": 1
+        }
+      ]
+    }
+  ],
+  "invoice_table_rows": [],
+  "invoice_metadata": {
+    "supplier": null,
+    "invoice_number": "YOUR",
+    "invoice_date": "18/06/26",
+    "customer": null,
+    "total": null,
+    "currency": null
+  },
+  "line_item_extraction": {
+    "detected_headers": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "headers": [
+          {
+            "header": "CODE",
+            "field": "code",
+            "x": 329.0
+          },
+          {
+            "header": "DESCRIPTION",
+            "field": "description",
+            "x": 1309.5
+          },
+          {
+            "header": "QTY",
+            "field": "quantity",
+            "x": 2240.0
+          },
+          {
+            "header": "UNIT PRICE",
+            "field": "unit_price",
+            "x": 2591.5
+          },
+          {
+            "header": "VAT",
+            "field": "vat",
+            "x": 2950.0
+          },
+          {
+            "header": "NETT PRICE",
+            "field": "total",
+            "x": 3374.0
+          }
+        ]
+      }
+    ],
+    "detected_columns": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "columns": {
+          "code": 329.0,
+          "description": 1309.5,
+          "quantity": 2240.0,
+          "unit_price": 2591.5,
+          "vat": 2950.0,
+          "total": 3374.0
+        }
+      }
+    ],
+    "extracted_rows": [],
+    "discarded_rows": [
+      {
+        "reason": "noise",
+        "raw_text": "MORNINGSIDEX-LARGETRAYS 75.00 0.00"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "1 Quality Fed"
+      },
+      {
+        "reason": "footer",
+        "raw_text": "RECEIVED IN GOOD ORDER TOTAL NETT PRICE 2,010.00"
+      }
+    ],
+    "confidence": 0.0
+  },
+  "extraction_engine": {
+    "source": "legacy_parser_fallback",
+    "source_label": "Legacy Parser Fallback",
+    "rows_found": 3,
+    "rows_accepted": 0,
+    "rows_discarded": 3,
+    "validation_pass_rate": 0.0,
+    "overall_confidence": 0,
+    "fallback_reason": "Universal Extractor returned zero accepted rows.",
+    "time_taken_ms": 4785,
+    "legacy_row_count": 0
+  },
+  "errors": [],
+  "created_at": "2026-07-04T13:09:57",
+  "engine": "PaddleOCR",
+  "fallback_used": false
+}

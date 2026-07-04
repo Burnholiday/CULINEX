@@ -1,0 +1,54 @@
+{
+  "status": "ok",
+  "validation": {
+    "ok": true,
+    "missing_recipes": [],
+    "duplicate_recipes": [],
+    "ambiguous_menu_matches": [],
+    "invalid_ingredients": []
+  },
+  "ingredient_usage": [
+    {
+      "ingredient": "Avocado",
+      "total_used": 1.48
+    },
+    {
+      "ingredient": "Rice",
+      "total_used": 4.925
+    },
+    {
+      "ingredient": "Salmon",
+      "total_used": 1.18
+    },
+    {
+      "ingredient": "Sesame",
+      "total_used": 0.177
+    },
+    {
+      "ingredient": "Tuna",
+      "total_used": 0.2
+    }
+  ],
+  "table": [
+    {
+      "Ingredient": "Avocado",
+      "Total Used": "1.480"
+    },
+    {
+      "Ingredient": "Rice",
+      "Total Used": "4.925"
+    },
+    {
+      "Ingredient": "Salmon",
+      "Total Used": "1.180"
+    },
+    {
+      "Ingredient": "Sesame",
+      "Total Used": "0.177"
+    },
+    {
+      "Ingredient": "Tuna",
+      "Total Used": "0.200"
+    }
+  ]
+}

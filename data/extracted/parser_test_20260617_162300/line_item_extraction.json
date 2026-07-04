@@ -1,0 +1,134 @@
+{
+  "detected_headers": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "headers": [
+        {
+          "header": "Stock Code",
+          "field": "code",
+          "x": 305.5
+        },
+        {
+          "header": "Description",
+          "field": "description",
+          "x": 883.0
+        },
+        {
+          "header": "Ship Quantity",
+          "field": "quantity",
+          "x": 2090.0
+        },
+        {
+          "header": "Unit Price Disc %",
+          "field": "unit_price",
+          "x": 2613.0
+        },
+        {
+          "header": "VAT",
+          "field": "vat",
+          "x": 3074.0
+        },
+        {
+          "header": "Nett Value",
+          "field": "total",
+          "x": 3477.5
+        }
+      ]
+    }
+  ],
+  "detected_columns": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "columns": {
+        "code": 305.5,
+        "description": 883.0,
+        "quantity": 2090.0,
+        "unit_price": 2613.0,
+        "vat": 3074.0,
+        "total": 3477.5
+      }
+    }
+  ],
+  "extracted_rows": [
+    {
+      "description": "Flour White Bread Farm Foods 12.5kg",
+      "quantity": "1,00",
+      "unit": "",
+      "unit_price": "175,83",
+      "total": "175,83",
+      "vat": "0,00",
+      "raw_text": "Flour White Bread Farm Foods 12.5kg 1,00 175,83 0,00 175,83",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 175.83,
+        "actual_total": 175.83,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    }
+  ],
+  "discarded_rows": [
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "000000000003258 Sugar Castor 1kg 22,4 149,40"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "0,00 227,98"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "0,00 455,70"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "286,37 42,96 286,37"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "0,00 200,99"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "53,63 357,52"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "80,09 533,92"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "20,99 18,89 125,94"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "6,00 25,72 23,15 154,32"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "1,00 217,45 32,62"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "10,00 29,89 0,00"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "1,00 209,79 31,47"
+    },
+    {
+      "reason": "subtotal",
+      "raw_text": "ABSABANK GROCERY EXPRESS BE RETURNED OTHER THAN AT THE NO FROZEN AND CHILLED STOCK CAN Sub Total 3 585,"
+    }
+  ],
+  "confidence": 1.0
+}

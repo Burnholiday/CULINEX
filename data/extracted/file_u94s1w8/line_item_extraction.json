@@ -1,0 +1,107 @@
+{
+  "detected_headers": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "headers": [
+        {
+          "header": "Item Code",
+          "field": "code",
+          "x": 306.5
+        },
+        {
+          "header": "Description",
+          "field": "description",
+          "x": 854.0
+        },
+        {
+          "header": "Quantity",
+          "field": "quantity",
+          "x": 1807.0
+        },
+        {
+          "header": "UnitPrice",
+          "field": "unit_price",
+          "x": 2287.0
+        },
+        {
+          "header": "VatAmnt",
+          "field": "vat",
+          "x": 3064.5
+        },
+        {
+          "header": "Line Total",
+          "field": "total",
+          "x": 3468.5
+        }
+      ]
+    }
+  ],
+  "detected_columns": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "columns": {
+        "code": 306.5,
+        "description": 854.0,
+        "quantity": 1807.0,
+        "unit_price": 2287.0,
+        "vat": 3064.5,
+        "total": 3468.5
+      }
+    }
+  ],
+  "extracted_rows": [
+    {
+      "description": "(SUURLEMOEN)",
+      "quantity": "0.645",
+      "unit": "",
+      "unit_price": "29.85",
+      "total": "19.25",
+      "vat": "0.00",
+      "raw_text": "(SUURLEMOEN) 0.645 29.85 0.00 19.25",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 19.25,
+        "actual_total": 19.25,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "kg -",
+      "quantity": "0.62",
+      "unit": "KG",
+      "unit_price": "15.85",
+      "total": "9.83",
+      "vat": "-0.00",
+      "raw_text": "kg - 0.62 15.85 -0.00 9.83",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 9.83,
+        "actual_total": 9.83,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    }
+  ],
+  "discarded_rows": [
+    {
+      "reason": "payment",
+      "raw_text": "Extra Charges Number of Items Subtotal (Exclusive) 58.54"
+    }
+  ],
+  "confidence": 1.0
+}

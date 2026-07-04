@@ -1,0 +1,374 @@
+[
+  {
+    "supplier_code": null,
+    "ingredient": "Milk Fresh Leeuwenbosch (2Lt)",
+    "description": "MILK FRESH LEEUWENBOSCH (2LT)",
+    "quantity": 12.0,
+    "purchase_unit": "MILK FRESH LEEUWENBOSCH (2LT)",
+    "unit": "MILK FRESH LEEUWENBOSCH (2LT)",
+    "unit_price": 34.5,
+    "vat": 0.0,
+    "line_total": 414.0,
+    "validation": {
+      "status": "ok",
+      "expected_total": 414.0,
+      "actual_total": 414.0,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "MILK FRESH LEEUWENBOSCH (2LT) 12.00 34.50 0.00 0.00 414.00"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Cbmbc Cheese Blue Crumbs (1Kg)",
+    "description": "CBMBC CHEESE BLUE CRUMBS (1KG)",
+    "quantity": 1.0,
+    "purchase_unit": "CBMBC CHEESE BLUE CRUMBS (1KG)",
+    "unit": "CBMBC CHEESE BLUE CRUMBS (1KG)",
+    "unit_price": 109.99,
+    "vat": 0.0,
+    "line_total": 109.99,
+    "validation": {
+      "status": "ok",
+      "expected_total": 109.99,
+      "actual_total": 109.99,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "CBMBC CHEESE BLUE CRUMBS (1KG) 1.00 109.99 0.00 16.50 109.99"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Sugar Icing 1Kg",
+    "description": "SUGAR ICING 1KG",
+    "quantity": 2.0,
+    "purchase_unit": "SUGAR ICING 1KG",
+    "unit": "SUGAR ICING 1KG",
+    "unit_price": 22.99,
+    "vat": 10365.0,
+    "line_total": 45.98,
+    "validation": {
+      "status": "ok",
+      "expected_total": 45.98,
+      "actual_total": 45.98,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "10365 SUGAR ICING 1KG 2.00 22.99 0.00 6.90 45.98"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Flour Self Raising Snowflake (1Kg)",
+    "description": "FLOUR SELF RAISING SNOWFLAKE (1KG)",
+    "quantity": 4.0,
+    "purchase_unit": "FLOUR SELF RAISING SNOWFLAKE (1KG)",
+    "unit": "FLOUR SELF RAISING SNOWFLAKE (1KG)",
+    "unit_price": 25.71,
+    "vat": 1137.0,
+    "line_total": 102.84,
+    "validation": {
+      "status": "ok",
+      "expected_total": 102.84,
+      "actual_total": 102.84,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "1137 FLOUR SELF RAISING SNOWFLAKE (1KG) 4.00 25.71 0.00 15.43 102.84"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Oil Olive E/Virg P/Albert 1Lt",
+    "description": "OIL OLIVE E/VIRG P/ALBERT 1LT",
+    "quantity": 3.0,
+    "purchase_unit": "OIL OLIVE E/VIRG P/ALBERT 1LT",
+    "unit": "OIL OLIVE E/VIRG P/ALBERT 1LT",
+    "unit_price": 209.04,
+    "vat": 570.0,
+    "line_total": 627.12,
+    "validation": {
+      "status": "ok",
+      "expected_total": 627.12,
+      "actual_total": 627.12,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "570 OIL OLIVE E/VIRG P/ALBERT 1LT 3.00 209.04 0.00 94.07 627.12"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Chocolate Couveture Belgium 70% (1Kg)",
+    "description": "CHOCOLATE COUVETURE BELGIUM 70% (1KG)",
+    "quantity": 1.0,
+    "purchase_unit": "CHOCOLATE COUVETURE BELGIUM 70% (1KG)",
+    "unit": "CHOCOLATE COUVETURE BELGIUM 70% (1KG)",
+    "unit_price": 340.99,
+    "vat": 816.0,
+    "line_total": 340.99,
+    "validation": {
+      "status": "ok",
+      "expected_total": 340.99,
+      "actual_total": 340.99,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "816 CHOCOLATE COUVETURE BELGIUM 70% (1KG) 1.00 340.99 0.00 51.15 340.99"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Vinegar Balsamic Imported 1Lt",
+    "description": "VINEGAR BALSAMIC IMPORTED 1LT",
+    "quantity": 2.0,
+    "purchase_unit": "VINEGAR BALSAMIC IMPORTED 1LT",
+    "unit": "VINEGAR BALSAMIC IMPORTED 1LT",
+    "unit_price": 46.99,
+    "vat": 90014.0,
+    "line_total": 93.98,
+    "validation": {
+      "status": "ok",
+      "expected_total": 93.98,
+      "actual_total": 93.98,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "90014 VINEGAR BALSAMIC IMPORTED 1LT 2.00 46.99 0.00 14.10 93.98"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Agt45 Sauce Tomato All Gold (4,5Lt)",
+    "description": "AGT45 SAUCE TOMATO ALL GOLD (4,5LT)",
+    "quantity": 1.0,
+    "purchase_unit": "AGT45 SAUCE TOMATO ALL GOLD (4,5LT)",
+    "unit": "AGT45 SAUCE TOMATO ALL GOLD (4,5LT)",
+    "unit_price": 223.99,
+    "vat": 0.0,
+    "line_total": 223.99,
+    "validation": {
+      "status": "ok",
+      "expected_total": 223.99,
+      "actual_total": 223.99,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "AGT45 SAUCE TOMATO ALL GOLD (4,5LT) 1.00 223.99 0.00 33.60 223.99"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Bel003 Chocolate Couveture Belgium Milk (1Kg)",
+    "description": "BEL003 CHOCOLATE COUVETURE BELGIUM MILK (1KG)",
+    "quantity": 1.0,
+    "purchase_unit": "BEL003 CHOCOLATE COUVETURE BELGIUM MILK (1KG)",
+    "unit": "BEL003 CHOCOLATE COUVETURE BELGIUM MILK (1KG)",
+    "unit_price": 277.5,
+    "vat": 0.0,
+    "line_total": 277.5,
+    "validation": {
+      "status": "ok",
+      "expected_total": 277.5,
+      "actual_total": 277.5,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "BEL003 CHOCOLATE COUVETURE BELGIUM MILK (1KG) 1.00 277.50 0.00 41.63 277.50"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Sal Salt Coarse Salnova 1Kg",
+    "description": "SAL SALT COARSE SALNOVA 1KG",
+    "quantity": 5.0,
+    "purchase_unit": "SAL SALT COARSE SALNOVA 1KG",
+    "unit": "SAL SALT COARSE SALNOVA 1KG",
+    "unit_price": 19.5,
+    "vat": 0.0,
+    "line_total": 97.5,
+    "validation": {
+      "status": "ok",
+      "expected_total": 97.5,
+      "actual_total": 97.5,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "SAL SALT COARSE SALNOVA 1KG 5.00 19.50 0.00 14.63 97.50"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Butter Salted First Choice (500G)",
+    "description": "BUTTER SALTED FIRST CHOICE (500G)",
+    "quantity": 12.0,
+    "purchase_unit": "BUTTER SALTED FIRST CHOICE (500G)",
+    "unit": "BUTTER SALTED FIRST CHOICE (500G)",
+    "unit_price": 63.5,
+    "vat": 3433.0,
+    "line_total": 762.0,
+    "validation": {
+      "status": "ok",
+      "expected_total": 762.0,
+      "actual_total": 762.0,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "003433 BUTTER SALTED FIRST CHOICE (500G) 12.00 63.50 0.00 114.30 762.00"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Milk F/Choice Full Cream Uht (6X1Lt)",
+    "description": "MILK F/CHOICE FULL CREAM UHT (6X1LT)",
+    "quantity": 1.0,
+    "purchase_unit": "MILK F/CHOICE FULL CREAM UHT (6X1LT)",
+    "unit": "MILK F/CHOICE FULL CREAM UHT (6X1LT)",
+    "unit_price": 94.99,
+    "vat": 0.0,
+    "line_total": 94.99,
+    "validation": {
+      "status": "ok",
+      "expected_total": 94.99,
+      "actual_total": 94.99,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "600725100004 MILK F/CHOICE FULL CREAM UHT (6X1LT) 1.00 94.99 0.00 0.00 94.99"
+    }
+  }
+]

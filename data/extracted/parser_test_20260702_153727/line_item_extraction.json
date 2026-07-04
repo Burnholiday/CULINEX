@@ -1,0 +1,76 @@
+{
+  "detected_headers": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "headers": [
+        {
+          "header": "CODE",
+          "field": "code",
+          "x": 215.0
+        },
+        {
+          "header": "DESCRIPTION",
+          "field": "description",
+          "x": 698.5
+        },
+        {
+          "header": "QTY",
+          "field": "quantity",
+          "x": 2035.0
+        },
+        {
+          "header": "UNIT PRICE",
+          "field": "unit_price",
+          "x": 2346.0
+        },
+        {
+          "header": "VAT",
+          "field": "vat",
+          "x": 3055.5
+        },
+        {
+          "header": "Nett Amount",
+          "field": "total",
+          "x": 3402.5
+        }
+      ]
+    }
+  ],
+  "detected_columns": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "columns": {
+        "code": 215.0,
+        "description": 698.5,
+        "quantity": 2035.0,
+        "unit_price": 2346.0,
+        "vat": 3055.5,
+        "total": 3402.5
+      }
+    }
+  ],
+  "extracted_rows": [],
+  "discarded_rows": [
+    {
+      "reason": "noise",
+      "raw_text": "1059 139.99"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "108.07 0.00 16.21 108.07"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "1.00 27.98 0.00 4.20"
+    },
+    {
+      "reason": "footer",
+      "raw_text": "Cash Collected DATE: DISCOUNT TOTAL NETT PRICE 412.87"
+    }
+  ],
+  "confidence": 0.0
+}

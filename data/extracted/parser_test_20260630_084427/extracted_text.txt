@@ -1,0 +1,93 @@
+Tax Invoice
+Invoice From
+044 873 0076
+Telephone
+Fax
+Farm Fresh Direct
+farmfresh
+accounts@farmfreshdirect.co.za
+E Mail
+24 Meul Street
+direct
+4310269016
+dovenes
+Vat Registration No
+Caledon Industrial Park
+straight from the farms
+30/06/2026
+Invoice Date
+4 Unit George
+Deliver To
+Invoice To
+Butterfly Blu T/A Shavi Shavi Restaurant
+198 CR Swart Drive, Brenton on Sea,Knysn
+Butterfly Blu T/A Shavi Shavi Restaurant
+Page
+Invoice Number
+Representative
+Order Number
+1 of 1
+Invoice Date
+Account No
+INV1776
+Rep 1
+30/06/2026 MG
+1
+30/06/2026
+D2604
+Line Total
+VatAmnt
+Disc %
+UnitPrice
+Quantity
+Description
+25.85
+0.00
+Item Code
+25.85
+1
+Punnet-125g
+33.35
+0.00
+WHO-BLUEBERRIES
+33.35
+1
+Punnet 250g
+235.70
+WHO - STRAWBERRIES
+0.00
+117.85
+2
+10kg Pocket Potatoes- LARGE
+25.54
+WHO - POTATOES
+0.00
+23.65
+1.08
+kg
+WHO - CARROT
+Number of Items
+320.44
+Subtotal (Exclusive)
+Extra Charges
+5.08
+Promotional
+Discount
+Discount Received
+Rounding
+0.00
+Vat
+0.00
+Total
+320.44
+Currency:
+ZAR
+CurrencyRate:
+1.00
+anking Details:
+Created: 30/06/2026 01:49:31
+tandard Bank
+02784187
+urrent
+51001
+eNUill

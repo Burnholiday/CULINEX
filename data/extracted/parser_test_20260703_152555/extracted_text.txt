@@ -1,0 +1,77 @@
+Tov Invoice
+Tax Invoice
+Fishalicious CC
+80 York Street
+George
+4330198187
+Vat Registration No
+FISHALICIOUS
+0448730755
+Telephone
+info@fishalic.co.za
+E-mail
+WCP/044020
+WCLA REF
+Deliver To
+Invoice To
+BUT001
+Butterfly Blu / Shavi Shavi Restaurant
+Butterfly Blu / Shavi Shavi Restaurant
+198 CR Swart Drive
+198 CR Swart Drive
+Brenton-on-sea
+Brenton-on-sea
+Knysna
+Knysna
+4660316862
+Invoice Number
+Order Number
+Invoice Date
+Account No
+Account Name
+INV138133
+03/07/2026
+Butterfly Blu / Shavi Shavi Restaurant
+BUT001
+Line Total
+Disc %
+VatAmnt
+UnitPrice
+Quantity
+Description
+Item Code
+874.50
+131.17
+165.00
+5.30
+Black Butterfish PQ Portions
+KIN002
+247.50
+37.12
+55.00
+4.50
+WhiteStump Frozen VP Dressed
+WST006
+3 496.50
+524.47
+135.00
+25.90
+Hake Fillet Fresh 220-Jumbo
+HAK028
+INTEREST WILL BE LEVIED AT 2.00% PER MONTH ON OVERDUE ACCOUNTS
+4 618.50
+Banking Details:
+Subtotal (Exclusive)
+Bank Name
+ABSA
+Discount
+Account Number
+4096607656
+692.78
+Page
+Vat @15%
+Branch Code
+632005
+1 of 1
+5311.28
+Total

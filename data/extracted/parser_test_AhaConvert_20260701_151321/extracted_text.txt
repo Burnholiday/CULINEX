@@ -1,0 +1,96 @@
+Tax Invoice
+Invoice From
+Telephone
+Farm Fresh Direct
+044 873 0076
+Fax
+24 Meul Street
+farmfresh
+Caledon Industrial Park
+E Mail
+accounts@farmfreshdirect.co
+deliveries
+direct
+straight from the farms
+4 Unit George
+Vat Registration No
+4310269016
+Invoice Date
+01/07/2026
+Invoice To
+Deliver To
+Butterfly Blu T/A Shavi Shavi Restaurant
+Butterfly Blu T/A Shavi Shavi Restaurant
+198 CR Swart Drive, Brenton on Sea,Knysn
+Account No
+Invoice Date
+Order Number
+Representative
+Invoice Number
+D2604
+01/07/2026
+01/07/2026 Z.M
+1
+Rep 1
+INV1838
+[BAR]
+UnitPrice
+Disc %
+VatAmnt
+L
+Item Code
+Description
+Quantity
+WHO -STRAWBERRIES Punnet 250g
+33.35
+0.00
+3
+Punnet-125g
+2
+25.85
+0.00
+WHO-BLUEBERRIES
+WHO - BANANAS
+Bananas - KG
+2.19
+22.65
+0.00
+WHO -PINEAPPLE
+Each
+8
+18.35
+0.00
+WHO-ORANGES
+kg-
+2.21
+15.85
+0.00
+WHO-LEMONS
+Lemons - KG
+4.1
+24.65
+0.00
+(SUURLEMOEN)
+Extra Charges
+Number of Items
+Subtotal (Exclusive)
+21.5
+Promotional
+Discount
+Discount Received
+Rounding
+0.00
+Vat
+Total
+48
+Currency:
+ZAR
+CurrencyRate:
+1.00
+Banking Details:
+Created: 01/07/2026 02:
+Standard Bank
+302784187
+Current
+Denwill
+051001

@@ -1,0 +1,76 @@
+{
+  "detected_headers": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "headers": [
+        {
+          "header": "Stock Code",
+          "field": "code",
+          "x": 407.5
+        },
+        {
+          "header": "Description",
+          "field": "description",
+          "x": 968.5
+        },
+        {
+          "header": "Ship Quantity",
+          "field": "quantity",
+          "x": 2141.0
+        },
+        {
+          "header": "Unit Price Disc %",
+          "field": "unit_price",
+          "x": 2641.0
+        },
+        {
+          "header": "VAT",
+          "field": "vat",
+          "x": 3080.0
+        },
+        {
+          "header": "Nett Value",
+          "field": "total",
+          "x": 3463.5
+        }
+      ]
+    }
+  ],
+  "detected_columns": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "columns": {
+        "code": 407.5,
+        "description": 968.5,
+        "quantity": 2141.0,
+        "unit_price": 2641.0,
+        "vat": 3080.0,
+        "total": 3463.5
+      }
+    }
+  ],
+  "extracted_rows": [],
+  "discarded_rows": [
+    {
+      "reason": "noise",
+      "raw_text": "40,00 29,89 0,00"
+    },
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "Tofu Fortune Tau Kwa 2 x 225g 1,00 48,33 7,25"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "4,00 89,38 53,63 357,52"
+    },
+    {
+      "reason": "banking",
+      "raw_text": "ABSABANK Branch Code: 632005 GROCERY EXPRESS TIME OF DELIVERY BE RETURNED OTHER THAN AT THE NO FROZEN AND CHILLED STOCK CAN Sub Total Total Discount 70"
+    }
+  ],
+  "confidence": 0.0
+}

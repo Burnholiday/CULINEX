@@ -1,0 +1,945 @@
+{
+  "file_id": "file_u94s1w8",
+  "filename": "20260617_181216.jpg",
+  "file_type": "IMAGE",
+  "extraction_status": "completed",
+  "extracted_text": "Tax Invoice\nTelephone\n044 873 0076\nInvoice From\nFax\nfarmfresh\naccounts@farmfreshdirect.co.za\nFarm Fresh Direct\nE Mail\ndirect\ndoliveries\n24 Meul Street\nVat Registration No\n4310269016\nstraight from the farms\nCaledon Industrial Park\nInvoice Date\n17/06/2026\n4 Unit George\nDeliver To\nInvoice To\nButterfly Blu T/A Shavi Shavi Restaurant\n198 CR Swart Drive, Brenton on Sea,Knysn\nButterfly Blu T/A Shavi Shavi Restaurant\nIDrenton\nDenville\nInvoice Number\nOrder Number\nRepresentative\nPage\nInvoice Date\nAccount No\nINV1019\n17/06/2026\n1\nRep 1\n1 of 1\n17/06/2026\nMW[BAR]\nD2604\nUnitPrice\nDisc %\nLine Total\nQuantity\nVatAmnt\nDescription\nItem Code\n1.195\n24.65\n0.00\n29.46\nKG\nWHO-LEMONS\n(SUURLEMOEN)\n0.645\n29.85\n0.00\n19.25\nWHO - APPLES GRANNY kg Green\nSMITH\n0.62\n15.85\n-0.00\n9.83\nkg -\nWHO - ORANGES\nSimon N.r\nmohe\nExtra Charges\nNumber of Items\nSubtotal (Exclusive)\n58.54\n2.46\nPromotional\nDiscount\nDiscount Received\nRounding\n0.00\nVat\n0.00\nTotal\n58.54\nCurrency:\nZAR\nCurrencyRate:\n1.00\nanking Details:\nCreated:17/06/2026 01:21:29\nandard Bank\n2784187\nrrent\n1001",
+  "extracted_tables": [
+    {
+      "type": "ocr_items",
+      "items": [
+        {
+          "text": "Tax Invoice",
+          "x": 1691.0,
+          "y": 1310.0,
+          "w": 305.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "Telephone",
+          "x": 1896.0,
+          "y": 1544.0,
+          "w": 276.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "044 873 0076",
+          "x": 2517.0,
+          "y": 1542.0,
+          "w": 360.0,
+          "h": 60.0,
+          "page": 1
+        },
+        {
+          "text": "Invoice From",
+          "x": 851.0,
+          "y": 1518.0,
+          "w": 326.0,
+          "h": 92.0,
+          "page": 1
+        },
+        {
+          "text": "Fax",
+          "x": 1896.0,
+          "y": 1624.0,
+          "w": 108.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "farmfresh",
+          "x": 1218.0,
+          "y": 1630.0,
+          "w": 498.0,
+          "h": 151.0,
+          "page": 1
+        },
+        {
+          "text": "accounts@farmfreshdirect.co.za",
+          "x": 2512.0,
+          "y": 1686.0,
+          "w": 825.0,
+          "h": 110.0,
+          "page": 1
+        },
+        {
+          "text": "Farm Fresh Direct",
+          "x": 341.0,
+          "y": 1654.0,
+          "w": 433.0,
+          "h": 102.0,
+          "page": 1
+        },
+        {
+          "text": "E Mail",
+          "x": 1892.0,
+          "y": 1693.0,
+          "w": 171.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "direct",
+          "x": 1561.0,
+          "y": 1732.0,
+          "w": 159.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "doliveries",
+          "x": 1314.0,
+          "y": 1735.0,
+          "w": 141.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "24 Meul Street",
+          "x": 335.0,
+          "y": 1736.0,
+          "w": 361.0,
+          "h": 94.0,
+          "page": 1
+        },
+        {
+          "text": "Vat Registration No",
+          "x": 1894.0,
+          "y": 1775.0,
+          "w": 512.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "4310269016",
+          "x": 2521.0,
+          "y": 1777.0,
+          "w": 338.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "straight from the farms",
+          "x": 1218.0,
+          "y": 1746.0,
+          "w": 333.0,
+          "h": 90.0,
+          "page": 1
+        },
+        {
+          "text": "Caledon Industrial Park",
+          "x": 329.0,
+          "y": 1791.0,
+          "w": 570.0,
+          "h": 114.0,
+          "page": 1
+        },
+        {
+          "text": "Invoice Date",
+          "x": 1891.0,
+          "y": 1849.0,
+          "w": 349.0,
+          "h": 84.0,
+          "page": 1
+        },
+        {
+          "text": "17/06/2026",
+          "x": 2526.0,
+          "y": 1856.0,
+          "w": 335.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "4 Unit George",
+          "x": 321.0,
+          "y": 1898.0,
+          "w": 342.0,
+          "h": 84.0,
+          "page": 1
+        },
+        {
+          "text": "Deliver To",
+          "x": 2472.0,
+          "y": 2052.0,
+          "w": 281.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "Invoice To",
+          "x": 815.0,
+          "y": 2114.0,
+          "w": 268.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "Butterfly Blu T/A Shavi Shavi Restaurant",
+          "x": 1912.0,
+          "y": 2150.0,
+          "w": 1080.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "198 CR Swart Drive, Brenton on Sea,Knysn",
+          "x": 1910.0,
+          "y": 2215.0,
+          "w": 1135.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "Butterfly Blu T/A Shavi Shavi Restaurant",
+          "x": 296.0,
+          "y": 2177.0,
+          "w": 995.0,
+          "h": 171.0,
+          "page": 1
+        },
+        {
+          "text": "IDrenton",
+          "x": 839.0,
+          "y": 2229.0,
+          "w": 630.0,
+          "h": 254.0,
+          "page": 1
+        },
+        {
+          "text": "Denville",
+          "x": 199.0,
+          "y": 2289.0,
+          "w": 655.0,
+          "h": 257.0,
+          "page": 1
+        },
+        {
+          "text": "Invoice Number",
+          "x": 2448.0,
+          "y": 2690.0,
+          "w": 445.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "Order Number",
+          "x": 1122.0,
+          "y": 2692.0,
+          "w": 393.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "Representative",
+          "x": 1616.0,
+          "y": 2694.0,
+          "w": 419.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "Page",
+          "x": 3437.0,
+          "y": 2698.0,
+          "w": 152.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "Invoice Date",
+          "x": 669.0,
+          "y": 2726.0,
+          "w": 335.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "Account No",
+          "x": 226.0,
+          "y": 2767.0,
+          "w": 290.0,
+          "h": 87.0,
+          "page": 1
+        },
+        {
+          "text": "INV1019",
+          "x": 2452.0,
+          "y": 2793.0,
+          "w": 222.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "17/06/2026",
+          "x": 1118.0,
+          "y": 2790.0,
+          "w": 288.0,
+          "h": 85.0,
+          "page": 1
+        },
+        {
+          "text": "1",
+          "x": 1618.0,
+          "y": 2803.0,
+          "w": 41.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "Rep 1",
+          "x": 1762.0,
+          "y": 2803.0,
+          "w": 150.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "1 of 1",
+          "x": 3442.0,
+          "y": 2796.0,
+          "w": 152.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "17/06/2026",
+          "x": 660.0,
+          "y": 2820.0,
+          "w": 281.0,
+          "h": 90.0,
+          "page": 1
+        },
+        {
+          "text": "MW[BAR]",
+          "x": 1112.0,
+          "y": 2853.0,
+          "w": 243.0,
+          "h": 79.0,
+          "page": 1
+        },
+        {
+          "text": "D2604",
+          "x": 216.0,
+          "y": 2873.0,
+          "w": 157.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "UnitPrice",
+          "x": 2156.0,
+          "y": 2993.0,
+          "w": 262.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "Disc %",
+          "x": 2659.0,
+          "y": 2994.0,
+          "w": 208.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "Line Total",
+          "x": 3327.0,
+          "y": 2988.0,
+          "w": 283.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "Quantity",
+          "x": 1681.0,
+          "y": 2994.0,
+          "w": 252.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "VatAmnt",
+          "x": 2935.0,
+          "y": 2994.0,
+          "w": 259.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "Description",
+          "x": 700.0,
+          "y": 3010.0,
+          "w": 308.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "Item Code",
+          "x": 173.0,
+          "y": 3048.0,
+          "w": 267.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "1.195",
+          "x": 1776.0,
+          "y": 3090.0,
+          "w": 149.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "24.65",
+          "x": 2268.0,
+          "y": 3089.0,
+          "w": 150.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 3072.0,
+          "y": 3091.0,
+          "w": 123.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "29.46",
+          "x": 3468.0,
+          "y": 3087.0,
+          "w": 150.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "KG",
+          "x": 690.0,
+          "y": 3111.0,
+          "w": 90.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "WHO-LEMONS",
+          "x": 149.0,
+          "y": 3132.0,
+          "w": 352.0,
+          "h": 87.0,
+          "page": 1
+        },
+        {
+          "text": "(SUURLEMOEN)",
+          "x": 143.0,
+          "y": 3189.0,
+          "w": 354.0,
+          "h": 91.0,
+          "page": 1
+        },
+        {
+          "text": "0.645",
+          "x": 1776.0,
+          "y": 3223.0,
+          "w": 149.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "29.85",
+          "x": 2270.0,
+          "y": 3219.0,
+          "w": 150.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 3078.0,
+          "y": 3221.0,
+          "w": 124.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "19.25",
+          "x": 3478.0,
+          "y": 3217.0,
+          "w": 148.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "WHO - APPLES GRANNY kg Green",
+          "x": 133.0,
+          "y": 3226.0,
+          "w": 774.0,
+          "h": 117.0,
+          "page": 1
+        },
+        {
+          "text": "SMITH",
+          "x": 125.0,
+          "y": 3328.0,
+          "w": 166.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "0.62",
+          "x": 1801.0,
+          "y": 3350.0,
+          "w": 128.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "15.85",
+          "x": 2271.0,
+          "y": 3349.0,
+          "w": 150.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "-0.00",
+          "x": 3072.0,
+          "y": 3354.0,
+          "w": 134.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "9.83",
+          "x": 3512.0,
+          "y": 3346.0,
+          "w": 122.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "kg -",
+          "x": 672.0,
+          "y": 3360.0,
+          "w": 116.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "WHO - ORANGES",
+          "x": 120.0,
+          "y": 3373.0,
+          "w": 393.0,
+          "h": 88.0,
+          "page": 1
+        },
+        {
+          "text": "Simon N.r",
+          "x": 991.0,
+          "y": 4209.0,
+          "w": 1000.0,
+          "h": 392.0,
+          "page": 1
+        },
+        {
+          "text": "mohe",
+          "x": 1833.0,
+          "y": 4251.0,
+          "w": 485.0,
+          "h": 302.0,
+          "page": 1
+        },
+        {
+          "text": "Extra Charges",
+          "x": 47.0,
+          "y": 4606.0,
+          "w": 387.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "Number of Items",
+          "x": 1526.0,
+          "y": 4602.0,
+          "w": 537.0,
+          "h": 82.0,
+          "page": 1
+        },
+        {
+          "text": "Subtotal (Exclusive)",
+          "x": 2322.0,
+          "y": 4620.0,
+          "w": 591.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "58.54",
+          "x": 3455.0,
+          "y": 4629.0,
+          "w": 185.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "2.46",
+          "x": 1724.0,
+          "y": 4702.0,
+          "w": 144.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "Promotional",
+          "x": 1600.0,
+          "y": 4890.0,
+          "w": 377.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "Discount",
+          "x": 2330.0,
+          "y": 4934.0,
+          "w": 271.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "Discount Received",
+          "x": 1498.0,
+          "y": 4969.0,
+          "w": 577.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "Rounding",
+          "x": 2328.0,
+          "y": 5034.0,
+          "w": 295.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 1713.0,
+          "y": 5067.0,
+          "w": 147.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "Vat",
+          "x": 2327.0,
+          "y": 5157.0,
+          "w": 130.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 3524.0,
+          "y": 5188.0,
+          "w": 149.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "Total",
+          "x": 2329.0,
+          "y": 5290.0,
+          "w": 172.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "58.54",
+          "x": 3493.0,
+          "y": 5303.0,
+          "w": 190.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "Currency:",
+          "x": 2330.0,
+          "y": 5399.0,
+          "w": 306.0,
+          "h": 87.0,
+          "page": 1
+        },
+        {
+          "text": "ZAR",
+          "x": 2911.0,
+          "y": 5412.0,
+          "w": 140.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "CurrencyRate:",
+          "x": 2334.0,
+          "y": 5510.0,
+          "w": 440.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "1.00",
+          "x": 2919.0,
+          "y": 5518.0,
+          "w": 147.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "anking Details:",
+          "x": 0.0,
+          "y": 5637.0,
+          "w": 443.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "Created:17/06/2026 01:21:29",
+          "x": 2870.0,
+          "y": 5675.0,
+          "w": 833.0,
+          "h": 86.0,
+          "page": 1
+        },
+        {
+          "text": "andard Bank",
+          "x": 0.0,
+          "y": 5741.0,
+          "w": 333.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "2784187",
+          "x": 0.0,
+          "y": 5843.0,
+          "w": 244.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "rrent",
+          "x": 0.0,
+          "y": 5955.0,
+          "w": 142.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "1001",
+          "x": 0.0,
+          "y": 6059.0,
+          "w": 132.0,
+          "h": 79.0,
+          "page": 1
+        }
+      ]
+    }
+  ],
+  "invoice_table_rows": [
+    {
+      "supplier_code": null,
+      "ingredient": "(Suurlemoen)",
+      "description": "(SUURLEMOEN)",
+      "quantity": 0.645,
+      "purchase_unit": "(SUURLEMOEN)",
+      "unit": "(SUURLEMOEN)",
+      "unit_price": 29.85,
+      "vat": 0.0,
+      "line_total": 19.25,
+      "validation": {
+        "status": "ok",
+        "expected_total": 19.25,
+        "actual_total": 19.25,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "(SUURLEMOEN) 0.645 29.85 0.00 19.25"
+      }
+    },
+    {
+      "supplier_code": null,
+      "ingredient": "Kg -",
+      "description": "kg -",
+      "quantity": 0.62,
+      "purchase_unit": "KG",
+      "unit": "KG",
+      "unit_price": 15.85,
+      "vat": -0.0,
+      "line_total": 9.83,
+      "validation": {
+        "status": "ok",
+        "expected_total": 9.83,
+        "actual_total": 9.83,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "kg - 0.62 15.85 -0.00 9.83"
+      }
+    }
+  ],
+  "invoice_metadata": {
+    "supplier": "Fax",
+    "invoice_number": "4310269016",
+    "invoice_date": "17/06/2026",
+    "customer": "Butterfly Blu T/A Shavi Shavi Restaurant",
+    "total": null,
+    "currency": "ZAR"
+  },
+  "line_item_extraction": {
+    "detected_headers": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "headers": [
+          {
+            "header": "Item Code",
+            "field": "code",
+            "x": 306.5
+          },
+          {
+            "header": "Description",
+            "field": "description",
+            "x": 854.0
+          },
+          {
+            "header": "Quantity",
+            "field": "quantity",
+            "x": 1807.0
+          },
+          {
+            "header": "UnitPrice",
+            "field": "unit_price",
+            "x": 2287.0
+          },
+          {
+            "header": "VatAmnt",
+            "field": "vat",
+            "x": 3064.5
+          },
+          {
+            "header": "Line Total",
+            "field": "total",
+            "x": 3468.5
+          }
+        ]
+      }
+    ],
+    "detected_columns": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "columns": {
+          "code": 306.5,
+          "description": 854.0,
+          "quantity": 1807.0,
+          "unit_price": 2287.0,
+          "vat": 3064.5,
+          "total": 3468.5
+        }
+      }
+    ],
+    "extracted_rows": [
+      {
+        "description": "(SUURLEMOEN)",
+        "quantity": "0.645",
+        "unit": "",
+        "unit_price": "29.85",
+        "total": "19.25",
+        "vat": "0.00",
+        "raw_text": "(SUURLEMOEN) 0.645 29.85 0.00 19.25",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 19.25,
+          "actual_total": 19.25,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      {
+        "description": "kg -",
+        "quantity": "0.62",
+        "unit": "KG",
+        "unit_price": "15.85",
+        "total": "9.83",
+        "vat": "-0.00",
+        "raw_text": "kg - 0.62 15.85 -0.00 9.83",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 9.83,
+          "actual_total": 9.83,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      }
+    ],
+    "discarded_rows": [
+      {
+        "reason": "payment",
+        "raw_text": "Extra Charges Number of Items Subtotal (Exclusive) 58.54"
+      }
+    ],
+    "confidence": 1.0
+  },
+  "extraction_engine": {
+    "source": "universal_extractor",
+    "source_label": "Universal Extractor",
+    "rows_found": 3,
+    "rows_accepted": 2,
+    "rows_discarded": 1,
+    "validation_pass_rate": 1.0,
+    "overall_confidence": 1.0,
+    "fallback_reason": "",
+    "time_taken_ms": 5245,
+    "legacy_row_count": 1
+  },
+  "errors": [],
+  "created_at": "2026-07-04T13:29:30",
+  "engine": "PaddleOCR",
+  "fallback_used": false
+}

@@ -1,0 +1,436 @@
+[
+  {
+    "supplier_code": null,
+    "ingredient": "Kg",
+    "description": "KG",
+    "quantity": 0.21,
+    "purchase_unit": "KG",
+    "unit": "KG",
+    "unit_price": 92.65,
+    "vat": 0.0,
+    "line_total": 19.46,
+    "validation": {
+      "status": "ok",
+      "expected_total": 19.46,
+      "actual_total": 19.46,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "KG 0.21 92.65 0.00 19.46"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Chillies Green",
+    "description": "WHO - CHILLIES GREEN Kg",
+    "quantity": 0.205,
+    "purchase_unit": "KG",
+    "unit": "KG",
+    "unit_price": 77.65,
+    "vat": 0.0,
+    "line_total": 15.92,
+    "validation": {
+      "status": "ok",
+      "expected_total": 15.92,
+      "actual_total": 15.92,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "WHO - CHILLIES GREEN Kg 0.205 77.65 0.00 15.92"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Strawberries 250G",
+    "description": "WHO - STRAWBERRIES Punnet 250g",
+    "quantity": 2.0,
+    "purchase_unit": "Punnet",
+    "unit": "Punnet",
+    "unit_price": 33.35,
+    "vat": 0.0,
+    "line_total": 66.7,
+    "validation": {
+      "status": "ok",
+      "expected_total": 66.7,
+      "actual_total": 66.7,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "WHO - STRAWBERRIES Punnet 250g 2 33.35 0.00 66.70"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Kg",
+    "description": "Kg",
+    "quantity": 2.065,
+    "purchase_unit": "KG",
+    "unit": "KG",
+    "unit_price": 37.85,
+    "vat": 0.0,
+    "line_total": 78.16,
+    "validation": {
+      "status": "ok",
+      "expected_total": 78.16,
+      "actual_total": 78.16,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "Kg 2.065 37.85 0.00 78.16"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Cabbage - Red. Red",
+    "description": "WHO - CABBAGE - RED. RED",
+    "quantity": 1.0,
+    "purchase_unit": "WHO - CABBAGE - RED. RED",
+    "unit": "WHO - CABBAGE - RED. RED",
+    "unit_price": 32.85,
+    "vat": 0.0,
+    "line_total": 32.85,
+    "validation": {
+      "status": "ok",
+      "expected_total": 32.85,
+      "actual_total": 32.85,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "WHO - CABBAGE - RED. RED 1 32.85 0.00 32.85"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Cabbage Green",
+    "description": "WHO - CABBAGE GREEN Large Head",
+    "quantity": 1.0,
+    "purchase_unit": "Head",
+    "unit": "Head",
+    "unit_price": 22.65,
+    "vat": 0.0,
+    "line_total": 22.65,
+    "validation": {
+      "status": "ok",
+      "expected_total": 22.65,
+      "actual_total": 22.65,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "WHO - CABBAGE GREEN Large Head 1 22.65 0.00 22.65"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Who - Potatoes 10Kg",
+    "description": "KG WHO - POTATOES 10kg Pocket Large",
+    "quantity": 2.0,
+    "purchase_unit": "KG",
+    "unit": "KG",
+    "unit_price": 117.85,
+    "vat": 0.0,
+    "line_total": 235.7,
+    "validation": {
+      "status": "ok",
+      "expected_total": 235.7,
+      "actual_total": 235.7,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "KG WHO - POTATOES 10kg Pocket Large 2 117.85 0.00 235.70"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Cucumber.",
+    "description": "WHO - CUCUMBER. Medium - Large",
+    "quantity": 4.0,
+    "purchase_unit": "WHO - CUCUMBER. Medium - Large",
+    "unit": "WHO - CUCUMBER. Medium - Large",
+    "unit_price": 22.85,
+    "vat": 0.0,
+    "line_total": 91.4,
+    "validation": {
+      "status": "ok",
+      "expected_total": 91.4,
+      "actual_total": 91.4,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "WHO - CUCUMBER. Medium - Large 4 22.85 0.00 91.40"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Garlic",
+    "description": "WHO - GARLIC kg",
+    "quantity": 1.112,
+    "purchase_unit": "KG",
+    "unit": "KG",
+    "unit_price": 142.85,
+    "vat": 0.0,
+    "line_total": 158.85,
+    "validation": {
+      "status": "ok",
+      "expected_total": 158.85,
+      "actual_total": 158.85,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "WHO - GARLIC kg 1.112 142.85 0.00 158.85"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Bananas",
+    "description": "WHO - BANANAS KG",
+    "quantity": 2.21,
+    "purchase_unit": "KG",
+    "unit": "KG",
+    "unit_price": 22.65,
+    "vat": 0.0,
+    "line_total": 50.06,
+    "validation": {
+      "status": "ok",
+      "expected_total": 50.06,
+      "actual_total": 50.06,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "WHO - BANANAS KG 2.21 22.65 0.00 50.06"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Carrot",
+    "description": "WHO - CARROT kg",
+    "quantity": 3.205,
+    "purchase_unit": "KG",
+    "unit": "KG",
+    "unit_price": 23.65,
+    "vat": 0.0,
+    "line_total": 75.8,
+    "validation": {
+      "status": "ok",
+      "expected_total": 75.8,
+      "actual_total": 75.8,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "WHO - CARROT kg 3.205 23.65 0.00 75.80"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Ginger",
+    "description": "WHO - GINGER KG",
+    "quantity": 1.144,
+    "purchase_unit": "KG",
+    "unit": "KG",
+    "unit_price": 148.65,
+    "vat": 0.0,
+    "line_total": 170.06,
+    "validation": {
+      "status": "ok",
+      "expected_total": 170.06,
+      "actual_total": 170.06,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "WHO - GINGER KG 1.144 148.65 0.00 170.06"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Mushroom 1Kg",
+    "description": "WHO - MUSHROOM 1kg",
+    "quantity": 3.2,
+    "purchase_unit": "WHO - MUSHROOM 1kg",
+    "unit": "WHO - MUSHROOM 1kg",
+    "unit_price": 109.65,
+    "vat": 0.0,
+    "line_total": 350.88,
+    "validation": {
+      "status": "ok",
+      "expected_total": 350.88,
+      "actual_total": 350.88,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "WHO - MUSHROOM 1kg 3.2 109.65 0.00 350.88"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Pumpkin 3 Whole",
+    "description": "WHO - PUMPKIN kg 3 WHOLE",
+    "quantity": 13.26,
+    "purchase_unit": "KG",
+    "unit": "KG",
+    "unit_price": 18.85,
+    "vat": 0.0,
+    "line_total": 249.95,
+    "validation": {
+      "status": "ok",
+      "expected_total": 249.95,
+      "actual_total": 249.95,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "WHO - PUMPKIN kg 3 WHOLE 13.26 18.85 0.00 249.95"
+    }
+  }
+]

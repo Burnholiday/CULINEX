@@ -1,0 +1,212 @@
+{
+  "detected_headers": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "headers": [
+        {
+          "header": "Item Code",
+          "field": "code",
+          "x": 86.5
+        },
+        {
+          "header": "Description",
+          "field": "description",
+          "x": 222.0
+        },
+        {
+          "header": "Quantity",
+          "field": "quantity",
+          "x": 440.5
+        },
+        {
+          "header": "UnitPrice",
+          "field": "unit_price",
+          "x": 547.0
+        },
+        {
+          "header": "VatAmnt",
+          "field": "vat",
+          "x": 720.0
+        },
+        {
+          "header": "Line Total",
+          "field": "total",
+          "x": 810.0
+        }
+      ]
+    }
+  ],
+  "detected_columns": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "columns": {
+        "code": 86.5,
+        "description": 222.0,
+        "quantity": 440.5,
+        "unit_price": 547.0,
+        "vat": 720.0,
+        "total": 810.0
+      }
+    }
+  ],
+  "extracted_rows": [
+    {
+      "description": "WHO-SPRING ONIONS Bunch",
+      "quantity": "4",
+      "unit": "Bunch",
+      "unit_price": "16.45",
+      "total": "65.80",
+      "vat": "0.00",
+      "raw_text": "WHO-SPRING ONIONS Bunch 4 16.45 0.00 65.80",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 65.8,
+        "actual_total": 65.8,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "WHO- PEPPERS GREEN Green KG",
+      "quantity": "1.5",
+      "unit": "KG",
+      "unit_price": "51.75",
+      "total": "77.63",
+      "vat": "0.00",
+      "raw_text": "WHO- PEPPERS GREEN Green KG 1.5 51.75 0.00 77.63",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 77.62,
+        "actual_total": 77.63,
+        "difference": 0.01,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "WHO-RASPBERRY 125g",
+      "quantity": "2",
+      "unit": "",
+      "unit_price": "24.85",
+      "total": "49.70",
+      "vat": "0.00",
+      "raw_text": "WHO-RASPBERRY 125g 2 24.85 0.00 49.70",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 49.7,
+        "actual_total": 49.7,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "WHO-RASPBERRY WHO- APPLES GRANNY kg Green 125g",
+      "quantity": "2.67",
+      "unit": "KG",
+      "unit_price": "29.85",
+      "total": "79.70",
+      "vat": "0.00",
+      "raw_text": "WHO-RASPBERRY WHO- APPLES GRANNY kg Green 125g 2.67 29.85 0.00 79.70",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 79.7,
+        "actual_total": 79.7,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "SMITH WHO- CORN PUNNETS Punnet",
+      "quantity": "1",
+      "unit": "Punnet",
+      "unit_price": "32.85",
+      "total": "32.85",
+      "vat": "0.00",
+      "raw_text": "SMITH WHO- CORN PUNNETS Punnet 1 32.85 0.00 32.85",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 32.85,
+        "actual_total": 32.85,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "WHO -POTATOES WHO- CORN PUNNETS Punnet 10kg Pocket Large",
+      "quantity": "5",
+      "unit": "Punnet",
+      "unit_price": "117.85",
+      "total": "589.25",
+      "vat": "0.00",
+      "raw_text": "WHO -POTATOES WHO- CORN PUNNETS Punnet 10kg Pocket Large 5 117.85 0.00 589.25",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 589.25,
+        "actual_total": 589.25,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "WHO-CELERY WHO -POTATOES Bunch 10kg Pocket Large",
+      "quantity": "1",
+      "unit": "Bunch",
+      "unit_price": "24.85",
+      "total": "24.85",
+      "vat": "0.00",
+      "raw_text": "WHO-CELERY WHO -POTATOES Bunch 10kg Pocket Large 1 24.85 0.00 24.85",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 24.85,
+        "actual_total": 24.85,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    }
+  ],
+  "discarded_rows": [
+    {
+      "reason": "payment",
+      "raw_text": "Extra Charges Number of Items Subtotal (Exclusive) 919.77"
+    }
+  ],
+  "confidence": 1.0
+}

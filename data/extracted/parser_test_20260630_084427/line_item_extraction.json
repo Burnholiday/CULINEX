@@ -1,0 +1,76 @@
+{
+  "detected_headers": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "headers": [
+        {
+          "header": "Item Code",
+          "field": "code",
+          "x": 178.0
+        },
+        {
+          "header": "Description",
+          "field": "description",
+          "x": 781.0
+        },
+        {
+          "header": "Quantity",
+          "field": "quantity",
+          "x": 1791.5
+        },
+        {
+          "header": "UnitPrice",
+          "field": "unit_price",
+          "x": 2299.0
+        },
+        {
+          "header": "VatAmnt",
+          "field": "vat",
+          "x": 3145.0
+        },
+        {
+          "header": "Line Total",
+          "field": "total",
+          "x": 3589.5
+        }
+      ]
+    }
+  ],
+  "detected_columns": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "columns": {
+        "code": 178.0,
+        "description": 781.0,
+        "quantity": 1791.5,
+        "unit_price": 2299.0,
+        "vat": 3145.0,
+        "total": 3589.5
+      }
+    }
+  ],
+  "extracted_rows": [],
+  "discarded_rows": [
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "WHO-BLUEBERRIES Punnet-125g 0.00 33.35"
+    },
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "WHO - STRAWBERRIES Punnet 250g 0.00 235.70"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "WHO - POTATOES 0.00 25.54"
+    },
+    {
+      "reason": "payment",
+      "raw_text": "Extra Charges Number of Items Subtotal (Exclusive) 320.44"
+    }
+  ],
+  "confidence": 0.0
+}

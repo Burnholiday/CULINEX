@@ -1,0 +1,86 @@
+{
+  "detected_headers": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "headers": [
+        {
+          "header": "Code",
+          "field": "code",
+          "x": 228.0
+        },
+        {
+          "header": "Description",
+          "field": "description",
+          "x": 968.0
+        },
+        {
+          "header": "Quantity",
+          "field": "quantity",
+          "x": 1910.0
+        },
+        {
+          "header": "Unit",
+          "field": "unit",
+          "x": 2149.0
+        },
+        {
+          "header": "Unit Price",
+          "field": "unit_price",
+          "x": 2484.0
+        },
+        {
+          "header": "Tax",
+          "field": "vat",
+          "x": 3090.0
+        },
+        {
+          "header": "Nett Price",
+          "field": "total",
+          "x": 3398.5
+        }
+      ]
+    }
+  ],
+  "detected_columns": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "columns": {
+        "code": 228.0,
+        "description": 968.0,
+        "quantity": 1910.0,
+        "unit": 2149.0,
+        "unit_price": 2484.0,
+        "vat": 3090.0,
+        "total": 3398.5
+      }
+    }
+  ],
+  "extracted_rows": [],
+  "discarded_rows": [
+    {
+      "reason": "noise",
+      "raw_text": "10.00 EA 52.50"
+    },
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "CHE003 DALEWOOD CAMEMBERT 60g 20.00 EA 15.00% 295.00"
+    },
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "NOMU020 NOMU CAJUN RUB 200g KG 45.00 15.00%"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "2.00 EA 47.00"
+    },
+    {
+      "reason": "banking",
+      "raw_text": "PLEASE NOTE BANK DETAILS : Sub Total 1,442.00"
+    }
+  ],
+  "confidence": 0.0
+}

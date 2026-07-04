@@ -1,0 +1,76 @@
+{
+  "tested_at": "2026-07-04T13:12:07",
+  "file_id": "parser_test_AhaConvert_20260701_151321",
+  "filename": "AhaConvert_20260701_151321.jpg",
+  "file_path": "C:\\Users\\Burn Holiday\\Documents\\Codex\\2026-06-21\\import-react-usestate-usememo-from-react\\outputs\\data\\test-invoices\\AhaConvert_20260701_151321.jpg",
+  "detected_supplier": "Farm Fresh Direct",
+  "document_type": "supplier_invoice",
+  "classifier_confidence": 0.95,
+  "classifier_scores": {
+    "supplier_invoice": 7,
+    "recipe": 0,
+    "stock_list": 1,
+    "prep_sheet": 0,
+    "menu_costing_sheet": 0
+  },
+  "invoice_number": "4310269016",
+  "invoice_date": "01/07/2026",
+  "line_count": 0,
+  "subtotal": null,
+  "total": null,
+  "currency": "ZAR",
+  "extraction_status": "completed",
+  "engine": "PaddleOCR",
+  "errors": [],
+  "extracted_rows": [],
+  "validation_failures": [],
+  "parser_debug": [],
+  "invoice_table_parser": {
+    "row_count": 0,
+    "rows": [],
+    "metadata": {
+      "supplier": "Telephone",
+      "invoice_number": "4310269016",
+      "invoice_date": "01/07/2026",
+      "customer": "Deliver To",
+      "total": null,
+      "currency": "ZAR"
+    },
+    "validation_failures": [],
+    "validation_pass_rate": 0.0,
+    "parser_debug": []
+  },
+  "universal_line_item_extractor": {
+    "row_count": 0,
+    "rows_found": 1,
+    "rows_accepted": 0,
+    "rows_discarded": 1,
+    "rows": [],
+    "detected_headers": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "headers": []
+      }
+    ],
+    "detected_columns": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "columns": {}
+      }
+    ],
+    "discarded_rows": [
+      {
+        "reason": "headers_not_detected",
+        "raw_text": "OCR positioned table did not expose enough invoice headers."
+      }
+    ],
+    "confidence": 0.0,
+    "validation_failures": [],
+    "validation_pass_rate": 0.0
+  },
+  "needs_review": true
+}

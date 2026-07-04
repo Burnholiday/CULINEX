@@ -1,0 +1,12 @@
+{
+  "file_id": "file_k224gca",
+  "filename": "AhaConvert_20260701_152913.jpg",
+  "file_type": "IMAGE",
+  "extraction_status": "completed",
+  "extracted_text": "SUSHI TEMPURA MIX 2025\nReceipt TEMPURA MIX\nYield 250ML\nUnit\nDescription\nIngredient\n125G\nCORNSTARCH\n32.7G\nSELF RAISING FLOUR\nEGG YOLK\n1\n150ML\nSPARKELING WATER\nSALT\nHEAVY PINCH\nMIX ALL INGREDIENTS TOGETHER\nKEEP MIXTURE COLD IN THE FRIDGE\n(PRE-MIX MUST BE KEPT COLD)\n(DO NOT AGITATE AND MIX TOO MUCH OR AGRESSIVLY)",
+  "extracted_tables": [],
+  "errors": [],
+  "created_at": "2026-07-01T23:57:28",
+  "engine": "PaddleOCR",
+  "fallback_used": false
+}

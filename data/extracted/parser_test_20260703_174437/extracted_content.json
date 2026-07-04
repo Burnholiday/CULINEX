@@ -1,0 +1,915 @@
+{
+  "file_id": "parser_test_20260703_174437",
+  "filename": "20260703_174437.jpg",
+  "file_type": "IMAGE",
+  "extraction_status": "completed",
+  "extracted_text": "SO-CA\nCustomer Vat No.: 4660316862\nFOODS\nSHAVI SHAVI RESTAURANT TA BUTTERFLY BLU\nCO. REG. NO.\nP.O.BOX\nTEL: 044 382 4796\n30 DAY ACC\n2008/235675/23\n1484\nEMAIL:admin@so-ca.co.za\nVAT NO: 4410253738\nKNYSNA\nFAX2EMAIL: 086 225 2342\n6570\nTax Invoice\nsocafoodsonline.com\nOrder Online:\nDeliver TO:\n0732995694\nWhatsapp:\nIQINV222701\nDOCUMENT NO.:\nBANKING DETAILS\n2026-07-03\n198 CR SWART DRIVE\nSO-CA DISTRIBUTION\nDATE\nACC NAME:\nBRENTON ON SEA\n1 of 1\nFNB. KNYSNA\nBANK:\nPAGE\nKNYSNA\n210214\nBRANCH CODE:\n62529452386\nACC NO:\nPlease use BuTo03 as payment\nreference\nRep:\nACCOUNT:\nCUSTOMER REF:\n1 KNYSNA\nNONE\nBUT003\nNett Amount\nVAT\n%\nExcl Vat\nQTY\nUNIT PRICE\nCODE\nDESCRIPTION\n6.01\n40.05\n0.00\n40.05\n1.00\n1028\nMILKSHAKE SYRUP STRAWBERRY 1LT C\"DOR\n6.30\n41.98\n41.98\n0.00\n1.00\n1105\nMILKSHAKE SYRUP CHOCOLATE 1LT C\"DOR\n385.92\n0.00\n57.89\n48.24\n8.00\n84015\nMILKLAB ALMOND 1LT\n538\nTOTAL NETT PRICE\nDATE\nCash Collected\nDISCOUNT\nUser:Zane\nAMOUNT EXCL VAT\n467\nSigned:\nRoute:Knysna\n328310\nRouting ID\nTAX\n7\n03/07/2026\nCREATED.\nName:\n12:37:30\n538\nPRINTED:\nTOTAL\nSo-ca cannot be held responsible for any shortages on quantities if not checked with driver and marked on\ncredit note. Goods returned will only be accepted within 24 hours of delivery.\nThe goods remain the property of So-Ca Foods until paid in full.",
+  "extracted_tables": [
+    {
+      "type": "ocr_items",
+      "items": [
+        {
+          "text": "SO-CA",
+          "x": 1988.0,
+          "y": 925.0,
+          "w": 1223.0,
+          "h": 386.0,
+          "page": 1
+        },
+        {
+          "text": "Customer Vat No.: 4660316862",
+          "x": 129.0,
+          "y": 1044.0,
+          "w": 927.0,
+          "h": 99.0,
+          "page": 1
+        },
+        {
+          "text": "FOODS",
+          "x": 3180.0,
+          "y": 1121.0,
+          "w": 496.0,
+          "h": 108.0,
+          "page": 1
+        },
+        {
+          "text": "SHAVI SHAVI RESTAURANT TA BUTTERFLY BLU",
+          "x": 113.0,
+          "y": 1156.0,
+          "w": 1414.0,
+          "h": 111.0,
+          "page": 1
+        },
+        {
+          "text": "CO. REG. NO.",
+          "x": 3048.0,
+          "y": 1235.0,
+          "w": 412.0,
+          "h": 90.0,
+          "page": 1
+        },
+        {
+          "text": "P.O.BOX",
+          "x": 1983.0,
+          "y": 1277.0,
+          "w": 287.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "TEL: 044 382 4796",
+          "x": 2281.0,
+          "y": 1285.0,
+          "w": 535.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "30 DAY ACC",
+          "x": 121.0,
+          "y": 1323.0,
+          "w": 373.0,
+          "h": 79.0,
+          "page": 1
+        },
+        {
+          "text": "2008/235675/23",
+          "x": 3052.0,
+          "y": 1302.0,
+          "w": 464.0,
+          "h": 99.0,
+          "page": 1
+        },
+        {
+          "text": "1484",
+          "x": 1988.0,
+          "y": 1355.0,
+          "w": 148.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "EMAIL:admin@so-ca.co.za",
+          "x": 2288.0,
+          "y": 1354.0,
+          "w": 772.0,
+          "h": 83.0,
+          "page": 1
+        },
+        {
+          "text": "VAT NO: 4410253738",
+          "x": 3056.0,
+          "y": 1364.0,
+          "w": 636.0,
+          "h": 104.0,
+          "page": 1
+        },
+        {
+          "text": "KNYSNA",
+          "x": 1987.0,
+          "y": 1421.0,
+          "w": 265.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "FAX2EMAIL: 086 225 2342",
+          "x": 2289.0,
+          "y": 1417.0,
+          "w": 755.0,
+          "h": 89.0,
+          "page": 1
+        },
+        {
+          "text": "6570",
+          "x": 1983.0,
+          "y": 1495.0,
+          "w": 157.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "Tax Invoice",
+          "x": 2960.0,
+          "y": 1621.0,
+          "w": 352.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "socafoodsonline.com",
+          "x": 1790.0,
+          "y": 1632.0,
+          "w": 590.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "Order Online:",
+          "x": 1238.0,
+          "y": 1648.0,
+          "w": 375.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "Deliver TO:",
+          "x": 127.0,
+          "y": 1701.0,
+          "w": 351.0,
+          "h": 85.0,
+          "page": 1
+        },
+        {
+          "text": "0732995694",
+          "x": 1792.0,
+          "y": 1705.0,
+          "w": 350.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "Whatsapp:",
+          "x": 1236.0,
+          "y": 1726.0,
+          "w": 305.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "IQINV222701",
+          "x": 3286.0,
+          "y": 1725.0,
+          "w": 396.0,
+          "h": 85.0,
+          "page": 1
+        },
+        {
+          "text": "DOCUMENT NO.:",
+          "x": 2482.0,
+          "y": 1762.0,
+          "w": 564.0,
+          "h": 91.0,
+          "page": 1
+        },
+        {
+          "text": "BANKING DETAILS",
+          "x": 1494.0,
+          "y": 1791.0,
+          "w": 614.0,
+          "h": 86.0,
+          "page": 1
+        },
+        {
+          "text": "2026-07-03",
+          "x": 3349.0,
+          "y": 1835.0,
+          "w": 341.0,
+          "h": 88.0,
+          "page": 1
+        },
+        {
+          "text": "198 CR SWART DRIVE",
+          "x": 137.0,
+          "y": 1839.0,
+          "w": 718.0,
+          "h": 96.0,
+          "page": 1
+        },
+        {
+          "text": "SO-CA DISTRIBUTION",
+          "x": 1709.0,
+          "y": 1866.0,
+          "w": 724.0,
+          "h": 93.0,
+          "page": 1
+        },
+        {
+          "text": "DATE",
+          "x": 2484.0,
+          "y": 1880.0,
+          "w": 211.0,
+          "h": 86.0,
+          "page": 1
+        },
+        {
+          "text": "ACC NAME:",
+          "x": 1230.0,
+          "y": 1891.0,
+          "w": 385.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "BRENTON ON SEA",
+          "x": 133.0,
+          "y": 1921.0,
+          "w": 613.0,
+          "h": 87.0,
+          "page": 1
+        },
+        {
+          "text": "1 of 1",
+          "x": 3501.0,
+          "y": 1937.0,
+          "w": 197.0,
+          "h": 85.0,
+          "page": 1
+        },
+        {
+          "text": "FNB. KNYSNA",
+          "x": 1975.0,
+          "y": 1943.0,
+          "w": 460.0,
+          "h": 87.0,
+          "page": 1
+        },
+        {
+          "text": "BANK:",
+          "x": 1230.0,
+          "y": 1976.0,
+          "w": 216.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "PAGE",
+          "x": 2484.0,
+          "y": 1980.0,
+          "w": 219.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "KNYSNA",
+          "x": 129.0,
+          "y": 2009.0,
+          "w": 294.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "210214",
+          "x": 2192.0,
+          "y": 2025.0,
+          "w": 249.0,
+          "h": 87.0,
+          "page": 1
+        },
+        {
+          "text": "BRANCH CODE:",
+          "x": 1234.0,
+          "y": 2052.0,
+          "w": 525.0,
+          "h": 82.0,
+          "page": 1
+        },
+        {
+          "text": "62529452386",
+          "x": 2009.0,
+          "y": 2115.0,
+          "w": 430.0,
+          "h": 83.0,
+          "page": 1
+        },
+        {
+          "text": "ACC NO:",
+          "x": 1232.0,
+          "y": 2141.0,
+          "w": 293.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "Please use BuTo03 as payment",
+          "x": 1236.0,
+          "y": 2205.0,
+          "w": 988.0,
+          "h": 93.0,
+          "page": 1
+        },
+        {
+          "text": "reference",
+          "x": 1234.0,
+          "y": 2305.0,
+          "w": 307.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "Rep:",
+          "x": 1257.0,
+          "y": 2550.0,
+          "w": 158.0,
+          "h": 84.0,
+          "page": 1
+        },
+        {
+          "text": "ACCOUNT:",
+          "x": 117.0,
+          "y": 2576.0,
+          "w": 373.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "CUSTOMER REF:",
+          "x": 596.0,
+          "y": 2564.0,
+          "w": 570.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "1 KNYSNA",
+          "x": 1262.0,
+          "y": 2623.0,
+          "w": 347.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "NONE",
+          "x": 594.0,
+          "y": 2647.0,
+          "w": 215.0,
+          "h": 79.0,
+          "page": 1
+        },
+        {
+          "text": "BUT003",
+          "x": 117.0,
+          "y": 2658.0,
+          "w": 269.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "Nett Amount",
+          "x": 3347.0,
+          "y": 2672.0,
+          "w": 377.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "VAT",
+          "x": 3102.0,
+          "y": 2732.0,
+          "w": 144.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "%",
+          "x": 2830.0,
+          "y": 2742.0,
+          "w": 73.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "Excl Vat",
+          "x": 3353.0,
+          "y": 2727.0,
+          "w": 253.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "QTY",
+          "x": 2052.0,
+          "y": 2761.0,
+          "w": 149.0,
+          "h": 84.0,
+          "page": 1
+        },
+        {
+          "text": "UNIT PRICE",
+          "x": 2277.0,
+          "y": 2751.0,
+          "w": 369.0,
+          "h": 79.0,
+          "page": 1
+        },
+        {
+          "text": "CODE",
+          "x": 150.0,
+          "y": 2811.0,
+          "w": 197.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "DESCRIPTION",
+          "x": 550.0,
+          "y": 2800.0,
+          "w": 437.0,
+          "h": 79.0,
+          "page": 1
+        },
+        {
+          "text": "6.01",
+          "x": 3165.0,
+          "y": 2821.0,
+          "w": 138.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "40.05",
+          "x": 3481.0,
+          "y": 2806.0,
+          "w": 180.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2835.0,
+          "y": 2827.0,
+          "w": 142.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "40.05",
+          "x": 2559.0,
+          "y": 2837.0,
+          "w": 174.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "1.00",
+          "x": 2066.0,
+          "y": 2851.0,
+          "w": 140.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "1028",
+          "x": 103.0,
+          "y": 2898.0,
+          "w": 151.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "MILKSHAKE SYRUP STRAWBERRY 1LT C\"DOR",
+          "x": 544.0,
+          "y": 2866.0,
+          "w": 1395.0,
+          "h": 97.0,
+          "page": 1
+        },
+        {
+          "text": "6.30",
+          "x": 3171.0,
+          "y": 2909.0,
+          "w": 138.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "41.98",
+          "x": 3485.0,
+          "y": 2894.0,
+          "w": 178.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "41.98",
+          "x": 2559.0,
+          "y": 2923.0,
+          "w": 178.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2840.0,
+          "y": 2919.0,
+          "w": 138.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "1.00",
+          "x": 2073.0,
+          "y": 2942.0,
+          "w": 132.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "1105",
+          "x": 103.0,
+          "y": 2986.0,
+          "w": 151.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "MILKSHAKE SYRUP CHOCOLATE 1LT C\"DOR",
+          "x": 542.0,
+          "y": 2951.0,
+          "w": 1347.0,
+          "h": 101.0,
+          "page": 1
+        },
+        {
+          "text": "385.92",
+          "x": 3473.0,
+          "y": 2982.0,
+          "w": 212.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2842.0,
+          "y": 3007.0,
+          "w": 138.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "57.89",
+          "x": 3138.0,
+          "y": 2994.0,
+          "w": 174.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "48.24",
+          "x": 2564.0,
+          "y": 3013.0,
+          "w": 173.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "8.00",
+          "x": 2070.0,
+          "y": 3027.0,
+          "w": 138.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "84015",
+          "x": 101.0,
+          "y": 3072.0,
+          "w": 188.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "MILKLAB ALMOND 1LT",
+          "x": 544.0,
+          "y": 3058.0,
+          "w": 679.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "538",
+          "x": 3650.0,
+          "y": 4878.0,
+          "w": 118.0,
+          "h": 79.0,
+          "page": 1
+        },
+        {
+          "text": "TOTAL NETT PRICE",
+          "x": 2617.0,
+          "y": 4892.0,
+          "w": 694.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "DATE",
+          "x": 1191.0,
+          "y": 4967.0,
+          "w": 219.0,
+          "h": 87.0,
+          "page": 1
+        },
+        {
+          "text": "Cash Collected",
+          "x": 150.0,
+          "y": 5010.0,
+          "w": 449.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "DISCOUNT",
+          "x": 2619.0,
+          "y": 5041.0,
+          "w": 392.0,
+          "h": 82.0,
+          "page": 1
+        },
+        {
+          "text": "User:Zane",
+          "x": 121.0,
+          "y": 5122.0,
+          "w": 344.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "AMOUNT EXCL VAT",
+          "x": 2627.0,
+          "y": 5188.0,
+          "w": 699.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "467",
+          "x": 3654.0,
+          "y": 5184.0,
+          "w": 114.0,
+          "h": 83.0,
+          "page": 1
+        },
+        {
+          "text": "Signed:",
+          "x": 1191.0,
+          "y": 5193.0,
+          "w": 257.0,
+          "h": 99.0,
+          "page": 1
+        },
+        {
+          "text": "Route:Knysna",
+          "x": 117.0,
+          "y": 5206.0,
+          "w": 460.0,
+          "h": 88.0,
+          "page": 1
+        },
+        {
+          "text": "328310",
+          "x": 513.0,
+          "y": 5285.0,
+          "w": 233.0,
+          "h": 83.0,
+          "page": 1
+        },
+        {
+          "text": "Routing ID",
+          "x": 115.0,
+          "y": 5299.0,
+          "w": 363.0,
+          "h": 91.0,
+          "page": 1
+        },
+        {
+          "text": "TAX",
+          "x": 2627.0,
+          "y": 5339.0,
+          "w": 164.0,
+          "h": 83.0,
+          "page": 1
+        },
+        {
+          "text": "7",
+          "x": 3711.0,
+          "y": 5339.0,
+          "w": 57.0,
+          "h": 79.0,
+          "page": 1
+        },
+        {
+          "text": "03/07/2026",
+          "x": 537.0,
+          "y": 5401.0,
+          "w": 367.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "CREATED.",
+          "x": 109.0,
+          "y": 5422.0,
+          "w": 371.0,
+          "h": 87.0,
+          "page": 1
+        },
+        {
+          "text": "Name:",
+          "x": 1202.0,
+          "y": 5469.0,
+          "w": 219.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "12:37:30",
+          "x": 639.0,
+          "y": 5483.0,
+          "w": 285.0,
+          "h": 83.0,
+          "page": 1
+        },
+        {
+          "text": "538",
+          "x": 3648.0,
+          "y": 5486.0,
+          "w": 120.0,
+          "h": 91.0,
+          "page": 1
+        },
+        {
+          "text": "PRINTED:",
+          "x": 109.0,
+          "y": 5506.0,
+          "w": 346.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "TOTAL",
+          "x": 2633.0,
+          "y": 5510.0,
+          "w": 258.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "So-ca cannot be held responsible for any shortages on quantities if not checked with driver and marked on",
+          "x": 50.0,
+          "y": 5636.0,
+          "w": 3440.0,
+          "h": 148.0,
+          "page": 1
+        },
+        {
+          "text": "credit note. Goods returned will only be accepted within 24 hours of delivery.",
+          "x": 48.0,
+          "y": 5748.0,
+          "w": 2482.0,
+          "h": 138.0,
+          "page": 1
+        },
+        {
+          "text": "The goods remain the property of So-Ca Foods until paid in full.",
+          "x": 48.0,
+          "y": 5877.0,
+          "w": 2048.0,
+          "h": 140.0,
+          "page": 1
+        }
+      ]
+    }
+  ],
+  "invoice_table_rows": [],
+  "invoice_metadata": {
+    "supplier": "So-Ca Foods",
+    "invoice_number": "4410253738",
+    "invoice_date": "2026-07-03",
+    "customer": "Vat No.: 4660316862",
+    "total": null,
+    "currency": null
+  },
+  "line_item_extraction": {
+    "detected_headers": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "headers": [
+          {
+            "header": "CODE",
+            "field": "code",
+            "x": 248.5
+          },
+          {
+            "header": "DESCRIPTION",
+            "field": "description",
+            "x": 768.5
+          },
+          {
+            "header": "QTY",
+            "field": "quantity",
+            "x": 2126.5
+          },
+          {
+            "header": "UNIT PRICE",
+            "field": "unit_price",
+            "x": 2461.5
+          },
+          {
+            "header": "VAT",
+            "field": "vat",
+            "x": 3174.0
+          },
+          {
+            "header": "Nett Amount",
+            "field": "total",
+            "x": 3535.5
+          }
+        ]
+      }
+    ],
+    "detected_columns": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "columns": {
+          "code": 248.5,
+          "description": 768.5,
+          "quantity": 2126.5,
+          "unit_price": 2461.5,
+          "vat": 3174.0,
+          "total": 3535.5
+        }
+      }
+    ],
+    "extracted_rows": [],
+    "discarded_rows": [
+      {
+        "reason": "noise",
+        "raw_text": "1028 0.00 6.30 41.98"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "1105 48.24 0.00 57.89"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "84015 MILKLAB ALMOND 1LT"
+      },
+      {
+        "reason": "footer",
+        "raw_text": "Cash Collected DATE TOTAL NETT PRICE 538"
+      }
+    ],
+    "confidence": 0.0
+  },
+  "extraction_engine": {
+    "source": "legacy_parser_fallback",
+    "source_label": "Legacy Parser Fallback",
+    "rows_found": 4,
+    "rows_accepted": 0,
+    "rows_discarded": 4,
+    "validation_pass_rate": 0.0,
+    "overall_confidence": 0,
+    "fallback_reason": "Universal Extractor returned zero accepted rows.",
+    "time_taken_ms": 6464,
+    "legacy_row_count": 0
+  },
+  "errors": [],
+  "created_at": "2026-07-04T13:11:26",
+  "engine": "PaddleOCR",
+  "fallback_used": false
+}

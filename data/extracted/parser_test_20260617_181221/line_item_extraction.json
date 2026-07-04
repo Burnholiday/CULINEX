@@ -1,0 +1,96 @@
+{
+  "detected_headers": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "headers": [
+        {
+          "header": "Item Code",
+          "field": "code",
+          "x": 326.0
+        },
+        {
+          "header": "Description",
+          "field": "description",
+          "x": 906.5
+        },
+        {
+          "header": "Quantity",
+          "field": "quantity",
+          "x": 1868.0
+        },
+        {
+          "header": "UnitPrice",
+          "field": "unit_price",
+          "x": 2342.0
+        },
+        {
+          "header": "VatAmnt",
+          "field": "vat",
+          "x": 3139.5
+        },
+        {
+          "header": "Line Total",
+          "field": "total",
+          "x": 3555.5
+        }
+      ]
+    }
+  ],
+  "detected_columns": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "columns": {
+        "code": 326.0,
+        "description": 906.5,
+        "quantity": 1868.0,
+        "unit_price": 2342.0,
+        "vat": 3139.5,
+        "total": 3555.5
+      }
+    }
+  ],
+  "extracted_rows": [],
+  "discarded_rows": [
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "WHO - STRAWBERRIES Punnet 250g 2 73.19"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "4.1 0.00 45.70"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "0.00 74.99"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "0.00 194.25"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "WHO - MICRO PEA 50g 5"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "22.65 0.00"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "20.85 0.00"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "23.00 0.00"
+    },
+    {
+      "reason": "payment",
+      "raw_text": "Extra Charges Number of Items Subtotal (Exclusive) 545.23"
+    }
+  ],
+  "confidence": 0.0
+}

@@ -1,0 +1,321 @@
+{
+  "detected_headers": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "headers": [
+        {
+          "header": "CODE",
+          "field": "code",
+          "x": 328.0
+        },
+        {
+          "header": "DESCRIPTION",
+          "field": "description",
+          "x": 794.0
+        },
+        {
+          "header": "QTY",
+          "field": "quantity",
+          "x": 2027.0
+        },
+        {
+          "header": "UNIT PRICE",
+          "field": "unit_price",
+          "x": 2309.5
+        },
+        {
+          "header": "VAT",
+          "field": "vat",
+          "x": 2945.0
+        },
+        {
+          "header": "Nett Amount",
+          "field": "total",
+          "x": 3248.5
+        }
+      ]
+    }
+  ],
+  "detected_columns": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "columns": {
+        "code": 328.0,
+        "description": 794.0,
+        "quantity": 2027.0,
+        "unit_price": 2309.5,
+        "vat": 2945.0,
+        "total": 3248.5
+      }
+    }
+  ],
+  "extracted_rows": [
+    {
+      "description": "MILK FRESH LEEUWENBOSCH (2LT)",
+      "quantity": "12.00",
+      "unit": "",
+      "unit_price": "34.50",
+      "total": "414.00",
+      "vat": "0.00",
+      "raw_text": "MILK FRESH LEEUWENBOSCH (2LT) 12.00 34.50 0.00 0.00 414.00",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 414.0,
+        "actual_total": 414.0,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "CBMBC CHEESE BLUE CRUMBS (1KG)",
+      "quantity": "1.00",
+      "unit": "",
+      "unit_price": "109.99",
+      "total": "109.99",
+      "vat": "0.00",
+      "raw_text": "CBMBC CHEESE BLUE CRUMBS (1KG) 1.00 109.99 0.00 16.50 109.99",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 109.99,
+        "actual_total": 109.99,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "SUGAR ICING 1KG",
+      "quantity": "2.00",
+      "unit": "",
+      "unit_price": "22.99",
+      "total": "45.98",
+      "vat": "10365",
+      "raw_text": "10365 SUGAR ICING 1KG 2.00 22.99 0.00 6.90 45.98",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 45.98,
+        "actual_total": 45.98,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "FLOUR SELF RAISING SNOWFLAKE (1KG)",
+      "quantity": "4.00",
+      "unit": "",
+      "unit_price": "25.71",
+      "total": "102.84",
+      "vat": "1137",
+      "raw_text": "1137 FLOUR SELF RAISING SNOWFLAKE (1KG) 4.00 25.71 0.00 15.43 102.84",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 102.84,
+        "actual_total": 102.84,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "OIL OLIVE E/VIRG P/ALBERT 1LT",
+      "quantity": "3.00",
+      "unit": "",
+      "unit_price": "209.04",
+      "total": "627.12",
+      "vat": "570",
+      "raw_text": "570 OIL OLIVE E/VIRG P/ALBERT 1LT 3.00 209.04 0.00 94.07 627.12",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 627.12,
+        "actual_total": 627.12,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "CHOCOLATE COUVETURE BELGIUM 70% (1KG)",
+      "quantity": "1.00",
+      "unit": "",
+      "unit_price": "340.99",
+      "total": "340.99",
+      "vat": "816",
+      "raw_text": "816 CHOCOLATE COUVETURE BELGIUM 70% (1KG) 1.00 340.99 0.00 51.15 340.99",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 340.99,
+        "actual_total": 340.99,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "VINEGAR BALSAMIC IMPORTED 1LT",
+      "quantity": "2.00",
+      "unit": "",
+      "unit_price": "46.99",
+      "total": "93.98",
+      "vat": "90014",
+      "raw_text": "90014 VINEGAR BALSAMIC IMPORTED 1LT 2.00 46.99 0.00 14.10 93.98",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 93.98,
+        "actual_total": 93.98,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "AGT45 SAUCE TOMATO ALL GOLD (4,5LT)",
+      "quantity": "1.00",
+      "unit": "",
+      "unit_price": "223.99",
+      "total": "223.99",
+      "vat": "0.00",
+      "raw_text": "AGT45 SAUCE TOMATO ALL GOLD (4,5LT) 1.00 223.99 0.00 33.60 223.99",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 223.99,
+        "actual_total": 223.99,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "BEL003 CHOCOLATE COUVETURE BELGIUM MILK (1KG)",
+      "quantity": "1.00",
+      "unit": "",
+      "unit_price": "277.50",
+      "total": "277.50",
+      "vat": "0.00",
+      "raw_text": "BEL003 CHOCOLATE COUVETURE BELGIUM MILK (1KG) 1.00 277.50 0.00 41.63 277.50",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 277.5,
+        "actual_total": 277.5,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "SAL SALT COARSE SALNOVA 1KG",
+      "quantity": "5.00",
+      "unit": "",
+      "unit_price": "19.50",
+      "total": "97.50",
+      "vat": "0.00",
+      "raw_text": "SAL SALT COARSE SALNOVA 1KG 5.00 19.50 0.00 14.63 97.50",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 97.5,
+        "actual_total": 97.5,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "BUTTER SALTED FIRST CHOICE (500G)",
+      "quantity": "12.00",
+      "unit": "",
+      "unit_price": "63.50",
+      "total": "762.00",
+      "vat": "003433",
+      "raw_text": "003433 BUTTER SALTED FIRST CHOICE (500G) 12.00 63.50 0.00 114.30 762.00",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 762.0,
+        "actual_total": 762.0,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "MILK F/CHOICE FULL CREAM UHT (6X1LT)",
+      "quantity": "1.00",
+      "unit": "",
+      "unit_price": "94.99",
+      "total": "94.99",
+      "vat": "0.00",
+      "raw_text": "600725100004 MILK F/CHOICE FULL CREAM UHT (6X1LT) 1.00 94.99 0.00 0.00 94.99",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 94.99,
+        "actual_total": 94.99,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    }
+  ],
+  "discarded_rows": [
+    {
+      "reason": "noise",
+      "raw_text": "3"
+    },
+    {
+      "reason": "footer",
+      "raw_text": "Cash Collected DATE: TOTAL NETT PRICE 3 593.16"
+    }
+  ],
+  "confidence": 1.0
+}

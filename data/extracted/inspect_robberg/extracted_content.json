@@ -1,0 +1,1331 @@
+{
+  "file_id": "inspect_robberg",
+  "filename": "20260617_181206.jpg",
+  "file_type": "IMAGE",
+  "extraction_status": "completed",
+  "extracted_text": "a\nDA\nDP.10\nTAX INVOICE\nRobberg Fast Foods SA (PTY) Ltd\nTheron Street\nIndustrial Area\nID712766\nNumber\nPlettenberg Bay WESTERN CAPE 6600\n2026-06-17\nROBBERG\nDate:\nR\nPh: 044-501-2600 Fax:044-533-6259\nPage 1 of 1\nPage:\nEmail: lucy@robberg.co.za\nBernard\nfine foods\nReference:\nTammy\nReg:1995/007260/07 VAT:4700151600\nUser:\nBUT002\nLiquor License Number: 6984\nAccount:\nKnysna\nRoute:\n7 Days from Statement\nShip To:\nSold To:\nButterfly Blu Restaurant\nShavi Shavi Restaurant t/a Butterfly Blu\n198 Cr Swart Drive\nR\nRestaurant\nKnysna\n198 Cr Swart Drive\nWESTERN CAPE\nKnysna\nSales Person:\nTotal\nCustomer VAT:\n9096717278\nVAT\nUnit Price\nUnit\nQuantity\n735.88\n95.98\nLine\nItem\nDescription\nause\n319.95\n2.00 ea\nBreak\n237.30\n###\nCHE008\nCream Cheese L/Wood Plain\n30.95\n206.35\n2.5kg Red Lid(71911)\n1.00 ea\nCreme Fraiche 2.5kg Beige\n139.20\n#/#\nCHE009\n0.00\n34.80\nLid(71520) Lancewood\n4.00 500g\n779.93\n101.73\nEdamame 500gr (Green Label)\n678.20\n#/#\nEDA001\n1.00 box\nCHI0009\nFree Range Chicken Fillets\n1 266.53\n#/#\n165.20\n203.95\n10x1kgs Frzn Noorsveld\n5.40 kg\nNOR008\nNorwegian Salmon Fresh Whole\n#/#\n5/6kg (Salmo Salar)\n686.44\n89.54\n1 fish\n596.90\n1.00 box\n1 666.29\n217.34\nOstrich Fillet Port.20x200g\nOST0001\n1 448.95\n#//#\n1.00 box\nPAT002\nPatagonica Cleaned Tubes & Tent\n#/\n544.30\n71.00\n(8x1kg) Pereira\n473.30\n100 bag\nCHI068\nRainbow Chicken IQF Mixed Port\n#//#\n1337.05\n174.40\n6x2kg\n1 162.65\n1.00 box\n390.94\n50.99\nSalmon Smoked Strips 10x500gr\n#//#\nSAL010\n339.95\n1.00 kg\nScallop Half Shell 10-20pcs 1kg\n#//#\nSCA002\nPlease Note: Claims will only be accepted if made within 24 hours of delivery. Prices are subject to change without prior notice.\n6,786.73\nSubtotal:\nFor Payment:\nSignature :\nRobberg Fast Foods SA\nFirst National Bank\nSimon\nBranch No: 210514\n997.\nAcc No: 533 750 529 09\nVAT:\n7,783.\nTotat\nTimestamp:15/06/2026 11:31:09AM\nCash Collected:\nSigned by:\nCo-ordinates:",
+  "extracted_tables": [
+    {
+      "type": "ocr_items",
+      "items": [
+        {
+          "text": "a",
+          "x": 3608.0,
+          "y": 43.0,
+          "w": 28.0,
+          "h": 26.0,
+          "page": 1
+        },
+        {
+          "text": "DA",
+          "x": 3595.0,
+          "y": 61.0,
+          "w": 139.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "DP.10",
+          "x": 3591.0,
+          "y": 94.0,
+          "w": 133.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "TAX INVOICE",
+          "x": 2744.0,
+          "y": 1446.0,
+          "w": 594.0,
+          "h": 93.0,
+          "page": 1
+        },
+        {
+          "text": "Robberg Fast Foods SA (PTY) Ltd",
+          "x": 223.0,
+          "y": 1481.0,
+          "w": 1009.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "Theron Street",
+          "x": 223.0,
+          "y": 1554.0,
+          "w": 354.0,
+          "h": 49.0,
+          "page": 1
+        },
+        {
+          "text": "Industrial Area",
+          "x": 217.0,
+          "y": 1614.0,
+          "w": 343.0,
+          "h": 49.0,
+          "page": 1
+        },
+        {
+          "text": "ID712766",
+          "x": 2772.0,
+          "y": 1594.0,
+          "w": 244.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "Number",
+          "x": 2494.0,
+          "y": 1615.0,
+          "w": 209.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "Plettenberg Bay WESTERN CAPE 6600",
+          "x": 223.0,
+          "y": 1667.0,
+          "w": 951.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "2026-06-17",
+          "x": 2776.0,
+          "y": 1643.0,
+          "w": 276.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "ROBBERG",
+          "x": 1265.0,
+          "y": 1647.0,
+          "w": 816.0,
+          "h": 154.0,
+          "page": 1
+        },
+        {
+          "text": "Date:",
+          "x": 2496.0,
+          "y": 1672.0,
+          "w": 138.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "R",
+          "x": 2205.0,
+          "y": 1710.0,
+          "w": 87.0,
+          "h": 87.0,
+          "page": 1
+        },
+        {
+          "text": "Ph: 044-501-2600 Fax:044-533-6259",
+          "x": 211.0,
+          "y": 1722.0,
+          "w": 863.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "Page 1 of 1",
+          "x": 2780.0,
+          "y": 1694.0,
+          "w": 283.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "Page:",
+          "x": 2499.0,
+          "y": 1729.0,
+          "w": 151.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "Email: lucy@robberg.co.za",
+          "x": 207.0,
+          "y": 1781.0,
+          "w": 638.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "Bernard",
+          "x": 2782.0,
+          "y": 1761.0,
+          "w": 207.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "fine foods",
+          "x": 1493.0,
+          "y": 1780.0,
+          "w": 370.0,
+          "h": 98.0,
+          "page": 1
+        },
+        {
+          "text": "Reference:",
+          "x": 2504.0,
+          "y": 1780.0,
+          "w": 272.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "Tammy",
+          "x": 2789.0,
+          "y": 1823.0,
+          "w": 194.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "Reg:1995/007260/07 VAT:4700151600",
+          "x": 207.0,
+          "y": 1844.0,
+          "w": 934.0,
+          "h": 49.0,
+          "page": 1
+        },
+        {
+          "text": "User:",
+          "x": 2506.0,
+          "y": 1845.0,
+          "w": 140.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "BUT002",
+          "x": 2790.0,
+          "y": 1872.0,
+          "w": 214.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "Liquor License Number: 6984",
+          "x": 201.0,
+          "y": 1897.0,
+          "w": 743.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "Account:",
+          "x": 2510.0,
+          "y": 1896.0,
+          "w": 218.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "Knysna",
+          "x": 2797.0,
+          "y": 1935.0,
+          "w": 196.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "Route:",
+          "x": 2513.0,
+          "y": 1958.0,
+          "w": 166.0,
+          "h": 58.0,
+          "page": 1
+        },
+        {
+          "text": "7 Days from Statement",
+          "x": 2642.0,
+          "y": 2045.0,
+          "w": 510.0,
+          "h": 88.0,
+          "page": 1
+        },
+        {
+          "text": "Ship To:",
+          "x": 1570.0,
+          "y": 2088.0,
+          "w": 218.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "Sold To:",
+          "x": 536.0,
+          "y": 2130.0,
+          "w": 211.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "Butterfly Blu Restaurant",
+          "x": 1572.0,
+          "y": 2118.0,
+          "w": 567.0,
+          "h": 92.0,
+          "page": 1
+        },
+        {
+          "text": "Shavi Shavi Restaurant t/a Butterfly Blu",
+          "x": 525.0,
+          "y": 2162.0,
+          "w": 939.0,
+          "h": 95.0,
+          "page": 1
+        },
+        {
+          "text": "198 Cr Swart Drive",
+          "x": 1577.0,
+          "y": 2184.0,
+          "w": 448.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "R",
+          "x": 2881.0,
+          "y": 2228.0,
+          "w": 81.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "Restaurant",
+          "x": 530.0,
+          "y": 2248.0,
+          "w": 272.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "Knysna",
+          "x": 1572.0,
+          "y": 2253.0,
+          "w": 193.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "198 Cr Swart Drive",
+          "x": 532.0,
+          "y": 2305.0,
+          "w": 449.0,
+          "h": 49.0,
+          "page": 1
+        },
+        {
+          "text": "WESTERN CAPE",
+          "x": 1572.0,
+          "y": 2292.0,
+          "w": 439.0,
+          "h": 90.0,
+          "page": 1
+        },
+        {
+          "text": "Knysna",
+          "x": 521.0,
+          "y": 2421.0,
+          "w": 196.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "Sales Person:",
+          "x": 2291.0,
+          "y": 2459.0,
+          "w": 365.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "Total",
+          "x": 3206.0,
+          "y": 2524.0,
+          "w": 153.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "Customer VAT:",
+          "x": 162.0,
+          "y": 2554.0,
+          "w": 395.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "9096717278",
+          "x": 593.0,
+          "y": 2550.0,
+          "w": 309.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "VAT",
+          "x": 2853.0,
+          "y": 2547.0,
+          "w": 128.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "Unit Price",
+          "x": 2155.0,
+          "y": 2584.0,
+          "w": 270.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "Unit",
+          "x": 1952.0,
+          "y": 2604.0,
+          "w": 128.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "Quantity",
+          "x": 1632.0,
+          "y": 2617.0,
+          "w": 228.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "735.88",
+          "x": 3304.0,
+          "y": 2614.0,
+          "w": 189.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "95.98",
+          "x": 2943.0,
+          "y": 2639.0,
+          "w": 156.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "Line",
+          "x": 171.0,
+          "y": 2668.0,
+          "w": 125.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "Item",
+          "x": 469.0,
+          "y": 2666.0,
+          "w": 130.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "Description",
+          "x": 1041.0,
+          "y": 2656.0,
+          "w": 304.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "ause",
+          "x": 0.0,
+          "y": 2609.0,
+          "w": 67.0,
+          "h": 106.0,
+          "page": 1
+        },
+        {
+          "text": "319.95",
+          "x": 2275.0,
+          "y": 2678.0,
+          "w": 184.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "2.00 ea",
+          "x": 1768.0,
+          "y": 2713.0,
+          "w": 192.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "Break",
+          "x": 3.0,
+          "y": 2634.0,
+          "w": 99.0,
+          "h": 123.0,
+          "page": 1
+        },
+        {
+          "text": "237.30",
+          "x": 3316.0,
+          "y": 2741.0,
+          "w": 193.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "###",
+          "x": 168.0,
+          "y": 2767.0,
+          "w": 119.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "CHE008",
+          "x": 306.0,
+          "y": 2760.0,
+          "w": 216.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "Cream Cheese L/Wood Plain",
+          "x": 765.0,
+          "y": 2745.0,
+          "w": 707.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "30.95",
+          "x": 2953.0,
+          "y": 2768.0,
+          "w": 158.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "206.35",
+          "x": 2281.0,
+          "y": 2802.0,
+          "w": 185.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "2.5kg Red Lid(71911)",
+          "x": 763.0,
+          "y": 2815.0,
+          "w": 510.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "1.00 ea",
+          "x": 1774.0,
+          "y": 2833.0,
+          "w": 188.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "Creme Fraiche 2.5kg Beige",
+          "x": 761.0,
+          "y": 2870.0,
+          "w": 667.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "139.20",
+          "x": 3331.0,
+          "y": 2871.0,
+          "w": 190.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "#/#",
+          "x": 162.0,
+          "y": 2896.0,
+          "w": 125.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "CHE009",
+          "x": 302.0,
+          "y": 2890.0,
+          "w": 220.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2994.0,
+          "y": 2896.0,
+          "w": 129.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "34.80",
+          "x": 2320.0,
+          "y": 2929.0,
+          "w": 155.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "Lid(71520) Lancewood",
+          "x": 761.0,
+          "y": 2933.0,
+          "w": 557.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "4.00 500g",
+          "x": 1772.0,
+          "y": 2951.0,
+          "w": 255.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "779.93",
+          "x": 3335.0,
+          "y": 2945.0,
+          "w": 194.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "101.73",
+          "x": 2943.0,
+          "y": 2974.0,
+          "w": 184.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "Edamame 500gr (Green Label)",
+          "x": 758.0,
+          "y": 2980.0,
+          "w": 759.0,
+          "h": 95.0,
+          "page": 1
+        },
+        {
+          "text": "678.20",
+          "x": 2293.0,
+          "y": 3000.0,
+          "w": 187.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "#/#",
+          "x": 158.0,
+          "y": 3025.0,
+          "w": 123.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "EDA001",
+          "x": 298.0,
+          "y": 3017.0,
+          "w": 214.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "1.00 box",
+          "x": 1778.0,
+          "y": 3027.0,
+          "w": 218.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "CHI0009",
+          "x": 296.0,
+          "y": 3090.0,
+          "w": 230.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "Free Range Chicken Fillets",
+          "x": 759.0,
+          "y": 3061.0,
+          "w": 665.0,
+          "h": 85.0,
+          "page": 1
+        },
+        {
+          "text": "1 266.53",
+          "x": 3302.0,
+          "y": 3080.0,
+          "w": 239.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "#/#",
+          "x": 153.0,
+          "y": 3096.0,
+          "w": 124.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "165.20",
+          "x": 2951.0,
+          "y": 3106.0,
+          "w": 186.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "203.95",
+          "x": 2297.0,
+          "y": 3131.0,
+          "w": 187.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "10x1kgs Frzn Noorsveld",
+          "x": 759.0,
+          "y": 3127.0,
+          "w": 590.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "5.40 kg",
+          "x": 1778.0,
+          "y": 3160.0,
+          "w": 191.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "NOR008",
+          "x": 284.0,
+          "y": 3219.0,
+          "w": 232.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "Norwegian Salmon Fresh Whole",
+          "x": 754.0,
+          "y": 3180.0,
+          "w": 800.0,
+          "h": 93.0,
+          "page": 1
+        },
+        {
+          "text": "#/#",
+          "x": 149.0,
+          "y": 3227.0,
+          "w": 124.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "5/6kg (Salmo Salar)",
+          "x": 751.0,
+          "y": 3259.0,
+          "w": 488.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "686.44",
+          "x": 3367.0,
+          "y": 3292.0,
+          "w": 195.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "89.54",
+          "x": 2996.0,
+          "y": 3312.0,
+          "w": 159.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "1 fish",
+          "x": 751.0,
+          "y": 3331.0,
+          "w": 163.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "596.90",
+          "x": 2308.0,
+          "y": 3337.0,
+          "w": 190.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "1.00 box",
+          "x": 1786.0,
+          "y": 3364.0,
+          "w": 220.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "1 666.29",
+          "x": 3325.0,
+          "y": 3371.0,
+          "w": 243.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "217.34",
+          "x": 2969.0,
+          "y": 3388.0,
+          "w": 193.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "Ostrich Fillet Port.20x200g",
+          "x": 751.0,
+          "y": 3388.0,
+          "w": 655.0,
+          "h": 83.0,
+          "page": 1
+        },
+        {
+          "text": "OST0001",
+          "x": 279.0,
+          "y": 3416.0,
+          "w": 245.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "1 448.95",
+          "x": 2265.0,
+          "y": 3419.0,
+          "w": 233.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "#//#",
+          "x": 137.0,
+          "y": 3428.0,
+          "w": 126.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "1.00 box",
+          "x": 1786.0,
+          "y": 3439.0,
+          "w": 222.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "PAT002",
+          "x": 274.0,
+          "y": 3494.0,
+          "w": 216.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "Patagonica Cleaned Tubes & Tent",
+          "x": 746.0,
+          "y": 3461.0,
+          "w": 861.0,
+          "h": 89.0,
+          "page": 1
+        },
+        {
+          "text": "#/",
+          "x": 129.0,
+          "y": 3501.0,
+          "w": 126.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "544.30",
+          "x": 3390.0,
+          "y": 3502.0,
+          "w": 196.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "71.00",
+          "x": 3012.0,
+          "y": 3518.0,
+          "w": 166.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "(8x1kg) Pereira",
+          "x": 744.0,
+          "y": 3543.0,
+          "w": 388.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "473.30",
+          "x": 2318.0,
+          "y": 3547.0,
+          "w": 190.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "100 bag",
+          "x": 1789.0,
+          "y": 3566.0,
+          "w": 225.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "CHI068",
+          "x": 261.0,
+          "y": 3621.0,
+          "w": 206.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "Rainbow Chicken IQF Mixed Port",
+          "x": 738.0,
+          "y": 3586.0,
+          "w": 838.0,
+          "h": 89.0,
+          "page": 1
+        },
+        {
+          "text": "#//#",
+          "x": 117.0,
+          "y": 3626.0,
+          "w": 127.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "1337.05",
+          "x": 3357.0,
+          "y": 3635.0,
+          "w": 247.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "174.40",
+          "x": 2998.0,
+          "y": 3649.0,
+          "w": 194.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "6x2kg",
+          "x": 730.0,
+          "y": 3676.0,
+          "w": 166.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "1 162.65",
+          "x": 2277.0,
+          "y": 3676.0,
+          "w": 237.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "1.00 box",
+          "x": 1790.0,
+          "y": 3692.0,
+          "w": 236.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "390.94",
+          "x": 3420.0,
+          "y": 3708.0,
+          "w": 194.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "50.99",
+          "x": 3037.0,
+          "y": 3722.0,
+          "w": 163.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "Salmon Smoked Strips 10x500gr",
+          "x": 728.0,
+          "y": 3710.0,
+          "w": 834.0,
+          "h": 89.0,
+          "page": 1
+        },
+        {
+          "text": "#//#",
+          "x": 108.0,
+          "y": 3762.0,
+          "w": 121.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "SAL010",
+          "x": 251.0,
+          "y": 3751.0,
+          "w": 216.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "339.95",
+          "x": 2328.0,
+          "y": 3749.0,
+          "w": 190.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "1.00 kg",
+          "x": 1790.0,
+          "y": 3765.0,
+          "w": 196.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "Scallop Half Shell 10-20pcs 1kg",
+          "x": 724.0,
+          "y": 3786.0,
+          "w": 814.0,
+          "h": 89.0,
+          "page": 1
+        },
+        {
+          "text": "#//#",
+          "x": 98.0,
+          "y": 3832.0,
+          "w": 128.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "SCA002",
+          "x": 243.0,
+          "y": 3827.0,
+          "w": 226.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "Please Note: Claims will only be accepted if made within 24 hours of delivery. Prices are subject to change without prior notice.",
+          "x": 32.0,
+          "y": 5285.0,
+          "w": 3464.0,
+          "h": 152.0,
+          "page": 1
+        },
+        {
+          "text": "6,786.73",
+          "x": 3493.0,
+          "y": 5377.0,
+          "w": 275.0,
+          "h": 91.0,
+          "page": 1
+        },
+        {
+          "text": "Subtotal:",
+          "x": 2639.0,
+          "y": 5402.0,
+          "w": 311.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "For Payment:",
+          "x": 48.0,
+          "y": 5491.0,
+          "w": 375.0,
+          "h": 79.0,
+          "page": 1
+        },
+        {
+          "text": "Signature :",
+          "x": 868.0,
+          "y": 5520.0,
+          "w": 369.0,
+          "h": 93.0,
+          "page": 1
+        },
+        {
+          "text": "Robberg Fast Foods SA",
+          "x": 44.0,
+          "y": 5560.0,
+          "w": 659.0,
+          "h": 89.0,
+          "page": 1
+        },
+        {
+          "text": "First National Bank",
+          "x": 42.0,
+          "y": 5646.0,
+          "w": 523.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "Simon",
+          "x": 1392.0,
+          "y": 5625.0,
+          "w": 655.0,
+          "h": 310.0,
+          "page": 1
+        },
+        {
+          "text": "Branch No: 210514",
+          "x": 38.0,
+          "y": 5722.0,
+          "w": 537.0,
+          "h": 84.0,
+          "page": 1
+        },
+        {
+          "text": "997.",
+          "x": 3597.0,
+          "y": 5797.0,
+          "w": 171.0,
+          "h": 91.0,
+          "page": 1
+        },
+        {
+          "text": "Acc No: 533 750 529 09",
+          "x": 30.0,
+          "y": 5799.0,
+          "w": 669.0,
+          "h": 87.0,
+          "page": 1
+        },
+        {
+          "text": "VAT:",
+          "x": 2653.0,
+          "y": 5816.0,
+          "w": 173.0,
+          "h": 84.0,
+          "page": 1
+        },
+        {
+          "text": "7,783.",
+          "x": 3547.0,
+          "y": 5951.0,
+          "w": 221.0,
+          "h": 96.0,
+          "page": 1
+        },
+        {
+          "text": "Totat",
+          "x": 2664.0,
+          "y": 5967.0,
+          "w": 201.0,
+          "h": 84.0,
+          "page": 1
+        },
+        {
+          "text": "Timestamp:15/06/2026 11:31:09AM",
+          "x": 1041.0,
+          "y": 5987.0,
+          "w": 1024.0,
+          "h": 95.0,
+          "page": 1
+        },
+        {
+          "text": "Cash Collected:",
+          "x": 10.0,
+          "y": 6018.0,
+          "w": 520.0,
+          "h": 82.0,
+          "page": 1
+        },
+        {
+          "text": "Signed by:",
+          "x": 18.0,
+          "y": 6140.0,
+          "w": 362.0,
+          "h": 94.0,
+          "page": 1
+        },
+        {
+          "text": "Co-ordinates:",
+          "x": 1461.0,
+          "y": 6130.0,
+          "w": 462.0,
+          "h": 82.0,
+          "page": 1
+        }
+      ]
+    }
+  ],
+  "invoice_table_rows": [],
+  "invoice_metadata": {
+    "supplier": "DP.10",
+    "invoice_number": "orsveld",
+    "invoice_date": "2026-06-17",
+    "customer": "VAT:",
+    "total": null,
+    "currency": "ZAR"
+  },
+  "line_item_extraction": {
+    "detected_headers": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "headers": [
+          {
+            "header": "Item",
+            "field": "description",
+            "x": 534.0
+          },
+          {
+            "header": "Quantity",
+            "field": "quantity",
+            "x": 1746.0
+          },
+          {
+            "header": "Unit",
+            "field": "unit",
+            "x": 2016.0
+          },
+          {
+            "header": "Unit Price",
+            "field": "unit_price",
+            "x": 2290.0
+          },
+          {
+            "header": "VAT",
+            "field": "vat",
+            "x": 2917.0
+          },
+          {
+            "header": "Total",
+            "field": "total",
+            "x": 3282.5
+          }
+        ]
+      }
+    ],
+    "detected_columns": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "columns": {
+          "description": 534.0,
+          "quantity": 1746.0,
+          "unit": 2016.0,
+          "unit_price": 2290.0,
+          "vat": 2917.0,
+          "total": 3282.5
+        }
+      }
+    ],
+    "extracted_rows": [],
+    "discarded_rows": [
+      {
+        "reason": "noise",
+        "raw_text": "### CHE008 30.95"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "#/# 34.80 0.00"
+      },
+      {
+        "reason": "not_enough_line_values",
+        "raw_text": "Edamame 500gr (Green Label) 678.20 101.73"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "#/# 165.20"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "89.54"
+      },
+      {
+        "reason": "wrapped_without_previous_row",
+        "raw_text": "Ostrich Fillet Port.20x200g 217.34"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "71.00"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "174.40 1337.05"
+      },
+      {
+        "reason": "not_enough_line_values",
+        "raw_text": "Salmon Smoked Strips 10x500gr 50.99"
+      },
+      {
+        "reason": "banking",
+        "raw_text": "Signed by: For Payment: Cash Collected: First National Bank Branch No: 210514 Acc No: 533 750 529 09 Robberg Fast Foods SA Signature : Timestamp:15/06/2026 11:31:09AM Co-ordinates: Simon Please Note: Claims will only be accepted if made within 24 hours of delivery. Prices are subject to change without prior notice. VAT: Totat Subtotal: 6,786.73 7,783. 997."
+      }
+    ],
+    "confidence": 0.0
+  },
+  "extraction_engine": {
+    "source": "legacy_parser_fallback",
+    "source_label": "Legacy Parser Fallback",
+    "rows_found": 10,
+    "rows_accepted": 0,
+    "rows_discarded": 10,
+    "validation_pass_rate": 0.0,
+    "overall_confidence": 0,
+    "fallback_reason": "Universal Extractor returned zero accepted rows.",
+    "time_taken_ms": 8913,
+    "legacy_row_count": 0
+  },
+  "errors": [],
+  "created_at": "2026-07-04T13:39:40",
+  "engine": "PaddleOCR",
+  "fallback_used": false
+}

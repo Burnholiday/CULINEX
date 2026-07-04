@@ -1,0 +1,161 @@
+{
+  "file_id": "parser_test_AhaConvert_20260701_152939",
+  "filename": "AhaConvert_20260701_152939.jpg",
+  "file_type": "IMAGE",
+  "extraction_status": "completed",
+  "extracted_text": "YUZU KOSHO\nIngredients\n30 grams fresh yuzu zest green (or yellow) about 8 to 10 smal!\nyuzu\n30 grams togarashi peppers green (or red) about 12 - 14\npeppers\n5 grams sea salt about 12- 15% of weight of peel and peppers\nInstructions\nYuzu\n1. Wash off yuzu with water and pat dry with clean towel.\n2. Use a microplane zester to remove the yuzu peel.\n3. Save the yuzu you zested for squeezing later.",
+  "extracted_tables": [
+    {
+      "type": "ocr_items",
+      "items": [
+        {
+          "text": "YUZU KOSHO",
+          "x": 234.0,
+          "y": 1429.0,
+          "w": 868.0,
+          "h": 168.0,
+          "page": 1
+        },
+        {
+          "text": "Ingredients",
+          "x": 234.0,
+          "y": 1820.0,
+          "w": 746.0,
+          "h": 187.0,
+          "page": 1
+        },
+        {
+          "text": "30 grams fresh yuzu zest green (or yellow) about 8 to 10 smal!",
+          "x": 373.0,
+          "y": 2369.0,
+          "w": 3119.0,
+          "h": 275.0,
+          "page": 1
+        },
+        {
+          "text": "yuzu",
+          "x": 484.0,
+          "y": 2688.0,
+          "w": 258.0,
+          "h": 126.0,
+          "page": 1
+        },
+        {
+          "text": "30 grams togarashi peppers green (or red) about 12 - 14",
+          "x": 401.0,
+          "y": 2769.0,
+          "w": 2798.0,
+          "h": 237.0,
+          "page": 1
+        },
+        {
+          "text": "peppers",
+          "x": 492.0,
+          "y": 3048.0,
+          "w": 411.0,
+          "h": 139.0,
+          "page": 1
+        },
+        {
+          "text": "5 grams sea salt about 12- 15% of weight of peel and peppers",
+          "x": 384.0,
+          "y": 3142.0,
+          "w": 3095.0,
+          "h": 231.0,
+          "page": 1
+        },
+        {
+          "text": "Instructions",
+          "x": 257.0,
+          "y": 3602.0,
+          "w": 791.0,
+          "h": 150.0,
+          "page": 1
+        },
+        {
+          "text": "Yuzu",
+          "x": 257.0,
+          "y": 4306.0,
+          "w": 257.0,
+          "h": 111.0,
+          "page": 1
+        },
+        {
+          "text": "1. Wash off yuzu with water and pat dry with clean towel.",
+          "x": 381.0,
+          "y": 4410.0,
+          "w": 2775.0,
+          "h": 183.0,
+          "page": 1
+        },
+        {
+          "text": "2. Use a microplane zester to remove the yuzu peel.",
+          "x": 377.0,
+          "y": 4610.0,
+          "w": 2527.0,
+          "h": 168.0,
+          "page": 1
+        },
+        {
+          "text": "3. Save the yuzu you zested for squeezing later.",
+          "x": 375.0,
+          "y": 4810.0,
+          "w": 2334.0,
+          "h": 168.0,
+          "page": 1
+        }
+      ]
+    }
+  ],
+  "invoice_table_rows": [],
+  "invoice_metadata": {
+    "supplier": null,
+    "invoice_number": null,
+    "invoice_date": null,
+    "customer": null,
+    "total": null,
+    "currency": null
+  },
+  "line_item_extraction": {
+    "detected_headers": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "headers": []
+      }
+    ],
+    "detected_columns": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "columns": {}
+      }
+    ],
+    "extracted_rows": [],
+    "discarded_rows": [
+      {
+        "reason": "headers_not_detected",
+        "raw_text": "OCR positioned table did not expose enough invoice headers."
+      }
+    ],
+    "confidence": 0.0
+  },
+  "extraction_engine": {
+    "source": "legacy_parser_fallback",
+    "source_label": "Legacy Parser Fallback",
+    "rows_found": 1,
+    "rows_accepted": 0,
+    "rows_discarded": 1,
+    "validation_pass_rate": 0.0,
+    "overall_confidence": 0,
+    "fallback_reason": "Universal Extractor returned zero accepted rows.",
+    "time_taken_ms": 3538,
+    "legacy_row_count": 0
+  },
+  "errors": [],
+  "created_at": "2026-07-04T13:12:15",
+  "engine": "PaddleOCR",
+  "fallback_used": false
+}

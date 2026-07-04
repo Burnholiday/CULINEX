@@ -1,0 +1,3934 @@
+[
+  {
+    "page": 1,
+    "title": "SALMON CALIFORNIA 4PC",
+    "ingredients": [
+      {
+        "name": "CALIFORNIA ROLL",
+        "qty": 4.0,
+        "bulk": "8",
+        "price": "R15.54",
+        "cost": "R7.77"
+      },
+      {
+        "name": "SALMON",
+        "qty": 20.0,
+        "bulk": "700",
+        "price": "R308.39",
+        "cost": "R8.81"
+      },
+      {
+        "name": "SESAME SEED",
+        "qty": 3.0,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.20"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "SALMON CALIFORNIA 8PC",
+    "ingredients": [
+      {
+        "name": "CALIFORNIA ROLL",
+        "qty": 8.0,
+        "bulk": "8",
+        "price": "R15.54",
+        "cost": "R15.54"
+      },
+      {
+        "name": "SALMON",
+        "qty": 40.0,
+        "bulk": "700",
+        "price": "R308.39",
+        "cost": "R17.62"
+      },
+      {
+        "name": "SESAME SEED",
+        "qty": 6.0,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.40"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "SALMON RAINBOW ROLL 4PC",
+    "ingredients": [
+      {
+        "name": "CALIFORNIA ROLL",
+        "qty": 4.0,
+        "bulk": "8",
+        "price": "R15.54",
+        "cost": "R7.77"
+      },
+      {
+        "name": "SALMON",
+        "qty": 30.0,
+        "bulk": "700",
+        "price": "R308.39",
+        "cost": "R13.22"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.1,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R2.13"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "SALMON RAINBOW ROLL 8PC",
+    "ingredients": [
+      {
+        "name": "CALIFORNIA ROLL",
+        "qty": 8.0,
+        "bulk": "8",
+        "price": "R15.54",
+        "cost": "R15.54"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.2,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R4.25"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "SALMON CRUNCH 4PC",
+    "ingredients": [
+      {
+        "name": "CRUNCH ROLL",
+        "qty": 4.0,
+        "bulk": "8",
+        "price": "R17.03",
+        "cost": "R8.52"
+      },
+      {
+        "name": "SALMON",
+        "qty": 20.0,
+        "bulk": "700",
+        "price": "R308.39",
+        "cost": "R8.81"
+      },
+      {
+        "name": "PONZU MAYO",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R94.98",
+        "cost": "R0.47"
+      },
+      {
+        "name": "TERIYAKI",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R156.05",
+        "cost": "R0.78"
+      },
+      {
+        "name": "SPRING ONION",
+        "qty": 0.001,
+        "bulk": "1",
+        "price": "R16.45",
+        "cost": "R0.02"
+      },
+      {
+        "name": "SESAME SEEDS",
+        "qty": 0.1,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.01"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "SALMON CRUNCH 8PC",
+    "ingredients": [
+      {
+        "name": "CRUNCH ROLL",
+        "qty": 8.0,
+        "bulk": "8",
+        "price": "R17.03",
+        "cost": "R17.03"
+      },
+      {
+        "name": "SALMON",
+        "qty": 40.0,
+        "bulk": "700",
+        "price": "R308.39",
+        "cost": "R17.62"
+      },
+      {
+        "name": "PONZU MAYO",
+        "qty": 10.0,
+        "bulk": "1000",
+        "price": "R94.98",
+        "cost": "R0.95"
+      },
+      {
+        "name": "TERIYAKI",
+        "qty": 10.0,
+        "bulk": "1000",
+        "price": "R156.05",
+        "cost": "R1.56"
+      },
+      {
+        "name": "SPRING ONION",
+        "qty": 0.001,
+        "bulk": "1",
+        "price": "R16.45",
+        "cost": "R0.02"
+      },
+      {
+        "name": "SESAME SEEDS",
+        "qty": 0.1,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.01"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "TUNA CALIFORNIA 4PC",
+    "ingredients": [
+      {
+        "name": "CALIFORNIA ROLL",
+        "qty": 4.0,
+        "bulk": "8",
+        "price": "R15.54",
+        "cost": "R7.77"
+      },
+      {
+        "name": "TUNA",
+        "qty": 20.0,
+        "bulk": "900",
+        "price": "R261.55",
+        "cost": "R5.81"
+      },
+      {
+        "name": "SESAME SEED",
+        "qty": 3.0,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.20"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "TUNA CALIFORNIA 8PC",
+    "ingredients": [
+      {
+        "name": "CALIFORNIA ROLL",
+        "qty": 8.0,
+        "bulk": "8",
+        "price": "R15.54",
+        "cost": "R15.54"
+      },
+      {
+        "name": "TUNA",
+        "qty": 40.0,
+        "bulk": "900",
+        "price": "R261.55",
+        "cost": "R11.62"
+      },
+      {
+        "name": "SESAME SEED",
+        "qty": 6.0,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.40"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "TUNA RAINBOW ROLL 4PC",
+    "ingredients": [
+      {
+        "name": "CALIFORNIA ROLL",
+        "qty": 4.0,
+        "bulk": "8",
+        "price": "R15.54",
+        "cost": "R7.77"
+      },
+      {
+        "name": "TUNA",
+        "qty": 30.0,
+        "bulk": "900",
+        "price": "R261.55",
+        "cost": "R8.72"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.1,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R2.13"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "TUNA RAINBOW ROLL 8PC",
+    "ingredients": [
+      {
+        "name": "CALIFORNIA ROLL",
+        "qty": 8.0,
+        "bulk": "8",
+        "price": "R15.54",
+        "cost": "R15.54"
+      },
+      {
+        "name": "TUNA",
+        "qty": 60.0,
+        "bulk": "900",
+        "price": "R261.55",
+        "cost": "R17.44"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.2,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R4.25"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "TUNA CRUNCH 4PC",
+    "ingredients": [
+      {
+        "name": "CRUNCH ROLL",
+        "qty": 4.0,
+        "bulk": "8",
+        "price": "R17.03",
+        "cost": "R8.52"
+      },
+      {
+        "name": "TUNA",
+        "qty": 20.0,
+        "bulk": "900",
+        "price": "R261.55",
+        "cost": "R5.81"
+      },
+      {
+        "name": "PONZU MAYO",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R94.98",
+        "cost": "R0.47"
+      },
+      {
+        "name": "TERIYAKI",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R156.05",
+        "cost": "R0.78"
+      },
+      {
+        "name": "SPRING ONION",
+        "qty": 0.001,
+        "bulk": "1",
+        "price": "R16.45",
+        "cost": "R0.02"
+      },
+      {
+        "name": "SESAME SEEDS",
+        "qty": 0.1,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.01"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "TUNA CRUNCH 8PC",
+    "ingredients": [
+      {
+        "name": "CRUNCH ROLL",
+        "qty": 8.0,
+        "bulk": "8",
+        "price": "R17.03",
+        "cost": "R17.03"
+      },
+      {
+        "name": "TUNA",
+        "qty": 40.0,
+        "bulk": "900",
+        "price": "R261.55",
+        "cost": "R11.62"
+      },
+      {
+        "name": "PONZU MAYO",
+        "qty": 10.0,
+        "bulk": "1000",
+        "price": "R94.98",
+        "cost": "R0.95"
+      },
+      {
+        "name": "TERIYAKI",
+        "qty": 10.0,
+        "bulk": "1000",
+        "price": "R156.05",
+        "cost": "R1.56"
+      },
+      {
+        "name": "SPRING ONION",
+        "qty": 0.001,
+        "bulk": "1",
+        "price": "R16.45",
+        "cost": "R0.02"
+      },
+      {
+        "name": "SESAME SEEDS",
+        "qty": 0.1,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.01"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "PRAWN CALIFORNIA 4PC",
+    "ingredients": [
+      {
+        "name": "CALIFORNIA ROLL",
+        "qty": 4.0,
+        "bulk": "8",
+        "price": "R15.54",
+        "cost": "R7.77"
+      },
+      {
+        "name": "PRAWN",
+        "qty": 20.0,
+        "bulk": "900",
+        "price": "R284.04",
+        "cost": "R6.31"
+      },
+      {
+        "name": "SESAME SEED",
+        "qty": 3.0,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.20"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "PRAWN CALIFORNIA 8PC",
+    "ingredients": [
+      {
+        "name": "CALIFORNIA ROLL",
+        "qty": 8.0,
+        "bulk": "8",
+        "price": "R15.54",
+        "cost": "R15.54"
+      },
+      {
+        "name": "PRAWN",
+        "qty": 40.0,
+        "bulk": "900",
+        "price": "R284.04",
+        "cost": "R12.62"
+      },
+      {
+        "name": "SESAME SEED",
+        "qty": 6.0,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.40"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "PRAWN RAINBOW ROLL 4PC",
+    "ingredients": [
+      {
+        "name": "CALIFORNIA ROLL",
+        "qty": 4.0,
+        "bulk": "8",
+        "price": "R15.54",
+        "cost": "R7.77"
+      },
+      {
+        "name": "PRAWN",
+        "qty": 30.0,
+        "bulk": "900",
+        "price": "R284.04",
+        "cost": "R9.47"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.1,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R2.13"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "PRAWN RAINBOW ROLL 8PC",
+    "ingredients": [
+      {
+        "name": "CALIFORNIA ROLL",
+        "qty": 8.0,
+        "bulk": "8",
+        "price": "R15.54",
+        "cost": "R15.54"
+      },
+      {
+        "name": "PRAWN",
+        "qty": 60.0,
+        "bulk": "900",
+        "price": "R284.04",
+        "cost": "R18.94"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.2,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R4.25"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "PRAWN CRUNCH 4PC",
+    "ingredients": [
+      {
+        "name": "CRUNCH ROLL",
+        "qty": 4.0,
+        "bulk": "8",
+        "price": "R17.03",
+        "cost": "R8.52"
+      },
+      {
+        "name": "PRAWN",
+        "qty": 60.0,
+        "bulk": "900",
+        "price": "R284.04",
+        "cost": "R18.94"
+      },
+      {
+        "name": "PONZU MAYO",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R94.98",
+        "cost": "R0.47"
+      },
+      {
+        "name": "TERIYAKI",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R156.05",
+        "cost": "R0.78"
+      },
+      {
+        "name": "SPRING ONION",
+        "qty": 0.001,
+        "bulk": "1",
+        "price": "R16.45",
+        "cost": "R0.02"
+      },
+      {
+        "name": "SESAME SEEDS",
+        "qty": 0.1,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.01"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "PRAWN CRUNCH 8PC",
+    "ingredients": [
+      {
+        "name": "CRUNCH ROLL",
+        "qty": 8.0,
+        "bulk": "8",
+        "price": "R17.03",
+        "cost": "R17.03"
+      },
+      {
+        "name": "PRAWN",
+        "qty": 120.0,
+        "bulk": "900",
+        "price": "R284.04",
+        "cost": "R37.87"
+      },
+      {
+        "name": "PONZU MAYO",
+        "qty": 10.0,
+        "bulk": "1000",
+        "price": "R94.98",
+        "cost": "R0.95"
+      },
+      {
+        "name": "TERIYAKI",
+        "qty": 10.0,
+        "bulk": "1000",
+        "price": "R156.05",
+        "cost": "R1.56"
+      },
+      {
+        "name": "SPRING ONION",
+        "qty": 0.001,
+        "bulk": "1",
+        "price": "R16.45",
+        "cost": "R0.02"
+      },
+      {
+        "name": "SESAME SEEDS",
+        "qty": 0.1,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.01"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "AVO CALIFORNIA 4PC",
+    "ingredients": [
+      {
+        "name": "CALIFORNIA ROLL",
+        "qty": 4.0,
+        "bulk": "8",
+        "price": "R15.54",
+        "cost": "R7.77"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.25,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R5.31"
+      },
+      {
+        "name": "SESAME SEED",
+        "qty": 3.0,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.20"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "AVO CALIFORNIA 8PC",
+    "ingredients": [
+      {
+        "name": "CALIFORNIA ROLL",
+        "qty": 8.0,
+        "bulk": "8",
+        "price": "R15.54",
+        "cost": "R15.54"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.33,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R7.01"
+      },
+      {
+        "name": "SESAME SEED",
+        "qty": 6.0,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.40"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "MONARCH RAINBOW ROLL 4PC",
+    "ingredients": [
+      {
+        "name": "CALIFORNIA ROLL",
+        "qty": 4.0,
+        "bulk": "8",
+        "price": "R15.54",
+        "cost": "R7.77"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.33,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R7.01"
+      },
+      {
+        "name": "RED PEPPER",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R92.65",
+        "cost": "R0.46"
+      },
+      {
+        "name": "CARROT",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R17.25",
+        "cost": "R0.09"
+      },
+      {
+        "name": "CUCUMBER",
+        "qty": 0.1,
+        "bulk": "1",
+        "price": "R17.85",
+        "cost": "R1.79"
+      },
+      {
+        "name": "VEG MIX",
+        "qty": 5.0,
+        "bulk": "1000.00",
+        "price": "R60.59",
+        "cost": "R0.30"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "MONARCH RAINBOW ROLL 8PC",
+    "ingredients": [
+      {
+        "name": "CALIFORNIA ROLL",
+        "qty": 8.0,
+        "bulk": "8",
+        "price": "R15.54",
+        "cost": "R15.54"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.66,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R14.03"
+      },
+      {
+        "name": "RED PEPPER",
+        "qty": 10.0,
+        "bulk": "1000",
+        "price": "R92.65",
+        "cost": "R0.93"
+      },
+      {
+        "name": "CARROT",
+        "qty": 10.0,
+        "bulk": "1000",
+        "price": "R17.25",
+        "cost": "R0.17"
+      },
+      {
+        "name": "CUCUMBER",
+        "qty": 0.2,
+        "bulk": "1",
+        "price": "R17.85",
+        "cost": "R3.57"
+      },
+      {
+        "name": "VEG MIX NEW",
+        "qty": 10.0,
+        "bulk": "1000.00",
+        "price": "R60.59",
+        "cost": "R0.61"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "VEG CRUNCH 4PC",
+    "ingredients": [
+      {
+        "name": "CRUNCH ROLL",
+        "qty": 4.0,
+        "bulk": "8",
+        "price": "R17.03",
+        "cost": "R8.52"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.16,
+        "bulk": "700",
+        "price": "R21.25",
+        "cost": "R0.00"
+      },
+      {
+        "name": "PONZU MAYO",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R94.98",
+        "cost": "R0.47"
+      },
+      {
+        "name": "TERIYAKI",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R156.05",
+        "cost": "R0.78"
+      },
+      {
+        "name": "SPRING ONION",
+        "qty": 0.001,
+        "bulk": "1",
+        "price": "R16.45",
+        "cost": "R0.02"
+      },
+      {
+        "name": "SESAME SEEDS",
+        "qty": 0.1,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.01"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "VEG CRUNCH 8PC",
+    "ingredients": [
+      {
+        "name": "CRUNCH ROLL",
+        "qty": 8.0,
+        "bulk": "8",
+        "price": "R17.03",
+        "cost": "R17.03"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.5,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R10.63"
+      },
+      {
+        "name": "PONZU MAYO",
+        "qty": 10.0,
+        "bulk": "1000",
+        "price": "R94.98",
+        "cost": "R0.95"
+      },
+      {
+        "name": "TERIYAKI",
+        "qty": 10.0,
+        "bulk": "1000",
+        "price": "R156.05",
+        "cost": "R1.56"
+      },
+      {
+        "name": "SPRING ONION",
+        "qty": 0.001,
+        "bulk": "1",
+        "price": "#REF!",
+        "cost": "#REF!"
+      },
+      {
+        "name": "SESAME SEEDS",
+        "qty": 0.1,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.01"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "GARNISH",
+    "ingredients": [
+      {
+        "name": "SOYA SAUCE",
+        "qty": 25.0,
+        "bulk": "1000",
+        "price": "R135.00",
+        "cost": "R3.38"
+      },
+      {
+        "name": "GINGER",
+        "qty": 20.0,
+        "bulk": "1000",
+        "price": "R35.30",
+        "cost": "R0.71"
+      },
+      {
+        "name": "WASABI",
+        "qty": 10.0,
+        "bulk": "1000",
+        "price": "R134.95",
+        "cost": "R1.35"
+      },
+      {
+        "name": "BEETROOT",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "19.99",
+        "cost": "R0.10"
+      },
+      {
+        "name": "CARROTS",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R17.25",
+        "cost": "R0.09"
+      },
+      {
+        "name": "CANDY BEETROOT",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R50.00",
+        "cost": "R0.25"
+      },
+      {
+        "name": "WATERMELON RADISH",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "51.75",
+        "cost": "R0.26"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "FUSION RELOADED 8PC",
+    "ingredients": [
+      {
+        "name": "CALIFORNIA",
+        "qty": 8.0,
+        "bulk": "8",
+        "price": "R15.54",
+        "cost": "R15.54"
+      },
+      {
+        "name": "SALMON",
+        "qty": 15.0,
+        "bulk": "700",
+        "price": "R10.65",
+        "cost": "R0.23"
+      },
+      {
+        "name": "TUNA MIX",
+        "qty": 40.0,
+        "bulk": "125",
+        "price": "R1.54",
+        "cost": "R0.49"
+      },
+      {
+        "name": "TUNA",
+        "qty": 15.0,
+        "bulk": "900",
+        "price": "R261.55",
+        "cost": "R4.36"
+      },
+      {
+        "name": "COOKED PRAWN",
+        "qty": 60.0,
+        "bulk": "900",
+        "price": "R284.04",
+        "cost": "R18.94"
+      },
+      {
+        "name": "NORI",
+        "qty": 1.0,
+        "bulk": "100",
+        "price": "R3.10",
+        "cost": "R0.02"
+      },
+      {
+        "name": "TERIYAKI",
+        "qty": 10.0,
+        "bulk": "1000",
+        "price": "R156.05",
+        "cost": "R1.56"
+      },
+      {
+        "name": "TOGARASHI",
+        "qty": 6.0,
+        "bulk": "300",
+        "price": "R342.99",
+        "cost": "R6.86"
+      },
+      {
+        "name": "SPRING ONION",
+        "qty": 0.006,
+        "bulk": "1",
+        "price": "R16.45",
+        "cost": "R0.10"
+      },
+      {
+        "name": "JAPANESE MAYO",
+        "qty": 10.0,
+        "bulk": "500",
+        "price": "R175.53",
+        "cost": "R3.51"
+      },
+      {
+        "name": "SESAME",
+        "qty": 6.0,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.40"
+      },
+      {
+        "name": "CAVIAR",
+        "qty": 3.0,
+        "bulk": "1000",
+        "price": "R2,199.80",
+        "cost": "R6.60"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "PRAWN ROLL 4PC",
+    "ingredients": [
+      {
+        "name": "CALIFORNIA ROLL 8PC",
+        "qty": 4.0,
+        "bulk": "8",
+        "price": "R15.54",
+        "cost": "R7.77"
+      },
+      {
+        "name": "TEMPURA PRAWN",
+        "qty": 4.0,
+        "bulk": "1000",
+        "price": "R7.40",
+        "cost": "R0.03"
+      },
+      {
+        "name": "TSUNAMI SAUCE",
+        "qty": 15.0,
+        "bulk": "500",
+        "price": "R277.60",
+        "cost": "R8.33"
+      },
+      {
+        "name": "SPRING ONION",
+        "qty": 0.003,
+        "bulk": "1",
+        "price": "R16.45",
+        "cost": "R0.05"
+      },
+      {
+        "name": "SESAME SEEDS",
+        "qty": 6.0,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.40"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "PRAWN ROLL 8PC",
+    "ingredients": [
+      {
+        "name": "CALIFORNIA ROLL 8PC",
+        "qty": 8.0,
+        "bulk": "8",
+        "price": "R15.54",
+        "cost": "R15.54"
+      },
+      {
+        "name": "TEMPURA PRAWN",
+        "qty": 4.0,
+        "bulk": "1000",
+        "price": "R7.40",
+        "cost": "R0.03"
+      },
+      {
+        "name": "TSUNAMI SAUCE",
+        "qty": 30.0,
+        "bulk": "500",
+        "price": "R277.60",
+        "cost": "R16.66"
+      },
+      {
+        "name": "SPRING ONION",
+        "qty": 0.006,
+        "bulk": "1",
+        "price": "R16.45",
+        "cost": "R0.10"
+      },
+      {
+        "name": "SESAME SEEDS",
+        "qty": 6.0,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.40"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "FUTOMAKI 3PC",
+    "ingredients": [
+      {
+        "name": "SUSHI RICE",
+        "qty": 50.0,
+        "bulk": "1000",
+        "price": "",
+        "cost": "R0.00"
+      },
+      {
+        "name": "SALMON",
+        "qty": 12.5,
+        "bulk": "700",
+        "price": "R10.65",
+        "cost": "R0.19"
+      },
+      {
+        "name": "AVO",
+        "qty": 10.0,
+        "bulk": "120",
+        "price": "R21.25",
+        "cost": "R1.77"
+      },
+      {
+        "name": "PICKLED ONION",
+        "qty": 8.0,
+        "bulk": "500",
+        "price": "",
+        "cost": "R0.00"
+      },
+      {
+        "name": "SESAME SEEDS",
+        "qty": 0.1,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.01"
+      },
+      {
+        "name": "TERIYAKI",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R156.05",
+        "cost": "R0.78"
+      },
+      {
+        "name": "PONZU MAYO",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R94.98",
+        "cost": "R0.47"
+      },
+      {
+        "name": "TOGARASHI",
+        "qty": 1.0,
+        "bulk": "300",
+        "price": "R342.99",
+        "cost": "R1.14"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "FUTOMAKI 6PC",
+    "ingredients": [
+      {
+        "name": "SUSHI RICE",
+        "qty": 100.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R2.40"
+      },
+      {
+        "name": "SALMON",
+        "qty": 25.0,
+        "bulk": "700",
+        "price": "R10.65",
+        "cost": "R0.38"
+      },
+      {
+        "name": "AVO",
+        "qty": 20.0,
+        "bulk": "120",
+        "price": "R21.25",
+        "cost": "R3.54"
+      },
+      {
+        "name": "PICKLED ONION",
+        "qty": 15.0,
+        "bulk": "500",
+        "price": "",
+        "cost": "R0.00"
+      },
+      {
+        "name": "SESAME SEEDS",
+        "qty": 0.1,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.01"
+      },
+      {
+        "name": "TERIYAKI",
+        "qty": 10.0,
+        "bulk": "1000",
+        "price": "R156.05",
+        "cost": "R1.56"
+      },
+      {
+        "name": "PONZU MAYO",
+        "qty": 10.0,
+        "bulk": "1000",
+        "price": "R94.98",
+        "cost": "R0.95"
+      },
+      {
+        "name": "TOGARASHI",
+        "qty": 1.0,
+        "bulk": "300",
+        "price": "R342.99",
+        "cost": "R1.14"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "GARDEN OF EDEN 14PC",
+    "ingredients": [
+      {
+        "name": "AVO CILAFORNIA ROLL",
+        "qty": 4.0,
+        "bulk": "8",
+        "price": "R15.28",
+        "cost": "R7.64"
+      },
+      {
+        "name": "PINK BUTTERFLY",
+        "qty": 4.0,
+        "bulk": "8",
+        "price": "R27.77",
+        "cost": "R13.88"
+      },
+      {
+        "name": "MONARCH RAINBOW ROLL",
+        "qty": 4.0,
+        "bulk": "8",
+        "price": "R19.42",
+        "cost": "R9.71"
+      },
+      {
+        "name": "VEG ROSES",
+        "qty": 2.0,
+        "bulk": "2",
+        "price": "R10.46",
+        "cost": "R5.23"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "BLU COAST 13PC",
+    "ingredients": [
+      {
+        "name": "SALMON CALIFORNIA",
+        "qty": 4.0,
+        "bulk": "4",
+        "price": "R18.78",
+        "cost": "R18.78"
+      },
+      {
+        "name": "PRAWN ROLL",
+        "qty": 4.0,
+        "bulk": "4",
+        "price": "R18.58",
+        "cost": "R18.58"
+      },
+      {
+        "name": "FUTOMAKI",
+        "qty": 3.0,
+        "bulk": "3",
+        "price": "R6.37",
+        "cost": "R6.37"
+      },
+      {
+        "name": "PRAWN NIGIRI",
+        "qty": 2.0,
+        "bulk": "2",
+        "price": "R18.74",
+        "cost": "R18.74"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "INDIAN OCEAN PLATTER 16PC",
+    "ingredients": [
+      {
+        "name": "PRAWN CALIFORNIA",
+        "qty": 4.0,
+        "bulk": "4",
+        "price": "R16.28",
+        "cost": "R16.28"
+      },
+      {
+        "name": "TUNA NIGIRI",
+        "qty": 2.0,
+        "bulk": "2",
+        "price": "R11.68",
+        "cost": "R11.68"
+      },
+      {
+        "name": "ROCK SHRIMP ROSES",
+        "qty": 2.0,
+        "bulk": "4",
+        "price": "R6.03",
+        "cost": "R3.01"
+      },
+      {
+        "name": "PRAWN ROLL",
+        "qty": 4.0,
+        "bulk": "4",
+        "price": "R18.58",
+        "cost": "R18.58"
+      },
+      {
+        "name": "SALMON TEMPURA",
+        "qty": 4.0,
+        "bulk": "4",
+        "price": "R20.60",
+        "cost": "R20.60"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "BRENTON SEA PLATTER 20PC",
+    "ingredients": [
+      {
+        "name": "SALMON CALIFORNIA",
+        "qty": 4.0,
+        "bulk": "4",
+        "price": "R18.78",
+        "cost": "R18.78"
+      },
+      {
+        "name": "PRAWN ROLL",
+        "qty": 4.0,
+        "bulk": "4",
+        "price": "R18.58",
+        "cost": "R18.58"
+      },
+      {
+        "name": "FUTOMAKI",
+        "qty": 3.0,
+        "bulk": "3",
+        "price": "R6.37",
+        "cost": "R6.37"
+      },
+      {
+        "name": "PRAWN TEMPURA",
+        "qty": 5.0,
+        "bulk": "4",
+        "price": "R30.73",
+        "cost": "R38.41"
+      },
+      {
+        "name": "TUNA NIGIRI",
+        "qty": 2.0,
+        "bulk": "2",
+        "price": "R11.68",
+        "cost": "R11.68"
+      },
+      {
+        "name": "ROCK SHRIMP",
+        "qty": 2.0,
+        "bulk": "4",
+        "price": "R6.03",
+        "cost": "R3.01"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "BUTTERFLY RAINBOW PLATTER 26PC",
+    "ingredients": [
+      {
+        "name": "SALMON CALIFORNIA",
+        "qty": 4.0,
+        "bulk": "4",
+        "price": "R18.78",
+        "cost": "R18.78"
+      },
+      {
+        "name": "TUNA RAINBOW",
+        "qty": 4.0,
+        "bulk": "4",
+        "price": "R20.61",
+        "cost": "R20.61"
+      },
+      {
+        "name": "TUNA MAKI",
+        "qty": 4.0,
+        "bulk": "4",
+        "price": "R8.79",
+        "cost": "R8.79"
+      },
+      {
+        "name": "PRAWN ROLL",
+        "qty": 4.0,
+        "bulk": "4",
+        "price": "R18.58",
+        "cost": "R18.58"
+      },
+      {
+        "name": "ROCK SHRIMP ROSES",
+        "qty": 2.0,
+        "bulk": "4",
+        "price": "R6.03",
+        "cost": "R3.01"
+      },
+      {
+        "name": "SALMON SASHIMI",
+        "qty": 3.0,
+        "bulk": "3",
+        "price": "R90.28",
+        "cost": "R90.28"
+      },
+      {
+        "name": "PRAWN NIGIRI",
+        "qty": 2.0,
+        "bulk": "2",
+        "price": "R18.74",
+        "cost": "R18.74"
+      },
+      {
+        "name": "FUTOMAKI",
+        "qty": 3.0,
+        "bulk": "3",
+        "price": "R6.37",
+        "cost": "R6.37"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 1,
+    "title": "DELUXE PLATTER 26PC",
+    "ingredients": [
+      {
+        "name": "MONARCH",
+        "qty": 4.0,
+        "bulk": "4",
+        "price": "R19.42",
+        "cost": "R19.42"
+      },
+      {
+        "name": "AVO CALIFORNIA",
+        "qty": 4.0,
+        "bulk": "4",
+        "price": "R15.28",
+        "cost": "R15.28"
+      },
+      {
+        "name": "PRAWN SANDWICH",
+        "qty": 4.0,
+        "bulk": "4",
+        "price": "R17.47",
+        "cost": "R17.47"
+      },
+      {
+        "name": "SALMON SASHIMI",
+        "qty": 2.0,
+        "bulk": "3",
+        "price": "R0.83",
+        "cost": "R0.55"
+      },
+      {
+        "name": "TUNA SASHIMI",
+        "qty": 2.0,
+        "bulk": "3",
+        "price": "R19.60",
+        "cost": "R13.07"
+      },
+      {
+        "name": "PRAWN NIGIRI",
+        "qty": 2.0,
+        "bulk": "3",
+        "price": "R18.74",
+        "cost": "R12.49"
+      },
+      {
+        "name": "SALMON NIGIRI",
+        "qty": 2.0,
+        "bulk": "2",
+        "price": "R16.18",
+        "cost": "R16.18"
+      },
+      {
+        "name": "MINI CRAB MISO",
+        "qty": 0.5,
+        "bulk": "1",
+        "price": "R82.74",
+        "cost": "R41.37"
+      },
+      {
+        "name": "SALMON ROSES",
+        "qty": 4.0,
+        "bulk": "4.00",
+        "price": "R37.62",
+        "cost": "R37.62"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "SALMON SASHIMI 3PC",
+    "ingredients": [
+      {
+        "name": "SALMON",
+        "qty": 200.0,
+        "bulk": "700",
+        "price": "R308.39",
+        "cost": "R88.11"
+      },
+      {
+        "name": "LETTUCE",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R26.99",
+        "cost": "R0.13"
+      },
+      {
+        "name": "SUSHI GARNISH",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R6.13",
+        "cost": "R0.03"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "SALMON NIGIRI 2PC",
+    "ingredients": [
+      {
+        "name": "SALMON",
+        "qty": 30.0,
+        "bulk": "700",
+        "price": "R308.39",
+        "cost": "R13.22"
+      },
+      {
+        "name": "SUSHI RICE",
+        "qty": 40.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R0.96"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "SALMON MAKI 4PC",
+    "ingredients": [
+      {
+        "name": "SALMON",
+        "qty": 20.0,
+        "bulk": "700",
+        "price": "R308.39",
+        "cost": "R8.81"
+      },
+      {
+        "name": "SUSHI RICE",
+        "qty": 40.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R0.96"
+      },
+      {
+        "name": "NORI",
+        "qty": 0.5,
+        "bulk": "100",
+        "price": "R3.10",
+        "cost": "R0.02"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "SALMON FASHION SANDWICH 4PC",
+    "ingredients": [
+      {
+        "name": "SALMON",
+        "qty": 30.0,
+        "bulk": "700",
+        "price": "R308.39",
+        "cost": "R13.22"
+      },
+      {
+        "name": "SUSHI RICE",
+        "qty": 120.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R2.88"
+      },
+      {
+        "name": "NORI",
+        "qty": 0.25,
+        "bulk": "50",
+        "price": "R3.10",
+        "cost": "R0.02"
+      },
+      {
+        "name": "JAPANESE MAYO",
+        "qty": 4.0,
+        "bulk": "500",
+        "price": "R175.53",
+        "cost": "R1.40"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.125,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R2.66"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "SEARED SALMON SASHIMI",
+    "ingredients": [
+      {
+        "name": "SALMON",
+        "qty": 60.0,
+        "bulk": "700",
+        "price": "R308.39",
+        "cost": "R26.43"
+      },
+      {
+        "name": "SEASONAL SALSA",
+        "qty": 30.0,
+        "bulk": "1000",
+        "price": "R74.12",
+        "cost": "R2.22"
+      },
+      {
+        "name": "GARNISH",
+        "qty": 10.0,
+        "bulk": "100",
+        "price": "R6.13",
+        "cost": "R0.61"
+      },
+      {
+        "name": "LETTUCE",
+        "qty": 5.0,
+        "bulk": "500",
+        "price": "R26.99",
+        "cost": "R0.27"
+      },
+      {
+        "name": "CAVIAR",
+        "qty": 3.0,
+        "bulk": "100",
+        "price": "R202.75",
+        "cost": "R6.08"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "REGULAR ROSES 4PC",
+    "ingredients": [
+      {
+        "name": "SUSHI RICE",
+        "qty": 40.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R0.96"
+      },
+      {
+        "name": "SALMON",
+        "qty": 40.0,
+        "bulk": "700",
+        "price": "R308.39",
+        "cost": "R17.62"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.01,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R0.21"
+      },
+      {
+        "name": "JAPANESE MAYO",
+        "qty": 0.2,
+        "bulk": "500",
+        "price": "R175.53",
+        "cost": "R0.07"
+      },
+      {
+        "name": "CAVIAR",
+        "qty": 1.0,
+        "bulk": "100",
+        "price": "R202.75",
+        "cost": "R2.03"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "TUNA SASHIMI 3PC",
+    "ingredients": [
+      {
+        "name": "TUNA",
+        "qty": 60.0,
+        "bulk": "900",
+        "price": "R261.55",
+        "cost": "R17.44"
+      },
+      {
+        "name": "LETTUCE",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R26.99",
+        "cost": "R0.13"
+      },
+      {
+        "name": "SUSHI GARNISH",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R6.13",
+        "cost": "R0.03"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "TUNA NIGIRI 2PC",
+    "ingredients": [
+      {
+        "name": "TUNA",
+        "qty": 30.0,
+        "bulk": "900",
+        "price": "R261.55",
+        "cost": "R8.72"
+      },
+      {
+        "name": "SUSHI RICE",
+        "qty": 40.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R0.96"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "TUNA MAKI 4PC",
+    "ingredients": [
+      {
+        "name": "TUNA",
+        "qty": 20.0,
+        "bulk": "900.00",
+        "price": "R261.55",
+        "cost": "R5.81"
+      },
+      {
+        "name": "SUSHI RICE",
+        "qty": 40.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R0.96"
+      },
+      {
+        "name": "NORI",
+        "qty": 0.5,
+        "bulk": "100",
+        "price": "R3.10",
+        "cost": "R0.02"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "TUNA FASHION SANDWICH4PC",
+    "ingredients": [
+      {
+        "name": "TUNA",
+        "qty": 30.0,
+        "bulk": "900",
+        "price": "R261.55",
+        "cost": "R8.72"
+      },
+      {
+        "name": "SUSHI RICE",
+        "qty": 120.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R2.88"
+      },
+      {
+        "name": "NORI",
+        "qty": 0.25,
+        "bulk": "100.00",
+        "price": "R3.10",
+        "cost": "R0.01"
+      },
+      {
+        "name": "JAPANESE MAYO",
+        "qty": 4.0,
+        "bulk": "500",
+        "price": "R175.53",
+        "cost": "R1.40"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.125,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R2.66"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "SEARED TUNA SASHIMI",
+    "ingredients": [
+      {
+        "name": "TUNA",
+        "qty": 30.0,
+        "bulk": "900",
+        "price": "R240.00",
+        "cost": "R8.00"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "OTORO NIGIRI",
+    "ingredients": [
+      {
+        "name": "TUNA",
+        "qty": 30.0,
+        "bulk": "900",
+        "price": "R240.00",
+        "cost": "R8.00"
+      },
+      {
+        "name": "SUSHI RICE",
+        "qty": 40.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R0.96"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "PRAWN NIGIRI 2PC",
+    "ingredients": [
+      {
+        "name": "PRAWN",
+        "qty": 50.0,
+        "bulk": "900",
+        "price": "R284.04",
+        "cost": "R15.78"
+      },
+      {
+        "name": "SUSHI RICE",
+        "qty": 40.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R0.96"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "PRAWN MAKI 4PC",
+    "ingredients": [
+      {
+        "name": "PRAWN",
+        "qty": 25.0,
+        "bulk": "900.00",
+        "price": "R284.04",
+        "cost": "R7.89"
+      },
+      {
+        "name": "SUSHI RICE",
+        "qty": 40.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R0.96"
+      },
+      {
+        "name": "NORI",
+        "qty": 0.5,
+        "bulk": "100",
+        "price": "R3.10",
+        "cost": "R0.02"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "PRAWN FASHION SANDWICHI 4PC",
+    "ingredients": [
+      {
+        "name": "PRAWN",
+        "qty": 30.0,
+        "bulk": "1000",
+        "price": "R284.04",
+        "cost": "R8.52"
+      },
+      {
+        "name": "SUSHI RICE",
+        "qty": 120.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R2.88"
+      },
+      {
+        "name": "NORI",
+        "qty": 0.25,
+        "bulk": "100.00",
+        "price": "R3.10",
+        "cost": "R0.01"
+      },
+      {
+        "name": "JAPANESE MAYO",
+        "qty": 4.0,
+        "bulk": "500",
+        "price": "R175.53",
+        "cost": "R1.40"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.125,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R2.66"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "AVO NIGIRI 2PC",
+    "ingredients": [
+      {
+        "name": "AVO",
+        "qty": 0.25,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R5.31"
+      },
+      {
+        "name": "SUSHI RICE",
+        "qty": 40.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R0.96"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "AVO MAKI 4PC",
+    "ingredients": [
+      {
+        "name": "AVO",
+        "qty": 0.16,
+        "bulk": "1.00",
+        "price": "R21.25",
+        "cost": "R3.40"
+      },
+      {
+        "name": "SUSHI RICE",
+        "qty": 40.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R0.96"
+      },
+      {
+        "name": "NORI",
+        "qty": 0.5,
+        "bulk": "100",
+        "price": "3.10",
+        "cost": "R0.02"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "AVO FASHION SANDWICH 4PC",
+    "ingredients": [
+      {
+        "name": "AVO",
+        "qty": 0.125,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R2.66"
+      },
+      {
+        "name": "SUSHI RICE",
+        "qty": 120.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R2.88"
+      },
+      {
+        "name": "NORI",
+        "qty": 0.25,
+        "bulk": "100.00",
+        "price": "R3.10",
+        "cost": "R0.01"
+      },
+      {
+        "name": "JAPANESE MAYO",
+        "qty": 4.0,
+        "bulk": "500",
+        "price": "R175.53",
+        "cost": "R1.40"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "ROCK SHRIMP ROSES 4PC",
+    "ingredients": [
+      {
+        "name": "SUSHI RICE",
+        "qty": 40.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R0.96"
+      },
+      {
+        "name": "SALMON",
+        "qty": 40.0,
+        "bulk": "700",
+        "price": "R10.65",
+        "cost": "R0.61"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.1,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R2.13"
+      },
+      {
+        "name": "ROCK SHRIMP MIX",
+        "qty": 25.0,
+        "bulk": "120",
+        "price": "R1.60",
+        "cost": "R0.33"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "CURED SALMON ROSES 4PC",
+    "ingredients": [
+      {
+        "name": "CURED SALMON",
+        "qty": 4.0,
+        "bulk": "4",
+        "price": "R23.59",
+        "cost": "R23.59"
+      },
+      {
+        "name": "RICE",
+        "qty": 40.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R0.96"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.0,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R2.13"
+      },
+      {
+        "name": "JAPANESE MAYO",
+        "qty": 20.0,
+        "bulk": "500",
+        "price": "R175.53",
+        "cost": "R7.02"
+      },
+      {
+        "name": "MICRO GREENS",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "#REF!",
+        "cost": "#REF!"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "TUNA ROSES 4PC",
+    "ingredients": [
+      {
+        "name": "TUNA",
+        "qty": 40.0,
+        "bulk": "900",
+        "price": "R261.55",
+        "cost": "R11.62"
+      },
+      {
+        "name": "RICE",
+        "qty": 40.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R0.96"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.1,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R2.13"
+      },
+      {
+        "name": "TSUNAMI SAUCE",
+        "qty": 20.0,
+        "bulk": "500",
+        "price": "R277.60",
+        "cost": "R11.10"
+      },
+      {
+        "name": "SPRING ONION",
+        "qty": 0.0,
+        "bulk": "1",
+        "price": "R16.45",
+        "cost": "R1.65"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "VEG ROSES 4PC",
+    "ingredients": [
+      {
+        "name": "CUCUMBER",
+        "qty": 0.0,
+        "bulk": "1",
+        "price": "R17.85",
+        "cost": "R4.46"
+      },
+      {
+        "name": "RICE",
+        "qty": 40.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R0.96"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.0,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R2.13"
+      },
+      {
+        "name": "VEG MIX NEW",
+        "qty": 15.0,
+        "bulk": "1000",
+        "price": "R60.59",
+        "cost": "R0.91"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "TIGER ROLL 8PC",
+    "ingredients": [
+      {
+        "name": "CALIFORNIA ROLL",
+        "qty": 8.0,
+        "bulk": "8",
+        "price": "R15.54",
+        "cost": "R15.54"
+      },
+      {
+        "name": "SMOKED SALMON",
+        "qty": 30.0,
+        "bulk": "1000",
+        "price": "R508.11",
+        "cost": "R15.24"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.25,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R5.31"
+      },
+      {
+        "name": "CREAM CHEESE",
+        "qty": 10.0,
+        "bulk": "1000",
+        "price": "R98.00",
+        "cost": "R0.98"
+      },
+      {
+        "name": "PRAWN",
+        "qty": 60.0,
+        "bulk": "900",
+        "price": "R284.04",
+        "cost": "R18.94"
+      },
+      {
+        "name": "JAPANESE MAYO",
+        "qty": 10.0,
+        "bulk": "500",
+        "price": "R175.53",
+        "cost": "R3.51"
+      },
+      {
+        "name": "CAVIAR",
+        "qty": 3.0,
+        "bulk": "1000",
+        "price": "R2,199.80",
+        "cost": "R6.60"
+      },
+      {
+        "name": "SESAME SEED",
+        "qty": 0.1,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.01"
+      },
+      {
+        "name": "NORI",
+        "qty": 2.0,
+        "bulk": "100",
+        "price": "R3.10",
+        "cost": "R0.06"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "PINK BUTTERFLY 2025 8PC",
+    "ingredients": [
+      {
+        "name": "CALIFORNIA ROLL",
+        "qty": 8.0,
+        "bulk": "8",
+        "price": "R15.54",
+        "cost": "R15.54"
+      },
+      {
+        "name": "PICKLED WATERMELON",
+        "qty": 30.0,
+        "bulk": "1000",
+        "price": "79.99",
+        "cost": "R2.40"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.25,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R5.31"
+      },
+      {
+        "name": "SESAME SEED",
+        "qty": 0.1,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.01"
+      },
+      {
+        "name": "PONZU MAYO",
+        "qty": 10.0,
+        "bulk": "1000",
+        "price": "R94.98",
+        "cost": "R0.95"
+      },
+      {
+        "name": "TERIYAKI",
+        "qty": 10.0,
+        "bulk": "1000",
+        "price": "R156.05",
+        "cost": "R1.56"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "BRENTON SEA PLATTER 60PC",
+    "ingredients": [
+      {
+        "name": "SALMON CALIFORNIA",
+        "qty": 12.0,
+        "bulk": "4",
+        "price": "R18.78",
+        "cost": "R56.35"
+      },
+      {
+        "name": "PRAWN ROLL",
+        "qty": 12.0,
+        "bulk": "4",
+        "price": "R11.99",
+        "cost": "R35.96"
+      },
+      {
+        "name": "FUTOMAKI",
+        "qty": 9.0,
+        "bulk": "6",
+        "price": "R11.99",
+        "cost": "R17.98"
+      },
+      {
+        "name": "PRAWN TEMPURA",
+        "qty": 15.0,
+        "bulk": "4",
+        "price": "R30.73",
+        "cost": "R115.24"
+      },
+      {
+        "name": "TUNA NIGIRI",
+        "qty": 6.0,
+        "bulk": "2",
+        "price": "R11.68",
+        "cost": "R35.04"
+      },
+      {
+        "name": "ROCK SHRIMP",
+        "qty": 6.0,
+        "bulk": "4",
+        "price": "R6.03",
+        "cost": "R9.04"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "NIGIRI PLATTER 16PC",
+    "ingredients": [
+      {
+        "name": "SALMON NIGIRI",
+        "qty": 2.0,
+        "bulk": "2",
+        "price": "R16.18",
+        "cost": "R16.18"
+      },
+      {
+        "name": "TUNA NIGIRI",
+        "qty": 2.0,
+        "bulk": "2",
+        "price": "R11.68",
+        "cost": "R11.68"
+      },
+      {
+        "name": "PRAWN NIGIRI",
+        "qty": 2.0,
+        "bulk": "2",
+        "price": "R18.74",
+        "cost": "R18.74"
+      },
+      {
+        "name": "AVO NIGIRI",
+        "qty": 2.0,
+        "bulk": "2",
+        "price": "R8.27",
+        "cost": "R8.27"
+      },
+      {
+        "name": "HAMACHI NIGIRI",
+        "qty": 2.0,
+        "bulk": "2",
+        "price": "R6.74",
+        "cost": "R6.74"
+      },
+      {
+        "name": "SQUID NIGIRI",
+        "qty": 2.0,
+        "bulk": "2",
+        "price": "",
+        "cost": "R0.00"
+      },
+      {
+        "name": "OCTOPUS NIGIRI",
+        "qty": 2.0,
+        "bulk": "2",
+        "price": "",
+        "cost": "R0.00"
+      },
+      {
+        "name": "EEL NIGIRI",
+        "qty": 2.0,
+        "bulk": "2",
+        "price": "",
+        "cost": "R0.00"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "SASHIMI PLATTER 16PC",
+    "ingredients": [
+      {
+        "name": "SALMON SASHIMI",
+        "qty": 2.0,
+        "bulk": "3",
+        "price": "R25.34",
+        "cost": "R16.90"
+      },
+      {
+        "name": "TUNA SASHIMI",
+        "qty": 2.0,
+        "bulk": "3",
+        "price": "R18.90",
+        "cost": "R12.60"
+      },
+      {
+        "name": "PRAWN",
+        "qty": 2.0,
+        "bulk": "2",
+        "price": "R23.36",
+        "cost": "R23.36"
+      },
+      {
+        "name": "HAMACHI",
+        "qty": 2.0,
+        "bulk": "3",
+        "price": "R125.81",
+        "cost": "R83.87"
+      },
+      {
+        "name": "OCTOPUS",
+        "qty": 4.0,
+        "bulk": "6",
+        "price": "R14.00",
+        "cost": "R9.33"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "TEMPURA PLATTER 6PC",
+    "ingredients": [
+      {
+        "name": "TEMPURA SWEET POTATO",
+        "qty": 30.0,
+        "bulk": "1000",
+        "price": "R29.65",
+        "cost": "R0.89"
+      },
+      {
+        "name": "TEMPURA BRINGEL",
+        "qty": 30.0,
+        "bulk": "1000",
+        "price": "R24.00",
+        "cost": "R0.72"
+      },
+      {
+        "name": "TEMPURA MUSHROOM",
+        "qty": 30.0,
+        "bulk": "150",
+        "price": "R34.99",
+        "cost": "R7.00"
+      },
+      {
+        "name": "TEMPURA PRAWN",
+        "qty": 1.0,
+        "bulk": "1",
+        "price": "R7.40",
+        "cost": "R7.40"
+      },
+      {
+        "name": "TEMPURA TOFU",
+        "qty": 30.0,
+        "bulk": "1000",
+        "price": "R49.00",
+        "cost": "R1.47"
+      },
+      {
+        "name": "TEMPURA SAUCE",
+        "qty": 20.0,
+        "bulk": "1000",
+        "price": "",
+        "cost": "R0.00"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "MAKI PLATTER",
+    "ingredients": [
+      {
+        "name": "SALMON MAKI & TOPPING",
+        "qty": 2.0,
+        "bulk": "4",
+        "price": "",
+        "cost": "R0.00"
+      },
+      {
+        "name": "TUNA MAKI & TOPPING",
+        "qty": 2.0,
+        "bulk": "4",
+        "price": "",
+        "cost": "R0.00"
+      },
+      {
+        "name": "PRAWN MAKI & TOPPING",
+        "qty": 2.0,
+        "bulk": "4",
+        "price": "",
+        "cost": "R0.00"
+      },
+      {
+        "name": "AVO MAKI & TOPPING",
+        "qty": 2.0,
+        "bulk": "4",
+        "price": "",
+        "cost": "R0.00"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 2,
+    "title": "FRESH PLATTER",
+    "ingredients": [
+      {
+        "name": "SALMON NIGIRI",
+        "qty": 2.0,
+        "bulk": "2",
+        "price": "R16.18",
+        "cost": "R16.18"
+      },
+      {
+        "name": "TUNA NIGIRI",
+        "qty": 2.0,
+        "bulk": "2",
+        "price": "R11.68",
+        "cost": "R11.68"
+      },
+      {
+        "name": "PRAWN NIGIRI",
+        "qty": 2.0,
+        "bulk": "2",
+        "price": "R18.74",
+        "cost": "R18.74"
+      },
+      {
+        "name": "HAMACHI NIGIRI",
+        "qty": 2.0,
+        "bulk": "2",
+        "price": "R6.74",
+        "cost": "R6.74"
+      },
+      {
+        "name": "SASHIMI SALMON",
+        "qty": 2.0,
+        "bulk": "3",
+        "price": "R90.28",
+        "cost": "R60.18"
+      },
+      {
+        "name": "SASHIMI TUNA",
+        "qty": 2.0,
+        "bulk": "3",
+        "price": "R19.60",
+        "cost": "R13.07"
+      },
+      {
+        "name": "SASHIMI HAMACHI",
+        "qty": 2.0,
+        "bulk": "3",
+        "price": "R9.71",
+        "cost": "R6.48"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 3,
+    "title": "HAMACHI SASHIMI 3PC",
+    "ingredients": [
+      {
+        "name": "HAMACHI",
+        "qty": 60.0,
+        "bulk": "1000",
+        "price": "R125.81",
+        "cost": "R7.55"
+      },
+      {
+        "name": "LETTUCE",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R26.99",
+        "cost": "R0.13"
+      },
+      {
+        "name": "SUSHI GARNISH",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R6.13",
+        "cost": "R0.03"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 3,
+    "title": "HAMACHI NIGIRI2PC",
+    "ingredients": [
+      {
+        "name": "HAMACHI",
+        "qty": 30.0,
+        "bulk": "1000",
+        "price": "R125.81",
+        "cost": "R3.77"
+      },
+      {
+        "name": "RICE",
+        "qty": 40.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R0.96"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 3,
+    "title": "HAMACHI SEARED SASHIMI 3PC",
+    "ingredients": [
+      {
+        "name": "HAMACHI",
+        "qty": 60.0,
+        "bulk": "1000",
+        "price": "R125.81",
+        "cost": "R7.55"
+      },
+      {
+        "name": "LETTUCE",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R26.99",
+        "cost": "R0.13"
+      },
+      {
+        "name": "SUSHI GARNISH",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R6.13",
+        "cost": "R0.03"
+      },
+      {
+        "name": "SPRING ONION",
+        "qty": 0.02,
+        "bulk": "1",
+        "price": "R16.45",
+        "cost": "R0.33"
+      },
+      {
+        "name": "CAVIAR",
+        "qty": 3.0,
+        "bulk": "100",
+        "price": "R202.75",
+        "cost": "R6.08"
+      },
+      {
+        "name": "CITRUS DRESSING",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R147.70",
+        "cost": "R0.74"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 3,
+    "title": "HAMACHI SEARED NIGRI 2PC",
+    "ingredients": [
+      {
+        "name": "HAMACHI",
+        "qty": 30.0,
+        "bulk": "1000",
+        "price": "R6.74",
+        "cost": "R0.20"
+      },
+      {
+        "name": "RICE",
+        "qty": 40.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R0.96"
+      },
+      {
+        "name": "SUSHI GARNISH",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R6.13",
+        "cost": "R0.03"
+      },
+      {
+        "name": "SPRING ONION",
+        "qty": 0.02,
+        "bulk": "1",
+        "price": "R16.45",
+        "cost": "R0.33"
+      },
+      {
+        "name": "CAVIAR",
+        "qty": 3.0,
+        "bulk": "100",
+        "price": "R202.75",
+        "cost": "R6.08"
+      },
+      {
+        "name": "CITRUS DRESSING",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R147.70",
+        "cost": "R0.74"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 3,
+    "title": "HAMACHI MAKI 4PC",
+    "ingredients": [
+      {
+        "name": "HAMACHI",
+        "qty": 20.0,
+        "bulk": "1000",
+        "price": "R125.81",
+        "cost": "R2.52"
+      },
+      {
+        "name": "RICE",
+        "qty": 30.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R0.72"
+      },
+      {
+        "name": "SUSHI GARNISH",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R6.13",
+        "cost": "R0.03"
+      },
+      {
+        "name": "SPRING ONION",
+        "qty": 0.02,
+        "bulk": "1",
+        "price": "R16.45",
+        "cost": "R0.33"
+      },
+      {
+        "name": "CAVIAR",
+        "qty": 3.0,
+        "bulk": "100",
+        "price": "R202.75",
+        "cost": "R6.08"
+      },
+      {
+        "name": "CITRUS DRESSING",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R147.70",
+        "cost": "R0.74"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 3,
+    "title": "OCTOPUS SASHIMI 6PC",
+    "ingredients": [
+      {
+        "name": "OCTOPUS",
+        "qty": 60.0,
+        "bulk": "1000",
+        "price": "R200.00",
+        "cost": "R12.00"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 3,
+    "title": "SALMON POKE BOWL",
+    "ingredients": [
+      {
+        "name": "RICE",
+        "qty": 250.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R6.01"
+      },
+      {
+        "name": "CUCUMBER",
+        "qty": 30.0,
+        "bulk": "503",
+        "price": "R17.85",
+        "cost": "R1.06"
+      },
+      {
+        "name": "CARROTS",
+        "qty": 15.0,
+        "bulk": "1000",
+        "price": "R17.25",
+        "cost": "R0.26"
+      },
+      {
+        "name": "RED CABBAGE",
+        "qty": 20.0,
+        "bulk": "814",
+        "price": "R32.85",
+        "cost": "R0.81"
+      },
+      {
+        "name": "EDAMAME",
+        "qty": 30.0,
+        "bulk": "1000",
+        "price": "R69.60",
+        "cost": "R2.09"
+      },
+      {
+        "name": "SWEET & SOUR PINE APPLE",
+        "qty": 30.0,
+        "bulk": "1000.00",
+        "price": "R44.77",
+        "cost": "R1.34"
+      },
+      {
+        "name": "SALMON",
+        "qty": 50.0,
+        "bulk": "700",
+        "price": "R10.65",
+        "cost": "R0.76"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.25,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R5.31"
+      },
+      {
+        "name": "MUNG BEANS",
+        "qty": 20.0,
+        "bulk": "1000.00",
+        "price": "R260.00",
+        "cost": "R5.20"
+      },
+      {
+        "name": "GARNISH",
+        "qty": 10.0,
+        "bulk": "1000.00",
+        "price": "R6.13",
+        "cost": "R0.06"
+      },
+      {
+        "name": "TOGARASHI DRESSING",
+        "qty": 40.0,
+        "bulk": "1000.00",
+        "price": "R432.00",
+        "cost": "R17.28"
+      },
+      {
+        "name": "SESAME SEEDS",
+        "qty": 6.0,
+        "bulk": "1000.00",
+        "price": "R66.95",
+        "cost": "R0.40"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 3,
+    "title": "TUNA POKE BOWL",
+    "ingredients": [
+      {
+        "name": "RICE",
+        "qty": 250.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R6.01"
+      },
+      {
+        "name": "CUCUMBER",
+        "qty": 30.0,
+        "bulk": "503",
+        "price": "R17.85",
+        "cost": "R1.06"
+      },
+      {
+        "name": "CARROTS",
+        "qty": 15.0,
+        "bulk": "1000",
+        "price": "R17.25",
+        "cost": "R0.26"
+      },
+      {
+        "name": "RED CABBAGE",
+        "qty": 20.0,
+        "bulk": "814",
+        "price": "R32.85",
+        "cost": "R0.81"
+      },
+      {
+        "name": "EDAMAME",
+        "qty": 30.0,
+        "bulk": "1000",
+        "price": "R69.60",
+        "cost": "R2.09"
+      },
+      {
+        "name": "SWEET & SOUR PINE APPLE",
+        "qty": 30.0,
+        "bulk": "1000.00",
+        "price": "R44.77",
+        "cost": "R1.34"
+      },
+      {
+        "name": "TUNA",
+        "qty": 50.0,
+        "bulk": "900",
+        "price": "R261.55",
+        "cost": "R14.53"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.25,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R5.31"
+      },
+      {
+        "name": "MUNG BEANS",
+        "qty": 10.0,
+        "bulk": "1000.00",
+        "price": "R260.00",
+        "cost": "R2.60"
+      },
+      {
+        "name": "GARNISH",
+        "qty": 10.0,
+        "bulk": "1000.00",
+        "price": "R6.13",
+        "cost": "R0.06"
+      },
+      {
+        "name": "TOGARASHI DRESSING",
+        "qty": 40.0,
+        "bulk": "1000.00",
+        "price": "R432.00",
+        "cost": "R17.28"
+      },
+      {
+        "name": "SESAME SEEDS",
+        "qty": 6.0,
+        "bulk": "1000.00",
+        "price": "R66.95",
+        "cost": "R0.40"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 3,
+    "title": "PRAWN POKE BOWL",
+    "ingredients": [
+      {
+        "name": "RICE",
+        "qty": 250.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R6.01"
+      },
+      {
+        "name": "CUCUMBER",
+        "qty": 30.0,
+        "bulk": "503",
+        "price": "R17.85",
+        "cost": "R1.06"
+      },
+      {
+        "name": "CARROTS",
+        "qty": 15.0,
+        "bulk": "1000",
+        "price": "R17.25",
+        "cost": "R0.26"
+      },
+      {
+        "name": "RED CABBAGE",
+        "qty": 20.0,
+        "bulk": "814",
+        "price": "R32.85",
+        "cost": "R0.81"
+      },
+      {
+        "name": "EDAMAME",
+        "qty": 30.0,
+        "bulk": "1000",
+        "price": "R69.60",
+        "cost": "R2.09"
+      },
+      {
+        "name": "SWEET & SOUR PINE APPLE",
+        "qty": 30.0,
+        "bulk": "1000.00",
+        "price": "R44.77",
+        "cost": "R1.34"
+      },
+      {
+        "name": "TEMPURA PRAWN",
+        "qty": 2.0,
+        "bulk": "1",
+        "price": "R7.40",
+        "cost": "R14.80"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.25,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R5.31"
+      },
+      {
+        "name": "MUNG BEANS",
+        "qty": 10.0,
+        "bulk": "1000.00",
+        "price": "R260.00",
+        "cost": "R2.60"
+      },
+      {
+        "name": "GARNISH",
+        "qty": 10.0,
+        "bulk": "1000.00",
+        "price": "R6.13",
+        "cost": "R0.06"
+      },
+      {
+        "name": "TOGARASHI DRESSING",
+        "qty": 40.0,
+        "bulk": "1000.00",
+        "price": "R432.00",
+        "cost": "R17.28"
+      },
+      {
+        "name": "SESAME SEEDS",
+        "qty": 6.0,
+        "bulk": "1000.00",
+        "price": "R66.95",
+        "cost": "R0.40"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 3,
+    "title": "MUSHROOM POKE BOWL",
+    "ingredients": [
+      {
+        "name": "RICE",
+        "qty": 250.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R6.01"
+      },
+      {
+        "name": "CUCUMBER",
+        "qty": 30.0,
+        "bulk": "503",
+        "price": "R17.85",
+        "cost": "R1.06"
+      },
+      {
+        "name": "CARROTS",
+        "qty": 15.0,
+        "bulk": "1000",
+        "price": "R17.25",
+        "cost": "R0.26"
+      },
+      {
+        "name": "RED CABBAGE",
+        "qty": 20.0,
+        "bulk": "814",
+        "price": "R32.85",
+        "cost": "R0.81"
+      },
+      {
+        "name": "EDAMAME",
+        "qty": 30.0,
+        "bulk": "1000",
+        "price": "R69.60",
+        "cost": "R2.09"
+      },
+      {
+        "name": "SWEET & SOUR PINE APPLE",
+        "qty": 30.0,
+        "bulk": "1000.00",
+        "price": "R44.77",
+        "cost": "R1.34"
+      },
+      {
+        "name": "PICKLED JAPANESE MUSHROOM",
+        "qty": 50.0,
+        "bulk": "1000",
+        "price": "R305.21",
+        "cost": "R175.53"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.25,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R5.31"
+      },
+      {
+        "name": "MUNG BEANS",
+        "qty": 10.0,
+        "bulk": "1000.00",
+        "price": "R260.00",
+        "cost": "R2.60"
+      },
+      {
+        "name": "GARNISH",
+        "qty": 10.0,
+        "bulk": "1000.00",
+        "price": "R6.13",
+        "cost": "R0.06"
+      },
+      {
+        "name": "TOGARASHI DRESSING",
+        "qty": 40.0,
+        "bulk": "1000.00",
+        "price": "R432.00",
+        "cost": "R17.28"
+      },
+      {
+        "name": "SESAME SEEDS",
+        "qty": 6.0,
+        "bulk": "1000.00",
+        "price": "R66.95",
+        "cost": "R0.40"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 3,
+    "title": "HAMACHI YELLOWTAIL PLATTER 12PC",
+    "ingredients": [
+      {
+        "name": "HAMACHI SASHIMI",
+        "qty": 2.0,
+        "bulk": "1000",
+        "price": "R9.71",
+        "cost": "R0.02"
+      },
+      {
+        "name": "HAMACHI NIGIRI",
+        "qty": 2.0,
+        "bulk": "1000",
+        "price": "R6.74",
+        "cost": "R0.01"
+      },
+      {
+        "name": "HAMACHI SEARED SASHIMI",
+        "qty": 2.0,
+        "bulk": "1000",
+        "price": "R16.86",
+        "cost": "R0.03"
+      },
+      {
+        "name": "HAMACHI SEARED NIGIRI",
+        "qty": 2.0,
+        "bulk": "1000",
+        "price": "R10.34",
+        "cost": "R0.02"
+      },
+      {
+        "name": "HAMACHI MAKI",
+        "qty": 4.0,
+        "bulk": "4",
+        "price": "R12.42",
+        "cost": "R12.42"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 3,
+    "title": "SAKE TASTING",
+    "ingredients": [
+      {
+        "name": "SUNSET ROLL",
+        "qty": 4.0,
+        "bulk": "8",
+        "price": "R58.04",
+        "cost": "R29.02"
+      },
+      {
+        "name": "ROSES",
+        "qty": 2.0,
+        "bulk": "4",
+        "price": "R22.89",
+        "cost": "R11.45"
+      },
+      {
+        "name": "TUNA NIGIRI",
+        "qty": 2.0,
+        "bulk": "2",
+        "price": "R11.68",
+        "cost": "R11.68"
+      },
+      {
+        "name": "DRY ICE",
+        "qty": 1.0,
+        "bulk": "1000",
+        "price": "R150.00",
+        "cost": "R0.15"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 4,
+    "title": "MACKEREL SAHIMI",
+    "ingredients": [
+      {
+        "name": "MACKEREL",
+        "qty": 60.0,
+        "bulk": "700",
+        "price": "R100.00",
+        "cost": "R8.57"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 4,
+    "title": "SCALLOP HAND ROLL",
+    "ingredients": [
+      {
+        "name": "SCALLOP",
+        "qty": 40.0,
+        "bulk": "1000",
+        "price": "R243.00",
+        "cost": "R9.72"
+      },
+      {
+        "name": "SUSHI RICE",
+        "qty": 30.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R0.72"
+      },
+      {
+        "name": "SRIRACHA MAYO",
+        "qty": 5.0,
+        "bulk": "1000.00",
+        "price": "R46.32",
+        "cost": "R0.23"
+      },
+      {
+        "name": "NORI",
+        "qty": 0.5,
+        "bulk": "1",
+        "price": "R3.10",
+        "cost": "R1.55"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 4,
+    "title": "SUNSET SCALLOP 4PC",
+    "ingredients": [
+      {
+        "name": "CALIFORNIA ROLL 4PC",
+        "qty": 4.0,
+        "bulk": "8",
+        "price": "R24.03",
+        "cost": "R12.02"
+      },
+      {
+        "name": "PRAWN",
+        "qty": 40.0,
+        "bulk": "900",
+        "price": "R284.04",
+        "cost": "R12.62"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.25,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R5.31"
+      },
+      {
+        "name": "SCALLOP",
+        "qty": 20.0,
+        "bulk": "750",
+        "price": "R244.10",
+        "cost": "R6.51"
+      },
+      {
+        "name": "SUNSET SAUCE",
+        "qty": 30.0,
+        "bulk": "1000",
+        "price": "R548.23",
+        "cost": "R16.45"
+      },
+      {
+        "name": "PARSLEY",
+        "qty": 0.002,
+        "bulk": "1000.00",
+        "price": "R180.00",
+        "cost": "R0.00"
+      },
+      {
+        "name": "SESAME SEEDS",
+        "qty": 2.0,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.13"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 4,
+    "title": "4 SALMON GYOZA",
+    "ingredients": [
+      {
+        "name": "SALMON MIX",
+        "qty": 80.0,
+        "bulk": "1000",
+        "price": "R158.22",
+        "cost": "R12.66"
+      },
+      {
+        "name": "CHILLI OIL",
+        "qty": 20.0,
+        "bulk": "1000",
+        "price": "R43.74",
+        "cost": "R0.87"
+      },
+      {
+        "name": "GYOZA WRAPPER",
+        "qty": 32.0,
+        "bulk": "1000",
+        "price": "R50.00",
+        "cost": "R1.60"
+      },
+      {
+        "name": "DIPPING SAUCE",
+        "qty": 60.0,
+        "bulk": "1000",
+        "price": "R126.12",
+        "cost": "R7.57"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 5,
+    "title": "SUSHI PIZZA PRAWN",
+    "ingredients": [
+      {
+        "name": "NORI",
+        "qty": 1.0,
+        "bulk": "100",
+        "price": "R3.10",
+        "cost": "R0.03"
+      },
+      {
+        "name": "RICE",
+        "qty": 40.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R0.96"
+      },
+      {
+        "name": "TEMPURA BATTER",
+        "qty": 40.0,
+        "bulk": "1000",
+        "price": "R1.98",
+        "cost": "R0.08"
+      },
+      {
+        "name": "TEMPURA PRAWN",
+        "qty": 1.0,
+        "bulk": "1",
+        "price": "R7.40",
+        "cost": "R7.40"
+      },
+      {
+        "name": "AVO",
+        "qty": 20.0,
+        "bulk": "100",
+        "price": "R21.25",
+        "cost": "R4.25"
+      },
+      {
+        "name": "JAPANESE MAYO",
+        "qty": 5.0,
+        "bulk": "500.00",
+        "price": "R175.53",
+        "cost": "R1.76"
+      },
+      {
+        "name": "TERIYAKI",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R156.05",
+        "cost": "R0.78"
+      },
+      {
+        "name": "SESAME SEEDS",
+        "qty": 2.0,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.13"
+      },
+      {
+        "name": "AVO MAKI",
+        "qty": 4.0,
+        "bulk": "4",
+        "price": "R6.38",
+        "cost": "R6.38"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 5,
+    "title": "SUSHI PIZZA SALMON",
+    "ingredients": [
+      {
+        "name": "NORI",
+        "qty": 1.0,
+        "bulk": "100",
+        "price": "R3.10",
+        "cost": "R0.03"
+      },
+      {
+        "name": "RICE",
+        "qty": 40.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R0.96"
+      },
+      {
+        "name": "TEMPURA BATTER",
+        "qty": 40.0,
+        "bulk": "1000",
+        "price": "R19.81",
+        "cost": "R0.79"
+      },
+      {
+        "name": "SALMON",
+        "qty": 20.0,
+        "bulk": "1000",
+        "price": "R10.65",
+        "cost": "R0.21"
+      },
+      {
+        "name": "AVO",
+        "qty": 20.0,
+        "bulk": "100",
+        "price": "R21.25",
+        "cost": "R4.25"
+      },
+      {
+        "name": "JAPANESE MAYO",
+        "qty": 5.0,
+        "bulk": "500.00",
+        "price": "R175.53",
+        "cost": "R1.76"
+      },
+      {
+        "name": "TERIYAKI",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R156.05",
+        "cost": "R0.78"
+      },
+      {
+        "name": "SESAME SEEDS",
+        "qty": 2.0,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.13"
+      },
+      {
+        "name": "AVO MAKI",
+        "qty": 4.0,
+        "bulk": "4",
+        "price": "R6.38",
+        "cost": "R6.38"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 5,
+    "title": "SUSHI PIZZA VEG",
+    "ingredients": [
+      {
+        "name": "NORI",
+        "qty": 1.0,
+        "bulk": "100",
+        "price": "R3.10",
+        "cost": "R0.03"
+      },
+      {
+        "name": "RICE",
+        "qty": 40.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R0.96"
+      },
+      {
+        "name": "TEMPURA BATTER",
+        "qty": 40.0,
+        "bulk": "1000",
+        "price": "R19.81",
+        "cost": "R0.79"
+      },
+      {
+        "name": "RED PEPPER",
+        "qty": 20.0,
+        "bulk": "1000",
+        "price": "R92.65",
+        "cost": "R1.85"
+      },
+      {
+        "name": "AVO",
+        "qty": 20.0,
+        "bulk": "100",
+        "price": "R21.25",
+        "cost": "R4.25"
+      },
+      {
+        "name": "JAPANESE MAYO",
+        "qty": 5.0,
+        "bulk": "500.00",
+        "price": "R175.53",
+        "cost": "R1.76"
+      },
+      {
+        "name": "ROCKET",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R250.00",
+        "cost": "R1.25"
+      },
+      {
+        "name": "SESAME SEEDS",
+        "qty": 2.0,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.13"
+      },
+      {
+        "name": "AVO MAKI",
+        "qty": 4.0,
+        "bulk": "4",
+        "price": "R6.38",
+        "cost": "R6.38"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 5,
+    "title": "SUSHI DESSERT 8PC",
+    "ingredients": [
+      {
+        "name": "CALIFORNIA 8PC",
+        "qty": 8.0,
+        "bulk": "8",
+        "price": "",
+        "cost": "R0.00"
+      },
+      {
+        "name": "COCONUT FLAKES",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R77.99",
+        "cost": "R0.39"
+      },
+      {
+        "name": "STRAWBERRIES",
+        "qty": 35.0,
+        "bulk": "1000",
+        "price": "R33.35",
+        "cost": "R1.17"
+      },
+      {
+        "name": "MANGO",
+        "qty": 20.0,
+        "bulk": "500",
+        "price": "R29.00",
+        "cost": "R1.16"
+      },
+      {
+        "name": "CREAM CHEESE",
+        "qty": 10.0,
+        "bulk": "1000",
+        "price": "R98.00",
+        "cost": "R0.98"
+      },
+      {
+        "name": "PINEAPPLE SAUCE",
+        "qty": 21.0,
+        "bulk": "1000.00",
+        "price": "",
+        "cost": ""
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 6,
+    "title": "SWEET & SOUR ROLL",
+    "ingredients": [],
+    "menu_price": 0
+  },
+  {
+    "page": 6,
+    "title": "DON BURI SALMON",
+    "ingredients": [
+      {
+        "name": "MARINATED SALMON COLLAR",
+        "qty": 150.0,
+        "bulk": "1000",
+        "price": "",
+        "cost": "R0.00"
+      },
+      {
+        "name": "RICE",
+        "qty": 130.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R3.12"
+      },
+      {
+        "name": "RED CABBAGE",
+        "qty": 0.125,
+        "bulk": "1",
+        "price": "R32.85",
+        "cost": "R4.11"
+      },
+      {
+        "name": "WHITE CABBAGE",
+        "qty": 0.125,
+        "bulk": "1",
+        "price": "R22.65",
+        "cost": "R2.83"
+      },
+      {
+        "name": "RED PEPPER",
+        "qty": 15.0,
+        "bulk": "1000",
+        "price": "R92.65",
+        "cost": "R1.39"
+      },
+      {
+        "name": "CARROTS",
+        "qty": 20.0,
+        "bulk": "1000",
+        "price": "R17.25",
+        "cost": "R0.35"
+      },
+      {
+        "name": "WHITE ONION",
+        "qty": 20.0,
+        "bulk": "1000",
+        "price": "R12.86",
+        "cost": "R0.26"
+      },
+      {
+        "name": "SESAME SEEDS",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R66.95",
+        "cost": "R0.33"
+      },
+      {
+        "name": "DRY ICE",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R60.00",
+        "cost": "R0.30"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 6,
+    "title": "SUNOMONO SEAFOOD SALAD",
+    "ingredients": [
+      {
+        "name": "SALMON",
+        "qty": 15.0,
+        "bulk": "700",
+        "price": "R10.65",
+        "cost": "R0.23"
+      },
+      {
+        "name": "TUNA",
+        "qty": 15.0,
+        "bulk": "900",
+        "price": "R261.55",
+        "cost": "R4.36"
+      },
+      {
+        "name": "PRAWN",
+        "qty": 15.0,
+        "bulk": "1000",
+        "price": "R284.04",
+        "cost": "R4.26"
+      },
+      {
+        "name": "CUCUMBER",
+        "qty": 0.07,
+        "bulk": "0.3",
+        "price": "R17.85",
+        "cost": "R4.17"
+      },
+      {
+        "name": "LETTUCE",
+        "qty": 50.0,
+        "bulk": "1000",
+        "price": "R26.99",
+        "cost": "R1.35"
+      },
+      {
+        "name": "GARLIC",
+        "qty": 1.0,
+        "bulk": "1000",
+        "price": "R142.85",
+        "cost": "R0.14"
+      },
+      {
+        "name": "GINGER",
+        "qty": 1.0,
+        "bulk": "1000",
+        "price": "R149.99",
+        "cost": "R0.15"
+      },
+      {
+        "name": "SOYA",
+        "qty": 10.0,
+        "bulk": "1000",
+        "price": "R135.00",
+        "cost": "R1.35"
+      },
+      {
+        "name": "RICE WINE VINEGAR",
+        "qty": 10.0,
+        "bulk": "1000",
+        "price": "R49.80",
+        "cost": "R0.50"
+      },
+      {
+        "name": "SALT",
+        "qty": 0.5,
+        "bulk": "1000",
+        "price": "R15.99",
+        "cost": "R0.01"
+      },
+      {
+        "name": "WAKAME",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R725.00",
+        "cost": "R3.63"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.125,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R2.66"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 6,
+    "title": "SALMON TACO",
+    "ingredients": [
+      {
+        "name": "NORI",
+        "qty": 1.0,
+        "bulk": "100",
+        "price": "R3.10",
+        "cost": "R0.03"
+      },
+      {
+        "name": "RICE",
+        "qty": 30.0,
+        "bulk": "1000",
+        "price": "R24.03",
+        "cost": "R0.72"
+      },
+      {
+        "name": "SALMON",
+        "qty": 30.0,
+        "bulk": "700",
+        "price": "R10.65",
+        "cost": "R0.46"
+      },
+      {
+        "name": "AVO",
+        "qty": 0.062,
+        "bulk": "1",
+        "price": "R21.25",
+        "cost": "R1.32"
+      },
+      {
+        "name": "JAPANESE MAYO",
+        "qty": 5.0,
+        "bulk": "450",
+        "price": "R175.53",
+        "cost": "R1.95"
+      },
+      {
+        "name": "CREAM CHEESE",
+        "qty": 5.0,
+        "bulk": "1000",
+        "price": "R98.00",
+        "cost": "R0.49"
+      },
+      {
+        "name": "JALAPENO",
+        "qty": 2.0,
+        "bulk": "1000",
+        "price": "R21.19",
+        "cost": "R0.04"
+      },
+      {
+        "name": "TEMPURA BATTTER",
+        "qty": 10.0,
+        "bulk": "1000",
+        "price": "R1.98",
+        "cost": "R0.02"
+      }
+    ],
+    "menu_price": 0
+  },
+  {
+    "page": 6,
+    "title": "SALMON TACO",
+    "ingredients": [],
+    "menu_price": 0
+  },
+  {
+    "page": 7,
+    "title": "CHIKEJN GYOZA",
+    "ingredients": [
+      {
+        "name": "GYOZA WRAPPER",
+        "qty": 3.0,
+        "bulk": "300",
+        "price": "R50.00",
+        "cost": "R0.50"
+      },
+      {
+        "name": "MARINATED CHICKEN",
+        "qty": 20.0,
+        "bulk": "500",
+        "price": "R0.10",
+        "cost": "R0.00"
+      }
+    ],
+    "menu_price": 0
+  }
+]

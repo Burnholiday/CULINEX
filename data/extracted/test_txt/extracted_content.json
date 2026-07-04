@@ -1,0 +1,12 @@
+{
+  "file_id": "test_txt",
+  "filename": "sprint2-test.txt",
+  "file_type": "TXT",
+  "extraction_status": "completed",
+  "extracted_text": "Hello Recipe Vault\nFlat text extraction works.",
+  "extracted_tables": [],
+  "errors": [],
+  "created_at": "2026-07-01T23:53:19",
+  "engine": "plain text",
+  "fallback_used": false
+}

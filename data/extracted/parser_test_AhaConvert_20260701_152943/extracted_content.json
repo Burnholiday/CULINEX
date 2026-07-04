@@ -1,0 +1,177 @@
+{
+  "file_id": "parser_test_AhaConvert_20260701_152943",
+  "filename": "AhaConvert_20260701_152943.jpg",
+  "file_type": "IMAGE",
+  "extraction_status": "completed",
+  "extracted_text": "UZU MAYO\nngredients\n6 tablespoons kewpie mayo (gomL) Ikg Vewpie\nzebisp yuzukoso\n2 teaspoons yuzu kosho (10ML)\n2 teaspoons yuzu extract (10ML)\nltsp\n1/2 teaspoon soy sauce (2.5ML)\n11/2 teaspoons sesame oil (2.5ML)\n1t5p\nInstructions\n1. Add all ingredients to a bowl and whisk until combined.\n2. To store, place in a sterile container and refrigerate for up to one\nweek.",
+  "extracted_tables": [
+    {
+      "type": "ocr_items",
+      "items": [
+        {
+          "text": "UZU MAYO",
+          "x": 0.0,
+          "y": 1302.0,
+          "w": 544.0,
+          "h": 152.0,
+          "page": 1
+        },
+        {
+          "text": "ngredients",
+          "x": 0.0,
+          "y": 1678.0,
+          "w": 458.0,
+          "h": 128.0,
+          "page": 1
+        },
+        {
+          "text": "6 tablespoons kewpie mayo (gomL) Ikg Vewpie",
+          "x": 465.0,
+          "y": 1981.0,
+          "w": 2369.0,
+          "h": 173.0,
+          "page": 1
+        },
+        {
+          "text": "zebisp yuzukoso",
+          "x": 2088.0,
+          "y": 2097.0,
+          "w": 1289.0,
+          "h": 190.0,
+          "page": 1
+        },
+        {
+          "text": "2 teaspoons yuzu kosho (10ML)",
+          "x": 478.0,
+          "y": 2123.0,
+          "w": 1413.0,
+          "h": 148.0,
+          "page": 1
+        },
+        {
+          "text": "2 teaspoons yuzu extract (10ML)",
+          "x": 483.0,
+          "y": 2256.0,
+          "w": 1426.0,
+          "h": 139.0,
+          "page": 1
+        },
+        {
+          "text": "ltsp",
+          "x": 2061.0,
+          "y": 2375.0,
+          "w": 282.0,
+          "h": 157.0,
+          "page": 1
+        },
+        {
+          "text": "1/2 teaspoon soy sauce (2.5ML)",
+          "x": 489.0,
+          "y": 2388.0,
+          "w": 1341.0,
+          "h": 130.0,
+          "page": 1
+        },
+        {
+          "text": "11/2 teaspoons sesame oil (2.5ML)",
+          "x": 493.0,
+          "y": 2511.0,
+          "w": 1468.0,
+          "h": 135.0,
+          "page": 1
+        },
+        {
+          "text": "1t5p",
+          "x": 2057.0,
+          "y": 2505.0,
+          "w": 324.0,
+          "h": 159.0,
+          "page": 1
+        },
+        {
+          "text": "Instructions",
+          "x": 0.0,
+          "y": 2845.0,
+          "w": 494.0,
+          "h": 107.0,
+          "page": 1
+        },
+        {
+          "text": "1. Add all ingredients to a bowl and whisk until combined.",
+          "x": 371.0,
+          "y": 3111.0,
+          "w": 2465.0,
+          "h": 143.0,
+          "page": 1
+        },
+        {
+          "text": "2. To store, place in a sterile container and refrigerate for up to one",
+          "x": 369.0,
+          "y": 3253.0,
+          "w": 2874.0,
+          "h": 144.0,
+          "page": 1
+        },
+        {
+          "text": "week.",
+          "x": 497.0,
+          "y": 3429.0,
+          "w": 272.0,
+          "h": 102.0,
+          "page": 1
+        }
+      ]
+    }
+  ],
+  "invoice_table_rows": [],
+  "invoice_metadata": {
+    "supplier": null,
+    "invoice_number": null,
+    "invoice_date": null,
+    "customer": null,
+    "total": null,
+    "currency": null
+  },
+  "line_item_extraction": {
+    "detected_headers": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "headers": []
+      }
+    ],
+    "detected_columns": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "columns": {}
+      }
+    ],
+    "extracted_rows": [],
+    "discarded_rows": [
+      {
+        "reason": "headers_not_detected",
+        "raw_text": "OCR positioned table did not expose enough invoice headers."
+      }
+    ],
+    "confidence": 0.0
+  },
+  "extraction_engine": {
+    "source": "legacy_parser_fallback",
+    "source_label": "Legacy Parser Fallback",
+    "rows_found": 1,
+    "rows_accepted": 0,
+    "rows_discarded": 1,
+    "validation_pass_rate": 0.0,
+    "overall_confidence": 0,
+    "fallback_reason": "Universal Extractor returned zero accepted rows.",
+    "time_taken_ms": 3599,
+    "legacy_row_count": 0
+  },
+  "errors": [],
+  "created_at": "2026-07-04T13:12:19",
+  "engine": "PaddleOCR",
+  "fallback_used": false
+}

@@ -1,0 +1,136 @@
+{
+  "tested_at": "2026-07-04T13:11:00",
+  "file_id": "parser_test_20260703_152604",
+  "filename": "20260703_152604.jpg",
+  "file_path": "C:\\Users\\Burn Holiday\\Documents\\Codex\\2026-06-21\\import-react-usestate-usememo-from-react\\outputs\\data\\test-invoices\\20260703_152604.jpg",
+  "detected_supplier": "Unknown",
+  "document_type": "supplier_invoice",
+  "classifier_confidence": 0.75,
+  "classifier_scores": {
+    "supplier_invoice": 3,
+    "recipe": 0,
+    "stock_list": 2,
+    "prep_sheet": 0,
+    "menu_costing_sheet": 0
+  },
+  "invoice_number": "IN295446",
+  "invoice_date": "03/07/26",
+  "line_count": 0,
+  "subtotal": null,
+  "total": null,
+  "currency": null,
+  "extraction_status": "completed",
+  "engine": "PaddleOCR",
+  "errors": [],
+  "extracted_rows": [],
+  "validation_failures": [],
+  "parser_debug": [],
+  "invoice_table_parser": {
+    "row_count": 0,
+    "rows": [],
+    "metadata": {
+      "supplier": null,
+      "invoice_number": "IN295446",
+      "invoice_date": "03/07/26",
+      "customer": null,
+      "total": null,
+      "currency": null
+    },
+    "validation_failures": [],
+    "validation_pass_rate": 0.0,
+    "parser_debug": []
+  },
+  "universal_line_item_extractor": {
+    "row_count": 0,
+    "rows_found": 5,
+    "rows_accepted": 0,
+    "rows_discarded": 5,
+    "rows": [],
+    "detected_headers": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "headers": [
+          {
+            "header": "Code",
+            "field": "code",
+            "x": 228.0
+          },
+          {
+            "header": "Description",
+            "field": "description",
+            "x": 968.0
+          },
+          {
+            "header": "Quantity",
+            "field": "quantity",
+            "x": 1910.0
+          },
+          {
+            "header": "Unit",
+            "field": "unit",
+            "x": 2149.0
+          },
+          {
+            "header": "Unit Price",
+            "field": "unit_price",
+            "x": 2484.0
+          },
+          {
+            "header": "Tax",
+            "field": "vat",
+            "x": 3090.0
+          },
+          {
+            "header": "Nett Price",
+            "field": "total",
+            "x": 3398.5
+          }
+        ]
+      }
+    ],
+    "detected_columns": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "columns": {
+          "code": 228.0,
+          "description": 968.0,
+          "quantity": 1910.0,
+          "unit": 2149.0,
+          "unit_price": 2484.0,
+          "vat": 3090.0,
+          "total": 3398.5
+        }
+      }
+    ],
+    "discarded_rows": [
+      {
+        "reason": "noise",
+        "raw_text": "10.00 EA 52.50"
+      },
+      {
+        "reason": "not_enough_line_values",
+        "raw_text": "CHE003 DALEWOOD CAMEMBERT 60g 20.00 EA 15.00% 295.00"
+      },
+      {
+        "reason": "not_enough_line_values",
+        "raw_text": "NOMU020 NOMU CAJUN RUB 200g KG 45.00 15.00%"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "2.00 EA 47.00"
+      },
+      {
+        "reason": "banking",
+        "raw_text": "PLEASE NOTE BANK DETAILS : Sub Total 1,442.00"
+      }
+    ],
+    "confidence": 0.0,
+    "validation_failures": [],
+    "validation_pass_rate": 0.0
+  },
+  "needs_review": true
+}

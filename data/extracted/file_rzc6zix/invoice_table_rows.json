@@ -1,0 +1,33 @@
+[
+  {
+    "supplier_code": null,
+    "ingredient": "Flour White Bread Farm Foods 12.5Kg",
+    "description": "Flour White Bread Farm Foods 12.5kg",
+    "quantity": 1.0,
+    "purchase_unit": "Flour White Bread Farm Foods 12.5kg",
+    "unit": "Flour White Bread Farm Foods 12.5kg",
+    "unit_price": 175.83,
+    "vat": 0.0,
+    "line_total": 175.83,
+    "validation": {
+      "status": "ok",
+      "expected_total": 175.83,
+      "actual_total": 175.83,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "Flour White Bread Farm Foods 12.5kg 1,00 175,83 0,00 175,83"
+    }
+  }
+]

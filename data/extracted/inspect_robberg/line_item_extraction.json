@@ -1,0 +1,100 @@
+{
+  "detected_headers": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "headers": [
+        {
+          "header": "Item",
+          "field": "description",
+          "x": 534.0
+        },
+        {
+          "header": "Quantity",
+          "field": "quantity",
+          "x": 1746.0
+        },
+        {
+          "header": "Unit",
+          "field": "unit",
+          "x": 2016.0
+        },
+        {
+          "header": "Unit Price",
+          "field": "unit_price",
+          "x": 2290.0
+        },
+        {
+          "header": "VAT",
+          "field": "vat",
+          "x": 2917.0
+        },
+        {
+          "header": "Total",
+          "field": "total",
+          "x": 3282.5
+        }
+      ]
+    }
+  ],
+  "detected_columns": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "columns": {
+        "description": 534.0,
+        "quantity": 1746.0,
+        "unit": 2016.0,
+        "unit_price": 2290.0,
+        "vat": 2917.0,
+        "total": 3282.5
+      }
+    }
+  ],
+  "extracted_rows": [],
+  "discarded_rows": [
+    {
+      "reason": "noise",
+      "raw_text": "### CHE008 30.95"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "#/# 34.80 0.00"
+    },
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "Edamame 500gr (Green Label) 678.20 101.73"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "#/# 165.20"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "89.54"
+    },
+    {
+      "reason": "wrapped_without_previous_row",
+      "raw_text": "Ostrich Fillet Port.20x200g 217.34"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "71.00"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "174.40 1337.05"
+    },
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "Salmon Smoked Strips 10x500gr 50.99"
+    },
+    {
+      "reason": "banking",
+      "raw_text": "Signed by: For Payment: Cash Collected: First National Bank Branch No: 210514 Acc No: 533 750 529 09 Robberg Fast Foods SA Signature : Timestamp:15/06/2026 11:31:09AM Co-ordinates: Simon Please Note: Claims will only be accepted if made within 24 hours of delivery. Prices are subject to change without prior notice. VAT: Totat Subtotal: 6,786.73 7,783. 997."
+    }
+  ],
+  "confidence": 0.0
+}

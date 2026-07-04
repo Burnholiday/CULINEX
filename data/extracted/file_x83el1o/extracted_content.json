@@ -1,0 +1,21 @@
+{
+  "file_id": "file_x83el1o",
+  "filename": "AhaConvert_20260701_151313.jpg",
+  "file_type": "IMAGE",
+  "extraction_status": "completed",
+  "extracted_text": "Tax Invoice\nInvoice From\nTelephone\nFarm Fresh Direct\n044 873 0076\nFax\nfarmfresh\n24 Meul Street\nE Mail\nCaledon Industrial Park\ndeliveries\ndirect\naccounts@farmfreshdirect.co.za\nstraight from the farms\nVat Registration No\n4310269016\n4 Unit George\nInvoice Date\n01/07/2026\nDeliver To\nInvoice To\nButterfly Blu T/A Shavi Shavi Restaurant\nButterfly Blu T/A Shavi Shavi Restaurant\n198 CR Swart Drive, Brenton on Sea,Knysn\nRepresentative\nInvoice Number\nPage\nOrder Number\nInvoice Date\nAccount No\nRep 1\nINV1837\n1 of 1\n01/07/2026 MG\n1\n01/07/2026\nD2604\nUnitPrice\nDisc %\nVatAmnt\nLine Total\nQuantity\nDescription\nItem Code\n35.85\n0.00\n41.94\n1.17\nHeads-kg\nWHO -BROCCOLI\nHEADS\n25.85\n0.00\n25.85\n1\nPunnet-125g\nWHO - BLUEBERRIES\n0.00\n77.01\n29.85\n2.58\nWHO - APPLES GRANNY kg Green\nSMITH\n0.00\n158.85\n158.85\n1\nWHO - ONION POCKET Brown 10kg\n0.00\n471.40\n117.85\n4\nWHO - POTATOES\n10kg Pocket Potatoes- LARGE\n0.00\n87.36\n4.19\n20.85\nkg\nWHO-BUTTERNUT\nWHOLE\n0.00\n535.00\n535.00\n1\nWHO-MUSHROOMS\n5KG White Mushrooms\n5KG\n0.00\n17.44\n1.1\n15.85\nkg -\nWHO - ORANGES\n0.00\n80.33\n2.18\n36.85\nTomatoe - kg\nWHO - TOMATOES\n0.00\n221.40\n4\n55.35\nCocktail Tomatoes - 500g\nWHO-COCKTAIL\nTOMATOES\n0.00\n271.95\n7\n38.85\n150g\nWHO - BABY LEAF\nSPINACH\n0.00\n73.40\n4\n18.35\nEach\nWHO -PINEAPPLE\nNumber of Items\n2,061.94\nExtra Charges\nSubtotal (Exclusive)\n33.22\nPromotional\nDiscount\nDiscount Received\nRounding\n0.00\nVat\n0.00\nTotal\n2,061.94\nCurrency:\nZAR\nCurrencyRate:\n1.00\nBanking Details:\nCreated: 01/07/2026 01:59:02\nStandard Bank\n302784187\nCurrent\nDewill\n051001",
+  "extracted_tables": [],
+  "invoice_table_rows": [],
+  "invoice_metadata": {
+    "supplier": "Telephone",
+    "invoice_number": "4310269016",
+    "invoice_date": "01/07/2026",
+    "customer": "Butterfly Blu T/A Shavi Shavi Restaurant",
+    "total": null,
+    "currency": "ZAR"
+  },
+  "errors": [],
+  "created_at": "2026-07-03T10:51:49",
+  "engine": "PaddleOCR",
+  "fallback_used": false
+}

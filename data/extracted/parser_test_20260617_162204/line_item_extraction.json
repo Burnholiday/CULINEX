@@ -1,0 +1,258 @@
+{
+  "detected_headers": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "headers": [
+        {
+          "header": "CODE",
+          "field": "code",
+          "x": 226.5
+        },
+        {
+          "header": "DESCRIPTION",
+          "field": "description",
+          "x": 721.5
+        },
+        {
+          "header": "QTY",
+          "field": "quantity",
+          "x": 2038.0
+        },
+        {
+          "header": "UNIT PRICE",
+          "field": "unit_price",
+          "x": 2360.0
+        },
+        {
+          "header": "VAT",
+          "field": "vat",
+          "x": 3057.0
+        },
+        {
+          "header": "Nett Amount",
+          "field": "total",
+          "x": 3413.5
+        }
+      ]
+    }
+  ],
+  "detected_columns": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "columns": {
+        "code": 226.5,
+        "description": 721.5,
+        "quantity": 2038.0,
+        "unit_price": 2360.0,
+        "vat": 3057.0,
+        "total": 3413.5
+      }
+    }
+  ],
+  "extracted_rows": [
+    {
+      "description": "CREAM MEADOWLAND CREAM (1LT)",
+      "quantity": "6.00",
+      "unit": "",
+      "unit_price": "54.99",
+      "total": "329.94",
+      "vat": "0.00",
+      "raw_text": "CREAM MEADOWLAND CREAM (1LT) 6.00 54.99 0.00 49.49 329.94",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 329.94,
+        "actual_total": 329.94,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "SAUCE TABASCO SAUCE RED (60ML)",
+      "quantity": "2.00",
+      "unit": "",
+      "unit_price": "40.99",
+      "total": "81.98",
+      "vat": "0.00",
+      "raw_text": "SAUCE TABASCO SAUCE RED (60ML) 2.00 40.99 0.00 12.30 81.98",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 81.98,
+        "actual_total": 81.98,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "SLO JO CHAI 1KG",
+      "quantity": "1.00",
+      "unit": "",
+      "unit_price": "253.16",
+      "total": "253.16",
+      "vat": "0.00",
+      "raw_text": "SLO JO CHAI 1KG 1.00 253.16 0.00 37.97 253.16",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 253.16,
+        "actual_total": 253.16,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "HONEY SQUEEZE (500G)",
+      "quantity": "1.00",
+      "unit": "",
+      "unit_price": "41.70",
+      "total": "41.70",
+      "vat": "0.00",
+      "raw_text": "HONEY SQUEEZE (500G) 1.00 41.70 0.00 6.26 41.70",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 41.7,
+        "actual_total": 41.7,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "CAN CONDENSED MILK CLOVER (385G)",
+      "quantity": "2.00",
+      "unit": "",
+      "unit_price": "29.99",
+      "total": "59.98",
+      "vat": "0.00",
+      "raw_text": "CAN CONDENSED MILK CLOVER (385G) 2.00 29.99 0.00 9.00 59.98",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 59.98,
+        "actual_total": 59.98,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "600988033781MARSHMALLOW MINI 250G",
+      "quantity": "1.00",
+      "unit": "",
+      "unit_price": "42.17",
+      "total": "42.17",
+      "vat": "0.00",
+      "raw_text": "600988033781MARSHMALLOW MINI 250G 1.00 42.17 0.00 6.33 42.17",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 42.17,
+        "actual_total": 42.17,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "DE0009 CUP COFFEE 350ML RIPPLE LID (100'S)",
+      "quantity": "1.00",
+      "unit": "",
+      "unit_price": "58.99",
+      "total": "58.99",
+      "vat": "0.00",
+      "raw_text": "DE0009 CUP COFFEE 350ML RIPPLE LID (100'S) 1.00 58.99 0.00 8.85 58.99",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 58.99,
+        "actual_total": 58.99,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "DET002 CUP COFFEE 250ML RIPPLE (25'S)",
+      "quantity": "2.00",
+      "unit": "",
+      "unit_price": "29.99",
+      "total": "59.98",
+      "vat": "0.00",
+      "raw_text": "DET002 CUP COFFEE 250ML RIPPLE (25'S) 2.00 29.99 0.00 9.00 59.98",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 59.98,
+        "actual_total": 59.98,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "DET008 CUP COFFEE 250ML RIPPLE LID (100'S)",
+      "quantity": "1.00",
+      "unit": "",
+      "unit_price": "47.99",
+      "total": "47.99",
+      "vat": "0.00",
+      "raw_text": "DET008 CUP COFFEE 250ML RIPPLE LID (100'S) 1.00 47.99 0.00 7.20 47.99",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 47.99,
+        "actual_total": 47.99,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    }
+  ],
+  "discarded_rows": [
+    {
+      "reason": "noise",
+      "raw_text": "2.00 45.99 0.00 13.80 91.98"
+    },
+    {
+      "reason": "footer",
+      "raw_text": "Cash Collected DATE DISCOUNT TOTAL NETT PRICE 1 228.05"
+    }
+  ],
+  "confidence": 1.0
+}

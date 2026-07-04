@@ -1,0 +1,94 @@
+{
+  "detected_headers": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "headers": [
+        {
+          "header": "DESCRIPTION",
+          "field": "description",
+          "x": 434.5
+        },
+        {
+          "header": "QTY",
+          "field": "quantity",
+          "x": 1922.5
+        },
+        {
+          "header": "UNIT PRICE",
+          "field": "unit_price",
+          "x": 2272.0
+        },
+        {
+          "header": "VAT",
+          "field": "vat",
+          "x": 3067.0
+        },
+        {
+          "header": "Nett Amount",
+          "field": "total",
+          "x": 3450.0
+        }
+      ]
+    }
+  ],
+  "detected_columns": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "columns": {
+        "description": 434.5,
+        "quantity": 1922.5,
+        "unit_price": 2272.0,
+        "vat": 3067.0,
+        "total": 3450.0
+      }
+    }
+  ],
+  "extracted_rows": [],
+  "discarded_rows": [
+    {
+      "reason": "noise",
+      "raw_text": "4.00 13.99 0.00"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "82.98 0.00 12.45 82.98"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "31.36 0.00 4.70 31.36"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "37.63 0.00 5.64 37.63"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "1.00 36.66 0.00 5.50 36.66"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "1.00 44.38 0.00 6.66 44.38"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "1.00 16.77 0.00 2.52 16.77"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "1.00 108.07 0.00 16.21 108.07"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "1.00 27.98 0.00 4.20 27.98"
+    },
+    {
+      "reason": "subtotal",
+      "raw_text": "ected DATE: TOTAL NETT PRICE 508.06"
+    }
+  ],
+  "confidence": 0.0
+}

@@ -1,0 +1,21 @@
+{
+  "file_id": "file_60o1smp",
+  "filename": "20260617_162204.jpg",
+  "file_type": "IMAGE",
+  "extraction_status": "completed",
+  "extracted_text": "SO-CA\nCustomer Vat No.: 4660316862\nFOODS\nSHAVI SHAVI RESTAURANT TA BUTTERFLY BLU\nCO. REG. NO.\nP.O.BOX\nTEL: 044 382 4796\nMONTHLY\n2008/235675/23\n1484\nEMAIL:admin@so-ca.co.za\nVAT NO: 4410253738\nKNYSNA\nFAX2EMAIL: 086 225 2342\n6570\nsocafoodsonline.com\nTax Invoice\nOrder Online:\nDeliver TO:\n0732995694\nWhatsapp:\nIQINV220825\nDOCUMENT NO.:\nBANKING DETAILS\n198 CR SWART DRIVE\n2026-06-17\nSO-CA DISTRIBUTION\nACC NAME:\nDATE\nBRENTON ON SEA\nFNB. KNYSNA\nBANK:\n1 of 1\nKNYSNA\nPAGE\n210214\nBRANCH CODE:\n62529452386\nACC NO:\nPlease use BuTo03 as payment\nreference\nRep:\nACCOUNT:\nCUSTOMER REF:\n1 KNYSNA\nNONE\nBUT003\nNett Amount\n0%\nVAT\nQTY\nUNIT PRICE\nExcl Vat\nCODE\nDESCRIPTION\n0.00\n49.49\n329.94\n6.00\n54.99\nCREAM MEADOWLAND CREAM (1LT)\n1005\n0.00\n12.30\n81.98\n2.00\n40.99\n1048\nSAUCE TABASCO SAUCE RED (60ML)\n0.00\n37.97\n253.16\n1.00\n253.16\n158\nSLO JO CHAI 1KG\n41.70\n0.00\n6.26\n41.70\n1.00\n61445\nHONEY SQUEEZE (500G)\n0.00\n9.00\n59.98\n2.00\n29.99\nSPA040\nCAN CONDENSED MILK CLOVER (385G)\n42.17\n0.00\n6.33\n42.17\n1.00\n600988033781MARSHMALLOW MINI 250G\n1\n2.00\n45.99\n0.00\n13.80\n91.98\nDE0006\nCUP COFFEE 350ML RIPPLE (25'S)\n1.00\n58.99\n0.00\n8.85\n58.99\nDE0009\nCUP COFFEE 350ML RIPPLE LID (100'S)\n2.00\n29.99\n0.00\n9.00\n59.98\nDET002\nCUP COFFEE 250ML RIPPLE (25'S)\nCUP COFFEE 250ML RIPPLE LID (100'S)\n1.00\n47.99\n0.00\n7.20\n47.99\nDET008\nTOTAL NETT PRICE\n1 228.05\nDATE\nCash Collected\nDISCOUNT\nUser:Zane\nRoute:Knysna\nSigned:\nAMOUNT EXCL VAT\n1067.87\nRouting ID\n326390\nTAX\n17/06/2026\n160.18\nCREATED\nName:\nPRINTED:\n11:37:17\nTOTAL\n1228.05\nSo-ca cannot be held responsible for any shortages on quantities if not checked with driver and marked on\ncredit note. Goods returned will only be accepted within 24 hours of delivery.\nThe goods remain the property of So-Ca Foods until paid in full.",
+  "extracted_tables": [],
+  "invoice_table_rows": [],
+  "invoice_metadata": {
+    "supplier": "socafoodsonline.com",
+    "invoice_number": "4410253738",
+    "invoice_date": "2026-06-17",
+    "customer": "Vat No.: 4660316862",
+    "total": null,
+    "currency": null
+  },
+  "errors": [],
+  "created_at": "2026-07-03T11:00:00",
+  "engine": "PaddleOCR",
+  "fallback_used": false
+}

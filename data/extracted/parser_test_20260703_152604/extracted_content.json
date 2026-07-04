@@ -1,0 +1,1021 @@
+{
+  "file_id": "parser_test_20260703_152604",
+  "filename": "20260703_152604.jpg",
+  "file_type": "IMAGE",
+  "extraction_status": "completed",
+  "extracted_text": "Tax Invoice\nDate\n03/07/26\nPage\n1\nDue By\n31/08/26\nDocument No\nIN295446\nSHAVI SHAVI T/A BUTTERFLY BLU RESTAURANT\nTHE DELI FACTORY\nPO BOX 101 MEADE STREET\nGEORGE\nPO BOX 1721\nPLETTENBERG BAY, 6600\n6570\nHUTCHINSON STREET\nINDUSTRIAL AREA PLETT. BAY\nLIQUOR LICENCE WCP/044636\nDeliver to\nTEL1:044-533 2885\n198 CR SWART DRIVE\nTEL2:044-533 3925\nCELL KARIEN: 082 701 8013\nBRENTON-ON-SEA\nTEL3:044-5335519\nKNYSNA\nVAT:4340216276\nCELL CORNE : 073 775\n6570\n8047\nEMAIL deliaccounts@mweb.co.za\nLIQ LIC WCP/040670\nIncl/Excl\nSales Code\nTax Reference\nTax Exempt\nAccount\nYour Reference\nExclusive\nN\n4660316862\nBUTTER\nTax\nNett Price\nDisc%\nUnit Price\nQuantity\nUnit\nCode\nDescription\n15.00%\n525.00\n52.50\n10.00\nEA\n15.00%\n438.00\nSUN001BB\nSMOKED TROUT 80G (OMEGA)\n21.90\n20.00\nEA\n295.00\nCHE003\nDALEWOOD CAMEMBERT 60g\n15.00%\n59.00\n5.00\nEA\n90.00\nNOMU020\nNOMU CAJUN RUB 200g\n15.00%\n45.00\nKG\n2.00\n94.00\nNUT165\nDATES PITTED\n15.00%\nEA\n47.00\n2.00\nCHI059A\nTOFU TAU KWA (2)\n1,442.00\nSub Total\nPLEASE NOTE BANK DETAILS :\nFNB BRANCH: 210 514\n0.00%\n0.00\nNimoho\nDiscount\nACC NO: 6209 26 888 98\n1,442.00\nAmount Excl Tax\nFollow us on Instagram #delifactory\nTax\n216.30\n1,658.3\nTotal\nSage South Africa (Pty) Ltd\nDensity: \u00b1Q\nOK\nOriginal Type: Text\nCO/P\n2-Sided: Off\n\u53e3\u533a\n\u753b/D\nR\n0000",
+  "extracted_tables": [
+    {
+      "type": "ocr_items",
+      "items": [
+        {
+          "text": "Tax Invoice",
+          "x": 1545.0,
+          "y": 1044.0,
+          "w": 514.0,
+          "h": 91.0,
+          "page": 1
+        },
+        {
+          "text": "Date",
+          "x": 1973.0,
+          "y": 1236.0,
+          "w": 132.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "03/07/26",
+          "x": 2405.0,
+          "y": 1234.0,
+          "w": 239.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "Page",
+          "x": 2759.0,
+          "y": 1240.0,
+          "w": 148.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "1",
+          "x": 3344.0,
+          "y": 1240.0,
+          "w": 32.0,
+          "h": 49.0,
+          "page": 1
+        },
+        {
+          "text": "Due By",
+          "x": 1971.0,
+          "y": 1359.0,
+          "w": 207.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "31/08/26",
+          "x": 3159.0,
+          "y": 1363.0,
+          "w": 235.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "Document No",
+          "x": 1977.0,
+          "y": 1491.0,
+          "w": 387.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "IN295446",
+          "x": 3102.0,
+          "y": 1493.0,
+          "w": 305.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "SHAVI SHAVI T/A BUTTERFLY BLU RESTAURANT",
+          "x": 1975.0,
+          "y": 1626.0,
+          "w": 1217.0,
+          "h": 82.0,
+          "page": 1
+        },
+        {
+          "text": "THE DELI FACTORY",
+          "x": 245.0,
+          "y": 1691.0,
+          "w": 568.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "PO BOX 101 MEADE STREET",
+          "x": 1975.0,
+          "y": 1680.0,
+          "w": 711.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "GEORGE",
+          "x": 1977.0,
+          "y": 1743.0,
+          "w": 237.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "PO BOX 1721",
+          "x": 243.0,
+          "y": 1756.0,
+          "w": 322.0,
+          "h": 58.0,
+          "page": 1
+        },
+        {
+          "text": "PLETTENBERG BAY, 6600",
+          "x": 237.0,
+          "y": 1795.0,
+          "w": 632.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "6570",
+          "x": 1977.0,
+          "y": 1805.0,
+          "w": 130.0,
+          "h": 60.0,
+          "page": 1
+        },
+        {
+          "text": "HUTCHINSON STREET",
+          "x": 235.0,
+          "y": 1844.0,
+          "w": 561.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "INDUSTRIAL AREA PLETT. BAY",
+          "x": 233.0,
+          "y": 1893.0,
+          "w": 774.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "LIQUOR LICENCE WCP/044636",
+          "x": 231.0,
+          "y": 1948.0,
+          "w": 752.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "Deliver to",
+          "x": 1987.0,
+          "y": 1978.0,
+          "w": 224.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "TEL1:044-533 2885",
+          "x": 1345.0,
+          "y": 1991.0,
+          "w": 511.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "198 CR SWART DRIVE",
+          "x": 1987.0,
+          "y": 2033.0,
+          "w": 553.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "TEL2:044-533 3925",
+          "x": 1343.0,
+          "y": 2052.0,
+          "w": 515.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "CELL KARIEN: 082 701 8013",
+          "x": 225.0,
+          "y": 2101.0,
+          "w": 689.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "BRENTON-ON-SEA",
+          "x": 1987.0,
+          "y": 2099.0,
+          "w": 474.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "TEL3:044-5335519",
+          "x": 1343.0,
+          "y": 2115.0,
+          "w": 515.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "KNYSNA",
+          "x": 1985.0,
+          "y": 2154.0,
+          "w": 224.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "VAT:4340216276",
+          "x": 1423.0,
+          "y": 2178.0,
+          "w": 435.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "CELL CORNE : 073 775",
+          "x": 209.0,
+          "y": 2195.0,
+          "w": 569.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "6570",
+          "x": 1988.0,
+          "y": 2215.0,
+          "w": 127.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "8047",
+          "x": 208.0,
+          "y": 2243.0,
+          "w": 132.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "EMAIL deliaccounts@mweb.co.za",
+          "x": 1076.0,
+          "y": 2248.0,
+          "w": 784.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "LIQ LIC WCP/040670",
+          "x": 1987.0,
+          "y": 2252.0,
+          "w": 511.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "Incl/Excl",
+          "x": 3254.0,
+          "y": 2417.0,
+          "w": 210.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "Sales Code",
+          "x": 2492.0,
+          "y": 2441.0,
+          "w": 284.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "Tax Reference",
+          "x": 2007.0,
+          "y": 2462.0,
+          "w": 354.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "Tax Exempt",
+          "x": 1581.0,
+          "y": 2472.0,
+          "w": 287.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "Account",
+          "x": 169.0,
+          "y": 2489.0,
+          "w": 205.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "Your Reference",
+          "x": 832.0,
+          "y": 2493.0,
+          "w": 368.0,
+          "h": 49.0,
+          "page": 1
+        },
+        {
+          "text": "Exclusive",
+          "x": 3256.0,
+          "y": 2558.0,
+          "w": 238.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "N",
+          "x": 1705.0,
+          "y": 2613.0,
+          "w": 53.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "4660316862",
+          "x": 2032.0,
+          "y": 2598.0,
+          "w": 299.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "BUTTER",
+          "x": 138.0,
+          "y": 2623.0,
+          "w": 226.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "Tax",
+          "x": 3035.0,
+          "y": 2752.0,
+          "w": 110.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "Nett Price",
+          "x": 3274.0,
+          "y": 2737.0,
+          "w": 249.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "Disc%",
+          "x": 2685.0,
+          "y": 2757.0,
+          "w": 166.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "Unit Price",
+          "x": 2363.0,
+          "y": 2774.0,
+          "w": 242.0,
+          "h": 60.0,
+          "page": 1
+        },
+        {
+          "text": "Quantity",
+          "x": 1806.0,
+          "y": 2790.0,
+          "w": 208.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "Unit",
+          "x": 2095.0,
+          "y": 2789.0,
+          "w": 108.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "Code",
+          "x": 156.0,
+          "y": 2811.0,
+          "w": 144.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "Description",
+          "x": 832.0,
+          "y": 2815.0,
+          "w": 272.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "15.00%",
+          "x": 2970.0,
+          "y": 2856.0,
+          "w": 187.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "525.00",
+          "x": 3359.0,
+          "y": 2843.0,
+          "w": 182.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "52.50",
+          "x": 2488.0,
+          "y": 2870.0,
+          "w": 152.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "10.00",
+          "x": 1880.0,
+          "y": 2897.0,
+          "w": 138.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "EA",
+          "x": 2109.0,
+          "y": 2889.0,
+          "w": 86.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "15.00%",
+          "x": 2970.0,
+          "y": 2909.0,
+          "w": 191.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "438.00",
+          "x": 3363.0,
+          "y": 2898.0,
+          "w": 182.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "SUN001BB",
+          "x": 132.0,
+          "y": 2917.0,
+          "w": 284.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "SMOKED TROUT 80G (OMEGA)",
+          "x": 816.0,
+          "y": 2901.0,
+          "w": 794.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "21.90",
+          "x": 2490.0,
+          "y": 2927.0,
+          "w": 150.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "20.00",
+          "x": 1876.0,
+          "y": 2950.0,
+          "w": 146.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "EA",
+          "x": 2111.0,
+          "y": 2944.0,
+          "w": 84.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "295.00",
+          "x": 3368.0,
+          "y": 2955.0,
+          "w": 181.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "CHE003",
+          "x": 130.0,
+          "y": 2974.0,
+          "w": 213.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "DALEWOOD CAMEMBERT 60g",
+          "x": 816.0,
+          "y": 2962.0,
+          "w": 772.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "15.00%",
+          "x": 2974.0,
+          "y": 2966.0,
+          "w": 192.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "59.00",
+          "x": 2495.0,
+          "y": 2987.0,
+          "w": 148.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "5.00",
+          "x": 1906.0,
+          "y": 3007.0,
+          "w": 116.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "EA",
+          "x": 2113.0,
+          "y": 2999.0,
+          "w": 84.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "90.00",
+          "x": 3400.0,
+          "y": 3010.0,
+          "w": 155.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "NOMU020",
+          "x": 126.0,
+          "y": 3029.0,
+          "w": 264.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "NOMU CAJUN RUB 200g",
+          "x": 814.0,
+          "y": 3019.0,
+          "w": 622.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "15.00%",
+          "x": 2976.0,
+          "y": 3025.0,
+          "w": 194.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "45.00",
+          "x": 2494.0,
+          "y": 3039.0,
+          "w": 152.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "KG",
+          "x": 2113.0,
+          "y": 3056.0,
+          "w": 88.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "2.00",
+          "x": 1908.0,
+          "y": 3066.0,
+          "w": 114.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "94.00",
+          "x": 3406.0,
+          "y": 3068.0,
+          "w": 154.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "NUT165",
+          "x": 124.0,
+          "y": 3089.0,
+          "w": 215.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "DATES PITTED",
+          "x": 812.0,
+          "y": 3078.0,
+          "w": 394.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "15.00%",
+          "x": 2980.0,
+          "y": 3082.0,
+          "w": 192.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "EA",
+          "x": 2115.0,
+          "y": 3111.0,
+          "w": 84.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "47.00",
+          "x": 2499.0,
+          "y": 3103.0,
+          "w": 146.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "2.00",
+          "x": 1906.0,
+          "y": 3119.0,
+          "w": 118.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "CHI059A",
+          "x": 122.0,
+          "y": 3146.0,
+          "w": 227.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "TOFU TAU KWA (2)",
+          "x": 812.0,
+          "y": 3133.0,
+          "w": 492.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "1,442.00",
+          "x": 3508.0,
+          "y": 5259.0,
+          "w": 246.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "Sub Total",
+          "x": 2509.0,
+          "y": 5275.0,
+          "w": 264.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "PLEASE NOTE BANK DETAILS :",
+          "x": 24.0,
+          "y": 5312.0,
+          "w": 894.0,
+          "h": 82.0,
+          "page": 1
+        },
+        {
+          "text": "FNB BRANCH: 210 514",
+          "x": 18.0,
+          "y": 5397.0,
+          "w": 640.0,
+          "h": 79.0,
+          "page": 1
+        },
+        {
+          "text": "0.00%",
+          "x": 2984.0,
+          "y": 5443.0,
+          "w": 183.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 3636.0,
+          "y": 5435.0,
+          "w": 132.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "Nimoho",
+          "x": 1566.0,
+          "y": 5409.0,
+          "w": 583.0,
+          "h": 263.0,
+          "page": 1
+        },
+        {
+          "text": "Discount",
+          "x": 2519.0,
+          "y": 5451.0,
+          "w": 252.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "ACC NO: 6209 26 888 98",
+          "x": 8.0,
+          "y": 5475.0,
+          "w": 689.0,
+          "h": 87.0,
+          "page": 1
+        },
+        {
+          "text": "1,442.00",
+          "x": 3534.0,
+          "y": 5575.0,
+          "w": 234.0,
+          "h": 84.0,
+          "page": 1
+        },
+        {
+          "text": "Amount Excl Tax",
+          "x": 2527.0,
+          "y": 5589.0,
+          "w": 466.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "Follow us on Instagram #delifactory",
+          "x": 0.0,
+          "y": 5697.0,
+          "w": 926.0,
+          "h": 97.0,
+          "page": 1
+        },
+        {
+          "text": "Tax",
+          "x": 2526.0,
+          "y": 5722.0,
+          "w": 127.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "216.30",
+          "x": 3595.0,
+          "y": 5711.0,
+          "w": 173.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "1,658.3",
+          "x": 3538.0,
+          "y": 5866.0,
+          "w": 230.0,
+          "h": 95.0,
+          "page": 1
+        },
+        {
+          "text": "Total",
+          "x": 2533.0,
+          "y": 5877.0,
+          "w": 184.0,
+          "h": 89.0,
+          "page": 1
+        },
+        {
+          "text": "Sage South Africa (Pty) Ltd",
+          "x": 0.0,
+          "y": 5901.0,
+          "w": 750.0,
+          "h": 103.0,
+          "page": 1
+        },
+        {
+          "text": "Density: \u00b1Q",
+          "x": 1401.0,
+          "y": 6236.0,
+          "w": 453.0,
+          "h": 86.0,
+          "page": 1
+        },
+        {
+          "text": "OK",
+          "x": 2761.0,
+          "y": 6255.0,
+          "w": 136.0,
+          "h": 91.0,
+          "page": 1
+        },
+        {
+          "text": "Original Type: Text",
+          "x": 1399.0,
+          "y": 6322.0,
+          "w": 773.0,
+          "h": 94.0,
+          "page": 1
+        },
+        {
+          "text": "CO/P",
+          "x": 282.0,
+          "y": 6357.0,
+          "w": 163.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "2-Sided: Off",
+          "x": 1401.0,
+          "y": 6409.0,
+          "w": 495.0,
+          "h": 89.0,
+          "page": 1
+        },
+        {
+          "text": "\u53e3\u533a",
+          "x": 3059.0,
+          "y": 6555.0,
+          "w": 122.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "\u753b/D",
+          "x": 778.0,
+          "y": 6573.0,
+          "w": 219.0,
+          "h": 100.0,
+          "page": 1
+        },
+        {
+          "text": "R",
+          "x": 37.0,
+          "y": 6606.0,
+          "w": 54.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "0000",
+          "x": 321.0,
+          "y": 6638.0,
+          "w": 95.0,
+          "h": 37.0,
+          "page": 1
+        }
+      ]
+    }
+  ],
+  "invoice_table_rows": [],
+  "invoice_metadata": {
+    "supplier": null,
+    "invoice_number": "IN295446",
+    "invoice_date": "03/07/26",
+    "customer": null,
+    "total": null,
+    "currency": null
+  },
+  "line_item_extraction": {
+    "detected_headers": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "headers": [
+          {
+            "header": "Code",
+            "field": "code",
+            "x": 228.0
+          },
+          {
+            "header": "Description",
+            "field": "description",
+            "x": 968.0
+          },
+          {
+            "header": "Quantity",
+            "field": "quantity",
+            "x": 1910.0
+          },
+          {
+            "header": "Unit",
+            "field": "unit",
+            "x": 2149.0
+          },
+          {
+            "header": "Unit Price",
+            "field": "unit_price",
+            "x": 2484.0
+          },
+          {
+            "header": "Tax",
+            "field": "vat",
+            "x": 3090.0
+          },
+          {
+            "header": "Nett Price",
+            "field": "total",
+            "x": 3398.5
+          }
+        ]
+      }
+    ],
+    "detected_columns": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "columns": {
+          "code": 228.0,
+          "description": 968.0,
+          "quantity": 1910.0,
+          "unit": 2149.0,
+          "unit_price": 2484.0,
+          "vat": 3090.0,
+          "total": 3398.5
+        }
+      }
+    ],
+    "extracted_rows": [],
+    "discarded_rows": [
+      {
+        "reason": "noise",
+        "raw_text": "10.00 EA 52.50"
+      },
+      {
+        "reason": "not_enough_line_values",
+        "raw_text": "CHE003 DALEWOOD CAMEMBERT 60g 20.00 EA 15.00% 295.00"
+      },
+      {
+        "reason": "not_enough_line_values",
+        "raw_text": "NOMU020 NOMU CAJUN RUB 200g KG 45.00 15.00%"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "2.00 EA 47.00"
+      },
+      {
+        "reason": "banking",
+        "raw_text": "PLEASE NOTE BANK DETAILS : Sub Total 1,442.00"
+      }
+    ],
+    "confidence": 0.0
+  },
+  "extraction_engine": {
+    "source": "legacy_parser_fallback",
+    "source_label": "Legacy Parser Fallback",
+    "rows_found": 5,
+    "rows_accepted": 0,
+    "rows_discarded": 5,
+    "validation_pass_rate": 0.0,
+    "overall_confidence": 0,
+    "fallback_reason": "Universal Extractor returned zero accepted rows.",
+    "time_taken_ms": 6181,
+    "legacy_row_count": 0
+  },
+  "errors": [],
+  "created_at": "2026-07-04T13:11:00",
+  "engine": "PaddleOCR",
+  "fallback_used": false
+}

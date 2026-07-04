@@ -1,0 +1,64 @@
+[
+  {
+    "supplier_code": null,
+    "ingredient": "(Suurlemoen)",
+    "description": "(SUURLEMOEN)",
+    "quantity": 0.645,
+    "purchase_unit": "(SUURLEMOEN)",
+    "unit": "(SUURLEMOEN)",
+    "unit_price": 29.85,
+    "vat": 0.0,
+    "line_total": 19.25,
+    "validation": {
+      "status": "ok",
+      "expected_total": 19.25,
+      "actual_total": 19.25,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "(SUURLEMOEN) 0.645 29.85 0.00 19.25"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Kg -",
+    "description": "kg -",
+    "quantity": 0.62,
+    "purchase_unit": "KG",
+    "unit": "KG",
+    "unit_price": 15.85,
+    "vat": -0.0,
+    "line_total": 9.83,
+    "validation": {
+      "status": "ok",
+      "expected_total": 9.83,
+      "actual_total": 9.83,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "kg - 0.62 15.85 -0.00 9.83"
+    }
+  }
+]

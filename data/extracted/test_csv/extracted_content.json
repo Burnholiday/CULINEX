@@ -1,0 +1,29 @@
+{
+  "file_id": "test_csv",
+  "filename": "sprint2-test.csv",
+  "file_type": "CSV",
+  "extraction_status": "completed",
+  "extracted_text": "item, qty, unit price\nCarrot, 1.08, 23.65",
+  "extracted_tables": [
+    {
+      "page": 1,
+      "table": 1,
+      "rows": [
+        [
+          "item",
+          "qty",
+          "unit price"
+        ],
+        [
+          "Carrot",
+          "1.08",
+          "23.65"
+        ]
+      ]
+    }
+  ],
+  "errors": [],
+  "created_at": "2026-07-01T23:53:19",
+  "engine": "csv",
+  "fallback_used": false
+}

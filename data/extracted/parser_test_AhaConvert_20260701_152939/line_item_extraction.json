@@ -1,0 +1,26 @@
+{
+  "detected_headers": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "headers": []
+    }
+  ],
+  "detected_columns": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "columns": {}
+    }
+  ],
+  "extracted_rows": [],
+  "discarded_rows": [
+    {
+      "reason": "headers_not_detected",
+      "raw_text": "OCR positioned table did not expose enough invoice headers."
+    }
+  ],
+  "confidence": 0.0
+}

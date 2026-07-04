@@ -1,0 +1,53 @@
+[
+  {
+    "supplier_code": "andard Bank",
+    "ingredient": "Andard Bank",
+    "description": null,
+    "quantity": 2784187.0,
+    "purchase_unit": null,
+    "unit": null,
+    "unit_price": null,
+    "line_total": null,
+    "vat": null,
+    "validation": {
+      "status": "missing",
+      "message": "Missing unit price",
+      "affected_field": "unit_price"
+    },
+    "parser_debug": {
+      "source": "ocr_positioned",
+      "header_x": {
+        "line_total": 3555.5,
+        "vat": 2453.5,
+        "unit_price": 2342.0,
+        "supplier_code": 326.0,
+        "description": 906.5,
+        "quantity": 1868.0
+      },
+      "raw_row": [
+        "2784187",
+        "andard Bank"
+      ],
+      "raw_numeric_cells": {
+        "quantity": "2784187"
+      },
+      "mapped_quantity": 2784187.0,
+      "mapped_unit_price": null,
+      "mapped_vat": null,
+      "mapped_line_total": null,
+      "row_y": 5859.0,
+      "validation": {
+        "status": "missing",
+        "message": "Missing unit price",
+        "affected_field": "unit_price"
+      }
+    },
+    "field_confidence": {
+      "ingredient": 0.82,
+      "quantity": 0.98,
+      "unit": 0.45,
+      "unit_price": 0.35,
+      "line_total": 0.35
+    }
+  }
+]

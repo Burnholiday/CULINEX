@@ -1,0 +1,64 @@
+[
+  {
+    "supplier_code": null,
+    "ingredient": "Rocket Herb",
+    "description": "Rocket Herb - kg",
+    "quantity": 0.6,
+    "purchase_unit": "KG",
+    "unit": "KG",
+    "unit_price": 195.0,
+    "vat": 0.0,
+    "line_total": 117.0,
+    "validation": {
+      "status": "ok",
+      "expected_total": 117.0,
+      "actual_total": 117.0,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "Rocket Herb - kg 0.6 195.00 0.00 117.00"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Medium - Large",
+    "description": "Medium - Large",
+    "quantity": 2.0,
+    "purchase_unit": "Medium - Large",
+    "unit": "Medium - Large",
+    "unit_price": 22.85,
+    "vat": 0.0,
+    "line_total": 45.7,
+    "validation": {
+      "status": "ok",
+      "expected_total": 45.7,
+      "actual_total": 45.7,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "Medium - Large 2 22.85 0.00 45.70"
+    }
+  }
+]

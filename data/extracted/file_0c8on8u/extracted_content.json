@@ -1,0 +1,2085 @@
+{
+  "file_id": "file_0c8on8u",
+  "filename": "20260617_181158.jpg",
+  "file_type": "IMAGE",
+  "extraction_status": "completed",
+  "extracted_text": "LINE:0861555777\nOFCHILDREN\n500ml\nACHN RO A\nCustomer Vat No.:\n4660316862\nSO-CA\nMONTHLY\nFOODS\nP.O. BOX\nCO.REG.NO.\nTEL: 044 382 4796\n1484\nEMAIL: admin@so-ca.co.za\n2008/235675/23\nKNYSNA\nVAT NO.: 4410253738\nFAX2EMAIL: 086 225 2342\n6570\nDeliver TO:\nOrder Online:\nsocafoodsonline.com\nTax Invoice\nWhatsapp:\n0732995694\n198 CR SWART DRIVE\nIQINV220910\nBRENTONON SEA\nBANKING DETAILS\nDOCUMENT NO.:\nKNYSNA\nACC NAME:\nSO-CA DISTRIBUTION\n2026-06-17\nDATE:\nBANK:\nFNB, KNYSNA\n1 of 1\nPAGE:\nBRANCH CODE:\n210214\nACC NO:\n62529452386\nPlease use BuTo03 as payment\nreference\nACCOUNT:\nCUSTOMER REF:\nRep:\nBUT003\nNONE\n1 KNYSNA\nNett Amount\nCODE\nDESCRIPTION\nQTY\nUNIT PRICE\n%\nVAT\nExcl Vat\n000110\nMILK FRESH LEEUWENBOSCH (2LT)\n34.50\n0.00\n0.00\n414.00\n12.00\nCBMBC\nCHEESE BLUE CRUMBS (1KG)\n109.99\n0.00\n16.50\n109.99\n1.00\n10365\nSUGAR ICING 1KG\n2.00\n22.99\n0.00\n6.90\n45.98\n1137\nFLOUR SELF RAISING SNOWFLAKE (1KG)\n4.00\n25.71\n0.00\n15.43\n102.84\n570\nOIL OLIVE E/VIRG P/ALBERT 1LT\n3.00\n209.04\n0.00\n94.07\n627.12\nInsert\n816\nCHOCOLATE COUVETURE BELGIUM 70% (1KG)\n1.00\n340.99\n0.00\n51.15\n340.99\n90014\n2.00\n46.99\n0.00\n14.10\n93.98\nVINEGAR BALSAMIC IMPORTED 1LT\nAGT45\n1.00\n223.99\n0.00\n33.60\n223.99\nSAUCE TOMATO ALL GOLD (4,5LT)\nBEL003\n1.00\n277.50\n0.00\n41.63\n277.50\nCHOCOLATE COUVETURE BELGIUM MILK (1KG)\nSAL\n5.00\n19.50\n0.00\n14.63\n97.50\nSALT COARSE SALNOVA 1KG\n003433\n12.00\n63.50\n0.00\n114.30\n762.00\nBUTTER SALTED FIRST CHOICE (500G)\n1.00\n94.99\n0.00\n0.00\n94.99\n600725100004\nMILK F/CHOICE FULL CREAM UHT (6X1LT)\n3\n3 593.16\nTOTAL NETT PRICE\nDATE:\nCash Collected\nDISCOUNT\nUser:Discountstore@soca\nRoute:Shop\nSigned:\nAMOUNT EXCL VAT\n3 190.88\n326361\nRouting ID\nTAX\n402.28\n17/06/2026\nCREATED:\nName:\n13:02:54\n3 593.16\nPRINTED:\nTOTAL\no-ca cannot be held responsible for any shortages on quantities if not checked with driver and marked on\nredit note. Goods returned will only be accepted within 24 hours of delivery.\nne goods remain the property of So-Ca Foods until paid in full.",
+  "extracted_tables": [
+    {
+      "type": "ocr_items",
+      "items": [
+        {
+          "text": "LINE:0861555777",
+          "x": 3382.0,
+          "y": 0.0,
+          "w": 316.0,
+          "h": 130.0,
+          "page": 1
+        },
+        {
+          "text": "OFCHILDREN",
+          "x": 3552.0,
+          "y": 0.0,
+          "w": 216.0,
+          "h": 96.0,
+          "page": 1
+        },
+        {
+          "text": "500ml",
+          "x": 3449.0,
+          "y": 72.0,
+          "w": 309.0,
+          "h": 195.0,
+          "page": 1
+        },
+        {
+          "text": "ACHN RO A",
+          "x": 3293.0,
+          "y": 137.0,
+          "w": 264.0,
+          "h": 132.0,
+          "page": 1
+        },
+        {
+          "text": "Customer Vat No.:",
+          "x": 324.0,
+          "y": 1546.0,
+          "w": 458.0,
+          "h": 125.0,
+          "page": 1
+        },
+        {
+          "text": "4660316862",
+          "x": 841.0,
+          "y": 1619.0,
+          "w": 273.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "SO-CA",
+          "x": 1938.0,
+          "y": 1617.0,
+          "w": 980.0,
+          "h": 234.0,
+          "page": 1
+        },
+        {
+          "text": "MONTHLY",
+          "x": 302.0,
+          "y": 1748.0,
+          "w": 262.0,
+          "h": 90.0,
+          "page": 1
+        },
+        {
+          "text": "FOODS",
+          "x": 2913.0,
+          "y": 1722.0,
+          "w": 418.0,
+          "h": 110.0,
+          "page": 1
+        },
+        {
+          "text": "P.O. BOX",
+          "x": 1916.0,
+          "y": 1836.0,
+          "w": 216.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "CO.REG.NO.",
+          "x": 2809.0,
+          "y": 1832.0,
+          "w": 316.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "TEL: 044 382 4796",
+          "x": 2168.0,
+          "y": 1850.0,
+          "w": 405.0,
+          "h": 58.0,
+          "page": 1
+        },
+        {
+          "text": "1484",
+          "x": 1919.0,
+          "y": 1893.0,
+          "w": 115.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "EMAIL: admin@so-ca.co.za",
+          "x": 2170.0,
+          "y": 1903.0,
+          "w": 585.0,
+          "h": 56.0,
+          "page": 1
+        },
+        {
+          "text": "2008/235675/23",
+          "x": 2811.0,
+          "y": 1880.0,
+          "w": 353.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "KNYSNA",
+          "x": 1916.0,
+          "y": 1942.0,
+          "w": 204.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "VAT NO.: 4410253738",
+          "x": 2811.0,
+          "y": 1921.0,
+          "w": 495.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "FAX2EMAIL: 086 225 2342",
+          "x": 2170.0,
+          "y": 1954.0,
+          "w": 577.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "6570",
+          "x": 1912.0,
+          "y": 1994.0,
+          "w": 127.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "Deliver TO:",
+          "x": 290.0,
+          "y": 2042.0,
+          "w": 295.0,
+          "h": 94.0,
+          "page": 1
+        },
+        {
+          "text": "Order Online:",
+          "x": 1275.0,
+          "y": 2103.0,
+          "w": 295.0,
+          "h": 54.0,
+          "page": 1
+        },
+        {
+          "text": "socafoodsonline.com",
+          "x": 1748.0,
+          "y": 2095.0,
+          "w": 451.0,
+          "h": 58.0,
+          "page": 1
+        },
+        {
+          "text": "Tax Invoice",
+          "x": 2757.0,
+          "y": 2111.0,
+          "w": 266.0,
+          "h": 54.0,
+          "page": 1
+        },
+        {
+          "text": "Whatsapp:",
+          "x": 1271.0,
+          "y": 2154.0,
+          "w": 242.0,
+          "h": 60.0,
+          "page": 1
+        },
+        {
+          "text": "0732995694",
+          "x": 1748.0,
+          "y": 2150.0,
+          "w": 272.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "198 CR SWART DRIVE",
+          "x": 284.0,
+          "y": 2165.0,
+          "w": 595.0,
+          "h": 113.0,
+          "page": 1
+        },
+        {
+          "text": "IQINV220910",
+          "x": 3047.0,
+          "y": 2188.0,
+          "w": 308.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "BRENTONON SEA",
+          "x": 278.0,
+          "y": 2226.0,
+          "w": 507.0,
+          "h": 103.0,
+          "page": 1
+        },
+        {
+          "text": "BANKING DETAILS",
+          "x": 1520.0,
+          "y": 2211.0,
+          "w": 476.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "DOCUMENT NO.:",
+          "x": 2341.0,
+          "y": 2217.0,
+          "w": 428.0,
+          "h": 49.0,
+          "page": 1
+        },
+        {
+          "text": "KNYSNA",
+          "x": 272.0,
+          "y": 2285.0,
+          "w": 247.0,
+          "h": 83.0,
+          "page": 1
+        },
+        {
+          "text": "ACC NAME:",
+          "x": 1262.0,
+          "y": 2280.0,
+          "w": 299.0,
+          "h": 60.0,
+          "page": 1
+        },
+        {
+          "text": "SO-CA DISTRIBUTION",
+          "x": 1740.0,
+          "y": 2276.0,
+          "w": 558.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "2026-06-17",
+          "x": 3097.0,
+          "y": 2274.0,
+          "w": 264.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "DATE:",
+          "x": 2341.0,
+          "y": 2299.0,
+          "w": 168.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "BANK:",
+          "x": 1258.0,
+          "y": 2341.0,
+          "w": 172.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "FNB, KNYSNA",
+          "x": 1939.0,
+          "y": 2336.0,
+          "w": 359.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "1 of 1",
+          "x": 3221.0,
+          "y": 2353.0,
+          "w": 148.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "PAGE:",
+          "x": 2341.0,
+          "y": 2373.0,
+          "w": 174.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "BRANCH CODE:",
+          "x": 1261.0,
+          "y": 2407.0,
+          "w": 412.0,
+          "h": 60.0,
+          "page": 1
+        },
+        {
+          "text": "210214",
+          "x": 2113.0,
+          "y": 2405.0,
+          "w": 189.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "ACC NO:",
+          "x": 1261.0,
+          "y": 2477.0,
+          "w": 227.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "62529452386",
+          "x": 1969.0,
+          "y": 2472.0,
+          "w": 333.0,
+          "h": 56.0,
+          "page": 1
+        },
+        {
+          "text": "Please use BuTo03 as payment",
+          "x": 1257.0,
+          "y": 2532.0,
+          "w": 771.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "reference",
+          "x": 1252.0,
+          "y": 2595.0,
+          "w": 245.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "ACCOUNT:",
+          "x": 230.0,
+          "y": 2747.0,
+          "w": 311.0,
+          "h": 82.0,
+          "page": 1
+        },
+        {
+          "text": "CUSTOMER REF:",
+          "x": 669.0,
+          "y": 2774.0,
+          "w": 466.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "Rep:",
+          "x": 1262.0,
+          "y": 2786.0,
+          "w": 133.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "BUT003",
+          "x": 226.0,
+          "y": 2812.0,
+          "w": 226.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "NONE",
+          "x": 663.0,
+          "y": 2835.0,
+          "w": 180.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "1 KNYSNA",
+          "x": 1269.0,
+          "y": 2852.0,
+          "w": 276.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "Nett Amount",
+          "x": 3102.0,
+          "y": 2927.0,
+          "w": 293.0,
+          "h": 54.0,
+          "page": 1
+        },
+        {
+          "text": "CODE",
+          "x": 243.0,
+          "y": 2943.0,
+          "w": 170.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "DESCRIPTION",
+          "x": 613.0,
+          "y": 2962.0,
+          "w": 362.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "QTY",
+          "x": 1967.0,
+          "y": 2976.0,
+          "w": 120.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "UNIT PRICE",
+          "x": 2164.0,
+          "y": 2974.0,
+          "w": 291.0,
+          "h": 56.0,
+          "page": 1
+        },
+        {
+          "text": "%",
+          "x": 2651.0,
+          "y": 2972.0,
+          "w": 59.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "VAT",
+          "x": 2889.0,
+          "y": 2972.0,
+          "w": 112.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "Excl Vat",
+          "x": 3106.0,
+          "y": 2970.0,
+          "w": 200.0,
+          "h": 56.0,
+          "page": 1
+        },
+        {
+          "text": "000110",
+          "x": 192.0,
+          "y": 3012.0,
+          "w": 195.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "MILK FRESH LEEUWENBOSCH (2LT)",
+          "x": 601.0,
+          "y": 3035.0,
+          "w": 892.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "34.50",
+          "x": 2430.0,
+          "y": 3044.0,
+          "w": 136.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2660.0,
+          "y": 3040.0,
+          "w": 113.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2956.0,
+          "y": 3040.0,
+          "w": 112.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "414.00",
+          "x": 3216.0,
+          "y": 3038.0,
+          "w": 164.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "12.00",
+          "x": 1973.0,
+          "y": 3050.0,
+          "w": 134.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "CBMBC",
+          "x": 188.0,
+          "y": 3083.0,
+          "w": 205.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "CHEESE BLUE CRUMBS (1KG)",
+          "x": 598.0,
+          "y": 3107.0,
+          "w": 746.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "109.99",
+          "x": 2405.0,
+          "y": 3108.0,
+          "w": 166.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2664.0,
+          "y": 3109.0,
+          "w": 113.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "16.50",
+          "x": 2938.0,
+          "y": 3111.0,
+          "w": 136.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "109.99",
+          "x": 3221.0,
+          "y": 3102.0,
+          "w": 166.0,
+          "h": 58.0,
+          "page": 1
+        },
+        {
+          "text": "1.00",
+          "x": 1986.0,
+          "y": 3117.0,
+          "w": 111.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "10365",
+          "x": 184.0,
+          "y": 3159.0,
+          "w": 162.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "SUGAR ICING 1KG",
+          "x": 592.0,
+          "y": 3180.0,
+          "w": 468.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "2.00",
+          "x": 1986.0,
+          "y": 3186.0,
+          "w": 111.0,
+          "h": 56.0,
+          "page": 1
+        },
+        {
+          "text": "22.99",
+          "x": 2436.0,
+          "y": 3182.0,
+          "w": 138.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2670.0,
+          "y": 3180.0,
+          "w": 113.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "6.90",
+          "x": 2968.0,
+          "y": 3180.0,
+          "w": 114.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "45.98",
+          "x": 3240.0,
+          "y": 3176.0,
+          "w": 143.0,
+          "h": 56.0,
+          "page": 1
+        },
+        {
+          "text": "1137",
+          "x": 176.0,
+          "y": 3231.0,
+          "w": 135.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "FLOUR SELF RAISING SNOWFLAKE (1KG)",
+          "x": 587.0,
+          "y": 3250.0,
+          "w": 1033.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "4.00",
+          "x": 1986.0,
+          "y": 3256.0,
+          "w": 113.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "25.71",
+          "x": 2438.0,
+          "y": 3252.0,
+          "w": 138.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2674.0,
+          "y": 3250.0,
+          "w": 113.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "15.43",
+          "x": 2950.0,
+          "y": 3252.0,
+          "w": 136.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "102.84",
+          "x": 3238.0,
+          "y": 3250.0,
+          "w": 165.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "570",
+          "x": 166.0,
+          "y": 3309.0,
+          "w": 110.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "OIL OLIVE E/VIRG P/ALBERT 1LT",
+          "x": 585.0,
+          "y": 3325.0,
+          "w": 812.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "3.00",
+          "x": 1988.0,
+          "y": 3327.0,
+          "w": 113.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "209.04",
+          "x": 2413.0,
+          "y": 3321.0,
+          "w": 170.0,
+          "h": 58.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2678.0,
+          "y": 3321.0,
+          "w": 113.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "94.07",
+          "x": 2954.0,
+          "y": 3323.0,
+          "w": 136.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "627.12",
+          "x": 3244.0,
+          "y": 3321.0,
+          "w": 167.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "Insert",
+          "x": 0.0,
+          "y": 3213.0,
+          "w": 116.0,
+          "h": 162.0,
+          "page": 1
+        },
+        {
+          "text": "816",
+          "x": 157.0,
+          "y": 3379.0,
+          "w": 114.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "CHOCOLATE COUVETURE BELGIUM 70% (1KG)",
+          "x": 581.0,
+          "y": 3401.0,
+          "w": 1175.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "1.00",
+          "x": 1992.0,
+          "y": 3399.0,
+          "w": 109.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "340.99",
+          "x": 2420.0,
+          "y": 3397.0,
+          "w": 164.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2682.0,
+          "y": 3393.0,
+          "w": 114.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "51.15",
+          "x": 2960.0,
+          "y": 3395.0,
+          "w": 138.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "340.99",
+          "x": 3250.0,
+          "y": 3395.0,
+          "w": 167.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "90014",
+          "x": 154.0,
+          "y": 3459.0,
+          "w": 167.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "2.00",
+          "x": 1990.0,
+          "y": 3470.0,
+          "w": 113.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "46.99",
+          "x": 2450.0,
+          "y": 3468.0,
+          "w": 140.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2686.0,
+          "y": 3466.0,
+          "w": 114.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "14.10",
+          "x": 2968.0,
+          "y": 3468.0,
+          "w": 138.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "93.98",
+          "x": 3271.0,
+          "y": 3468.0,
+          "w": 142.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "VINEGAR BALSAMIC IMPORTED 1LT",
+          "x": 579.0,
+          "y": 3478.0,
+          "w": 903.0,
+          "h": 49.0,
+          "page": 1
+        },
+        {
+          "text": "AGT45",
+          "x": 148.0,
+          "y": 3537.0,
+          "w": 189.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "1.00",
+          "x": 1996.0,
+          "y": 3543.0,
+          "w": 111.0,
+          "h": 56.0,
+          "page": 1
+        },
+        {
+          "text": "223.99",
+          "x": 2428.0,
+          "y": 3541.0,
+          "w": 167.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2690.0,
+          "y": 3539.0,
+          "w": 116.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "33.60",
+          "x": 2972.0,
+          "y": 3539.0,
+          "w": 142.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "223.99",
+          "x": 3267.0,
+          "y": 3539.0,
+          "w": 168.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "SAUCE TOMATO ALL GOLD (4,5LT)",
+          "x": 573.0,
+          "y": 3550.0,
+          "w": 872.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "BEL003",
+          "x": 141.0,
+          "y": 3612.0,
+          "w": 211.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "1.00",
+          "x": 1995.0,
+          "y": 3612.0,
+          "w": 115.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "277.50",
+          "x": 2428.0,
+          "y": 3613.0,
+          "w": 175.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2696.0,
+          "y": 3613.0,
+          "w": 116.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "41.63",
+          "x": 2978.0,
+          "y": 3615.0,
+          "w": 142.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "277.50",
+          "x": 3273.0,
+          "y": 3615.0,
+          "w": 172.0,
+          "h": 49.0,
+          "page": 1
+        },
+        {
+          "text": "CHOCOLATE COUVETURE BELGIUM MILK (1KG)",
+          "x": 566.0,
+          "y": 3621.0,
+          "w": 1208.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "SAL",
+          "x": 133.0,
+          "y": 3683.0,
+          "w": 124.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "5.00",
+          "x": 1998.0,
+          "y": 3690.0,
+          "w": 113.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "19.50",
+          "x": 2465.0,
+          "y": 3686.0,
+          "w": 142.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2702.0,
+          "y": 3684.0,
+          "w": 120.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "14.63",
+          "x": 2988.0,
+          "y": 3688.0,
+          "w": 140.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "97.50",
+          "x": 3297.0,
+          "y": 3688.0,
+          "w": 144.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "SALT COARSE SALNOVA 1KG",
+          "x": 560.0,
+          "y": 3696.0,
+          "w": 760.0,
+          "h": 60.0,
+          "page": 1
+        },
+        {
+          "text": "003433",
+          "x": 129.0,
+          "y": 3765.0,
+          "w": 196.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "12.00",
+          "x": 1988.0,
+          "y": 3764.0,
+          "w": 142.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "63.50",
+          "x": 2465.0,
+          "y": 3762.0,
+          "w": 146.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2708.0,
+          "y": 3760.0,
+          "w": 120.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "114.30",
+          "x": 2968.0,
+          "y": 3764.0,
+          "w": 167.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "762.00",
+          "x": 3289.0,
+          "y": 3760.0,
+          "w": 174.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "BUTTER SALTED FIRST CHOICE (500G)",
+          "x": 558.0,
+          "y": 3776.0,
+          "w": 997.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "1.00",
+          "x": 2004.0,
+          "y": 3843.0,
+          "w": 111.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "94.99",
+          "x": 2469.0,
+          "y": 3839.0,
+          "w": 146.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2712.0,
+          "y": 3835.0,
+          "w": 120.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 3027.0,
+          "y": 3835.0,
+          "w": 120.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "94.99",
+          "x": 3313.0,
+          "y": 3839.0,
+          "w": 142.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "600725100004",
+          "x": 126.0,
+          "y": 3853.0,
+          "w": 374.0,
+          "h": 60.0,
+          "page": 1
+        },
+        {
+          "text": "MILK F/CHOICE FULL CREAM UHT (6X1LT)",
+          "x": 550.0,
+          "y": 3849.0,
+          "w": 1074.0,
+          "h": 60.0,
+          "page": 1
+        },
+        {
+          "text": "3",
+          "x": 120.0,
+          "y": 3923.0,
+          "w": 44.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "3 593.16",
+          "x": 3419.0,
+          "y": 4825.0,
+          "w": 231.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "TOTAL NETT PRICE",
+          "x": 2487.0,
+          "y": 4835.0,
+          "w": 579.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "DATE:",
+          "x": 1123.0,
+          "y": 4890.0,
+          "w": 199.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "Cash Collected",
+          "x": 97.0,
+          "y": 4929.0,
+          "w": 396.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "DISCOUNT",
+          "x": 2489.0,
+          "y": 4967.0,
+          "w": 331.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "User:Discountstore@soca",
+          "x": 59.0,
+          "y": 5031.0,
+          "w": 741.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "Route:Shop",
+          "x": 51.0,
+          "y": 5114.0,
+          "w": 351.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "Signed:",
+          "x": 1117.0,
+          "y": 5110.0,
+          "w": 225.0,
+          "h": 82.0,
+          "page": 1
+        },
+        {
+          "text": "AMOUNT EXCL VAT",
+          "x": 2495.0,
+          "y": 5102.0,
+          "w": 589.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "3 190.88",
+          "x": 3425.0,
+          "y": 5106.0,
+          "w": 256.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "326361",
+          "x": 439.0,
+          "y": 5192.0,
+          "w": 198.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "Routing ID",
+          "x": 41.0,
+          "y": 5210.0,
+          "w": 322.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "TAX",
+          "x": 2497.0,
+          "y": 5251.0,
+          "w": 144.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "402.28",
+          "x": 3504.0,
+          "y": 5257.0,
+          "w": 187.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "17/06/2026",
+          "x": 517.0,
+          "y": 5302.0,
+          "w": 328.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "CREATED:",
+          "x": 32.0,
+          "y": 5324.0,
+          "w": 340.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "Name:",
+          "x": 1113.0,
+          "y": 5375.0,
+          "w": 198.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "13:02:54",
+          "x": 584.0,
+          "y": 5387.0,
+          "w": 261.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "3 593.16",
+          "x": 3437.0,
+          "y": 5400.0,
+          "w": 274.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "PRINTED:",
+          "x": 24.0,
+          "y": 5406.0,
+          "w": 317.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "TOTAL",
+          "x": 2507.0,
+          "y": 5416.0,
+          "w": 224.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "o-ca cannot be held responsible for any shortages on quantities if not checked with driver and marked on",
+          "x": 0.0,
+          "y": 5559.0,
+          "w": 2504.0,
+          "h": 111.0,
+          "page": 1
+        },
+        {
+          "text": "redit note. Goods returned will only be accepted within 24 hours of delivery.",
+          "x": 0.0,
+          "y": 5669.0,
+          "w": 1823.0,
+          "h": 105.0,
+          "page": 1
+        },
+        {
+          "text": "ne goods remain the property of So-Ca Foods until paid in full.",
+          "x": 0.0,
+          "y": 5795.0,
+          "w": 1503.0,
+          "h": 107.0,
+          "page": 1
+        }
+      ]
+    }
+  ],
+  "invoice_table_rows": [
+    {
+      "supplier_code": null,
+      "ingredient": "Milk Fresh Leeuwenbosch (2Lt)",
+      "description": "MILK FRESH LEEUWENBOSCH (2LT)",
+      "quantity": 12.0,
+      "purchase_unit": "MILK FRESH LEEUWENBOSCH (2LT)",
+      "unit": "MILK FRESH LEEUWENBOSCH (2LT)",
+      "unit_price": 34.5,
+      "vat": 0.0,
+      "line_total": 414.0,
+      "validation": {
+        "status": "ok",
+        "expected_total": 414.0,
+        "actual_total": 414.0,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "MILK FRESH LEEUWENBOSCH (2LT) 12.00 34.50 0.00 0.00 414.00"
+      }
+    },
+    {
+      "supplier_code": null,
+      "ingredient": "Cbmbc Cheese Blue Crumbs (1Kg)",
+      "description": "CBMBC CHEESE BLUE CRUMBS (1KG)",
+      "quantity": 1.0,
+      "purchase_unit": "CBMBC CHEESE BLUE CRUMBS (1KG)",
+      "unit": "CBMBC CHEESE BLUE CRUMBS (1KG)",
+      "unit_price": 109.99,
+      "vat": 0.0,
+      "line_total": 109.99,
+      "validation": {
+        "status": "ok",
+        "expected_total": 109.99,
+        "actual_total": 109.99,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "CBMBC CHEESE BLUE CRUMBS (1KG) 1.00 109.99 0.00 16.50 109.99"
+      }
+    },
+    {
+      "supplier_code": null,
+      "ingredient": "Sugar Icing 1Kg",
+      "description": "SUGAR ICING 1KG",
+      "quantity": 2.0,
+      "purchase_unit": "SUGAR ICING 1KG",
+      "unit": "SUGAR ICING 1KG",
+      "unit_price": 22.99,
+      "vat": 10365.0,
+      "line_total": 45.98,
+      "validation": {
+        "status": "ok",
+        "expected_total": 45.98,
+        "actual_total": 45.98,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "10365 SUGAR ICING 1KG 2.00 22.99 0.00 6.90 45.98"
+      }
+    },
+    {
+      "supplier_code": null,
+      "ingredient": "Flour Self Raising Snowflake (1Kg)",
+      "description": "FLOUR SELF RAISING SNOWFLAKE (1KG)",
+      "quantity": 4.0,
+      "purchase_unit": "FLOUR SELF RAISING SNOWFLAKE (1KG)",
+      "unit": "FLOUR SELF RAISING SNOWFLAKE (1KG)",
+      "unit_price": 25.71,
+      "vat": 1137.0,
+      "line_total": 102.84,
+      "validation": {
+        "status": "ok",
+        "expected_total": 102.84,
+        "actual_total": 102.84,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "1137 FLOUR SELF RAISING SNOWFLAKE (1KG) 4.00 25.71 0.00 15.43 102.84"
+      }
+    },
+    {
+      "supplier_code": null,
+      "ingredient": "Oil Olive E/Virg P/Albert 1Lt",
+      "description": "OIL OLIVE E/VIRG P/ALBERT 1LT",
+      "quantity": 3.0,
+      "purchase_unit": "OIL OLIVE E/VIRG P/ALBERT 1LT",
+      "unit": "OIL OLIVE E/VIRG P/ALBERT 1LT",
+      "unit_price": 209.04,
+      "vat": 570.0,
+      "line_total": 627.12,
+      "validation": {
+        "status": "ok",
+        "expected_total": 627.12,
+        "actual_total": 627.12,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "570 OIL OLIVE E/VIRG P/ALBERT 1LT 3.00 209.04 0.00 94.07 627.12"
+      }
+    },
+    {
+      "supplier_code": null,
+      "ingredient": "Chocolate Couveture Belgium 70% (1Kg)",
+      "description": "CHOCOLATE COUVETURE BELGIUM 70% (1KG)",
+      "quantity": 1.0,
+      "purchase_unit": "CHOCOLATE COUVETURE BELGIUM 70% (1KG)",
+      "unit": "CHOCOLATE COUVETURE BELGIUM 70% (1KG)",
+      "unit_price": 340.99,
+      "vat": 816.0,
+      "line_total": 340.99,
+      "validation": {
+        "status": "ok",
+        "expected_total": 340.99,
+        "actual_total": 340.99,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "816 CHOCOLATE COUVETURE BELGIUM 70% (1KG) 1.00 340.99 0.00 51.15 340.99"
+      }
+    },
+    {
+      "supplier_code": null,
+      "ingredient": "Vinegar Balsamic Imported 1Lt",
+      "description": "VINEGAR BALSAMIC IMPORTED 1LT",
+      "quantity": 2.0,
+      "purchase_unit": "VINEGAR BALSAMIC IMPORTED 1LT",
+      "unit": "VINEGAR BALSAMIC IMPORTED 1LT",
+      "unit_price": 46.99,
+      "vat": 90014.0,
+      "line_total": 93.98,
+      "validation": {
+        "status": "ok",
+        "expected_total": 93.98,
+        "actual_total": 93.98,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "90014 VINEGAR BALSAMIC IMPORTED 1LT 2.00 46.99 0.00 14.10 93.98"
+      }
+    },
+    {
+      "supplier_code": null,
+      "ingredient": "Agt45 Sauce Tomato All Gold (4,5Lt)",
+      "description": "AGT45 SAUCE TOMATO ALL GOLD (4,5LT)",
+      "quantity": 1.0,
+      "purchase_unit": "AGT45 SAUCE TOMATO ALL GOLD (4,5LT)",
+      "unit": "AGT45 SAUCE TOMATO ALL GOLD (4,5LT)",
+      "unit_price": 223.99,
+      "vat": 0.0,
+      "line_total": 223.99,
+      "validation": {
+        "status": "ok",
+        "expected_total": 223.99,
+        "actual_total": 223.99,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "AGT45 SAUCE TOMATO ALL GOLD (4,5LT) 1.00 223.99 0.00 33.60 223.99"
+      }
+    },
+    {
+      "supplier_code": null,
+      "ingredient": "Bel003 Chocolate Couveture Belgium Milk (1Kg)",
+      "description": "BEL003 CHOCOLATE COUVETURE BELGIUM MILK (1KG)",
+      "quantity": 1.0,
+      "purchase_unit": "BEL003 CHOCOLATE COUVETURE BELGIUM MILK (1KG)",
+      "unit": "BEL003 CHOCOLATE COUVETURE BELGIUM MILK (1KG)",
+      "unit_price": 277.5,
+      "vat": 0.0,
+      "line_total": 277.5,
+      "validation": {
+        "status": "ok",
+        "expected_total": 277.5,
+        "actual_total": 277.5,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "BEL003 CHOCOLATE COUVETURE BELGIUM MILK (1KG) 1.00 277.50 0.00 41.63 277.50"
+      }
+    },
+    {
+      "supplier_code": null,
+      "ingredient": "Sal Salt Coarse Salnova 1Kg",
+      "description": "SAL SALT COARSE SALNOVA 1KG",
+      "quantity": 5.0,
+      "purchase_unit": "SAL SALT COARSE SALNOVA 1KG",
+      "unit": "SAL SALT COARSE SALNOVA 1KG",
+      "unit_price": 19.5,
+      "vat": 0.0,
+      "line_total": 97.5,
+      "validation": {
+        "status": "ok",
+        "expected_total": 97.5,
+        "actual_total": 97.5,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "SAL SALT COARSE SALNOVA 1KG 5.00 19.50 0.00 14.63 97.50"
+      }
+    },
+    {
+      "supplier_code": null,
+      "ingredient": "Butter Salted First Choice (500G)",
+      "description": "BUTTER SALTED FIRST CHOICE (500G)",
+      "quantity": 12.0,
+      "purchase_unit": "BUTTER SALTED FIRST CHOICE (500G)",
+      "unit": "BUTTER SALTED FIRST CHOICE (500G)",
+      "unit_price": 63.5,
+      "vat": 3433.0,
+      "line_total": 762.0,
+      "validation": {
+        "status": "ok",
+        "expected_total": 762.0,
+        "actual_total": 762.0,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "003433 BUTTER SALTED FIRST CHOICE (500G) 12.00 63.50 0.00 114.30 762.00"
+      }
+    },
+    {
+      "supplier_code": null,
+      "ingredient": "Milk F/Choice Full Cream Uht (6X1Lt)",
+      "description": "MILK F/CHOICE FULL CREAM UHT (6X1LT)",
+      "quantity": 1.0,
+      "purchase_unit": "MILK F/CHOICE FULL CREAM UHT (6X1LT)",
+      "unit": "MILK F/CHOICE FULL CREAM UHT (6X1LT)",
+      "unit_price": 94.99,
+      "vat": 0.0,
+      "line_total": 94.99,
+      "validation": {
+        "status": "ok",
+        "expected_total": 94.99,
+        "actual_total": 94.99,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "600725100004 MILK F/CHOICE FULL CREAM UHT (6X1LT) 1.00 94.99 0.00 0.00 94.99"
+      }
+    }
+  ],
+  "invoice_metadata": {
+    "supplier": "socafoodsonline.com",
+    "invoice_number": "KNYSNA",
+    "invoice_date": "2026-06-17",
+    "customer": "Vat No.:",
+    "total": null,
+    "currency": null
+  },
+  "line_item_extraction": {
+    "detected_headers": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "headers": [
+          {
+            "header": "CODE",
+            "field": "code",
+            "x": 328.0
+          },
+          {
+            "header": "DESCRIPTION",
+            "field": "description",
+            "x": 794.0
+          },
+          {
+            "header": "QTY",
+            "field": "quantity",
+            "x": 2027.0
+          },
+          {
+            "header": "UNIT PRICE",
+            "field": "unit_price",
+            "x": 2309.5
+          },
+          {
+            "header": "VAT",
+            "field": "vat",
+            "x": 2945.0
+          },
+          {
+            "header": "Nett Amount",
+            "field": "total",
+            "x": 3248.5
+          }
+        ]
+      }
+    ],
+    "detected_columns": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "columns": {
+          "code": 328.0,
+          "description": 794.0,
+          "quantity": 2027.0,
+          "unit_price": 2309.5,
+          "vat": 2945.0,
+          "total": 3248.5
+        }
+      }
+    ],
+    "extracted_rows": [
+      {
+        "description": "MILK FRESH LEEUWENBOSCH (2LT)",
+        "quantity": "12.00",
+        "unit": "",
+        "unit_price": "34.50",
+        "total": "414.00",
+        "vat": "0.00",
+        "raw_text": "MILK FRESH LEEUWENBOSCH (2LT) 12.00 34.50 0.00 0.00 414.00",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 414.0,
+          "actual_total": 414.0,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      {
+        "description": "CBMBC CHEESE BLUE CRUMBS (1KG)",
+        "quantity": "1.00",
+        "unit": "",
+        "unit_price": "109.99",
+        "total": "109.99",
+        "vat": "0.00",
+        "raw_text": "CBMBC CHEESE BLUE CRUMBS (1KG) 1.00 109.99 0.00 16.50 109.99",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 109.99,
+          "actual_total": 109.99,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      {
+        "description": "SUGAR ICING 1KG",
+        "quantity": "2.00",
+        "unit": "",
+        "unit_price": "22.99",
+        "total": "45.98",
+        "vat": "10365",
+        "raw_text": "10365 SUGAR ICING 1KG 2.00 22.99 0.00 6.90 45.98",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 45.98,
+          "actual_total": 45.98,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      {
+        "description": "FLOUR SELF RAISING SNOWFLAKE (1KG)",
+        "quantity": "4.00",
+        "unit": "",
+        "unit_price": "25.71",
+        "total": "102.84",
+        "vat": "1137",
+        "raw_text": "1137 FLOUR SELF RAISING SNOWFLAKE (1KG) 4.00 25.71 0.00 15.43 102.84",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 102.84,
+          "actual_total": 102.84,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      {
+        "description": "OIL OLIVE E/VIRG P/ALBERT 1LT",
+        "quantity": "3.00",
+        "unit": "",
+        "unit_price": "209.04",
+        "total": "627.12",
+        "vat": "570",
+        "raw_text": "570 OIL OLIVE E/VIRG P/ALBERT 1LT 3.00 209.04 0.00 94.07 627.12",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 627.12,
+          "actual_total": 627.12,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      {
+        "description": "CHOCOLATE COUVETURE BELGIUM 70% (1KG)",
+        "quantity": "1.00",
+        "unit": "",
+        "unit_price": "340.99",
+        "total": "340.99",
+        "vat": "816",
+        "raw_text": "816 CHOCOLATE COUVETURE BELGIUM 70% (1KG) 1.00 340.99 0.00 51.15 340.99",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 340.99,
+          "actual_total": 340.99,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      {
+        "description": "VINEGAR BALSAMIC IMPORTED 1LT",
+        "quantity": "2.00",
+        "unit": "",
+        "unit_price": "46.99",
+        "total": "93.98",
+        "vat": "90014",
+        "raw_text": "90014 VINEGAR BALSAMIC IMPORTED 1LT 2.00 46.99 0.00 14.10 93.98",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 93.98,
+          "actual_total": 93.98,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      {
+        "description": "AGT45 SAUCE TOMATO ALL GOLD (4,5LT)",
+        "quantity": "1.00",
+        "unit": "",
+        "unit_price": "223.99",
+        "total": "223.99",
+        "vat": "0.00",
+        "raw_text": "AGT45 SAUCE TOMATO ALL GOLD (4,5LT) 1.00 223.99 0.00 33.60 223.99",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 223.99,
+          "actual_total": 223.99,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      {
+        "description": "BEL003 CHOCOLATE COUVETURE BELGIUM MILK (1KG)",
+        "quantity": "1.00",
+        "unit": "",
+        "unit_price": "277.50",
+        "total": "277.50",
+        "vat": "0.00",
+        "raw_text": "BEL003 CHOCOLATE COUVETURE BELGIUM MILK (1KG) 1.00 277.50 0.00 41.63 277.50",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 277.5,
+          "actual_total": 277.5,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      {
+        "description": "SAL SALT COARSE SALNOVA 1KG",
+        "quantity": "5.00",
+        "unit": "",
+        "unit_price": "19.50",
+        "total": "97.50",
+        "vat": "0.00",
+        "raw_text": "SAL SALT COARSE SALNOVA 1KG 5.00 19.50 0.00 14.63 97.50",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 97.5,
+          "actual_total": 97.5,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      {
+        "description": "BUTTER SALTED FIRST CHOICE (500G)",
+        "quantity": "12.00",
+        "unit": "",
+        "unit_price": "63.50",
+        "total": "762.00",
+        "vat": "003433",
+        "raw_text": "003433 BUTTER SALTED FIRST CHOICE (500G) 12.00 63.50 0.00 114.30 762.00",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 762.0,
+          "actual_total": 762.0,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      {
+        "description": "MILK F/CHOICE FULL CREAM UHT (6X1LT)",
+        "quantity": "1.00",
+        "unit": "",
+        "unit_price": "94.99",
+        "total": "94.99",
+        "vat": "0.00",
+        "raw_text": "600725100004 MILK F/CHOICE FULL CREAM UHT (6X1LT) 1.00 94.99 0.00 0.00 94.99",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 94.99,
+          "actual_total": 94.99,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      }
+    ],
+    "discarded_rows": [
+      {
+        "reason": "noise",
+        "raw_text": "3"
+      },
+      {
+        "reason": "footer",
+        "raw_text": "Cash Collected DATE: TOTAL NETT PRICE 3 593.16"
+      }
+    ],
+    "confidence": 1.0
+  },
+  "extraction_engine": {
+    "source": "universal_extractor",
+    "source_label": "Universal Extractor",
+    "rows_found": 14,
+    "rows_accepted": 12,
+    "rows_discarded": 2,
+    "validation_pass_rate": 1.0,
+    "overall_confidence": 1.0,
+    "fallback_reason": "",
+    "time_taken_ms": 7490,
+    "legacy_row_count": 0
+  },
+  "errors": [],
+  "created_at": "2026-07-04T13:24:28",
+  "engine": "PaddleOCR",
+  "fallback_used": false
+}

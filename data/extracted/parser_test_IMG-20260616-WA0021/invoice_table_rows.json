@@ -1,0 +1,219 @@
+[
+  {
+    "supplier_code": null,
+    "ingredient": "Spring Onions Bunch",
+    "description": "WHO-SPRING ONIONS Bunch",
+    "quantity": 4.0,
+    "purchase_unit": "Bunch",
+    "unit": "Bunch",
+    "unit_price": 16.45,
+    "vat": 0.0,
+    "line_total": 65.8,
+    "validation": {
+      "status": "ok",
+      "expected_total": 65.8,
+      "actual_total": 65.8,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "WHO-SPRING ONIONS Bunch 4 16.45 0.00 65.80"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Peppers Green Green",
+    "description": "WHO- PEPPERS GREEN Green KG",
+    "quantity": 1.5,
+    "purchase_unit": "KG",
+    "unit": "KG",
+    "unit_price": 51.75,
+    "vat": 0.0,
+    "line_total": 77.63,
+    "validation": {
+      "status": "ok",
+      "expected_total": 77.62,
+      "actual_total": 77.63,
+      "difference": 0.01,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "WHO- PEPPERS GREEN Green KG 1.5 51.75 0.00 77.63"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Raspberry 125G",
+    "description": "WHO-RASPBERRY 125g",
+    "quantity": 2.0,
+    "purchase_unit": "WHO-RASPBERRY 125g",
+    "unit": "WHO-RASPBERRY 125g",
+    "unit_price": 24.85,
+    "vat": 0.0,
+    "line_total": 49.7,
+    "validation": {
+      "status": "ok",
+      "expected_total": 49.7,
+      "actual_total": 49.7,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "WHO-RASPBERRY 125g 2 24.85 0.00 49.70"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Raspberry Who- Apples Granny Green 125G",
+    "description": "WHO-RASPBERRY WHO- APPLES GRANNY kg Green 125g",
+    "quantity": 2.67,
+    "purchase_unit": "KG",
+    "unit": "KG",
+    "unit_price": 29.85,
+    "vat": 0.0,
+    "line_total": 79.7,
+    "validation": {
+      "status": "ok",
+      "expected_total": 79.7,
+      "actual_total": 79.7,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "WHO-RASPBERRY WHO- APPLES GRANNY kg Green 125g 2.67 29.85 0.00 79.70"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Smith Who- Corn Punnets",
+    "description": "SMITH WHO- CORN PUNNETS Punnet",
+    "quantity": 1.0,
+    "purchase_unit": "Punnet",
+    "unit": "Punnet",
+    "unit_price": 32.85,
+    "vat": 0.0,
+    "line_total": 32.85,
+    "validation": {
+      "status": "ok",
+      "expected_total": 32.85,
+      "actual_total": 32.85,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "SMITH WHO- CORN PUNNETS Punnet 1 32.85 0.00 32.85"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Potatoes Who- Corn Punnets 10Kg",
+    "description": "WHO -POTATOES WHO- CORN PUNNETS Punnet 10kg Pocket Large",
+    "quantity": 5.0,
+    "purchase_unit": "Punnet",
+    "unit": "Punnet",
+    "unit_price": 117.85,
+    "vat": 0.0,
+    "line_total": 589.25,
+    "validation": {
+      "status": "ok",
+      "expected_total": 589.25,
+      "actual_total": 589.25,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "WHO -POTATOES WHO- CORN PUNNETS Punnet 10kg Pocket Large 5 117.85 0.00 589.25"
+    }
+  },
+  {
+    "supplier_code": null,
+    "ingredient": "Celery Who -Potatoes Bunch 10Kg",
+    "description": "WHO-CELERY WHO -POTATOES Bunch 10kg Pocket Large",
+    "quantity": 1.0,
+    "purchase_unit": "Bunch",
+    "unit": "Bunch",
+    "unit_price": 24.85,
+    "vat": 0.0,
+    "line_total": 24.85,
+    "validation": {
+      "status": "ok",
+      "expected_total": 24.85,
+      "actual_total": 24.85,
+      "difference": 0.0,
+      "affected_field": ""
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "WHO-CELERY WHO -POTATOES Bunch 10kg Pocket Large 1 24.85 0.00 24.85"
+    }
+  }
+]

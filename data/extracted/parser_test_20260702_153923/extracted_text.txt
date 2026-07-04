@@ -1,0 +1,125 @@
+Tax Invoice
+Invoice From
+Telephone
+Farm Fresh Direct
+044 873 0076
+farmfresh
+Fax
+24 Meul Street
+E Mail
+Caledon Industrial Park
+delivenos
+accounts@farmfreshdirect.co.za
+straight from the farms
+direct
+4 Unit George
+Vat Registration No
+4310269016
+Invoice Date
+02/07/2026
+Invoice To
+Deliver To
+Butterfly Blu T/A Shavi Shavi Restaurant
+Butterfly Blu T/A Shavi Shavi Restaurant
+198 CR Swart Drive, Brenton on Sea,Knysn
+Page
+Invoice Date
+Order Number
+Representative
+Invoice Number
+Account No
+1 of 1
+02/07/2026
+02/07/2026 MG
+1
+Rep 1
+INV1897
+D2604
+Line Total
+Quantity
+Disc %
+VatAmnt
+Description
+UnitPrice
+Item Code
+0.00
+117.00
+Rocket Herb - kg
+0.6
+195.00
+WHO - ROCKET LARGE
+0.00
+118.32
+2.04
+WHO - BABY MARROWS Kg
+58.00
+32.85
+0.00
+1
+32.85
+WHO - CABBAGE - RED. RED
+0.00
+45.70
+Medium - Large
+2
+22.85
+WHO-CUCUMBER.
+0.00
+148.56
+kg
+1.04
+142.85
+WHO - GARLIC
+0.00
+149.39
+KG
+1.005
+148.65
+WHO - GINGER
+0.00
+52.25
+3.11
+16.80
+WHO - POTATOES BABY Baby kg
+/SMALL
+90.60
+0.00
+4
+22.65
+Mixed 150g
+WHO-LETTUCE
+0.00
+80.33
+2.18
+36.85
+Tomatoe - kg
+WHO - TOMATOES
+Keeno
+Number of Items
+Subtotal (Exclusive)
+835.01
+Extra Charges
+16.98
+Promotional
+Discount
+Discount Received
+Rounding
+0.00
+Vat
+0.00
+Total
+835.01
+Currency:
+ZAR
+CurrencyRate:
+1.00
+Banking Details:
+Created: 02/07/2026 02:08:14
+Standard Bank
+302784187
+Current
+051001
+06
+05
+高/D8
+07

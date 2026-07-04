@@ -1,0 +1,76 @@
+{
+  "tested_at": "2026-07-04T13:12:11",
+  "file_id": "parser_test_AhaConvert_20260701_152913",
+  "filename": "AhaConvert_20260701_152913.jpg",
+  "file_path": "C:\\Users\\Burn Holiday\\Documents\\Codex\\2026-06-21\\import-react-usestate-usememo-from-react\\outputs\\data\\test-invoices\\AhaConvert_20260701_152913.jpg",
+  "detected_supplier": "Unknown",
+  "document_type": "supplier_invoice",
+  "classifier_confidence": 0.35,
+  "classifier_scores": {
+    "supplier_invoice": 1,
+    "recipe": 1,
+    "stock_list": 1,
+    "prep_sheet": 0,
+    "menu_costing_sheet": 0
+  },
+  "invoice_number": null,
+  "invoice_date": null,
+  "line_count": 0,
+  "subtotal": null,
+  "total": null,
+  "currency": null,
+  "extraction_status": "completed",
+  "engine": "PaddleOCR",
+  "errors": [],
+  "extracted_rows": [],
+  "validation_failures": [],
+  "parser_debug": [],
+  "invoice_table_parser": {
+    "row_count": 0,
+    "rows": [],
+    "metadata": {
+      "supplier": null,
+      "invoice_number": null,
+      "invoice_date": null,
+      "customer": null,
+      "total": null,
+      "currency": null
+    },
+    "validation_failures": [],
+    "validation_pass_rate": 0.0,
+    "parser_debug": []
+  },
+  "universal_line_item_extractor": {
+    "row_count": 0,
+    "rows_found": 1,
+    "rows_accepted": 0,
+    "rows_discarded": 1,
+    "rows": [],
+    "detected_headers": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "headers": []
+      }
+    ],
+    "detected_columns": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "columns": {}
+      }
+    ],
+    "discarded_rows": [
+      {
+        "reason": "headers_not_detected",
+        "raw_text": "OCR positioned table did not expose enough invoice headers."
+      }
+    ],
+    "confidence": 0.0,
+    "validation_failures": [],
+    "validation_pass_rate": 0.0
+  },
+  "needs_review": true
+}

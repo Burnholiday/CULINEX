@@ -1,0 +1,1050 @@
+{
+  "tested_at": "2026-07-04T13:09:02",
+  "file_id": "parser_test_20260617_162204",
+  "filename": "20260617_162204.jpg",
+  "file_path": "C:\\Users\\Burn Holiday\\Documents\\Codex\\2026-06-21\\import-react-usestate-usememo-from-react\\outputs\\data\\test-invoices\\20260617_162204.jpg",
+  "detected_supplier": "So-CA Foods",
+  "document_type": "supplier_invoice",
+  "classifier_confidence": 0.75,
+  "classifier_scores": {
+    "supplier_invoice": 3,
+    "recipe": 0,
+    "stock_list": 2,
+    "prep_sheet": 1,
+    "menu_costing_sheet": 0
+  },
+  "invoice_number": "4410253738",
+  "invoice_date": "2026-06-17",
+  "line_count": 9,
+  "subtotal": 975.89,
+  "total": null,
+  "currency": null,
+  "extraction_status": "completed",
+  "engine": "PaddleOCR",
+  "errors": [],
+  "extracted_rows": [
+    {
+      "supplier_code": null,
+      "ingredient": "Cream Meadowland Cream (1Lt)",
+      "description": "CREAM MEADOWLAND CREAM (1LT)",
+      "quantity": 6.0,
+      "purchase_unit": "CREAM MEADOWLAND CREAM (1LT)",
+      "unit": "CREAM MEADOWLAND CREAM (1LT)",
+      "unit_price": 54.99,
+      "vat": 0.0,
+      "line_total": 329.94,
+      "validation": {
+        "status": "ok",
+        "expected_total": 329.94,
+        "actual_total": 329.94,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "CREAM MEADOWLAND CREAM (1LT) 6.00 54.99 0.00 49.49 329.94"
+      }
+    },
+    {
+      "supplier_code": null,
+      "ingredient": "Sauce Tabasco Sauce Red (60Ml)",
+      "description": "SAUCE TABASCO SAUCE RED (60ML)",
+      "quantity": 2.0,
+      "purchase_unit": "SAUCE TABASCO SAUCE RED (60ML)",
+      "unit": "SAUCE TABASCO SAUCE RED (60ML)",
+      "unit_price": 40.99,
+      "vat": 0.0,
+      "line_total": 81.98,
+      "validation": {
+        "status": "ok",
+        "expected_total": 81.98,
+        "actual_total": 81.98,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "SAUCE TABASCO SAUCE RED (60ML) 2.00 40.99 0.00 12.30 81.98"
+      }
+    },
+    {
+      "supplier_code": null,
+      "ingredient": "Slo Jo Chai 1Kg",
+      "description": "SLO JO CHAI 1KG",
+      "quantity": 1.0,
+      "purchase_unit": "SLO JO CHAI 1KG",
+      "unit": "SLO JO CHAI 1KG",
+      "unit_price": 253.16,
+      "vat": 0.0,
+      "line_total": 253.16,
+      "validation": {
+        "status": "ok",
+        "expected_total": 253.16,
+        "actual_total": 253.16,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "SLO JO CHAI 1KG 1.00 253.16 0.00 37.97 253.16"
+      }
+    },
+    {
+      "supplier_code": null,
+      "ingredient": "Honey Squeeze (500G)",
+      "description": "HONEY SQUEEZE (500G)",
+      "quantity": 1.0,
+      "purchase_unit": "HONEY SQUEEZE (500G)",
+      "unit": "HONEY SQUEEZE (500G)",
+      "unit_price": 41.7,
+      "vat": 0.0,
+      "line_total": 41.7,
+      "validation": {
+        "status": "ok",
+        "expected_total": 41.7,
+        "actual_total": 41.7,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "HONEY SQUEEZE (500G) 1.00 41.70 0.00 6.26 41.70"
+      }
+    },
+    {
+      "supplier_code": null,
+      "ingredient": "Can Condensed Milk Clover (385G)",
+      "description": "CAN CONDENSED MILK CLOVER (385G)",
+      "quantity": 2.0,
+      "purchase_unit": "CAN CONDENSED MILK CLOVER (385G)",
+      "unit": "CAN CONDENSED MILK CLOVER (385G)",
+      "unit_price": 29.99,
+      "vat": 0.0,
+      "line_total": 59.98,
+      "validation": {
+        "status": "ok",
+        "expected_total": 59.98,
+        "actual_total": 59.98,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "CAN CONDENSED MILK CLOVER (385G) 2.00 29.99 0.00 9.00 59.98"
+      }
+    },
+    {
+      "supplier_code": null,
+      "ingredient": "600988033781Marshmallow Mini 250G",
+      "description": "600988033781MARSHMALLOW MINI 250G",
+      "quantity": 1.0,
+      "purchase_unit": "600988033781MARSHMALLOW MINI 250G",
+      "unit": "600988033781MARSHMALLOW MINI 250G",
+      "unit_price": 42.17,
+      "vat": 0.0,
+      "line_total": 42.17,
+      "validation": {
+        "status": "ok",
+        "expected_total": 42.17,
+        "actual_total": 42.17,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "600988033781MARSHMALLOW MINI 250G 1.00 42.17 0.00 6.33 42.17"
+      }
+    },
+    {
+      "supplier_code": null,
+      "ingredient": "De0009 Cup Coffee 350Ml Ripple Lid (100'S)",
+      "description": "DE0009 CUP COFFEE 350ML RIPPLE LID (100'S)",
+      "quantity": 1.0,
+      "purchase_unit": "DE0009 CUP COFFEE 350ML RIPPLE LID (100'S)",
+      "unit": "DE0009 CUP COFFEE 350ML RIPPLE LID (100'S)",
+      "unit_price": 58.99,
+      "vat": 0.0,
+      "line_total": 58.99,
+      "validation": {
+        "status": "ok",
+        "expected_total": 58.99,
+        "actual_total": 58.99,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "DE0009 CUP COFFEE 350ML RIPPLE LID (100'S) 1.00 58.99 0.00 8.85 58.99"
+      }
+    },
+    {
+      "supplier_code": null,
+      "ingredient": "Det002 Cup Coffee 250Ml Ripple (25'S)",
+      "description": "DET002 CUP COFFEE 250ML RIPPLE (25'S)",
+      "quantity": 2.0,
+      "purchase_unit": "DET002 CUP COFFEE 250ML RIPPLE (25'S)",
+      "unit": "DET002 CUP COFFEE 250ML RIPPLE (25'S)",
+      "unit_price": 29.99,
+      "vat": 0.0,
+      "line_total": 59.98,
+      "validation": {
+        "status": "ok",
+        "expected_total": 59.98,
+        "actual_total": 59.98,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "DET002 CUP COFFEE 250ML RIPPLE (25'S) 2.00 29.99 0.00 9.00 59.98"
+      }
+    },
+    {
+      "supplier_code": null,
+      "ingredient": "Det008 Cup Coffee 250Ml Ripple Lid (100'S)",
+      "description": "DET008 CUP COFFEE 250ML RIPPLE LID (100'S)",
+      "quantity": 1.0,
+      "purchase_unit": "DET008 CUP COFFEE 250ML RIPPLE LID (100'S)",
+      "unit": "DET008 CUP COFFEE 250ML RIPPLE LID (100'S)",
+      "unit_price": 47.99,
+      "vat": 0.0,
+      "line_total": 47.99,
+      "validation": {
+        "status": "ok",
+        "expected_total": 47.99,
+        "actual_total": 47.99,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "DET008 CUP COFFEE 250ML RIPPLE LID (100'S) 1.00 47.99 0.00 7.20 47.99"
+      }
+    }
+  ],
+  "validation_failures": [],
+  "parser_debug": [
+    {
+      "row_index": 1,
+      "ingredient": "Cream Meadowland Cream (1Lt)",
+      "supplier_code": null,
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "CREAM MEADOWLAND CREAM (1LT) 6.00 54.99 0.00 49.49 329.94"
+      }
+    },
+    {
+      "row_index": 2,
+      "ingredient": "Sauce Tabasco Sauce Red (60Ml)",
+      "supplier_code": null,
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "SAUCE TABASCO SAUCE RED (60ML) 2.00 40.99 0.00 12.30 81.98"
+      }
+    },
+    {
+      "row_index": 3,
+      "ingredient": "Slo Jo Chai 1Kg",
+      "supplier_code": null,
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "SLO JO CHAI 1KG 1.00 253.16 0.00 37.97 253.16"
+      }
+    },
+    {
+      "row_index": 4,
+      "ingredient": "Honey Squeeze (500G)",
+      "supplier_code": null,
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "HONEY SQUEEZE (500G) 1.00 41.70 0.00 6.26 41.70"
+      }
+    },
+    {
+      "row_index": 5,
+      "ingredient": "Can Condensed Milk Clover (385G)",
+      "supplier_code": null,
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "CAN CONDENSED MILK CLOVER (385G) 2.00 29.99 0.00 9.00 59.98"
+      }
+    },
+    {
+      "row_index": 6,
+      "ingredient": "600988033781Marshmallow Mini 250G",
+      "supplier_code": null,
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "600988033781MARSHMALLOW MINI 250G 1.00 42.17 0.00 6.33 42.17"
+      }
+    },
+    {
+      "row_index": 7,
+      "ingredient": "De0009 Cup Coffee 350Ml Ripple Lid (100'S)",
+      "supplier_code": null,
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "DE0009 CUP COFFEE 350ML RIPPLE LID (100'S) 1.00 58.99 0.00 8.85 58.99"
+      }
+    },
+    {
+      "row_index": 8,
+      "ingredient": "Det002 Cup Coffee 250Ml Ripple (25'S)",
+      "supplier_code": null,
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "DET002 CUP COFFEE 250ML RIPPLE (25'S) 2.00 29.99 0.00 9.00 59.98"
+      }
+    },
+    {
+      "row_index": 9,
+      "ingredient": "Det008 Cup Coffee 250Ml Ripple Lid (100'S)",
+      "supplier_code": null,
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "DET008 CUP COFFEE 250ML RIPPLE LID (100'S) 1.00 47.99 0.00 7.20 47.99"
+      }
+    }
+  ],
+  "invoice_table_parser": {
+    "row_count": 9,
+    "rows": [
+      {
+        "supplier_code": null,
+        "ingredient": "Cream Meadowland Cream (1Lt)",
+        "description": "CREAM MEADOWLAND CREAM (1LT)",
+        "quantity": 6.0,
+        "purchase_unit": "CREAM MEADOWLAND CREAM (1LT)",
+        "unit": "CREAM MEADOWLAND CREAM (1LT)",
+        "unit_price": 54.99,
+        "vat": 0.0,
+        "line_total": 329.94,
+        "validation": {
+          "status": "ok",
+          "expected_total": 329.94,
+          "actual_total": 329.94,
+          "difference": 0.0,
+          "affected_field": ""
+        },
+        "confidence": 1.0,
+        "field_confidence": {
+          "ingredient": 1.0,
+          "quantity": 0.98,
+          "unit": 0.85,
+          "unit_price": 0.98,
+          "line_total": 0.98
+        },
+        "parser_debug": {
+          "source": "ocr_items",
+          "role": "line_item",
+          "raw_text": "CREAM MEADOWLAND CREAM (1LT) 6.00 54.99 0.00 49.49 329.94"
+        }
+      },
+      {
+        "supplier_code": null,
+        "ingredient": "Sauce Tabasco Sauce Red (60Ml)",
+        "description": "SAUCE TABASCO SAUCE RED (60ML)",
+        "quantity": 2.0,
+        "purchase_unit": "SAUCE TABASCO SAUCE RED (60ML)",
+        "unit": "SAUCE TABASCO SAUCE RED (60ML)",
+        "unit_price": 40.99,
+        "vat": 0.0,
+        "line_total": 81.98,
+        "validation": {
+          "status": "ok",
+          "expected_total": 81.98,
+          "actual_total": 81.98,
+          "difference": 0.0,
+          "affected_field": ""
+        },
+        "confidence": 1.0,
+        "field_confidence": {
+          "ingredient": 1.0,
+          "quantity": 0.98,
+          "unit": 0.85,
+          "unit_price": 0.98,
+          "line_total": 0.98
+        },
+        "parser_debug": {
+          "source": "ocr_items",
+          "role": "line_item",
+          "raw_text": "SAUCE TABASCO SAUCE RED (60ML) 2.00 40.99 0.00 12.30 81.98"
+        }
+      },
+      {
+        "supplier_code": null,
+        "ingredient": "Slo Jo Chai 1Kg",
+        "description": "SLO JO CHAI 1KG",
+        "quantity": 1.0,
+        "purchase_unit": "SLO JO CHAI 1KG",
+        "unit": "SLO JO CHAI 1KG",
+        "unit_price": 253.16,
+        "vat": 0.0,
+        "line_total": 253.16,
+        "validation": {
+          "status": "ok",
+          "expected_total": 253.16,
+          "actual_total": 253.16,
+          "difference": 0.0,
+          "affected_field": ""
+        },
+        "confidence": 1.0,
+        "field_confidence": {
+          "ingredient": 1.0,
+          "quantity": 0.98,
+          "unit": 0.85,
+          "unit_price": 0.98,
+          "line_total": 0.98
+        },
+        "parser_debug": {
+          "source": "ocr_items",
+          "role": "line_item",
+          "raw_text": "SLO JO CHAI 1KG 1.00 253.16 0.00 37.97 253.16"
+        }
+      },
+      {
+        "supplier_code": null,
+        "ingredient": "Honey Squeeze (500G)",
+        "description": "HONEY SQUEEZE (500G)",
+        "quantity": 1.0,
+        "purchase_unit": "HONEY SQUEEZE (500G)",
+        "unit": "HONEY SQUEEZE (500G)",
+        "unit_price": 41.7,
+        "vat": 0.0,
+        "line_total": 41.7,
+        "validation": {
+          "status": "ok",
+          "expected_total": 41.7,
+          "actual_total": 41.7,
+          "difference": 0.0,
+          "affected_field": ""
+        },
+        "confidence": 1.0,
+        "field_confidence": {
+          "ingredient": 1.0,
+          "quantity": 0.98,
+          "unit": 0.85,
+          "unit_price": 0.98,
+          "line_total": 0.98
+        },
+        "parser_debug": {
+          "source": "ocr_items",
+          "role": "line_item",
+          "raw_text": "HONEY SQUEEZE (500G) 1.00 41.70 0.00 6.26 41.70"
+        }
+      },
+      {
+        "supplier_code": null,
+        "ingredient": "Can Condensed Milk Clover (385G)",
+        "description": "CAN CONDENSED MILK CLOVER (385G)",
+        "quantity": 2.0,
+        "purchase_unit": "CAN CONDENSED MILK CLOVER (385G)",
+        "unit": "CAN CONDENSED MILK CLOVER (385G)",
+        "unit_price": 29.99,
+        "vat": 0.0,
+        "line_total": 59.98,
+        "validation": {
+          "status": "ok",
+          "expected_total": 59.98,
+          "actual_total": 59.98,
+          "difference": 0.0,
+          "affected_field": ""
+        },
+        "confidence": 1.0,
+        "field_confidence": {
+          "ingredient": 1.0,
+          "quantity": 0.98,
+          "unit": 0.85,
+          "unit_price": 0.98,
+          "line_total": 0.98
+        },
+        "parser_debug": {
+          "source": "ocr_items",
+          "role": "line_item",
+          "raw_text": "CAN CONDENSED MILK CLOVER (385G) 2.00 29.99 0.00 9.00 59.98"
+        }
+      },
+      {
+        "supplier_code": null,
+        "ingredient": "600988033781Marshmallow Mini 250G",
+        "description": "600988033781MARSHMALLOW MINI 250G",
+        "quantity": 1.0,
+        "purchase_unit": "600988033781MARSHMALLOW MINI 250G",
+        "unit": "600988033781MARSHMALLOW MINI 250G",
+        "unit_price": 42.17,
+        "vat": 0.0,
+        "line_total": 42.17,
+        "validation": {
+          "status": "ok",
+          "expected_total": 42.17,
+          "actual_total": 42.17,
+          "difference": 0.0,
+          "affected_field": ""
+        },
+        "confidence": 1.0,
+        "field_confidence": {
+          "ingredient": 1.0,
+          "quantity": 0.98,
+          "unit": 0.85,
+          "unit_price": 0.98,
+          "line_total": 0.98
+        },
+        "parser_debug": {
+          "source": "ocr_items",
+          "role": "line_item",
+          "raw_text": "600988033781MARSHMALLOW MINI 250G 1.00 42.17 0.00 6.33 42.17"
+        }
+      },
+      {
+        "supplier_code": null,
+        "ingredient": "De0009 Cup Coffee 350Ml Ripple Lid (100'S)",
+        "description": "DE0009 CUP COFFEE 350ML RIPPLE LID (100'S)",
+        "quantity": 1.0,
+        "purchase_unit": "DE0009 CUP COFFEE 350ML RIPPLE LID (100'S)",
+        "unit": "DE0009 CUP COFFEE 350ML RIPPLE LID (100'S)",
+        "unit_price": 58.99,
+        "vat": 0.0,
+        "line_total": 58.99,
+        "validation": {
+          "status": "ok",
+          "expected_total": 58.99,
+          "actual_total": 58.99,
+          "difference": 0.0,
+          "affected_field": ""
+        },
+        "confidence": 1.0,
+        "field_confidence": {
+          "ingredient": 1.0,
+          "quantity": 0.98,
+          "unit": 0.85,
+          "unit_price": 0.98,
+          "line_total": 0.98
+        },
+        "parser_debug": {
+          "source": "ocr_items",
+          "role": "line_item",
+          "raw_text": "DE0009 CUP COFFEE 350ML RIPPLE LID (100'S) 1.00 58.99 0.00 8.85 58.99"
+        }
+      },
+      {
+        "supplier_code": null,
+        "ingredient": "Det002 Cup Coffee 250Ml Ripple (25'S)",
+        "description": "DET002 CUP COFFEE 250ML RIPPLE (25'S)",
+        "quantity": 2.0,
+        "purchase_unit": "DET002 CUP COFFEE 250ML RIPPLE (25'S)",
+        "unit": "DET002 CUP COFFEE 250ML RIPPLE (25'S)",
+        "unit_price": 29.99,
+        "vat": 0.0,
+        "line_total": 59.98,
+        "validation": {
+          "status": "ok",
+          "expected_total": 59.98,
+          "actual_total": 59.98,
+          "difference": 0.0,
+          "affected_field": ""
+        },
+        "confidence": 1.0,
+        "field_confidence": {
+          "ingredient": 1.0,
+          "quantity": 0.98,
+          "unit": 0.85,
+          "unit_price": 0.98,
+          "line_total": 0.98
+        },
+        "parser_debug": {
+          "source": "ocr_items",
+          "role": "line_item",
+          "raw_text": "DET002 CUP COFFEE 250ML RIPPLE (25'S) 2.00 29.99 0.00 9.00 59.98"
+        }
+      },
+      {
+        "supplier_code": null,
+        "ingredient": "Det008 Cup Coffee 250Ml Ripple Lid (100'S)",
+        "description": "DET008 CUP COFFEE 250ML RIPPLE LID (100'S)",
+        "quantity": 1.0,
+        "purchase_unit": "DET008 CUP COFFEE 250ML RIPPLE LID (100'S)",
+        "unit": "DET008 CUP COFFEE 250ML RIPPLE LID (100'S)",
+        "unit_price": 47.99,
+        "vat": 0.0,
+        "line_total": 47.99,
+        "validation": {
+          "status": "ok",
+          "expected_total": 47.99,
+          "actual_total": 47.99,
+          "difference": 0.0,
+          "affected_field": ""
+        },
+        "confidence": 1.0,
+        "field_confidence": {
+          "ingredient": 1.0,
+          "quantity": 0.98,
+          "unit": 0.85,
+          "unit_price": 0.98,
+          "line_total": 0.98
+        },
+        "parser_debug": {
+          "source": "ocr_items",
+          "role": "line_item",
+          "raw_text": "DET008 CUP COFFEE 250ML RIPPLE LID (100'S) 1.00 47.99 0.00 7.20 47.99"
+        }
+      }
+    ],
+    "metadata": {
+      "supplier": "socafoodsonline.com",
+      "invoice_number": "4410253738",
+      "invoice_date": "2026-06-17",
+      "customer": "Vat No.: 4660316862",
+      "total": null,
+      "currency": null
+    },
+    "validation_failures": [],
+    "validation_pass_rate": 100.0,
+    "parser_debug": [
+      {
+        "row_index": 1,
+        "ingredient": "Cream Meadowland Cream (1Lt)",
+        "supplier_code": null,
+        "parser_debug": {
+          "source": "ocr_items",
+          "role": "line_item",
+          "raw_text": "CREAM MEADOWLAND CREAM (1LT) 6.00 54.99 0.00 49.49 329.94"
+        }
+      },
+      {
+        "row_index": 2,
+        "ingredient": "Sauce Tabasco Sauce Red (60Ml)",
+        "supplier_code": null,
+        "parser_debug": {
+          "source": "ocr_items",
+          "role": "line_item",
+          "raw_text": "SAUCE TABASCO SAUCE RED (60ML) 2.00 40.99 0.00 12.30 81.98"
+        }
+      },
+      {
+        "row_index": 3,
+        "ingredient": "Slo Jo Chai 1Kg",
+        "supplier_code": null,
+        "parser_debug": {
+          "source": "ocr_items",
+          "role": "line_item",
+          "raw_text": "SLO JO CHAI 1KG 1.00 253.16 0.00 37.97 253.16"
+        }
+      },
+      {
+        "row_index": 4,
+        "ingredient": "Honey Squeeze (500G)",
+        "supplier_code": null,
+        "parser_debug": {
+          "source": "ocr_items",
+          "role": "line_item",
+          "raw_text": "HONEY SQUEEZE (500G) 1.00 41.70 0.00 6.26 41.70"
+        }
+      },
+      {
+        "row_index": 5,
+        "ingredient": "Can Condensed Milk Clover (385G)",
+        "supplier_code": null,
+        "parser_debug": {
+          "source": "ocr_items",
+          "role": "line_item",
+          "raw_text": "CAN CONDENSED MILK CLOVER (385G) 2.00 29.99 0.00 9.00 59.98"
+        }
+      },
+      {
+        "row_index": 6,
+        "ingredient": "600988033781Marshmallow Mini 250G",
+        "supplier_code": null,
+        "parser_debug": {
+          "source": "ocr_items",
+          "role": "line_item",
+          "raw_text": "600988033781MARSHMALLOW MINI 250G 1.00 42.17 0.00 6.33 42.17"
+        }
+      },
+      {
+        "row_index": 7,
+        "ingredient": "De0009 Cup Coffee 350Ml Ripple Lid (100'S)",
+        "supplier_code": null,
+        "parser_debug": {
+          "source": "ocr_items",
+          "role": "line_item",
+          "raw_text": "DE0009 CUP COFFEE 350ML RIPPLE LID (100'S) 1.00 58.99 0.00 8.85 58.99"
+        }
+      },
+      {
+        "row_index": 8,
+        "ingredient": "Det002 Cup Coffee 250Ml Ripple (25'S)",
+        "supplier_code": null,
+        "parser_debug": {
+          "source": "ocr_items",
+          "role": "line_item",
+          "raw_text": "DET002 CUP COFFEE 250ML RIPPLE (25'S) 2.00 29.99 0.00 9.00 59.98"
+        }
+      },
+      {
+        "row_index": 9,
+        "ingredient": "Det008 Cup Coffee 250Ml Ripple Lid (100'S)",
+        "supplier_code": null,
+        "parser_debug": {
+          "source": "ocr_items",
+          "role": "line_item",
+          "raw_text": "DET008 CUP COFFEE 250ML RIPPLE LID (100'S) 1.00 47.99 0.00 7.20 47.99"
+        }
+      }
+    ]
+  },
+  "universal_line_item_extractor": {
+    "row_count": 9,
+    "rows_found": 11,
+    "rows_accepted": 9,
+    "rows_discarded": 2,
+    "rows": [
+      {
+        "description": "CREAM MEADOWLAND CREAM (1LT)",
+        "quantity": "6.00",
+        "unit": "",
+        "unit_price": "54.99",
+        "total": "329.94",
+        "vat": "0.00",
+        "raw_text": "CREAM MEADOWLAND CREAM (1LT) 6.00 54.99 0.00 49.49 329.94",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 329.94,
+          "actual_total": 329.94,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      {
+        "description": "SAUCE TABASCO SAUCE RED (60ML)",
+        "quantity": "2.00",
+        "unit": "",
+        "unit_price": "40.99",
+        "total": "81.98",
+        "vat": "0.00",
+        "raw_text": "SAUCE TABASCO SAUCE RED (60ML) 2.00 40.99 0.00 12.30 81.98",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 81.98,
+          "actual_total": 81.98,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      {
+        "description": "SLO JO CHAI 1KG",
+        "quantity": "1.00",
+        "unit": "",
+        "unit_price": "253.16",
+        "total": "253.16",
+        "vat": "0.00",
+        "raw_text": "SLO JO CHAI 1KG 1.00 253.16 0.00 37.97 253.16",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 253.16,
+          "actual_total": 253.16,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      {
+        "description": "HONEY SQUEEZE (500G)",
+        "quantity": "1.00",
+        "unit": "",
+        "unit_price": "41.70",
+        "total": "41.70",
+        "vat": "0.00",
+        "raw_text": "HONEY SQUEEZE (500G) 1.00 41.70 0.00 6.26 41.70",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 41.7,
+          "actual_total": 41.7,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      {
+        "description": "CAN CONDENSED MILK CLOVER (385G)",
+        "quantity": "2.00",
+        "unit": "",
+        "unit_price": "29.99",
+        "total": "59.98",
+        "vat": "0.00",
+        "raw_text": "CAN CONDENSED MILK CLOVER (385G) 2.00 29.99 0.00 9.00 59.98",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 59.98,
+          "actual_total": 59.98,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      {
+        "description": "600988033781MARSHMALLOW MINI 250G",
+        "quantity": "1.00",
+        "unit": "",
+        "unit_price": "42.17",
+        "total": "42.17",
+        "vat": "0.00",
+        "raw_text": "600988033781MARSHMALLOW MINI 250G 1.00 42.17 0.00 6.33 42.17",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 42.17,
+          "actual_total": 42.17,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      {
+        "description": "DE0009 CUP COFFEE 350ML RIPPLE LID (100'S)",
+        "quantity": "1.00",
+        "unit": "",
+        "unit_price": "58.99",
+        "total": "58.99",
+        "vat": "0.00",
+        "raw_text": "DE0009 CUP COFFEE 350ML RIPPLE LID (100'S) 1.00 58.99 0.00 8.85 58.99",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 58.99,
+          "actual_total": 58.99,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      {
+        "description": "DET002 CUP COFFEE 250ML RIPPLE (25'S)",
+        "quantity": "2.00",
+        "unit": "",
+        "unit_price": "29.99",
+        "total": "59.98",
+        "vat": "0.00",
+        "raw_text": "DET002 CUP COFFEE 250ML RIPPLE (25'S) 2.00 29.99 0.00 9.00 59.98",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 59.98,
+          "actual_total": 59.98,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      {
+        "description": "DET008 CUP COFFEE 250ML RIPPLE LID (100'S)",
+        "quantity": "1.00",
+        "unit": "",
+        "unit_price": "47.99",
+        "total": "47.99",
+        "vat": "0.00",
+        "raw_text": "DET008 CUP COFFEE 250ML RIPPLE LID (100'S) 1.00 47.99 0.00 7.20 47.99",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 47.99,
+          "actual_total": 47.99,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      }
+    ],
+    "detected_headers": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "headers": [
+          {
+            "header": "CODE",
+            "field": "code",
+            "x": 226.5
+          },
+          {
+            "header": "DESCRIPTION",
+            "field": "description",
+            "x": 721.5
+          },
+          {
+            "header": "QTY",
+            "field": "quantity",
+            "x": 2038.0
+          },
+          {
+            "header": "UNIT PRICE",
+            "field": "unit_price",
+            "x": 2360.0
+          },
+          {
+            "header": "VAT",
+            "field": "vat",
+            "x": 3057.0
+          },
+          {
+            "header": "Nett Amount",
+            "field": "total",
+            "x": 3413.5
+          }
+        ]
+      }
+    ],
+    "detected_columns": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "columns": {
+          "code": 226.5,
+          "description": 721.5,
+          "quantity": 2038.0,
+          "unit_price": 2360.0,
+          "vat": 3057.0,
+          "total": 3413.5
+        }
+      }
+    ],
+    "discarded_rows": [
+      {
+        "reason": "noise",
+        "raw_text": "2.00 45.99 0.00 13.80 91.98"
+      },
+      {
+        "reason": "footer",
+        "raw_text": "Cash Collected DATE DISCOUNT TOTAL NETT PRICE 1 228.05"
+      }
+    ],
+    "confidence": 1.0,
+    "validation_failures": [],
+    "validation_pass_rate": 100.0
+  },
+  "needs_review": false
+}

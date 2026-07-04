@@ -1,0 +1,151 @@
+Tax Invoice
+Invoice From
+Telephone
+044 873 0076
+Farm Fresh Direct
+Fax
+24 Meul Street
+farmfresh
+E Mail
+accounts@farmfreshdirect.co.za
+Caledon Industrial Park
+celvonos
+direct
+stroight from the forms
+Vat Registration No
+4310269016
+4 Unit George
+Invoice Date
+18/06/2026
+Deliver To
+Invoice To
+Butterfly Blu T/A Shavi Shavi Restaurant
+Butterfly Blu T/A Shavi Shavi Restaurant
+198 CR Swart Drive, Brenton on Sea,Knysn
+Page
+Order Number
+Representative
+Invoice Number
+Invoice Date
+Account No
+1 of 2
+18/06/2026 MW
+1
+Rep 1
+INV1070
+18/06/2026
+D2604
+Disc %
+VatAmnt
+Line Total
+Description
+Quantity
+UnitPrice
+Item Code
+0.00
+19.46
+0.21
+92.65
+WHO - CHILLIES RED
+KG
+0.00
+15.92
+0.205
+77.65
+WHO - CHILLIES GREEN Kg
+0.00
+66.70
+2
+33.35
+WHO - STRAWBERRIES Punnet 250g
+0.00
+78.16
+Kg
+2.065
+37.85
+WHO - ONIONS RED
+0.00
+32.85
+1
+32.85
+WHO - CABBAGE - RED. RED
+0.00
+22.65
+1
+22.65
+WHO - CABBAGE GREEN Large Head
+KG
+0.00
+235.70
+2
+117.85
+WHO - POTATOES
+10kg Pocket Large
+22.85
+0.00
+91.40
+WHO - CUCUMBER.
+Medium - Large
+4
+142.85
+0.00
+158.85
+WHO - GARLIC
+kg
+1.112
+22.65
+0.00
+50.06
+WHO - BANANAS
+KG
+2.21
+23.65
+0.00
+75.80
+kg
+3.205
+WHO - CARROT
+1.144
+148.65
+0.00
+170.06
+WHO - GINGER
+KG
+3.2
+109.65
+0.00
+350.88
+WHO - MUSHROOM
+1kg
+WHITE
+kg 3 WHOLE
+13.26
+18.85
+0.00
+249.95
+WHO - PUMPKIN
+WHOLE
+Extra Charges
+Number of Items
+Subtotal (Exclusive)
+1,944.86
+43.22
+Promotional
+Discount
+Discount Received
+Rounding
+0.00
+Vat
+0.00
+Total
+1,944.86
+Currency:
+ZAR
+CurrencyRate:
+1.00
+Banking Details:
+Created: 18/06/2026 00:54:49
+Standard Bank
+302784187
+Current
+051001

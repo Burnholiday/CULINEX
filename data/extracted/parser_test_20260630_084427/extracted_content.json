@@ -1,0 +1,962 @@
+{
+  "file_id": "parser_test_20260630_084427",
+  "filename": "20260630_084427.jpg",
+  "file_type": "IMAGE",
+  "extraction_status": "completed",
+  "extracted_text": "Tax Invoice\nInvoice From\n044 873 0076\nTelephone\nFax\nFarm Fresh Direct\nfarmfresh\naccounts@farmfreshdirect.co.za\nE Mail\n24 Meul Street\ndirect\n4310269016\ndovenes\nVat Registration No\nCaledon Industrial Park\nstraight from the farms\n30/06/2026\nInvoice Date\n4 Unit George\nDeliver To\nInvoice To\nButterfly Blu T/A Shavi Shavi Restaurant\n198 CR Swart Drive, Brenton on Sea,Knysn\nButterfly Blu T/A Shavi Shavi Restaurant\nPage\nInvoice Number\nRepresentative\nOrder Number\n1 of 1\nInvoice Date\nAccount No\nINV1776\nRep 1\n30/06/2026 MG\n1\n30/06/2026\nD2604\nLine Total\nVatAmnt\nDisc %\nUnitPrice\nQuantity\nDescription\n25.85\n0.00\nItem Code\n25.85\n1\nPunnet-125g\n33.35\n0.00\nWHO-BLUEBERRIES\n33.35\n1\nPunnet 250g\n235.70\nWHO - STRAWBERRIES\n0.00\n117.85\n2\n10kg Pocket Potatoes- LARGE\n25.54\nWHO - POTATOES\n0.00\n23.65\n1.08\nkg\nWHO - CARROT\nNumber of Items\n320.44\nSubtotal (Exclusive)\nExtra Charges\n5.08\nPromotional\nDiscount\nDiscount Received\nRounding\n0.00\nVat\n0.00\nTotal\n320.44\nCurrency:\nZAR\nCurrencyRate:\n1.00\nanking Details:\nCreated: 30/06/2026 01:49:31\ntandard Bank\n02784187\nurrent\n51001\neNUill",
+  "extracted_tables": [
+    {
+      "type": "ocr_items",
+      "items": [
+        {
+          "text": "Tax Invoice",
+          "x": 1672.0,
+          "y": 223.0,
+          "w": 329.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "Invoice From",
+          "x": 736.0,
+          "y": 441.0,
+          "w": 364.0,
+          "h": 86.0,
+          "page": 1
+        },
+        {
+          "text": "044 873 0076",
+          "x": 2569.0,
+          "y": 429.0,
+          "w": 407.0,
+          "h": 94.0,
+          "page": 1
+        },
+        {
+          "text": "Telephone",
+          "x": 1891.0,
+          "y": 481.0,
+          "w": 306.0,
+          "h": 83.0,
+          "page": 1
+        },
+        {
+          "text": "Fax",
+          "x": 1891.0,
+          "y": 583.0,
+          "w": 120.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "Farm Fresh Direct",
+          "x": 171.0,
+          "y": 578.0,
+          "w": 478.0,
+          "h": 92.0,
+          "page": 1
+        },
+        {
+          "text": "farmfresh",
+          "x": 1164.0,
+          "y": 625.0,
+          "w": 533.0,
+          "h": 137.0,
+          "page": 1
+        },
+        {
+          "text": "accounts@farmfreshdirect.co.za",
+          "x": 2571.0,
+          "y": 564.0,
+          "w": 929.0,
+          "h": 137.0,
+          "page": 1
+        },
+        {
+          "text": "E Mail",
+          "x": 1891.0,
+          "y": 664.0,
+          "w": 185.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "24 Meul Street",
+          "x": 171.0,
+          "y": 672.0,
+          "w": 397.0,
+          "h": 84.0,
+          "page": 1
+        },
+        {
+          "text": "direct",
+          "x": 1536.0,
+          "y": 728.0,
+          "w": 170.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "4310269016",
+          "x": 2571.0,
+          "y": 698.0,
+          "w": 378.0,
+          "h": 91.0,
+          "page": 1
+        },
+        {
+          "text": "dovenes",
+          "x": 1264.0,
+          "y": 736.0,
+          "w": 158.0,
+          "h": 44.0,
+          "page": 1
+        },
+        {
+          "text": "Vat Registration No",
+          "x": 1889.0,
+          "y": 735.0,
+          "w": 563.0,
+          "h": 98.0,
+          "page": 1
+        },
+        {
+          "text": "Caledon Industrial Park",
+          "x": 167.0,
+          "y": 743.0,
+          "w": 624.0,
+          "h": 99.0,
+          "page": 1
+        },
+        {
+          "text": "straight from the farms",
+          "x": 1163.0,
+          "y": 760.0,
+          "w": 352.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "30/06/2026",
+          "x": 2571.0,
+          "y": 786.0,
+          "w": 376.0,
+          "h": 97.0,
+          "page": 1
+        },
+        {
+          "text": "Invoice Date",
+          "x": 1893.0,
+          "y": 835.0,
+          "w": 368.0,
+          "h": 82.0,
+          "page": 1
+        },
+        {
+          "text": "4 Unit George",
+          "x": 159.0,
+          "y": 848.0,
+          "w": 376.0,
+          "h": 83.0,
+          "page": 1
+        },
+        {
+          "text": "Deliver To",
+          "x": 2516.0,
+          "y": 1017.0,
+          "w": 303.0,
+          "h": 82.0,
+          "page": 1
+        },
+        {
+          "text": "Invoice To",
+          "x": 712.0,
+          "y": 1109.0,
+          "w": 298.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "Butterfly Blu T/A Shavi Shavi Restaurant",
+          "x": 1907.0,
+          "y": 1104.0,
+          "w": 1178.0,
+          "h": 142.0,
+          "page": 1
+        },
+        {
+          "text": "198 CR Swart Drive, Brenton on Sea,Knysn",
+          "x": 1907.0,
+          "y": 1180.0,
+          "w": 1235.0,
+          "h": 139.0,
+          "page": 1
+        },
+        {
+          "text": "Butterfly Blu T/A Shavi Shavi Restaurant",
+          "x": 139.0,
+          "y": 1206.0,
+          "w": 1099.0,
+          "h": 129.0,
+          "page": 1
+        },
+        {
+          "text": "Page",
+          "x": 3567.0,
+          "y": 1681.0,
+          "w": 166.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "Invoice Number",
+          "x": 2482.0,
+          "y": 1713.0,
+          "w": 479.0,
+          "h": 87.0,
+          "page": 1
+        },
+        {
+          "text": "Representative",
+          "x": 1591.0,
+          "y": 1760.0,
+          "w": 442.0,
+          "h": 85.0,
+          "page": 1
+        },
+        {
+          "text": "Order Number",
+          "x": 1069.0,
+          "y": 1780.0,
+          "w": 411.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "1 of 1",
+          "x": 3564.0,
+          "y": 1784.0,
+          "w": 172.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "Invoice Date",
+          "x": 570.0,
+          "y": 1794.0,
+          "w": 363.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "Account No",
+          "x": 76.0,
+          "y": 1815.0,
+          "w": 319.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "INV1776",
+          "x": 2478.0,
+          "y": 1829.0,
+          "w": 241.0,
+          "h": 86.0,
+          "page": 1
+        },
+        {
+          "text": "Rep 1",
+          "x": 1739.0,
+          "y": 1868.0,
+          "w": 166.0,
+          "h": 83.0,
+          "page": 1
+        },
+        {
+          "text": "30/06/2026 MG",
+          "x": 1067.0,
+          "y": 1887.0,
+          "w": 399.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "1",
+          "x": 1596.0,
+          "y": 1889.0,
+          "w": 40.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "30/06/2026",
+          "x": 566.0,
+          "y": 1901.0,
+          "w": 298.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "D2604",
+          "x": 66.0,
+          "y": 1923.0,
+          "w": 173.0,
+          "h": 79.0,
+          "page": 1
+        },
+        {
+          "text": "Line Total",
+          "x": 3433.0,
+          "y": 2005.0,
+          "w": 313.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "VatAmnt",
+          "x": 3004.0,
+          "y": 2015.0,
+          "w": 282.0,
+          "h": 79.0,
+          "page": 1
+        },
+        {
+          "text": "Disc %",
+          "x": 2703.0,
+          "y": 2033.0,
+          "w": 225.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "UnitPrice",
+          "x": 2159.0,
+          "y": 2060.0,
+          "w": 280.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "Quantity",
+          "x": 1658.0,
+          "y": 2076.0,
+          "w": 267.0,
+          "h": 85.0,
+          "page": 1
+        },
+        {
+          "text": "Description",
+          "x": 617.0,
+          "y": 2107.0,
+          "w": 328.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "25.85",
+          "x": 3576.0,
+          "y": 2105.0,
+          "w": 172.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 3150.0,
+          "y": 2121.0,
+          "w": 138.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "Item Code",
+          "x": 30.0,
+          "y": 2125.0,
+          "w": 296.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "25.85",
+          "x": 2279.0,
+          "y": 2157.0,
+          "w": 162.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "1",
+          "x": 1872.0,
+          "y": 2183.0,
+          "w": 42.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "Punnet-125g",
+          "x": 611.0,
+          "y": 2209.0,
+          "w": 327.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "33.35",
+          "x": 3581.0,
+          "y": 2207.0,
+          "w": 169.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 3153.0,
+          "y": 2222.0,
+          "w": 136.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "WHO-BLUEBERRIES",
+          "x": 7.0,
+          "y": 2217.0,
+          "w": 522.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "33.35",
+          "x": 2279.0,
+          "y": 2254.0,
+          "w": 162.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "1",
+          "x": 1872.0,
+          "y": 2281.0,
+          "w": 40.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "Punnet 250g",
+          "x": 605.0,
+          "y": 2303.0,
+          "w": 325.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "235.70",
+          "x": 3552.0,
+          "y": 2305.0,
+          "w": 200.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "WHO - STRAWBERRIES",
+          "x": 1.0,
+          "y": 2309.0,
+          "w": 584.0,
+          "h": 84.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 3155.0,
+          "y": 2322.0,
+          "w": 134.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "117.85",
+          "x": 2249.0,
+          "y": 2350.0,
+          "w": 194.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "2",
+          "x": 1866.0,
+          "y": 2370.0,
+          "w": 48.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "10kg Pocket Potatoes- LARGE",
+          "x": 610.0,
+          "y": 2382.0,
+          "w": 733.0,
+          "h": 91.0,
+          "page": 1
+        },
+        {
+          "text": "25.54",
+          "x": 3585.0,
+          "y": 2400.0,
+          "w": 176.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "WHO - POTATOES",
+          "x": 0.0,
+          "y": 2407.0,
+          "w": 447.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 3152.0,
+          "y": 2412.0,
+          "w": 144.0,
+          "h": 84.0,
+          "page": 1
+        },
+        {
+          "text": "23.65",
+          "x": 2275.0,
+          "y": 2445.0,
+          "w": 168.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "1.08",
+          "x": 1789.0,
+          "y": 2464.0,
+          "w": 125.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "kg",
+          "x": 599.0,
+          "y": 2499.0,
+          "w": 81.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "WHO - CARROT",
+          "x": 0.0,
+          "y": 2503.0,
+          "w": 386.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "Number of Items",
+          "x": 1494.0,
+          "y": 3760.0,
+          "w": 551.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "320.44",
+          "x": 3494.0,
+          "y": 3756.0,
+          "w": 237.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "Subtotal (Exclusive)",
+          "x": 2324.0,
+          "y": 3762.0,
+          "w": 622.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "Extra Charges",
+          "x": 0.0,
+          "y": 3772.0,
+          "w": 386.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "5.08",
+          "x": 1692.0,
+          "y": 3853.0,
+          "w": 150.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "Promotional",
+          "x": 1565.0,
+          "y": 4047.0,
+          "w": 392.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "Discount",
+          "x": 2329.0,
+          "y": 4092.0,
+          "w": 280.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "Discount Received",
+          "x": 1468.0,
+          "y": 4135.0,
+          "w": 589.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "Rounding",
+          "x": 2327.0,
+          "y": 4196.0,
+          "w": 302.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 1687.0,
+          "y": 4233.0,
+          "w": 148.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "Vat",
+          "x": 2320.0,
+          "y": 4321.0,
+          "w": 126.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 3589.0,
+          "y": 4341.0,
+          "w": 167.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "Total",
+          "x": 2325.0,
+          "y": 4457.0,
+          "w": 174.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "320.44",
+          "x": 3514.0,
+          "y": 4468.0,
+          "w": 242.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "Currency:",
+          "x": 2324.0,
+          "y": 4567.0,
+          "w": 314.0,
+          "h": 83.0,
+          "page": 1
+        },
+        {
+          "text": "ZAR",
+          "x": 2930.0,
+          "y": 4576.0,
+          "w": 146.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "CurrencyRate:",
+          "x": 2326.0,
+          "y": 4678.0,
+          "w": 454.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "1.00",
+          "x": 2934.0,
+          "y": 4684.0,
+          "w": 154.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "anking Details:",
+          "x": 0.0,
+          "y": 4800.0,
+          "w": 428.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "Created: 30/06/2026 01:49:31",
+          "x": 2881.0,
+          "y": 4843.0,
+          "w": 883.0,
+          "h": 84.0,
+          "page": 1
+        },
+        {
+          "text": "tandard Bank",
+          "x": 0.0,
+          "y": 4902.0,
+          "w": 333.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "02784187",
+          "x": 0.0,
+          "y": 5002.0,
+          "w": 246.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "urrent",
+          "x": 0.0,
+          "y": 5108.0,
+          "w": 154.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "51001",
+          "x": 0.0,
+          "y": 5208.0,
+          "w": 148.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "eNUill",
+          "x": 2487.0,
+          "y": 5206.0,
+          "w": 520.0,
+          "h": 151.0,
+          "page": 1
+        }
+      ]
+    }
+  ],
+  "invoice_table_rows": [
+    {
+      "supplier_code": "tandard Bank",
+      "ingredient": "Tandard Bank",
+      "description": null,
+      "quantity": 2784187.0,
+      "purchase_unit": null,
+      "unit": null,
+      "unit_price": null,
+      "line_total": null,
+      "vat": null,
+      "validation": {
+        "status": "missing",
+        "message": "Missing unit price",
+        "affected_field": "unit_price"
+      },
+      "parser_debug": {
+        "source": "ocr_positioned",
+        "header_x": {
+          "line_total": 3589.5,
+          "vat": 2383.0,
+          "unit_price": 2299.0,
+          "quantity": 1791.5,
+          "description": 781.0,
+          "supplier_code": 178.0
+        },
+        "raw_row": [
+          "02784187",
+          "tandard Bank"
+        ],
+        "raw_numeric_cells": {
+          "quantity": "02784187"
+        },
+        "mapped_quantity": 2784187.0,
+        "mapped_unit_price": null,
+        "mapped_vat": null,
+        "mapped_line_total": null,
+        "row_y": 5034.5,
+        "validation": {
+          "status": "missing",
+          "message": "Missing unit price",
+          "affected_field": "unit_price"
+        }
+      },
+      "field_confidence": {
+        "ingredient": 0.82,
+        "quantity": 0.98,
+        "unit": 0.45,
+        "unit_price": 0.35,
+        "line_total": 0.35
+      }
+    },
+    {
+      "supplier_code": null,
+      "ingredient": "Enuill",
+      "description": "eNUill",
+      "quantity": 51001.0,
+      "purchase_unit": "eNUill",
+      "unit": "eNUill",
+      "unit_price": null,
+      "line_total": null,
+      "vat": null,
+      "validation": {
+        "status": "missing",
+        "message": "Missing unit price",
+        "affected_field": "unit_price"
+      },
+      "parser_debug": {
+        "source": "ocr_positioned",
+        "header_x": {
+          "line_total": 3589.5,
+          "vat": 2383.0,
+          "unit_price": 2299.0,
+          "quantity": 1791.5,
+          "description": 781.0,
+          "supplier_code": 178.0
+        },
+        "raw_row": [
+          "51001",
+          "eNUill"
+        ],
+        "raw_numeric_cells": {
+          "quantity": "51001"
+        },
+        "mapped_quantity": 51001.0,
+        "mapped_unit_price": null,
+        "mapped_vat": null,
+        "mapped_line_total": null,
+        "row_y": 5241.5,
+        "validation": {
+          "status": "missing",
+          "message": "Missing unit price",
+          "affected_field": "unit_price"
+        }
+      },
+      "field_confidence": {
+        "ingredient": 0.82,
+        "quantity": 0.98,
+        "unit": 0.9,
+        "unit_price": 0.35,
+        "line_total": 0.35
+      }
+    }
+  ],
+  "invoice_metadata": {
+    "supplier": "044 873 0076",
+    "invoice_number": "Caledon",
+    "invoice_date": "30/06/2026",
+    "customer": "Butterfly Blu T/A Shavi Shavi Restaurant",
+    "total": null,
+    "currency": "ZAR"
+  },
+  "line_item_extraction": {
+    "detected_headers": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "headers": [
+          {
+            "header": "Item Code",
+            "field": "code",
+            "x": 178.0
+          },
+          {
+            "header": "Description",
+            "field": "description",
+            "x": 781.0
+          },
+          {
+            "header": "Quantity",
+            "field": "quantity",
+            "x": 1791.5
+          },
+          {
+            "header": "UnitPrice",
+            "field": "unit_price",
+            "x": 2299.0
+          },
+          {
+            "header": "VatAmnt",
+            "field": "vat",
+            "x": 3145.0
+          },
+          {
+            "header": "Line Total",
+            "field": "total",
+            "x": 3589.5
+          }
+        ]
+      }
+    ],
+    "detected_columns": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "columns": {
+          "code": 178.0,
+          "description": 781.0,
+          "quantity": 1791.5,
+          "unit_price": 2299.0,
+          "vat": 3145.0,
+          "total": 3589.5
+        }
+      }
+    ],
+    "extracted_rows": [],
+    "discarded_rows": [
+      {
+        "reason": "not_enough_line_values",
+        "raw_text": "WHO-BLUEBERRIES Punnet-125g 0.00 33.35"
+      },
+      {
+        "reason": "not_enough_line_values",
+        "raw_text": "WHO - STRAWBERRIES Punnet 250g 0.00 235.70"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "WHO - POTATOES 0.00 25.54"
+      },
+      {
+        "reason": "payment",
+        "raw_text": "Extra Charges Number of Items Subtotal (Exclusive) 320.44"
+      }
+    ],
+    "confidence": 0.0
+  },
+  "extraction_engine": {
+    "source": "legacy_parser_fallback",
+    "source_label": "Legacy Parser Fallback",
+    "rows_found": 4,
+    "rows_accepted": 2,
+    "rows_discarded": 4,
+    "validation_pass_rate": 0.0,
+    "overall_confidence": 0.65,
+    "fallback_reason": "Universal Extractor returned zero accepted rows.",
+    "time_taken_ms": 5143,
+    "legacy_row_count": 2
+  },
+  "errors": [],
+  "created_at": "2026-07-04T13:10:02",
+  "engine": "PaddleOCR",
+  "fallback_used": false
+}

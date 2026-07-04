@@ -1,0 +1,120 @@
+{
+  "detected_headers": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "headers": [
+        {
+          "header": "Stock Code",
+          "field": "code",
+          "x": 380.5
+        },
+        {
+          "header": "Description",
+          "field": "description",
+          "x": 940.0
+        },
+        {
+          "header": "Ship Quantity",
+          "field": "quantity",
+          "x": 2109.5
+        },
+        {
+          "header": "Unit Price",
+          "field": "unit_price",
+          "x": 2488.0
+        },
+        {
+          "header": "VAT",
+          "field": "vat",
+          "x": 3019.0
+        },
+        {
+          "header": "Nett Value",
+          "field": "total",
+          "x": 3392.5
+        }
+      ]
+    }
+  ],
+  "detected_columns": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "columns": {
+        "code": 380.5,
+        "description": 940.0,
+        "quantity": 2109.5,
+        "unit_price": 2488.0,
+        "vat": 3019.0,
+        "total": 3392.5
+      }
+    }
+  ],
+  "extracted_rows": [],
+  "discarded_rows": [
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "Cup Coffee to Go Ripple 350ml Black 1,00 266,32"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "63,99 19,20"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "32,2"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "39,77"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "30,83"
+    },
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "No Div (50's) 17,5 116,76"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "(50's) 0,00 741,60"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "000000000003889 35,90 5,39"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "000000000006145 37,96 22,78"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "000000000010122 187,95 28,19"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "000000000010204 156,95 23,54"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "000000000010369 229,82 34,47"
+    },
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "5kg 56,77 378,44"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "000000000011543 Ice Cream Vanilla 5L POLAR (Frozen"
+    },
+    {
+      "reason": "subtotal",
+      "raw_text": "NO FROZEN AND CHILLED STOCK CAN Sub Total 3078,88"
+    }
+  ],
+  "confidence": 0.0
+}

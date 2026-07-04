@@ -1,0 +1,167 @@
+express
+Tax Invoice
+George Retail
+No
+GE11155880
+92 Hope Street
+Date
+1/7/26
+George
+Telephone (044) 874 3729
+Time
+15:09
+Email:debtors2@groceryexpress.co.za
+Reg:2022/602754/07Nat4470310063
+Shavi Shavi Restt/a Butterfly Blue
+000000000003389
+Shipping Address
+Customer
+Restaurant
+Shavi Shavi Restt/a Butterfly Blue Restaurant
+198 CR Swart Drive Brent-on-Sea
+198 CR Swart Drive Brent-on-Sea
+[object Object]
+Knysna
+Knysna
+Western Cape
+Western Cape
+South Africa
+South Africa
+6570
+Telephone
+0443810027
+Shipping Instructions
+Vat Nr:
+4660316862
+Email:
+monique@wildroutegroup.co.za;accounts@w
+Customer PO No.
+Order Date
+Ship Date
+Salesperson
+Invoice Date
+Sales Order
+1/7/26
+1/7/26JJ
+1/7/26
+GE1S161441
+Nett Value
+VAT
+Ship Quantity
+Unit Price
+Disc %
+Description
+Stock Code
+266,32
+39,95
+1,00
+266,32
+Cup Coffee to Go Ripple 350ml Black
+000000000001189
+(100)
+127,98
+19,20
+2,00
+63,99
+Plastic Pkts Midi (100)
+000000000001877
+214,70
+32,2
+2,00
+107,35
+Cup Coffee to Go Ripple 250ml Black (50)
+265,11
+000000000002312
+39,77
+1,00
+265,11
+Sugar White Huletts 10kg
+205,51
+000000000002744
+30,83
+1,00
+205,51
+Biodegradable Sugar Cane Lunch Box
+000000000002763
+116,76
+No Div (50's)
+17,5
+1,00
+116,76
+Biodegradable Sugar Cane Burger Boxes
+000000000002772
+741,60
+(50's)
+0,00
+30,90
+24,00
+Milk FChoice Esl F/Cream Fresh 2L
+35,90
+000000000003889
+5,39
+1,00
+35,90
+Lemon Juice Chef 2L
+151,84
+000000000006145
+22,78
+37,96
+4,00
+Condensed Milk Nestle 385g
+187,95
+000000000010122
+28,19
+187,95
+1,00
+Serviettes 2ply 330 x 330 (1000)
+156,95
+000000000010204
+23,54
+156,95
+1,00
+Hot Chocolate Ciro 1kg
+229,82
+34,47
+000000000010369
+1,00
+229,82
+Yoghurt Lancewood Double Cream Plain
+000000000010979
+378,44
+5kg
+56,77
+4,00
+94,61
+Ice Cream Vanilla 5L POLAR (Frozen
+000000000011543
+dessert)
+NOTES:
+Customer Signature:
+3078,88
+Sub Total
+NO FROZEN AND CHILLED STOCK CAN
+GROCERY EXPRESS
+BE RETURNED OTHER THAN AT THE
+0.00
+ABSABANK
+Total Discount
+TIME OF DELIVERY
+Branch Code: 632005
+3 078,8
+Acc:4061808534
+Amount Excl VAT :
+RETURNED GOODS WILL ONLY BE
+350.5
+Received in good order
+ACCEPTED WITHIN 24 HRS OF
+VAT
+DELIVERY
+3 429,4
+Total
+Date
+Signed
+VERY IMPORTANT NOTIFICATION PLEASE BE ADVISED THAT OUR BANKING DETAILS HAVE NOT CHANGED!
+Page 1 of 1
+04
+8/08
+06

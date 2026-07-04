@@ -1,0 +1,72 @@
+{
+  "detected_headers": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "headers": [
+        {
+          "header": "Item Code",
+          "field": "code",
+          "x": 235.5
+        },
+        {
+          "header": "Description",
+          "field": "description",
+          "x": 851.0
+        },
+        {
+          "header": "Quantity",
+          "field": "quantity",
+          "x": 1836.5
+        },
+        {
+          "header": "UnitPrice",
+          "field": "unit_price",
+          "x": 2326.5
+        },
+        {
+          "header": "VatAmnt",
+          "field": "vat",
+          "x": 3129.5
+        },
+        {
+          "header": "Line Total",
+          "field": "total",
+          "x": 3538.5
+        }
+      ]
+    }
+  ],
+  "detected_columns": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "columns": {
+        "code": 235.5,
+        "description": 851.0,
+        "quantity": 1836.5,
+        "unit_price": 2326.5,
+        "vat": 3129.5,
+        "total": 3538.5
+      }
+    }
+  ],
+  "extracted_rows": [],
+  "discarded_rows": [
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "KIN002 37.12 247.50"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "135.00 524.47"
+    },
+    {
+      "reason": "banking",
+      "raw_text": "Banking Details: Subtotal (Exclusive) 4 618.50"
+    }
+  ],
+  "confidence": 0.0
+}

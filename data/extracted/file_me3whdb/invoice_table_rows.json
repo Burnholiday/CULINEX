@@ -1,0 +1,53 @@
+[
+  {
+    "supplier_code": null,
+    "ingredient": "Dewill",
+    "description": "Dewill",
+    "quantity": 51001.0,
+    "purchase_unit": "Dewill",
+    "unit": "Dewill",
+    "unit_price": null,
+    "line_total": null,
+    "vat": null,
+    "validation": {
+      "status": "missing",
+      "message": "Missing unit price",
+      "affected_field": "unit_price"
+    },
+    "parser_debug": {
+      "source": "ocr_positioned",
+      "header_x": {
+        "unit_price": 2305.0,
+        "vat": 2415.0,
+        "line_total": 3504.0,
+        "quantity": 1808.0,
+        "description": 804.0,
+        "supplier_code": 200.0
+      },
+      "raw_row": [
+        "051001",
+        "Dewill"
+      ],
+      "raw_numeric_cells": {
+        "quantity": "051001"
+      },
+      "mapped_quantity": 51001.0,
+      "mapped_unit_price": null,
+      "mapped_vat": null,
+      "mapped_line_total": null,
+      "row_y": 5941.5,
+      "validation": {
+        "status": "missing",
+        "message": "Missing unit price",
+        "affected_field": "unit_price"
+      }
+    },
+    "field_confidence": {
+      "ingredient": 0.82,
+      "quantity": 0.98,
+      "unit": 0.9,
+      "unit_price": 0.35,
+      "line_total": 0.35
+    }
+  }
+]

@@ -1,0 +1,92 @@
+Tax Invoice
+044 873 0076
+Telephone
+Invoice From
+Fax
+accounts@farmfreshdirect.co.za
+Farm Fresh Direct
+E Mail
+farmfresh
+4310269016
+24 Meul Street
+direct
+Vat Registration No
+deliveries
+18/06/2026
+straight trom the forms
+Caledon Industrial Park
+Invoice Date
+4 Unit George
+Deliver To
+Butterfly Blu T/A Shavi Shavi Restaurant
+Invoice To
+198 CR Swart Drive, Brenton on Sea,Knysn
+Butterfly Blu T/A Shavi Shavi Restaurant
+Pagc
+Invoice Number
+Representative
+2 of
+Order Number
+INV1070
+Invoice Date
+Rep 1
+Account No
+1
+18/06/2026 MW
+18/06/2026
+D2604
+Line Totai
+Disc %
+VatAmnt
+UnitPrice
+Quantity
+0.00
+46.00
+Description
+23.00
+2
+Item Code
+Italian HERB 100G
+0.00
+98.68
+WHO - FLAT LEAVE
+48.85
+2.02
+PARSLEY
+0.00
+148.90
+KG
+93.65
+WHO - GREEN BEANS
+1.59
+0.00
+32.85
+Red - KG
+32.85
+WHO - PEPPERS RED
+1
+WHO - CORN PUNNETS Punnet
+1,944.86
+Subtotal (Exclusive)
+Number of Items
+Extra Charges
+43.22
+Promotional
+Discount
+Discount Received
+Rounding
+0.00
+0.00
+Vat
+1,944.86
+Total
+ZAR
+Currency:
+1.00
+CurrencyRate:
+Created: 18/06/2026 00:54:49
+Banking Details:
+Standard Bank
+302784187
+Current
+051001

@@ -1,0 +1,135 @@
+{
+  "detected_headers": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "headers": [
+        {
+          "header": "Item Code",
+          "field": "code",
+          "x": 212.0
+        },
+        {
+          "header": "Description",
+          "field": "description",
+          "x": 815.5
+        },
+        {
+          "header": "Quantity",
+          "field": "quantity",
+          "x": 1807.0
+        },
+        {
+          "header": "UnitPrice",
+          "field": "unit_price",
+          "x": 2289.0
+        },
+        {
+          "header": "VatAmnt",
+          "field": "vat",
+          "x": 3079.0
+        },
+        {
+          "header": "Line Total",
+          "field": "total",
+          "x": 3488.5
+        }
+      ]
+    }
+  ],
+  "detected_columns": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "columns": {
+        "code": 212.0,
+        "description": 815.5,
+        "quantity": 1807.0,
+        "unit_price": 2289.0,
+        "vat": 3079.0,
+        "total": 3488.5
+      }
+    }
+  ],
+  "extracted_rows": [
+    {
+      "description": "Rocket Herb - kg",
+      "quantity": "0.6",
+      "unit": "KG",
+      "unit_price": "195.00",
+      "total": "117.00",
+      "vat": "0.00",
+      "raw_text": "Rocket Herb - kg 0.6 195.00 0.00 117.00",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 117.0,
+        "actual_total": 117.0,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "Medium - Large",
+      "quantity": "2",
+      "unit": "",
+      "unit_price": "22.85",
+      "total": "45.70",
+      "vat": "0.00",
+      "raw_text": "Medium - Large 2 22.85 0.00 45.70",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 45.7,
+        "actual_total": 45.7,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    }
+  ],
+  "discarded_rows": [
+    {
+      "reason": "noise",
+      "raw_text": "2.04 58.00 0.00 118.32"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "1 32.85 0.00 32.85"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "1.04 142.85 0.00 148.56"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "1.005 148.65 0.00 149.39"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "3.11 16.80 0.00 52.25"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "4 22.65 0.00 90.60"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "2.18 36.85 0.00 80.33"
+    },
+    {
+      "reason": "payment",
+      "raw_text": "Extra Charges Number of Items Subtotal (Exclusive) 835.01"
+    }
+  ],
+  "confidence": 1.0
+}

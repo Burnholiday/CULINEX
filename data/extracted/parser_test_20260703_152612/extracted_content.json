@@ -1,0 +1,947 @@
+{
+  "file_id": "parser_test_20260703_152612",
+  "filename": "20260703_152612.jpg",
+  "file_type": "IMAGE",
+  "extraction_status": "completed",
+  "extracted_text": "enyexpress\nTax Invoice\nGeorge Retail\nGE11156215\nNo\n92 Hope Street\nGeorge\n217/26\nDate\nTelephone (044) 874 3729\nTime\n17:29\nEmail:debtors2@groceryexpress.co.za\nReg:2022/602754/07/Vat4470310063\n000000000003389\nShavi Shavi Restt/a Butterfly Blue\nCustomer\nShipping Address\nShavi Shavi Restt/a Butterfly Blue Restaurant\nRestaurant\n198 CR Swart Drive Brent-on-Sea\n198 CR Swart Drive Brent-on-Sea\n[object Object]\nKnysna\nKnysna\nWestern Cape\nWestern Cape\nSouth Africa\nSouth Africa\n6570\nTelephone\n0443810027\nShipping Instructions\nVat Nr:\n4660316862\nEmail:\nmonique@wildroutegroup.co.za;accounts@w\nSalesperson\nCustomer PO No.\nShip Date\nInvoice Date\nOrder Date\nSales Order\n2/7/26\n3/7/26JJ\n2/7/26\nGE1S161761\nUnit Price Disc %\nVAT\nNett Value\nShip Quantity\nStock Code\nDescription\n0,00\n298,90\n40,00\n29,89\n000000000002157\nRice Sushi Myasia 1kg\n48,33\n7,25\n1,00\n48,33\n000000000004265\nTofu Fortune Tau Kwa 2 x 225g\n53,63\n357,52\n4,00\n89,38\n000000000040210Mayonnaise Kewpie 450g (sushi)\nNOTES:\nCustomer Signature:\nNO FROZEN AND CHILLED STOCK CAN\nGROCERY EXPRESS\n70\nSub Total\nBE RETURNED OTHER THAN AT THE\nABSABANK\nTIME OF DELIVERY\nBranch Code: 632005\nTotal Discount\nAcc:4061808534\nAmount Excl VAT :\n7\nRETURNED GOODS WILL ONLY BE\nReceived in good order\nACCEPTED WITHIN 24 HRS OF\nVAT\nDELIVERY\n107/2026\nTotal\nDate 03\nSigned\nVERY IMPORTANT NOTIFICATION PLEASE BE ADVISED THAT OUR BANKING DETAILS HAVE NOT CHANGED!\nPage 1 of 1\nDensity\nOn\nOriginal Type: Text\nCO/P\n2-Sided: Off\n\u753b/\n\u53e3\u533a\n00p0\nT",
+  "extracted_tables": [
+    {
+      "type": "ocr_items",
+      "items": [
+        {
+          "text": "enyexpress",
+          "x": 749.0,
+          "y": 1456.0,
+          "w": 1089.0,
+          "h": 158.0,
+          "page": 1
+        },
+        {
+          "text": "Tax Invoice",
+          "x": 2499.0,
+          "y": 1462.0,
+          "w": 305.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "George Retail",
+          "x": 308.0,
+          "y": 1639.0,
+          "w": 375.0,
+          "h": 79.0,
+          "page": 1
+        },
+        {
+          "text": "GE11156215",
+          "x": 3073.0,
+          "y": 1647.0,
+          "w": 328.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "No",
+          "x": 1986.0,
+          "y": 1661.0,
+          "w": 91.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "92 Hope Street",
+          "x": 304.0,
+          "y": 1699.0,
+          "w": 405.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "George",
+          "x": 300.0,
+          "y": 1754.0,
+          "w": 212.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "217/26",
+          "x": 3247.0,
+          "y": 1747.0,
+          "w": 169.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "Date",
+          "x": 1979.0,
+          "y": 1761.0,
+          "w": 138.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "Telephone (044) 874 3729",
+          "x": 298.0,
+          "y": 1813.0,
+          "w": 701.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "Time",
+          "x": 1979.0,
+          "y": 1818.0,
+          "w": 145.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "17:29",
+          "x": 3261.0,
+          "y": 1812.0,
+          "w": 159.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "Email:debtors2@groceryexpress.co.za",
+          "x": 294.0,
+          "y": 1873.0,
+          "w": 999.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "Reg:2022/602754/07/Vat4470310063",
+          "x": 296.0,
+          "y": 1934.0,
+          "w": 991.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "000000000003389",
+          "x": 2375.0,
+          "y": 2189.0,
+          "w": 500.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "Shavi Shavi Restt/a Butterfly Blue",
+          "x": 895.0,
+          "y": 2201.0,
+          "w": 888.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "Customer",
+          "x": 1939.0,
+          "y": 2207.0,
+          "w": 264.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "Shipping Address",
+          "x": 323.0,
+          "y": 2219.0,
+          "w": 465.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "Shavi Shavi Restt/a Butterfly Blue Restaurant",
+          "x": 2377.0,
+          "y": 2238.0,
+          "w": 1200.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "Restaurant",
+          "x": 895.0,
+          "y": 2271.0,
+          "w": 299.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "198 CR Swart Drive Brent-on-Sea",
+          "x": 2379.0,
+          "y": 2301.0,
+          "w": 896.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "198 CR Swart Drive Brent-on-Sea",
+          "x": 893.0,
+          "y": 2321.0,
+          "w": 886.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "[object Object]",
+          "x": 887.0,
+          "y": 2387.0,
+          "w": 390.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "Knysna",
+          "x": 2381.0,
+          "y": 2432.0,
+          "w": 212.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "Knysna",
+          "x": 887.0,
+          "y": 2450.0,
+          "w": 213.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "Western Cape",
+          "x": 2385.0,
+          "y": 2491.0,
+          "w": 392.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "Western Cape",
+          "x": 885.0,
+          "y": 2511.0,
+          "w": 392.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "South Africa",
+          "x": 2390.0,
+          "y": 2552.0,
+          "w": 337.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "South Africa",
+          "x": 885.0,
+          "y": 2574.0,
+          "w": 333.0,
+          "h": 58.0,
+          "page": 1
+        },
+        {
+          "text": "6570",
+          "x": 2387.0,
+          "y": 2611.0,
+          "w": 149.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "Telephone",
+          "x": 1945.0,
+          "y": 2781.0,
+          "w": 298.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "0443810027",
+          "x": 2409.0,
+          "y": 2770.0,
+          "w": 348.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "Shipping Instructions",
+          "x": 280.0,
+          "y": 2866.0,
+          "w": 569.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "Vat Nr:",
+          "x": 1949.0,
+          "y": 2891.0,
+          "w": 191.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "4660316862",
+          "x": 2414.0,
+          "y": 2880.0,
+          "w": 349.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "Email:",
+          "x": 1942.0,
+          "y": 2970.0,
+          "w": 182.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "monique@wildroutegroup.co.za;accounts@w",
+          "x": 2416.0,
+          "y": 2952.0,
+          "w": 1237.0,
+          "h": 82.0,
+          "page": 1
+        },
+        {
+          "text": "Salesperson",
+          "x": 2513.0,
+          "y": 3101.0,
+          "w": 362.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "Customer PO No.",
+          "x": 3079.0,
+          "y": 3088.0,
+          "w": 501.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "Ship Date",
+          "x": 1953.0,
+          "y": 3107.0,
+          "w": 286.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "Invoice Date",
+          "x": 879.0,
+          "y": 3125.0,
+          "w": 351.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "Order Date",
+          "x": 1433.0,
+          "y": 3121.0,
+          "w": 313.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "Sales Order",
+          "x": 284.0,
+          "y": 3131.0,
+          "w": 337.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "2/7/26",
+          "x": 1677.0,
+          "y": 3215.0,
+          "w": 185.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "3/7/26JJ",
+          "x": 2186.0,
+          "y": 3200.0,
+          "w": 273.0,
+          "h": 79.0,
+          "page": 1
+        },
+        {
+          "text": "2/7/26",
+          "x": 1186.0,
+          "y": 3219.0,
+          "w": 186.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "GE1S161761",
+          "x": 236.0,
+          "y": 3233.0,
+          "w": 367.0,
+          "h": 58.0,
+          "page": 1
+        },
+        {
+          "text": "Unit Price Disc %",
+          "x": 2381.0,
+          "y": 3327.0,
+          "w": 520.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "VAT",
+          "x": 3008.0,
+          "y": 3318.0,
+          "w": 144.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "Nett Value",
+          "x": 3307.0,
+          "y": 3315.0,
+          "w": 313.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "Ship Quantity",
+          "x": 1951.0,
+          "y": 3342.0,
+          "w": 380.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "Stock Code",
+          "x": 240.0,
+          "y": 3360.0,
+          "w": 335.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "Description",
+          "x": 808.0,
+          "y": 3360.0,
+          "w": 321.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "0,00",
+          "x": 3142.0,
+          "y": 3412.0,
+          "w": 144.0,
+          "h": 83.0,
+          "page": 1
+        },
+        {
+          "text": "298,90",
+          "x": 3477.0,
+          "y": 3404.0,
+          "w": 218.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "40,00",
+          "x": 2174.0,
+          "y": 3429.0,
+          "w": 199.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "29,89",
+          "x": 2519.0,
+          "y": 3423.0,
+          "w": 175.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "000000000002157",
+          "x": 221.0,
+          "y": 3454.0,
+          "w": 530.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "Rice Sushi Myasia 1kg",
+          "x": 765.0,
+          "y": 3443.0,
+          "w": 640.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "48,33",
+          "x": 3524.0,
+          "y": 3495.0,
+          "w": 179.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "7,25",
+          "x": 3149.0,
+          "y": 3505.0,
+          "w": 142.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "1,00",
+          "x": 2210.0,
+          "y": 3512.0,
+          "w": 170.0,
+          "h": 83.0,
+          "page": 1
+        },
+        {
+          "text": "48,33",
+          "x": 2526.0,
+          "y": 3515.0,
+          "w": 170.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "000000000004265",
+          "x": 217.0,
+          "y": 3539.0,
+          "w": 532.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "Tofu Fortune Tau Kwa 2 x 225g",
+          "x": 755.0,
+          "y": 3529.0,
+          "w": 894.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "53,63",
+          "x": 3124.0,
+          "y": 3597.0,
+          "w": 171.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "357,52",
+          "x": 3495.0,
+          "y": 3584.0,
+          "w": 217.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "4,00",
+          "x": 2233.0,
+          "y": 3605.0,
+          "w": 146.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "89,38",
+          "x": 2530.0,
+          "y": 3605.0,
+          "w": 170.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "000000000040210Mayonnaise Kewpie 450g (sushi)",
+          "x": 211.0,
+          "y": 3621.0,
+          "w": 1476.0,
+          "h": 82.0,
+          "page": 1
+        },
+        {
+          "text": "NOTES:",
+          "x": 109.0,
+          "y": 5310.0,
+          "w": 265.0,
+          "h": 84.0,
+          "page": 1
+        },
+        {
+          "text": "Customer Signature:",
+          "x": 2245.0,
+          "y": 5379.0,
+          "w": 642.0,
+          "h": 82.0,
+          "page": 1
+        },
+        {
+          "text": "NO FROZEN AND CHILLED STOCK CAN",
+          "x": 1391.0,
+          "y": 5528.0,
+          "w": 1049.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "GROCERY EXPRESS",
+          "x": 105.0,
+          "y": 5542.0,
+          "w": 551.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "70",
+          "x": 3673.0,
+          "y": 5543.0,
+          "w": 95.0,
+          "h": 87.0,
+          "page": 1
+        },
+        {
+          "text": "Sub Total",
+          "x": 2649.0,
+          "y": 5561.0,
+          "w": 315.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "BE RETURNED OTHER THAN AT THE",
+          "x": 1391.0,
+          "y": 5596.0,
+          "w": 984.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "ABSABANK",
+          "x": 99.0,
+          "y": 5612.0,
+          "w": 320.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "TIME OF DELIVERY",
+          "x": 1388.0,
+          "y": 5663.0,
+          "w": 523.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "Branch Code: 632005",
+          "x": 95.0,
+          "y": 5677.0,
+          "w": 537.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "Total Discount",
+          "x": 2653.0,
+          "y": 5692.0,
+          "w": 465.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "Acc:4061808534",
+          "x": 89.0,
+          "y": 5742.0,
+          "w": 421.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "Amount Excl VAT :",
+          "x": 2661.0,
+          "y": 5838.0,
+          "w": 606.0,
+          "h": 82.0,
+          "page": 1
+        },
+        {
+          "text": "7",
+          "x": 3707.0,
+          "y": 5838.0,
+          "w": 61.0,
+          "h": 88.0,
+          "page": 1
+        },
+        {
+          "text": "RETURNED GOODS WILL ONLY BE",
+          "x": 1387.0,
+          "y": 5863.0,
+          "w": 948.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "Received in good order",
+          "x": 83.0,
+          "y": 5877.0,
+          "w": 573.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "ACCEPTED WITHIN 24 HRS OF",
+          "x": 1382.0,
+          "y": 5932.0,
+          "w": 831.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "VAT",
+          "x": 2662.0,
+          "y": 5985.0,
+          "w": 166.0,
+          "h": 92.0,
+          "page": 1
+        },
+        {
+          "text": "DELIVERY",
+          "x": 1385.0,
+          "y": 6004.0,
+          "w": 286.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "107/2026",
+          "x": 1709.0,
+          "y": 6040.0,
+          "w": 709.0,
+          "h": 238.0,
+          "page": 1
+        },
+        {
+          "text": "Total",
+          "x": 2670.0,
+          "y": 6124.0,
+          "w": 186.0,
+          "h": 90.0,
+          "page": 1
+        },
+        {
+          "text": "Date 03",
+          "x": 1345.0,
+          "y": 6121.0,
+          "w": 404.0,
+          "h": 157.0,
+          "page": 1
+        },
+        {
+          "text": "Signed",
+          "x": 47.0,
+          "y": 6171.0,
+          "w": 233.0,
+          "h": 98.0,
+          "page": 1
+        },
+        {
+          "text": "VERY IMPORTANT NOTIFICATION PLEASE BE ADVISED THAT OUR BANKING DETAILS HAVE NOT CHANGED!",
+          "x": 386.0,
+          "y": 6320.0,
+          "w": 2992.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "Page 1 of 1",
+          "x": 1705.0,
+          "y": 6438.0,
+          "w": 309.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "Density",
+          "x": 1225.0,
+          "y": 6772.0,
+          "w": 323.0,
+          "h": 104.0,
+          "page": 1
+        },
+        {
+          "text": "On",
+          "x": 2684.0,
+          "y": 6846.0,
+          "w": 116.0,
+          "h": 84.0,
+          "page": 1
+        },
+        {
+          "text": "Original Type: Text",
+          "x": 1226.0,
+          "y": 6868.0,
+          "w": 829.0,
+          "h": 111.0,
+          "page": 1
+        },
+        {
+          "text": "CO/P",
+          "x": 47.0,
+          "y": 6885.0,
+          "w": 176.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "2-Sided: Off",
+          "x": 1225.0,
+          "y": 6960.0,
+          "w": 526.0,
+          "h": 105.0,
+          "page": 1
+        },
+        {
+          "text": "\u753b/",
+          "x": 562.0,
+          "y": 7125.0,
+          "w": 241.0,
+          "h": 120.0,
+          "page": 1
+        },
+        {
+          "text": "\u53e3\u533a",
+          "x": 2982.0,
+          "y": 7167.0,
+          "w": 132.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "00p0",
+          "x": 79.0,
+          "y": 7190.0,
+          "w": 102.0,
+          "h": 44.0,
+          "page": 1
+        },
+        {
+          "text": "T",
+          "x": 3547.0,
+          "y": 7417.0,
+          "w": 63.0,
+          "h": 72.0,
+          "page": 1
+        }
+      ]
+    }
+  ],
+  "invoice_table_rows": [],
+  "invoice_metadata": {
+    "supplier": "enyexpress",
+    "invoice_number": "FROZEN",
+    "invoice_date": "2/7/26",
+    "customer": "Shipping Address",
+    "total": null,
+    "currency": null
+  },
+  "line_item_extraction": {
+    "detected_headers": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "headers": [
+          {
+            "header": "Stock Code",
+            "field": "code",
+            "x": 407.5
+          },
+          {
+            "header": "Description",
+            "field": "description",
+            "x": 968.5
+          },
+          {
+            "header": "Ship Quantity",
+            "field": "quantity",
+            "x": 2141.0
+          },
+          {
+            "header": "Unit Price Disc %",
+            "field": "unit_price",
+            "x": 2641.0
+          },
+          {
+            "header": "VAT",
+            "field": "vat",
+            "x": 3080.0
+          },
+          {
+            "header": "Nett Value",
+            "field": "total",
+            "x": 3463.5
+          }
+        ]
+      }
+    ],
+    "detected_columns": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "columns": {
+          "code": 407.5,
+          "description": 968.5,
+          "quantity": 2141.0,
+          "unit_price": 2641.0,
+          "vat": 3080.0,
+          "total": 3463.5
+        }
+      }
+    ],
+    "extracted_rows": [],
+    "discarded_rows": [
+      {
+        "reason": "noise",
+        "raw_text": "40,00 29,89 0,00"
+      },
+      {
+        "reason": "not_enough_line_values",
+        "raw_text": "Tofu Fortune Tau Kwa 2 x 225g 1,00 48,33 7,25"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "4,00 89,38 53,63 357,52"
+      },
+      {
+        "reason": "banking",
+        "raw_text": "ABSABANK Branch Code: 632005 GROCERY EXPRESS TIME OF DELIVERY BE RETURNED OTHER THAN AT THE NO FROZEN AND CHILLED STOCK CAN Sub Total Total Discount 70"
+      }
+    ],
+    "confidence": 0.0
+  },
+  "extraction_engine": {
+    "source": "legacy_parser_fallback",
+    "source_label": "Legacy Parser Fallback",
+    "rows_found": 4,
+    "rows_accepted": 0,
+    "rows_discarded": 4,
+    "validation_pass_rate": 0.0,
+    "overall_confidence": 0,
+    "fallback_reason": "Universal Extractor returned zero accepted rows.",
+    "time_taken_ms": 6275,
+    "legacy_row_count": 0
+  },
+  "errors": [],
+  "created_at": "2026-07-04T13:11:06",
+  "engine": "PaddleOCR",
+  "fallback_used": false
+}

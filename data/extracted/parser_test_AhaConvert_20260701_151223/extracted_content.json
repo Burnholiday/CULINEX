@@ -1,0 +1,1281 @@
+{
+  "file_id": "parser_test_AhaConvert_20260701_151223",
+  "filename": "AhaConvert_20260701_151223.jpg",
+  "file_type": "IMAGE",
+  "extraction_status": "completed",
+  "extracted_text": "Tab\nC\nlogi\nDistriLiq\nTHE PROPERTY OF\nDISTRILIQ\nGEORGE\nFULLY PAID FOR\nSTEINHOFF\nINDUSTRIAL PARK\nPW BOTHA\nBOULEVARD\nDOCUMENT INFO\nWe deliver daily\nINDUSTRIA\nGEORGE 6530\nTax invoice\n291563\n2016/182310/07\nVAT NO.: 4950277113\nNLA REG. No: RG1876\nCUSTOMER DETAILS\nNO CASH\n14D BUTTERFLY BLU RESTAURANT\nNO CHEQUES\nSHAVI SHAVI RESTAURANT\nBANKING DETAILS:\n198 CR SWART DRIVE. BRENTON ON SEA\nFNB MENLYN\nINTEREST WILL BE CHARGED\nAcc No: 62616721321\nTel.(w): 044 381 0027 CIARA WCP/040670\nON OVERDUE ACCOUNTS\nBRaNCH No: 250 255\nClient VAT Number:\nPA.2\n4660316862\nFOR ALL BANK CHARGES\nSALES\nREP\nSales Rep : 13\nWS\nLEVIENIA\nWS: 7\nNO.\nSPECIAL INSTRUCTION\nDATE & TIME\nDOCUMENT NO.\nACCOUNT NO.\n2026/07/01\n07:40\n291563\nBBR001\nTOTAL\nVAT\nDISC %\n555.04\nCODE\nDESCRIPTION\nPRICE\n36.20\nQUANTITY\n0.00\n277.52\nGOKEZ/330/2\n241.32\nZERO COKE CAN\n300ML\n38.20\n2\n0.00\nSP/24/330ML\n407.81\n/SPRITE (WHITE LABLE)\n241.32\n300ML\n26.58\n1\n0.00\n177.22\n215.80\nAQSPGJ750M\nAQUABELLA BIG SPARKLIN 750ML\n28.15\n0.00\nABSP/250/24\n187.65\n215.80\nAQUABELLA SPARKLING *250ML\nWWW\n28.15\n0.00\n187.65\n123.18\nABS/250/24\nAQUABELLASTILL\nwww250ML\n16.07\n0.00\n107.11\n131.44\nTSSP/1000/1\nTSITSIKAMMA SPARKLING 1000ML\n17.15\n0.00\n114.30\nTSST/500/24\nTSITSIKAMMA STILL\n500ML\nBEER\n29\nAMOUNT DUE\n661.91\n4412.50\n31\nTotals\nTotal Vat. 001.91\nStandard Rate: 15.00\n5074.41\n18158:27\nPLEASE MARK EMPTIES RETURNED BELOW:\n\"WE ARE POPI COMPLIANT\"\nOutstanding Balance:\n18158.27\nAMOUNT\nuthadb\nPAYMENT\nPAID\nDISTELL\nNAME:\nCRAFT\nKEGS\nSAB\nHEIN/NAM\nCASH\nEMPTY\nEMPTY\nABI\nCRATEISTRI-LPINTS\nABI.\nSAB\nSIGNATURE:\nE/CRATE\nEFT\nBLUE\nGREY\nRED\nHEINEKEN\nHUNTERS\nBROWN\nGREENGREY\nQUARTS",
+  "extracted_tables": [
+    {
+      "type": "ocr_items",
+      "items": [
+        {
+          "text": "Tab",
+          "x": 3605.0,
+          "y": 228.0,
+          "w": 163.0,
+          "h": 157.0,
+          "page": 1
+        },
+        {
+          "text": "C",
+          "x": 3713.0,
+          "y": 610.0,
+          "w": 55.0,
+          "h": 82.0,
+          "page": 1
+        },
+        {
+          "text": "logi",
+          "x": 0.0,
+          "y": 818.0,
+          "w": 300.0,
+          "h": 265.0,
+          "page": 1
+        },
+        {
+          "text": "DistriLiq",
+          "x": 248.0,
+          "y": 1692.0,
+          "w": 742.0,
+          "h": 317.0,
+          "page": 1
+        },
+        {
+          "text": "THE PROPERTY OF",
+          "x": 2886.0,
+          "y": 1559.0,
+          "w": 613.0,
+          "h": 178.0,
+          "page": 1
+        },
+        {
+          "text": "DISTRILIQ",
+          "x": 1585.0,
+          "y": 1774.0,
+          "w": 249.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "GEORGE",
+          "x": 1803.0,
+          "y": 1756.0,
+          "w": 221.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "FULLY PAID FOR",
+          "x": 2929.0,
+          "y": 1655.0,
+          "w": 524.0,
+          "h": 175.0,
+          "page": 1
+        },
+        {
+          "text": "STEINHOFF",
+          "x": 1592.0,
+          "y": 1824.0,
+          "w": 266.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "INDUSTRIAL PARK",
+          "x": 1845.0,
+          "y": 1775.0,
+          "w": 420.0,
+          "h": 97.0,
+          "page": 1
+        },
+        {
+          "text": "PW BOTHA",
+          "x": 1596.0,
+          "y": 1873.0,
+          "w": 249.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "BOULEVARD",
+          "x": 1846.0,
+          "y": 1845.0,
+          "w": 279.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "DOCUMENT INFO",
+          "x": 2863.0,
+          "y": 1736.0,
+          "w": 661.0,
+          "h": 204.0,
+          "page": 1
+        },
+        {
+          "text": "We deliver daily",
+          "x": 369.0,
+          "y": 1911.0,
+          "w": 407.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "INDUSTRIA",
+          "x": 1591.0,
+          "y": 1915.0,
+          "w": 255.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "GEORGE 6530",
+          "x": 1838.0,
+          "y": 1884.0,
+          "w": 360.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "Tax invoice",
+          "x": 2959.0,
+          "y": 1842.0,
+          "w": 558.0,
+          "h": 186.0,
+          "page": 1
+        },
+        {
+          "text": "291563",
+          "x": 3077.0,
+          "y": 1941.0,
+          "w": 321.0,
+          "h": 145.0,
+          "page": 1
+        },
+        {
+          "text": "2016/182310/07",
+          "x": 18.0,
+          "y": 2109.0,
+          "w": 368.0,
+          "h": 48.0,
+          "page": 1
+        },
+        {
+          "text": "VAT NO.: 4950277113",
+          "x": 1079.0,
+          "y": 2107.0,
+          "w": 467.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "NLA REG. No: RG1876",
+          "x": 1591.0,
+          "y": 2116.0,
+          "w": 591.0,
+          "h": 122.0,
+          "page": 1
+        },
+        {
+          "text": "CUSTOMER DETAILS",
+          "x": 432.0,
+          "y": 2175.0,
+          "w": 733.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "NO CASH",
+          "x": 3009.0,
+          "y": 2171.0,
+          "w": 366.0,
+          "h": 135.0,
+          "page": 1
+        },
+        {
+          "text": "14D BUTTERFLY BLU RESTAURANT",
+          "x": 170.0,
+          "y": 2319.0,
+          "w": 967.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "NO CHEQUES",
+          "x": 2932.0,
+          "y": 2284.0,
+          "w": 527.0,
+          "h": 153.0,
+          "page": 1
+        },
+        {
+          "text": "SHAVI SHAVI RESTAURANT",
+          "x": 160.0,
+          "y": 2393.0,
+          "w": 766.0,
+          "h": 86.0,
+          "page": 1
+        },
+        {
+          "text": "BANKING DETAILS:",
+          "x": 1607.0,
+          "y": 2386.0,
+          "w": 430.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "198 CR SWART DRIVE. BRENTON ON SEA",
+          "x": 158.0,
+          "y": 2456.0,
+          "w": 1166.0,
+          "h": 113.0,
+          "page": 1
+        },
+        {
+          "text": "FNB MENLYN",
+          "x": 1612.0,
+          "y": 2448.0,
+          "w": 317.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "INTEREST WILL BE CHARGED",
+          "x": 2767.0,
+          "y": 2387.0,
+          "w": 885.0,
+          "h": 148.0,
+          "page": 1
+        },
+        {
+          "text": "Acc No: 62616721321",
+          "x": 1611.0,
+          "y": 2461.0,
+          "w": 605.0,
+          "h": 109.0,
+          "page": 1
+        },
+        {
+          "text": "Tel.(w): 044 381 0027 CIARA WCP/040670",
+          "x": 149.0,
+          "y": 2525.0,
+          "w": 1157.0,
+          "h": 130.0,
+          "page": 1
+        },
+        {
+          "text": "ON OVERDUE ACCOUNTS",
+          "x": 2830.0,
+          "y": 2452.0,
+          "w": 765.0,
+          "h": 134.0,
+          "page": 1
+        },
+        {
+          "text": "BRaNCH No: 250 255",
+          "x": 1611.0,
+          "y": 2514.0,
+          "w": 552.0,
+          "h": 105.0,
+          "page": 1
+        },
+        {
+          "text": "Client VAT Number:",
+          "x": 159.0,
+          "y": 2598.0,
+          "w": 533.0,
+          "h": 102.0,
+          "page": 1
+        },
+        {
+          "text": "PA.2",
+          "x": 3460.0,
+          "y": 2591.0,
+          "w": 182.0,
+          "h": 91.0,
+          "page": 1
+        },
+        {
+          "text": "4660316862",
+          "x": 938.0,
+          "y": 2642.0,
+          "w": 321.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "FOR ALL BANK CHARGES",
+          "x": 1614.0,
+          "y": 2616.0,
+          "w": 652.0,
+          "h": 117.0,
+          "page": 1
+        },
+        {
+          "text": "SALES",
+          "x": 44.0,
+          "y": 2713.0,
+          "w": 206.0,
+          "h": 56.0,
+          "page": 1
+        },
+        {
+          "text": "REP",
+          "x": 81.0,
+          "y": 2766.0,
+          "w": 133.0,
+          "h": 56.0,
+          "page": 1
+        },
+        {
+          "text": "Sales Rep : 13",
+          "x": 261.0,
+          "y": 2759.0,
+          "w": 394.0,
+          "h": 88.0,
+          "page": 1
+        },
+        {
+          "text": "WS",
+          "x": 1385.0,
+          "y": 2766.0,
+          "w": 91.0,
+          "h": 47.0,
+          "page": 1
+        },
+        {
+          "text": "LEVIENIA",
+          "x": 757.0,
+          "y": 2784.0,
+          "w": 273.0,
+          "h": 79.0,
+          "page": 1
+        },
+        {
+          "text": "WS: 7",
+          "x": 1803.0,
+          "y": 2781.0,
+          "w": 176.0,
+          "h": 87.0,
+          "page": 1
+        },
+        {
+          "text": "NO.",
+          "x": 1381.0,
+          "y": 2819.0,
+          "w": 103.0,
+          "h": 47.0,
+          "page": 1
+        },
+        {
+          "text": "SPECIAL INSTRUCTION",
+          "x": 2587.0,
+          "y": 2756.0,
+          "w": 661.0,
+          "h": 118.0,
+          "page": 1
+        },
+        {
+          "text": "DATE & TIME",
+          "x": 363.0,
+          "y": 2870.0,
+          "w": 365.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "DOCUMENT NO.",
+          "x": 1079.0,
+          "y": 2894.0,
+          "w": 426.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "ACCOUNT NO.",
+          "x": 1680.0,
+          "y": 2881.0,
+          "w": 372.0,
+          "h": 88.0,
+          "page": 1
+        },
+        {
+          "text": "2026/07/01",
+          "x": 206.0,
+          "y": 2988.0,
+          "w": 310.0,
+          "h": 79.0,
+          "page": 1
+        },
+        {
+          "text": "07:40",
+          "x": 622.0,
+          "y": 3002.0,
+          "w": 171.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "291563",
+          "x": 1258.0,
+          "y": 3016.0,
+          "w": 198.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "BBR001",
+          "x": 1851.0,
+          "y": 3001.0,
+          "w": 219.0,
+          "h": 94.0,
+          "page": 1
+        },
+        {
+          "text": "TOTAL",
+          "x": 3281.0,
+          "y": 3016.0,
+          "w": 204.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "VAT",
+          "x": 2898.0,
+          "y": 3061.0,
+          "w": 116.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "DISC %",
+          "x": 2498.0,
+          "y": 3087.0,
+          "w": 214.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "555.04",
+          "x": 3295.0,
+          "y": 3105.0,
+          "w": 209.0,
+          "h": 87.0,
+          "page": 1
+        },
+        {
+          "text": "CODE",
+          "x": 55.0,
+          "y": 3135.0,
+          "w": 178.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "DESCRIPTION",
+          "x": 395.0,
+          "y": 3139.0,
+          "w": 401.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "PRICE",
+          "x": 2153.0,
+          "y": 3126.0,
+          "w": 179.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "36.20",
+          "x": 2879.0,
+          "y": 3146.0,
+          "w": 168.0,
+          "h": 85.0,
+          "page": 1
+        },
+        {
+          "text": "QUANTITY",
+          "x": 1723.0,
+          "y": 3155.0,
+          "w": 267.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2515.0,
+          "y": 3183.0,
+          "w": 135.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "277.52",
+          "x": 3300.0,
+          "y": 3191.0,
+          "w": 206.0,
+          "h": 87.0,
+          "page": 1
+        },
+        {
+          "text": "GOKEZ/330/2",
+          "x": 160.0,
+          "y": 3225.0,
+          "w": 388.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "241.32",
+          "x": 2211.0,
+          "y": 3208.0,
+          "w": 188.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "ZERO COKE CAN",
+          "x": 582.0,
+          "y": 3231.0,
+          "w": 539.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "300ML",
+          "x": 1370.0,
+          "y": 3246.0,
+          "w": 173.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "38.20",
+          "x": 2885.0,
+          "y": 3230.0,
+          "w": 164.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "2",
+          "x": 1831.0,
+          "y": 3258.0,
+          "w": 41.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2522.0,
+          "y": 3265.0,
+          "w": 131.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "SP/24/330ML",
+          "x": 156.0,
+          "y": 3292.0,
+          "w": 384.0,
+          "h": 89.0,
+          "page": 1
+        },
+        {
+          "text": "407.81",
+          "x": 3304.0,
+          "y": 3277.0,
+          "w": 199.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "/SPRITE (WHITE LABLE)",
+          "x": 595.0,
+          "y": 3309.0,
+          "w": 690.0,
+          "h": 84.0,
+          "page": 1
+        },
+        {
+          "text": "241.32",
+          "x": 2216.0,
+          "y": 3287.0,
+          "w": 187.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "300ML",
+          "x": 1347.0,
+          "y": 3314.0,
+          "w": 186.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "26.58",
+          "x": 2888.0,
+          "y": 3314.0,
+          "w": 165.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "1",
+          "x": 1839.0,
+          "y": 3342.0,
+          "w": 25.0,
+          "h": 46.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2526.0,
+          "y": 3345.0,
+          "w": 131.0,
+          "h": 79.0,
+          "page": 1
+        },
+        {
+          "text": "177.22",
+          "x": 2224.0,
+          "y": 3366.0,
+          "w": 183.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "215.80",
+          "x": 3310.0,
+          "y": 3358.0,
+          "w": 202.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "AQSPGJ750M",
+          "x": 162.0,
+          "y": 3393.0,
+          "w": 384.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "AQUABELLA BIG SPARKLIN 750ML",
+          "x": 591.0,
+          "y": 3397.0,
+          "w": 986.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "28.15",
+          "x": 2894.0,
+          "y": 3393.0,
+          "w": 165.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2530.0,
+          "y": 3423.0,
+          "w": 131.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "ABSP/250/24",
+          "x": 158.0,
+          "y": 3454.0,
+          "w": 376.0,
+          "h": 83.0,
+          "page": 1
+        },
+        {
+          "text": "187.65",
+          "x": 2226.0,
+          "y": 3442.0,
+          "w": 185.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "215.80",
+          "x": 3314.0,
+          "y": 3434.0,
+          "w": 202.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "AQUABELLA SPARKLING *250ML",
+          "x": 595.0,
+          "y": 3474.0,
+          "w": 956.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "WWW",
+          "x": 1539.0,
+          "y": 3480.0,
+          "w": 73.0,
+          "h": 37.0,
+          "page": 1
+        },
+        {
+          "text": "28.15",
+          "x": 2898.0,
+          "y": 3467.0,
+          "w": 165.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2535.0,
+          "y": 3498.0,
+          "w": 129.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "187.65",
+          "x": 2230.0,
+          "y": 3514.0,
+          "w": 185.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "123.18",
+          "x": 3324.0,
+          "y": 3518.0,
+          "w": 196.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "ABS/250/24",
+          "x": 160.0,
+          "y": 3543.0,
+          "w": 334.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "AQUABELLASTILL",
+          "x": 586.0,
+          "y": 3543.0,
+          "w": 573.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "www250ML",
+          "x": 1200.0,
+          "y": 3541.0,
+          "w": 325.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "16.07",
+          "x": 2902.0,
+          "y": 3549.0,
+          "w": 162.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2537.0,
+          "y": 3577.0,
+          "w": 132.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "107.11",
+          "x": 2232.0,
+          "y": 3593.0,
+          "w": 181.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "131.44",
+          "x": 3326.0,
+          "y": 3599.0,
+          "w": 198.0,
+          "h": 82.0,
+          "page": 1
+        },
+        {
+          "text": "TSSP/1000/1",
+          "x": 162.0,
+          "y": 3625.0,
+          "w": 360.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "TSITSIKAMMA SPARKLING 1000ML",
+          "x": 633.0,
+          "y": 3621.0,
+          "w": 985.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "17.15",
+          "x": 2906.0,
+          "y": 3626.0,
+          "w": 169.0,
+          "h": 85.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2548.0,
+          "y": 3664.0,
+          "w": 124.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "114.30",
+          "x": 2236.0,
+          "y": 3673.0,
+          "w": 185.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "TSST/500/24",
+          "x": 160.0,
+          "y": 3690.0,
+          "w": 374.0,
+          "h": 93.0,
+          "page": 1
+        },
+        {
+          "text": "TSITSIKAMMA STILL",
+          "x": 629.0,
+          "y": 3704.0,
+          "w": 577.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "500ML",
+          "x": 1322.0,
+          "y": 3709.0,
+          "w": 178.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "BEER",
+          "x": 2938.0,
+          "y": 3838.0,
+          "w": 312.0,
+          "h": 117.0,
+          "page": 1
+        },
+        {
+          "text": "29",
+          "x": 1876.0,
+          "y": 4270.0,
+          "w": 118.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "AMOUNT DUE",
+          "x": 3195.0,
+          "y": 4308.0,
+          "w": 529.0,
+          "h": 85.0,
+          "page": 1
+        },
+        {
+          "text": "661.91",
+          "x": 2904.0,
+          "y": 4348.0,
+          "w": 195.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "4412.50",
+          "x": 2265.0,
+          "y": 4377.0,
+          "w": 225.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "31",
+          "x": 1870.0,
+          "y": 4402.0,
+          "w": 73.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "Totals",
+          "x": 650.0,
+          "y": 4429.0,
+          "w": 174.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "Total Vat. 001.91",
+          "x": 1286.0,
+          "y": 4477.0,
+          "w": 455.0,
+          "h": 83.0,
+          "page": 1
+        },
+        {
+          "text": "Standard Rate: 15.00",
+          "x": 310.0,
+          "y": 4500.0,
+          "w": 539.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "5074.41",
+          "x": 3396.0,
+          "y": 4493.0,
+          "w": 348.0,
+          "h": 90.0,
+          "page": 1
+        },
+        {
+          "text": "18158:27",
+          "x": 329.0,
+          "y": 4584.0,
+          "w": 532.0,
+          "h": 102.0,
+          "page": 1
+        },
+        {
+          "text": "PLEASE MARK EMPTIES RETURNED BELOW:",
+          "x": 1002.0,
+          "y": 4579.0,
+          "w": 1236.0,
+          "h": 87.0,
+          "page": 1
+        },
+        {
+          "text": "\"WE ARE POPI COMPLIANT\"",
+          "x": 2107.0,
+          "y": 4587.0,
+          "w": 1014.0,
+          "h": 100.0,
+          "page": 1
+        },
+        {
+          "text": "Outstanding Balance:",
+          "x": 321.0,
+          "y": 4663.0,
+          "w": 554.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "18158.27",
+          "x": 907.0,
+          "y": 4665.0,
+          "w": 236.0,
+          "h": 58.0,
+          "page": 1
+        },
+        {
+          "text": "AMOUNT",
+          "x": 3481.0,
+          "y": 4655.0,
+          "w": 261.0,
+          "h": 58.0,
+          "page": 1
+        },
+        {
+          "text": "uthadb",
+          "x": 2746.0,
+          "y": 4662.0,
+          "w": 397.0,
+          "h": 138.0,
+          "page": 1
+        },
+        {
+          "text": "PAYMENT",
+          "x": 3146.0,
+          "y": 4692.0,
+          "w": 277.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "PAID",
+          "x": 3540.0,
+          "y": 4708.0,
+          "w": 145.0,
+          "h": 50.0,
+          "page": 1
+        },
+        {
+          "text": "DISTELL",
+          "x": 1849.0,
+          "y": 4728.0,
+          "w": 216.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "NAME:",
+          "x": 2377.0,
+          "y": 4722.0,
+          "w": 194.0,
+          "h": 58.0,
+          "page": 1
+        },
+        {
+          "text": "CRAFT",
+          "x": 942.0,
+          "y": 4761.0,
+          "w": 193.0,
+          "h": 54.0,
+          "page": 1
+        },
+        {
+          "text": "KEGS",
+          "x": 187.0,
+          "y": 4776.0,
+          "w": 166.0,
+          "h": 49.0,
+          "page": 1
+        },
+        {
+          "text": "SAB",
+          "x": 536.0,
+          "y": 4772.0,
+          "w": 124.0,
+          "h": 44.0,
+          "page": 1
+        },
+        {
+          "text": "HEIN/NAM",
+          "x": 1341.0,
+          "y": 4757.0,
+          "w": 300.0,
+          "h": 60.0,
+          "page": 1
+        },
+        {
+          "text": "CASH",
+          "x": 3207.0,
+          "y": 4818.0,
+          "w": 176.0,
+          "h": 58.0,
+          "page": 1
+        },
+        {
+          "text": "EMPTY",
+          "x": 1843.0,
+          "y": 4840.0,
+          "w": 192.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "EMPTY",
+          "x": 1406.0,
+          "y": 4861.0,
+          "w": 196.0,
+          "h": 50.0,
+          "page": 1
+        },
+        {
+          "text": "ABI",
+          "x": 992.0,
+          "y": 4881.0,
+          "w": 109.0,
+          "h": 52.0,
+          "page": 1
+        },
+        {
+          "text": "CRATEISTRI-LPINTS",
+          "x": 146.0,
+          "y": 4887.0,
+          "w": 537.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "ABI.",
+          "x": 1887.0,
+          "y": 4897.0,
+          "w": 117.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "SAB",
+          "x": 1445.0,
+          "y": 4916.0,
+          "w": 124.0,
+          "h": 45.0,
+          "page": 1
+        },
+        {
+          "text": "SIGNATURE:",
+          "x": 2310.0,
+          "y": 4908.0,
+          "w": 344.0,
+          "h": 60.0,
+          "page": 1
+        },
+        {
+          "text": "E/CRATE",
+          "x": 2001.0,
+          "y": 4953.0,
+          "w": 231.0,
+          "h": 56.0,
+          "page": 1
+        },
+        {
+          "text": "EFT",
+          "x": 3244.0,
+          "y": 4959.0,
+          "w": 116.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "BLUE",
+          "x": 755.0,
+          "y": 4973.0,
+          "w": 161.0,
+          "h": 50.0,
+          "page": 1
+        },
+        {
+          "text": "GREY",
+          "x": 1007.0,
+          "y": 4969.0,
+          "w": 163.0,
+          "h": 50.0,
+          "page": 1
+        },
+        {
+          "text": "RED",
+          "x": 1287.0,
+          "y": 4974.0,
+          "w": 126.0,
+          "h": 42.0,
+          "page": 1
+        },
+        {
+          "text": "HEINEKEN",
+          "x": 1500.0,
+          "y": 4973.0,
+          "w": 185.0,
+          "h": 40.0,
+          "page": 1
+        },
+        {
+          "text": "HUNTERS",
+          "x": 1737.0,
+          "y": 4963.0,
+          "w": 249.0,
+          "h": 52.0,
+          "page": 1
+        },
+        {
+          "text": "BROWN",
+          "x": 463.0,
+          "y": 4981.0,
+          "w": 217.0,
+          "h": 48.0,
+          "page": 1
+        },
+        {
+          "text": "GREENGREY",
+          "x": 1482.0,
+          "y": 5008.0,
+          "w": 223.0,
+          "h": 29.0,
+          "page": 1
+        },
+        {
+          "text": "QUARTS",
+          "x": 148.0,
+          "y": 5018.0,
+          "w": 242.0,
+          "h": 58.0,
+          "page": 1
+        }
+      ]
+    }
+  ],
+  "invoice_table_rows": [],
+  "invoice_metadata": {
+    "supplier": "GEORGE 6530",
+    "invoice_number": "RG1876",
+    "invoice_date": null,
+    "customer": "DETAILS",
+    "total": null,
+    "currency": "ZAR"
+  },
+  "line_item_extraction": {
+    "detected_headers": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "headers": []
+      }
+    ],
+    "detected_columns": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "columns": {}
+      }
+    ],
+    "extracted_rows": [],
+    "discarded_rows": [
+      {
+        "reason": "headers_not_detected",
+        "raw_text": "OCR positioned table did not expose enough invoice headers."
+      }
+    ],
+    "confidence": 0.0
+  },
+  "extraction_engine": {
+    "source": "legacy_parser_fallback",
+    "source_label": "Legacy Parser Fallback",
+    "rows_found": 1,
+    "rows_accepted": 0,
+    "rows_discarded": 1,
+    "validation_pass_rate": 0.0,
+    "overall_confidence": 0,
+    "fallback_reason": "Universal Extractor returned zero accepted rows.",
+    "time_taken_ms": 8312,
+    "legacy_row_count": 0
+  },
+  "errors": [],
+  "created_at": "2026-07-04T13:11:42",
+  "engine": "PaddleOCR",
+  "fallback_used": false
+}

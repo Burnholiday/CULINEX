@@ -1,0 +1,76 @@
+{
+  "detected_headers": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "headers": [
+        {
+          "header": "CODE",
+          "field": "code",
+          "x": 248.5
+        },
+        {
+          "header": "DESCRIPTION",
+          "field": "description",
+          "x": 768.5
+        },
+        {
+          "header": "QTY",
+          "field": "quantity",
+          "x": 2126.5
+        },
+        {
+          "header": "UNIT PRICE",
+          "field": "unit_price",
+          "x": 2461.5
+        },
+        {
+          "header": "VAT",
+          "field": "vat",
+          "x": 3174.0
+        },
+        {
+          "header": "Nett Amount",
+          "field": "total",
+          "x": 3535.5
+        }
+      ]
+    }
+  ],
+  "detected_columns": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "columns": {
+        "code": 248.5,
+        "description": 768.5,
+        "quantity": 2126.5,
+        "unit_price": 2461.5,
+        "vat": 3174.0,
+        "total": 3535.5
+      }
+    }
+  ],
+  "extracted_rows": [],
+  "discarded_rows": [
+    {
+      "reason": "noise",
+      "raw_text": "1028 0.00 6.30 41.98"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "1105 48.24 0.00 57.89"
+    },
+    {
+      "reason": "noise",
+      "raw_text": "84015 MILKLAB ALMOND 1LT"
+    },
+    {
+      "reason": "footer",
+      "raw_text": "Cash Collected DATE TOTAL NETT PRICE 538"
+    }
+  ],
+  "confidence": 0.0
+}

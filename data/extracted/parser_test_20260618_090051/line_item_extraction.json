@@ -1,0 +1,359 @@
+{
+  "detected_headers": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "headers": [
+        {
+          "header": "Item Code",
+          "field": "code",
+          "x": 120.0
+        },
+        {
+          "header": "Description",
+          "field": "description",
+          "x": 410.0
+        },
+        {
+          "header": "Quantity",
+          "field": "quantity",
+          "x": 898.5
+        },
+        {
+          "header": "UnitPrice",
+          "field": "unit_price",
+          "x": 1140.0
+        },
+        {
+          "header": "VatAmnt",
+          "field": "vat",
+          "x": 1534.5
+        },
+        {
+          "header": "Line Total",
+          "field": "total",
+          "x": 1742.0
+        }
+      ]
+    }
+  ],
+  "detected_columns": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "columns": {
+        "code": 120.0,
+        "description": 410.0,
+        "quantity": 898.5,
+        "unit_price": 1140.0,
+        "vat": 1534.5,
+        "total": 1742.0
+      }
+    }
+  ],
+  "extracted_rows": [
+    {
+      "description": "KG",
+      "quantity": "0.21",
+      "unit": "KG",
+      "unit_price": "92.65",
+      "total": "19.46",
+      "vat": "0.00",
+      "raw_text": "KG 0.21 92.65 0.00 19.46",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 19.46,
+        "actual_total": 19.46,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "WHO - CHILLIES GREEN Kg",
+      "quantity": "0.205",
+      "unit": "KG",
+      "unit_price": "77.65",
+      "total": "15.92",
+      "vat": "0.00",
+      "raw_text": "WHO - CHILLIES GREEN Kg 0.205 77.65 0.00 15.92",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 15.92,
+        "actual_total": 15.92,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "WHO - STRAWBERRIES Punnet 250g",
+      "quantity": "2",
+      "unit": "Punnet",
+      "unit_price": "33.35",
+      "total": "66.70",
+      "vat": "0.00",
+      "raw_text": "WHO - STRAWBERRIES Punnet 250g 2 33.35 0.00 66.70",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 66.7,
+        "actual_total": 66.7,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "Kg",
+      "quantity": "2.065",
+      "unit": "KG",
+      "unit_price": "37.85",
+      "total": "78.16",
+      "vat": "0.00",
+      "raw_text": "Kg 2.065 37.85 0.00 78.16",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 78.16,
+        "actual_total": 78.16,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "WHO - CABBAGE - RED. RED",
+      "quantity": "1",
+      "unit": "",
+      "unit_price": "32.85",
+      "total": "32.85",
+      "vat": "0.00",
+      "raw_text": "WHO - CABBAGE - RED. RED 1 32.85 0.00 32.85",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 32.85,
+        "actual_total": 32.85,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "WHO - CABBAGE GREEN Large Head",
+      "quantity": "1",
+      "unit": "Head",
+      "unit_price": "22.65",
+      "total": "22.65",
+      "vat": "0.00",
+      "raw_text": "WHO - CABBAGE GREEN Large Head 1 22.65 0.00 22.65",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 22.65,
+        "actual_total": 22.65,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "KG WHO - POTATOES 10kg Pocket Large",
+      "quantity": "2",
+      "unit": "KG",
+      "unit_price": "117.85",
+      "total": "235.70",
+      "vat": "0.00",
+      "raw_text": "KG WHO - POTATOES 10kg Pocket Large 2 117.85 0.00 235.70",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 235.7,
+        "actual_total": 235.7,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "WHO - CUCUMBER. Medium - Large",
+      "quantity": "4",
+      "unit": "",
+      "unit_price": "22.85",
+      "total": "91.40",
+      "vat": "0.00",
+      "raw_text": "WHO - CUCUMBER. Medium - Large 4 22.85 0.00 91.40",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 91.4,
+        "actual_total": 91.4,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "WHO - GARLIC kg",
+      "quantity": "1.112",
+      "unit": "KG",
+      "unit_price": "142.85",
+      "total": "158.85",
+      "vat": "0.00",
+      "raw_text": "WHO - GARLIC kg 1.112 142.85 0.00 158.85",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 158.85,
+        "actual_total": 158.85,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "WHO - BANANAS KG",
+      "quantity": "2.21",
+      "unit": "KG",
+      "unit_price": "22.65",
+      "total": "50.06",
+      "vat": "0.00",
+      "raw_text": "WHO - BANANAS KG 2.21 22.65 0.00 50.06",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 50.06,
+        "actual_total": 50.06,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "WHO - CARROT kg",
+      "quantity": "3.205",
+      "unit": "KG",
+      "unit_price": "23.65",
+      "total": "75.80",
+      "vat": "0.00",
+      "raw_text": "WHO - CARROT kg 3.205 23.65 0.00 75.80",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 75.8,
+        "actual_total": 75.8,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "WHO - GINGER KG",
+      "quantity": "1.144",
+      "unit": "KG",
+      "unit_price": "148.65",
+      "total": "170.06",
+      "vat": "0.00",
+      "raw_text": "WHO - GINGER KG 1.144 148.65 0.00 170.06",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 170.06,
+        "actual_total": 170.06,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "WHO - MUSHROOM 1kg",
+      "quantity": "3.2",
+      "unit": "",
+      "unit_price": "109.65",
+      "total": "350.88",
+      "vat": "0.00",
+      "raw_text": "WHO - MUSHROOM 1kg 3.2 109.65 0.00 350.88",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 350.88,
+        "actual_total": 350.88,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    },
+    {
+      "description": "WHO - PUMPKIN kg 3 WHOLE",
+      "quantity": "13.26",
+      "unit": "KG",
+      "unit_price": "18.85",
+      "total": "249.95",
+      "vat": "0.00",
+      "raw_text": "WHO - PUMPKIN kg 3 WHOLE 13.26 18.85 0.00 249.95",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "ok",
+        "expected_total": 249.95,
+        "actual_total": 249.95,
+        "difference": 0.0,
+        "affected_field": ""
+      }
+    }
+  ],
+  "discarded_rows": [
+    {
+      "reason": "payment",
+      "raw_text": "Extra Charges Number of Items Subtotal (Exclusive) 1,944.86"
+    }
+  ],
+  "confidence": 1.0
+}

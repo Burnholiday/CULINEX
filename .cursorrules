@@ -1,0 +1,31 @@
+# CULINEX Cursor Rules
+
+Always read the project documentation before making code changes.
+
+Priority documents:
+
+- PROJECT_CONTEXT.md
+- AI_RULES.md
+- ROADMAP.md
+- VERSION.md
+
+Development rules:
+
+- Never redesign the architecture.
+- Never hardcode supplier-specific invoice layouts.
+- Maintain backwards compatibility.
+- Build one sprint at a time.
+- Modify the smallest amount of code necessary.
+- Keep modules independent.
+- Improve universal extraction instead of template matching.
+
+When completing work:
+
+- Update SUMMARY.md
+- Update CHANGELOG.md
+- Explain modified files.
+- Recommend regression tests.
+
+The current project version is:
+
+CULINEX Import Engine v1.0

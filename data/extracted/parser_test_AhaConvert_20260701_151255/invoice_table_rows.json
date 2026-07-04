@@ -1,0 +1,34 @@
+[
+  {
+    "supplier_code": null,
+    "ingredient": "Monin Pineapple Syrup 700Ml",
+    "description": "MONIN PINEAPPLE SYRUP 700ML",
+    "quantity": 1.0,
+    "purchase_unit": "MONIN PINEAPPLE SYRUP 700ML",
+    "unit": "MONIN PINEAPPLE SYRUP 700ML",
+    "unit_price": 152.0,
+    "vat": 22.8,
+    "line_total": 174.8,
+    "validation": {
+      "status": "failed",
+      "message": "Expected 152.00, got 174.80",
+      "expected_total": 152.0,
+      "actual_total": 174.8,
+      "difference": 22.8,
+      "affected_field": "line_total"
+    },
+    "confidence": 1.0,
+    "field_confidence": {
+      "ingredient": 1.0,
+      "quantity": 0.98,
+      "unit": 0.85,
+      "unit_price": 0.98,
+      "line_total": 0.98
+    },
+    "parser_debug": {
+      "source": "ocr_items",
+      "role": "line_item",
+      "raw_text": "MONIN PINEAPPLE SYRUP 700ML 1 152.00 0.00 22.80 174.80"
+    }
+  }
+]

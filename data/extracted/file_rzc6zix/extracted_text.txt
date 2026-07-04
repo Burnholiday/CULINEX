@@ -1,0 +1,167 @@
+Tax Invoice
+express
+GE11153399
+No
+George Relail
+17/6/26
+92 Hope Street
+10:37
+Date
+George
+Time
+Telephone (044) 874 3729
+Email:debtors2@groceryexpress.co.za
+Reg:2022/602754/07/Vat4470310063
+000000000003389
+Customer
+Shavi Shavi Restt/a Butterfly Blue
+Shavi Shavi Restt/a Butterfly Blue Restaurant
+Shipping Address
+Restaurant
+198 CR Swart Drive Brent-on-Sea
+198 CR Swart Drive Brent-on-Sea
+[object Object]
+Knysna
+Knysna
+Western Cape
+Western Cape
+South Africa
+South Africa
+6570
+0443810027
+Telephone
+4660316862
+Shipping Instructions
+Vat Nr:
+monique@wildroutegroup.co.za;accounts@w
+Email:
+Customer PO No.
+Salesperson
+Ship Date
+Order Date
+Sales Order
+Invoice Date
+17/6/26
+JJ
+17/6/26
+17/6/26
+GE1S158912
+VAT
+Nett Value
+Unit Price Disc %
+Ship Quantity
+Stock Code
+Description
+28,70
+191,34
+31,89
+6,00
+Sugar Castor 1kg
+000000000003258
+149,40
+22,4
+6,00
+24,90
+000000000005541
+Sugar Icing H/Brand 1kg
+0,00
+227,98
+2,00
+113,99
+000000000006097
+Milk Long Life FIRST CHOICE 6 x 1It
+0,00
+455,70
+75,95
+6,00
+Berries - Mixed Assorted Frozen 1kg
+000000000010434
+286,37
+42,96
+286,37
+1,00
+000000000010525
+Vinegar Kong Yen (Rice vinegar) 5L
+0,00
+200,99
+1,00
+200,99
+Flour Eureka MN 100 12.5kg
+000000000011527
+53,63
+357,52
+89,38
+4,00
+000000000040210
+Mayonnaise Kewpie 450g (sushi)
+80,09
+533,92
+8,00
+66,74
+000000000040657
+Cream Meadowland Classique 1L
+125,94
+18,89
+6,00
+20,99
+000000000001449
+Buttermilk Leeuwenbosch 500ml
+23,15
+154,32
+6,00
+25,72
+Flour Self Raising Golden Cloud 1kg
+000000000001522
+32,62
+217,45
+217,45
+1,00
+Dried Turkish/Royal Apricots 1kg
+000000000002155
+298,90
+0,00
+10,00
+29,89
+Rice Sushi Myasia 1kg
+000000000002157
+31,47
+209,79
+1,00
+209,79
+Snacks Pecan Nut Pieces 1Kg
+000000000002594
+0,00
+175,83
+1,00
+175,83
+Flour White Bread Farm Foods 12.5kg
+000000000002811
+Send
+back
+NOTES:
+Customer Signature:
+NO FROZEN AND CHILLED STOCK CAN
+GROCERY EXPRESS
+3 585,
+Sub Total
+BE RETURNED OTHER THAN AT THE
+ABSABANK
+TIME OF DELIVERY
+Branch Code: 632005
+Total Discount
+0,
+Acc:4061808534
+Amount Excl VAT :
+3 585,
+RETURNED GOODS WILL ONLY BE
+Received in good order
+ACCEPTED WITHIN 24 HRS OF
+VAT
+DELIVERY
+333
+Total
+3919
+Signed
+Date
+VERY IMPORTANT NOTIFICATION PLEASE BE ADVISED THAT OUR BANKING DETAILS HAVE NOT CHANGED!
+Page 1 of 1

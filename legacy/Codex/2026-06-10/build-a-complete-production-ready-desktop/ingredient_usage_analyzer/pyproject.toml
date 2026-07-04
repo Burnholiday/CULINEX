@@ -1,0 +1,35 @@
+[project]
+name = "ingredient-usage-analyzer"
+version = "1.0.0"
+description = "Desktop ingredient usage, costing, inventory variance, OCR recipe, and sales import analyzer for food businesses."
+requires-python = ">=3.12"
+dependencies = [
+  "PySide6>=6.7",
+  "pandas>=2.2",
+  "openpyxl>=3.1",
+  "easyocr>=1.7",
+  "rapidfuzz>=3.9",
+  "numpy>=1.26",
+  "reportlab>=4.2",
+  "pillow>=10.4",
+  "pypdf>=4.2"
+]
+
+[project.optional-dependencies]
+tesseract = ["pytesseract>=0.3.10"]
+dev = ["pytest>=8.2"]
+
+[project.scripts]
+ingredient-usage-analyzer = "ingredient_usage_analyzer.main:main"
+ingredient-usage-parser = "ingredient_usage_analyzer.strict_cli:main"
+
+[build-system]
+requires = ["setuptools>=70", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,356 @@
+{
+  "tested_at": "2026-07-04T13:12:02",
+  "file_id": "parser_test_AhaConvert_20260701_151313",
+  "filename": "AhaConvert_20260701_151313.jpg",
+  "file_path": "C:\\Users\\Burn Holiday\\Documents\\Codex\\2026-06-21\\import-react-usestate-usememo-from-react\\outputs\\data\\test-invoices\\AhaConvert_20260701_151313.jpg",
+  "detected_supplier": "Farm Fresh Direct",
+  "document_type": "supplier_invoice",
+  "classifier_confidence": 0.95,
+  "classifier_scores": {
+    "supplier_invoice": 8,
+    "recipe": 0,
+    "stock_list": 1,
+    "prep_sheet": 0,
+    "menu_costing_sheet": 0
+  },
+  "invoice_number": "4310269016",
+  "invoice_date": "01/07/2026",
+  "line_count": 1,
+  "subtotal": null,
+  "total": null,
+  "currency": "ZAR",
+  "extraction_status": "completed",
+  "engine": "PaddleOCR",
+  "errors": [],
+  "extracted_rows": [
+    {
+      "supplier_code": null,
+      "ingredient": "Dewill",
+      "description": "Dewill",
+      "quantity": 51001.0,
+      "purchase_unit": "Dewill",
+      "unit": "Dewill",
+      "unit_price": null,
+      "line_total": null,
+      "vat": null,
+      "validation": {
+        "status": "missing",
+        "message": "Missing unit price",
+        "affected_field": "unit_price"
+      },
+      "parser_debug": {
+        "source": "ocr_positioned",
+        "header_x": {
+          "unit_price": 2305.0,
+          "vat": 2415.0,
+          "line_total": 3504.0,
+          "quantity": 1808.0,
+          "description": 804.0,
+          "supplier_code": 200.0
+        },
+        "raw_row": [
+          "051001",
+          "Dewill"
+        ],
+        "raw_numeric_cells": {
+          "quantity": "051001"
+        },
+        "mapped_quantity": 51001.0,
+        "mapped_unit_price": null,
+        "mapped_vat": null,
+        "mapped_line_total": null,
+        "row_y": 5941.5,
+        "validation": {
+          "status": "missing",
+          "message": "Missing unit price",
+          "affected_field": "unit_price"
+        }
+      },
+      "field_confidence": {
+        "ingredient": 0.82,
+        "quantity": 0.98,
+        "unit": 0.9,
+        "unit_price": 0.35,
+        "line_total": 0.35
+      }
+    }
+  ],
+  "validation_failures": [
+    {
+      "row_index": 1,
+      "ingredient": "Dewill",
+      "supplier_code": null,
+      "validation": {
+        "status": "missing",
+        "message": "Missing unit price",
+        "affected_field": "unit_price"
+      }
+    }
+  ],
+  "parser_debug": [
+    {
+      "row_index": 1,
+      "ingredient": "Dewill",
+      "supplier_code": null,
+      "parser_debug": {
+        "source": "ocr_positioned",
+        "header_x": {
+          "unit_price": 2305.0,
+          "vat": 2415.0,
+          "line_total": 3504.0,
+          "quantity": 1808.0,
+          "description": 804.0,
+          "supplier_code": 200.0
+        },
+        "raw_row": [
+          "051001",
+          "Dewill"
+        ],
+        "raw_numeric_cells": {
+          "quantity": "051001"
+        },
+        "mapped_quantity": 51001.0,
+        "mapped_unit_price": null,
+        "mapped_vat": null,
+        "mapped_line_total": null,
+        "row_y": 5941.5,
+        "validation": {
+          "status": "missing",
+          "message": "Missing unit price",
+          "affected_field": "unit_price"
+        }
+      }
+    }
+  ],
+  "invoice_table_parser": {
+    "row_count": 1,
+    "rows": [
+      {
+        "supplier_code": null,
+        "ingredient": "Dewill",
+        "description": "Dewill",
+        "quantity": 51001.0,
+        "purchase_unit": "Dewill",
+        "unit": "Dewill",
+        "unit_price": null,
+        "line_total": null,
+        "vat": null,
+        "validation": {
+          "status": "missing",
+          "message": "Missing unit price",
+          "affected_field": "unit_price"
+        },
+        "parser_debug": {
+          "source": "ocr_positioned",
+          "header_x": {
+            "unit_price": 2305.0,
+            "vat": 2415.0,
+            "line_total": 3504.0,
+            "quantity": 1808.0,
+            "description": 804.0,
+            "supplier_code": 200.0
+          },
+          "raw_row": [
+            "051001",
+            "Dewill"
+          ],
+          "raw_numeric_cells": {
+            "quantity": "051001"
+          },
+          "mapped_quantity": 51001.0,
+          "mapped_unit_price": null,
+          "mapped_vat": null,
+          "mapped_line_total": null,
+          "row_y": 5941.5,
+          "validation": {
+            "status": "missing",
+            "message": "Missing unit price",
+            "affected_field": "unit_price"
+          }
+        },
+        "field_confidence": {
+          "ingredient": 0.82,
+          "quantity": 0.98,
+          "unit": 0.9,
+          "unit_price": 0.35,
+          "line_total": 0.35
+        }
+      }
+    ],
+    "metadata": {
+      "supplier": "Telephone",
+      "invoice_number": "4310269016",
+      "invoice_date": "01/07/2026",
+      "customer": "Butterfly Blu T/A Shavi Shavi Restaurant",
+      "total": null,
+      "currency": "ZAR"
+    },
+    "validation_failures": [
+      {
+        "row_index": 1,
+        "ingredient": "Dewill",
+        "supplier_code": null,
+        "validation": {
+          "status": "missing",
+          "message": "Missing unit price",
+          "affected_field": "unit_price"
+        }
+      }
+    ],
+    "validation_pass_rate": 0.0,
+    "parser_debug": [
+      {
+        "row_index": 1,
+        "ingredient": "Dewill",
+        "supplier_code": null,
+        "parser_debug": {
+          "source": "ocr_positioned",
+          "header_x": {
+            "unit_price": 2305.0,
+            "vat": 2415.0,
+            "line_total": 3504.0,
+            "quantity": 1808.0,
+            "description": 804.0,
+            "supplier_code": 200.0
+          },
+          "raw_row": [
+            "051001",
+            "Dewill"
+          ],
+          "raw_numeric_cells": {
+            "quantity": "051001"
+          },
+          "mapped_quantity": 51001.0,
+          "mapped_unit_price": null,
+          "mapped_vat": null,
+          "mapped_line_total": null,
+          "row_y": 5941.5,
+          "validation": {
+            "status": "missing",
+            "message": "Missing unit price",
+            "affected_field": "unit_price"
+          }
+        }
+      }
+    ]
+  },
+  "universal_line_item_extractor": {
+    "row_count": 0,
+    "rows_found": 13,
+    "rows_accepted": 0,
+    "rows_discarded": 13,
+    "rows": [],
+    "detected_headers": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "headers": [
+          {
+            "header": "Item Code",
+            "field": "code",
+            "x": 200.0
+          },
+          {
+            "header": "Description",
+            "field": "description",
+            "x": 804.0
+          },
+          {
+            "header": "Quantity",
+            "field": "quantity",
+            "x": 1808.0
+          },
+          {
+            "header": "UnitPrice",
+            "field": "unit_price",
+            "x": 2305.0
+          },
+          {
+            "header": "VatAmnt",
+            "field": "vat",
+            "x": 3103.0
+          },
+          {
+            "header": "Line Total",
+            "field": "total",
+            "x": 3504.0
+          }
+        ]
+      }
+    ],
+    "detected_columns": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "columns": {
+          "code": 200.0,
+          "description": 804.0,
+          "quantity": 1808.0,
+          "unit_price": 2305.0,
+          "vat": 3103.0,
+          "total": 3504.0
+        }
+      }
+    ],
+    "discarded_rows": [
+      {
+        "reason": "noise",
+        "raw_text": "1.17 35.85 0.00 41.94"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "1 25.85 0.00 25.85"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "2.58 29.85 0.00 77.01"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "1 158.85 0.00 158.85"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "4 117.85 0.00 471.40"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "4.19 20.85 0.00 87.36"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "1 535.00 0.00 535.00"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "1.1 15.85 0.00 17.44"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "2.18 36.85 0.00 80.33"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "4 55.35 0.00 221.40"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "7 38.85 0.00 271.95"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "4 18.35 0.00 73.40"
+      },
+      {
+        "reason": "payment",
+        "raw_text": "Extra Charges Number of Items Subtotal (Exclusive) 2,061.94"
+      }
+    ],
+    "confidence": 0.0,
+    "validation_failures": [],
+    "validation_pass_rate": 0.0
+  },
+  "needs_review": true
+}

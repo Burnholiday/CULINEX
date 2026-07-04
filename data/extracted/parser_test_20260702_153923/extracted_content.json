@@ -1,0 +1,1237 @@
+{
+  "file_id": "parser_test_20260702_153923",
+  "filename": "20260702_153923.jpg",
+  "file_type": "IMAGE",
+  "extraction_status": "completed",
+  "extracted_text": "Tax Invoice\nInvoice From\nTelephone\nFarm Fresh Direct\n044 873 0076\nfarmfresh\nFax\n24 Meul Street\nE Mail\nCaledon Industrial Park\ndelivenos\naccounts@farmfreshdirect.co.za\nstraight from the farms\ndirect\n4 Unit George\nVat Registration No\n4310269016\nInvoice Date\n02/07/2026\nInvoice To\nDeliver To\nButterfly Blu T/A Shavi Shavi Restaurant\nButterfly Blu T/A Shavi Shavi Restaurant\n198 CR Swart Drive, Brenton on Sea,Knysn\nPage\nInvoice Date\nOrder Number\nRepresentative\nInvoice Number\nAccount No\n1 of 1\n02/07/2026\n02/07/2026 MG\n1\nRep 1\nINV1897\nD2604\nLine Total\nQuantity\nDisc %\nVatAmnt\nDescription\nUnitPrice\nItem Code\n0.00\n117.00\nRocket Herb - kg\n0.6\n195.00\nWHO - ROCKET LARGE\n0.00\n118.32\n2.04\nWHO - BABY MARROWS Kg\n58.00\n32.85\n0.00\n1\n32.85\nWHO - CABBAGE - RED. RED\n0.00\n45.70\nMedium - Large\n2\n22.85\nWHO-CUCUMBER.\n0.00\n148.56\nkg\n1.04\n142.85\nWHO - GARLIC\n0.00\n149.39\nKG\n1.005\n148.65\nWHO - GINGER\n0.00\n52.25\n3.11\n16.80\nWHO - POTATOES BABY Baby kg\n/SMALL\n90.60\n0.00\n4\n22.65\nMixed 150g\nWHO-LETTUCE\n0.00\n80.33\n2.18\n36.85\nTomatoe - kg\nWHO - TOMATOES\nKeeno\nNumber of Items\nSubtotal (Exclusive)\n835.01\nExtra Charges\n16.98\nPromotional\nDiscount\nDiscount Received\nRounding\n0.00\nVat\n0.00\nTotal\n835.01\nCurrency:\nZAR\nCurrencyRate:\n1.00\nBanking Details:\nCreated: 02/07/2026 02:08:14\nStandard Bank\n302784187\nCurrent\n051001\n06\n05\n\u9ad8/D8\n07",
+  "extracted_tables": [
+    {
+      "type": "ocr_items",
+      "items": [
+        {
+          "text": "Tax Invoice",
+          "x": 1654.0,
+          "y": 975.0,
+          "w": 316.0,
+          "h": 60.0,
+          "page": 1
+        },
+        {
+          "text": "Invoice From",
+          "x": 734.0,
+          "y": 1095.0,
+          "w": 359.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "Telephone",
+          "x": 1871.0,
+          "y": 1221.0,
+          "w": 288.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "Farm Fresh Direct",
+          "x": 172.0,
+          "y": 1217.0,
+          "w": 476.0,
+          "h": 79.0,
+          "page": 1
+        },
+        {
+          "text": "044 873 0076",
+          "x": 2509.0,
+          "y": 1223.0,
+          "w": 376.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "farmfresh",
+          "x": 1164.0,
+          "y": 1309.0,
+          "w": 514.0,
+          "h": 124.0,
+          "page": 1
+        },
+        {
+          "text": "Fax",
+          "x": 1871.0,
+          "y": 1305.0,
+          "w": 113.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "24 Meul Street",
+          "x": 170.0,
+          "y": 1307.0,
+          "w": 397.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "E Mail",
+          "x": 1873.0,
+          "y": 1387.0,
+          "w": 174.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "Caledon Industrial Park",
+          "x": 164.0,
+          "y": 1378.0,
+          "w": 629.0,
+          "h": 87.0,
+          "page": 1
+        },
+        {
+          "text": "delivenos",
+          "x": 1264.0,
+          "y": 1405.0,
+          "w": 153.0,
+          "h": 40.0,
+          "page": 1
+        },
+        {
+          "text": "accounts@farmfreshdirect.co.za",
+          "x": 2515.0,
+          "y": 1374.0,
+          "w": 856.0,
+          "h": 85.0,
+          "page": 1
+        },
+        {
+          "text": "straight from the farms",
+          "x": 1165.0,
+          "y": 1432.0,
+          "w": 346.0,
+          "h": 49.0,
+          "page": 1
+        },
+        {
+          "text": "direct",
+          "x": 1531.0,
+          "y": 1424.0,
+          "w": 160.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "4 Unit George",
+          "x": 160.0,
+          "y": 1479.0,
+          "w": 378.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "Vat Registration No",
+          "x": 1878.0,
+          "y": 1479.0,
+          "w": 522.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "4310269016",
+          "x": 2517.0,
+          "y": 1474.0,
+          "w": 350.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "Invoice Date",
+          "x": 1880.0,
+          "y": 1562.0,
+          "w": 345.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "02/07/2026",
+          "x": 2519.0,
+          "y": 1558.0,
+          "w": 346.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "Invoice To",
+          "x": 724.0,
+          "y": 1754.0,
+          "w": 291.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "Deliver To",
+          "x": 2472.0,
+          "y": 1770.0,
+          "w": 283.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "Butterfly Blu T/A Shavi Shavi Restaurant",
+          "x": 148.0,
+          "y": 1858.0,
+          "w": 1103.0,
+          "h": 93.0,
+          "page": 1
+        },
+        {
+          "text": "Butterfly Blu T/A Shavi Shavi Restaurant",
+          "x": 1902.0,
+          "y": 1864.0,
+          "w": 1101.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "198 CR Swart Drive, Brenton on Sea,Knysn",
+          "x": 1902.0,
+          "y": 1936.0,
+          "w": 1156.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "Page",
+          "x": 3463.0,
+          "y": 2411.0,
+          "w": 155.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "Invoice Date",
+          "x": 601.0,
+          "y": 2435.0,
+          "w": 358.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "Order Number",
+          "x": 1098.0,
+          "y": 2436.0,
+          "w": 398.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "Representative",
+          "x": 1610.0,
+          "y": 2436.0,
+          "w": 420.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "Invoice Number",
+          "x": 2452.0,
+          "y": 2435.0,
+          "w": 449.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "Account No",
+          "x": 103.0,
+          "y": 2447.0,
+          "w": 320.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "1 of 1",
+          "x": 3466.0,
+          "y": 2515.0,
+          "w": 158.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "02/07/2026",
+          "x": 594.0,
+          "y": 2537.0,
+          "w": 300.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "02/07/2026 MG",
+          "x": 1094.0,
+          "y": 2536.0,
+          "w": 390.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "1",
+          "x": 1612.0,
+          "y": 2544.0,
+          "w": 41.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "Rep 1",
+          "x": 1758.0,
+          "y": 2540.0,
+          "w": 154.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "INV1897",
+          "x": 2454.0,
+          "y": 2537.0,
+          "w": 224.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "D2604",
+          "x": 99.0,
+          "y": 2552.0,
+          "w": 170.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "Line Total",
+          "x": 3345.0,
+          "y": 2719.0,
+          "w": 287.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "Quantity",
+          "x": 1681.0,
+          "y": 2737.0,
+          "w": 252.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "Disc %",
+          "x": 2669.0,
+          "y": 2737.0,
+          "w": 208.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "VatAmnt",
+          "x": 2950.0,
+          "y": 2731.0,
+          "w": 258.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "Description",
+          "x": 654.0,
+          "y": 2744.0,
+          "w": 323.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "UnitPrice",
+          "x": 2160.0,
+          "y": 2746.0,
+          "w": 258.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "Item Code",
+          "x": 62.0,
+          "y": 2752.0,
+          "w": 300.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 3090.0,
+          "y": 2827.0,
+          "w": 124.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "117.00",
+          "x": 3459.0,
+          "y": 2819.0,
+          "w": 179.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "Rocket Herb - kg",
+          "x": 647.0,
+          "y": 2842.0,
+          "w": 417.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "0.6",
+          "x": 1837.0,
+          "y": 2840.0,
+          "w": 94.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "195.00",
+          "x": 2247.0,
+          "y": 2841.0,
+          "w": 176.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "WHO - ROCKET LARGE",
+          "x": 42.0,
+          "y": 2845.0,
+          "w": 574.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 3092.0,
+          "y": 2919.0,
+          "w": 126.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "118.32",
+          "x": 3463.0,
+          "y": 2911.0,
+          "w": 179.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "2.04",
+          "x": 1809.0,
+          "y": 2934.0,
+          "w": 122.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "WHO - BABY MARROWS Kg",
+          "x": 36.0,
+          "y": 2937.0,
+          "w": 691.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "58.00",
+          "x": 2280.0,
+          "y": 2938.0,
+          "w": 146.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "32.85",
+          "x": 3498.0,
+          "y": 3003.0,
+          "w": 150.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 3098.0,
+          "y": 3013.0,
+          "w": 124.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "1",
+          "x": 1888.0,
+          "y": 3029.0,
+          "w": 43.0,
+          "h": 60.0,
+          "page": 1
+        },
+        {
+          "text": "32.85",
+          "x": 2280.0,
+          "y": 3029.0,
+          "w": 148.0,
+          "h": 60.0,
+          "page": 1
+        },
+        {
+          "text": "WHO - CABBAGE - RED. RED",
+          "x": 36.0,
+          "y": 3031.0,
+          "w": 728.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 3102.0,
+          "y": 3105.0,
+          "w": 124.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "45.70",
+          "x": 3502.0,
+          "y": 3097.0,
+          "w": 152.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "Medium - Large",
+          "x": 647.0,
+          "y": 3123.0,
+          "w": 391.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "2",
+          "x": 1886.0,
+          "y": 3119.0,
+          "w": 49.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "22.85",
+          "x": 2282.0,
+          "y": 3121.0,
+          "w": 148.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "WHO-CUCUMBER.",
+          "x": 34.0,
+          "y": 3133.0,
+          "w": 480.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 3106.0,
+          "y": 3199.0,
+          "w": 126.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "148.56",
+          "x": 3480.0,
+          "y": 3191.0,
+          "w": 180.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "kg",
+          "x": 646.0,
+          "y": 3221.0,
+          "w": 77.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "1.04",
+          "x": 1817.0,
+          "y": 3213.0,
+          "w": 116.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "142.85",
+          "x": 2258.0,
+          "y": 3215.0,
+          "w": 176.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "WHO - GARLIC",
+          "x": 32.0,
+          "y": 3227.0,
+          "w": 378.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 3110.0,
+          "y": 3293.0,
+          "w": 124.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "149.39",
+          "x": 3486.0,
+          "y": 3284.0,
+          "w": 180.0,
+          "h": 60.0,
+          "page": 1
+        },
+        {
+          "text": "KG",
+          "x": 644.0,
+          "y": 3313.0,
+          "w": 89.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "1.005",
+          "x": 1786.0,
+          "y": 3304.0,
+          "w": 147.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "148.65",
+          "x": 2260.0,
+          "y": 3307.0,
+          "w": 176.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "WHO - GINGER",
+          "x": 32.0,
+          "y": 3321.0,
+          "w": 385.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 3116.0,
+          "y": 3386.0,
+          "w": 124.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "52.25",
+          "x": 3518.0,
+          "y": 3378.0,
+          "w": 153.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "3.11",
+          "x": 1815.0,
+          "y": 3401.0,
+          "w": 120.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "16.80",
+          "x": 2288.0,
+          "y": 3403.0,
+          "w": 148.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "WHO - POTATOES BABY Baby kg",
+          "x": 28.0,
+          "y": 3411.0,
+          "w": 819.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "/SMALL",
+          "x": 22.0,
+          "y": 3486.0,
+          "w": 216.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "90.60",
+          "x": 3524.0,
+          "y": 3513.0,
+          "w": 159.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 3120.0,
+          "y": 3518.0,
+          "w": 127.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "4",
+          "x": 1892.0,
+          "y": 3537.0,
+          "w": 51.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "22.65",
+          "x": 2290.0,
+          "y": 3535.0,
+          "w": 150.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "Mixed 150g",
+          "x": 641.0,
+          "y": 3541.0,
+          "w": 297.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "WHO-LETTUCE",
+          "x": 24.0,
+          "y": 3553.0,
+          "w": 411.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 3126.0,
+          "y": 3617.0,
+          "w": 126.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "80.33",
+          "x": 3533.0,
+          "y": 3611.0,
+          "w": 152.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "2.18",
+          "x": 1819.0,
+          "y": 3631.0,
+          "w": 122.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "36.85",
+          "x": 2296.0,
+          "y": 3631.0,
+          "w": 148.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "Tomatoe - kg",
+          "x": 644.0,
+          "y": 3643.0,
+          "w": 335.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "WHO - TOMATOES",
+          "x": 20.0,
+          "y": 3647.0,
+          "w": 470.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "Keeno",
+          "x": 2367.0,
+          "y": 4133.0,
+          "w": 416.0,
+          "h": 218.0,
+          "page": 1
+        },
+        {
+          "text": "Number of Items",
+          "x": 1555.0,
+          "y": 4376.0,
+          "w": 532.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "Subtotal (Exclusive)",
+          "x": 2355.0,
+          "y": 4382.0,
+          "w": 581.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "835.01",
+          "x": 3441.0,
+          "y": 4376.0,
+          "w": 211.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "Extra Charges",
+          "x": 49.0,
+          "y": 4392.0,
+          "w": 404.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "16.98",
+          "x": 1738.0,
+          "y": 4470.0,
+          "w": 174.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "Promotional",
+          "x": 1632.0,
+          "y": 4655.0,
+          "w": 378.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "Discount",
+          "x": 2367.0,
+          "y": 4696.0,
+          "w": 258.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "Discount Received",
+          "x": 1535.0,
+          "y": 4739.0,
+          "w": 573.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "Rounding",
+          "x": 2369.0,
+          "y": 4796.0,
+          "w": 282.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 1747.0,
+          "y": 4830.0,
+          "w": 148.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "Vat",
+          "x": 2365.0,
+          "y": 4916.0,
+          "w": 120.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 3541.0,
+          "y": 4925.0,
+          "w": 146.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "Total",
+          "x": 2369.0,
+          "y": 5047.0,
+          "w": 167.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "835.01",
+          "x": 3476.0,
+          "y": 5041.0,
+          "w": 217.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "Currency:",
+          "x": 2373.0,
+          "y": 5159.0,
+          "w": 295.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "ZAR",
+          "x": 2940.0,
+          "y": 5153.0,
+          "w": 136.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "CurrencyRate:",
+          "x": 2377.0,
+          "y": 5263.0,
+          "w": 429.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "1.00",
+          "x": 2950.0,
+          "y": 5261.0,
+          "w": 140.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "Banking Details:",
+          "x": 18.0,
+          "y": 5416.0,
+          "w": 482.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "Created: 02/07/2026 02:08:14",
+          "x": 2907.0,
+          "y": 5416.0,
+          "w": 808.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "Standard Bank",
+          "x": 16.0,
+          "y": 5522.0,
+          "w": 380.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "302784187",
+          "x": 12.0,
+          "y": 5624.0,
+          "w": 297.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "Current",
+          "x": 10.0,
+          "y": 5734.0,
+          "w": 203.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "051001",
+          "x": 8.0,
+          "y": 5841.0,
+          "w": 197.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "06",
+          "x": 560.0,
+          "y": 6575.0,
+          "w": 84.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "05",
+          "x": 246.0,
+          "y": 6599.0,
+          "w": 91.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "\u9ad8/D8",
+          "x": 1450.0,
+          "y": 6602.0,
+          "w": 229.0,
+          "h": 117.0,
+          "page": 1
+        },
+        {
+          "text": "07",
+          "x": 278.0,
+          "y": 6844.0,
+          "w": 83.0,
+          "h": 74.0,
+          "page": 1
+        }
+      ]
+    }
+  ],
+  "invoice_table_rows": [
+    {
+      "supplier_code": null,
+      "ingredient": "Rocket Herb",
+      "description": "Rocket Herb - kg",
+      "quantity": 0.6,
+      "purchase_unit": "KG",
+      "unit": "KG",
+      "unit_price": 195.0,
+      "vat": 0.0,
+      "line_total": 117.0,
+      "validation": {
+        "status": "ok",
+        "expected_total": 117.0,
+        "actual_total": 117.0,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "Rocket Herb - kg 0.6 195.00 0.00 117.00"
+      }
+    },
+    {
+      "supplier_code": null,
+      "ingredient": "Medium - Large",
+      "description": "Medium - Large",
+      "quantity": 2.0,
+      "purchase_unit": "Medium - Large",
+      "unit": "Medium - Large",
+      "unit_price": 22.85,
+      "vat": 0.0,
+      "line_total": 45.7,
+      "validation": {
+        "status": "ok",
+        "expected_total": 45.7,
+        "actual_total": 45.7,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "confidence": 1.0,
+      "field_confidence": {
+        "ingredient": 1.0,
+        "quantity": 0.98,
+        "unit": 0.85,
+        "unit_price": 0.98,
+        "line_total": 0.98
+      },
+      "parser_debug": {
+        "source": "ocr_items",
+        "role": "line_item",
+        "raw_text": "Medium - Large 2 22.85 0.00 45.70"
+      }
+    }
+  ],
+  "invoice_metadata": {
+    "supplier": "Telephone",
+    "invoice_number": "4310269016",
+    "invoice_date": "02/07/2026",
+    "customer": "Deliver To",
+    "total": null,
+    "currency": "ZAR"
+  },
+  "line_item_extraction": {
+    "detected_headers": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "headers": [
+          {
+            "header": "Item Code",
+            "field": "code",
+            "x": 212.0
+          },
+          {
+            "header": "Description",
+            "field": "description",
+            "x": 815.5
+          },
+          {
+            "header": "Quantity",
+            "field": "quantity",
+            "x": 1807.0
+          },
+          {
+            "header": "UnitPrice",
+            "field": "unit_price",
+            "x": 2289.0
+          },
+          {
+            "header": "VatAmnt",
+            "field": "vat",
+            "x": 3079.0
+          },
+          {
+            "header": "Line Total",
+            "field": "total",
+            "x": 3488.5
+          }
+        ]
+      }
+    ],
+    "detected_columns": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "columns": {
+          "code": 212.0,
+          "description": 815.5,
+          "quantity": 1807.0,
+          "unit_price": 2289.0,
+          "vat": 3079.0,
+          "total": 3488.5
+        }
+      }
+    ],
+    "extracted_rows": [
+      {
+        "description": "Rocket Herb - kg",
+        "quantity": "0.6",
+        "unit": "KG",
+        "unit_price": "195.00",
+        "total": "117.00",
+        "vat": "0.00",
+        "raw_text": "Rocket Herb - kg 0.6 195.00 0.00 117.00",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 117.0,
+          "actual_total": 117.0,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      {
+        "description": "Medium - Large",
+        "quantity": "2",
+        "unit": "",
+        "unit_price": "22.85",
+        "total": "45.70",
+        "vat": "0.00",
+        "raw_text": "Medium - Large 2 22.85 0.00 45.70",
+        "confidence": 1.0,
+        "role": "line_item",
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "validation": {
+          "status": "ok",
+          "expected_total": 45.7,
+          "actual_total": 45.7,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      }
+    ],
+    "discarded_rows": [
+      {
+        "reason": "noise",
+        "raw_text": "2.04 58.00 0.00 118.32"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "1 32.85 0.00 32.85"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "1.04 142.85 0.00 148.56"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "1.005 148.65 0.00 149.39"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "3.11 16.80 0.00 52.25"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "4 22.65 0.00 90.60"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "2.18 36.85 0.00 80.33"
+      },
+      {
+        "reason": "payment",
+        "raw_text": "Extra Charges Number of Items Subtotal (Exclusive) 835.01"
+      }
+    ],
+    "confidence": 1.0
+  },
+  "extraction_engine": {
+    "source": "universal_extractor",
+    "source_label": "Universal Extractor",
+    "rows_found": 10,
+    "rows_accepted": 2,
+    "rows_discarded": 8,
+    "validation_pass_rate": 1.0,
+    "overall_confidence": 1.0,
+    "fallback_reason": "",
+    "time_taken_ms": 6341,
+    "legacy_row_count": 1
+  },
+  "errors": [],
+  "created_at": "2026-07-04T13:10:40",
+  "engine": "PaddleOCR",
+  "fallback_used": false
+}

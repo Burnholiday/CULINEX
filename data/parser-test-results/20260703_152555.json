@@ -1,0 +1,574 @@
+{
+  "tested_at": "2026-07-04T13:10:54",
+  "file_id": "parser_test_20260703_152555",
+  "filename": "20260703_152555.jpg",
+  "file_path": "C:\\Users\\Burn Holiday\\Documents\\Codex\\2026-06-21\\import-react-usestate-usememo-from-react\\outputs\\data\\test-invoices\\20260703_152555.jpg",
+  "detected_supplier": "Unknown",
+  "document_type": "supplier_invoice",
+  "classifier_confidence": 0.95,
+  "classifier_scores": {
+    "supplier_invoice": 7,
+    "recipe": 0,
+    "stock_list": 1,
+    "prep_sheet": 0,
+    "menu_costing_sheet": 0
+  },
+  "invoice_number": "FISHALICIOUS",
+  "invoice_date": "03/07/2026",
+  "line_count": 3,
+  "subtotal": 4618.5,
+  "total": null,
+  "currency": null,
+  "extraction_status": "completed",
+  "engine": "PaddleOCR",
+  "errors": [],
+  "extracted_rows": [
+    {
+      "supplier_code": "KIN002",
+      "ingredient": "Kin002",
+      "description": "Black Butterfish PQ Portions",
+      "quantity": 5.3,
+      "purchase_unit": "Black Butterfish PQ Portions",
+      "unit": "Black Butterfish PQ Portions",
+      "unit_price": 165.0,
+      "line_total": 874.5,
+      "vat": 131.17,
+      "validation": {
+        "status": "ok",
+        "expected_total": 874.5,
+        "actual_total": 874.5,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "parser_debug": {
+        "source": "ocr_text",
+        "raw_row": [
+          "874.50",
+          "131.17",
+          "165.00",
+          "5.30",
+          "Black Butterfish PQ Portions",
+          "KIN002"
+        ],
+        "mapped_quantity": 5.3,
+        "mapped_unit_price": 165.0,
+        "mapped_line_total": 874.5,
+        "mapped_vat": 131.17,
+        "validation": {
+          "status": "ok",
+          "expected_total": 874.5,
+          "actual_total": 874.5,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      "field_confidence": {
+        "ingredient": 0.78,
+        "quantity": 0.9,
+        "unit": 0.85,
+        "unit_price": 0.9,
+        "line_total": 0.9
+      }
+    },
+    {
+      "supplier_code": "WST006",
+      "ingredient": "Wst006",
+      "description": "WhiteStump Frozen VP Dressed",
+      "quantity": 4.5,
+      "purchase_unit": "WhiteStump Frozen VP Dressed",
+      "unit": "WhiteStump Frozen VP Dressed",
+      "unit_price": 55.0,
+      "line_total": 247.5,
+      "vat": 37.12,
+      "validation": {
+        "status": "ok",
+        "expected_total": 247.5,
+        "actual_total": 247.5,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "parser_debug": {
+        "source": "ocr_text",
+        "raw_row": [
+          "247.50",
+          "37.12",
+          "55.00",
+          "4.50",
+          "WhiteStump Frozen VP Dressed",
+          "WST006"
+        ],
+        "mapped_quantity": 4.5,
+        "mapped_unit_price": 55.0,
+        "mapped_line_total": 247.5,
+        "mapped_vat": 37.12,
+        "validation": {
+          "status": "ok",
+          "expected_total": 247.5,
+          "actual_total": 247.5,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      "field_confidence": {
+        "ingredient": 0.78,
+        "quantity": 0.9,
+        "unit": 0.85,
+        "unit_price": 0.9,
+        "line_total": 0.9
+      }
+    },
+    {
+      "supplier_code": "HAK028 INTEREST WILL BE LEVIED AT 2.00% PER MONTH ON OVERDUE ACCOUNTS",
+      "ingredient": "Hak028 Interest Will Be Levied At 2.00% Per Month On Overdue Accounts",
+      "description": "Hake Fillet Fresh 220-Jumbo",
+      "quantity": 25.9,
+      "purchase_unit": "Hake Fillet Fresh 220-Jumbo",
+      "unit": "Hake Fillet Fresh 220-Jumbo",
+      "unit_price": 135.0,
+      "line_total": 3496.5,
+      "vat": 524.47,
+      "validation": {
+        "status": "ok",
+        "expected_total": 3496.5,
+        "actual_total": 3496.5,
+        "difference": 0.0,
+        "affected_field": ""
+      },
+      "parser_debug": {
+        "source": "ocr_text",
+        "raw_row": [
+          "3 496.50",
+          "524.47",
+          "135.00",
+          "25.90",
+          "Hake Fillet Fresh 220-Jumbo",
+          "HAK028",
+          "INTEREST WILL BE LEVIED AT 2.00% PER MONTH ON OVERDUE ACCOUNTS"
+        ],
+        "mapped_quantity": 25.9,
+        "mapped_unit_price": 135.0,
+        "mapped_line_total": 3496.5,
+        "mapped_vat": 524.47,
+        "validation": {
+          "status": "ok",
+          "expected_total": 3496.5,
+          "actual_total": 3496.5,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      },
+      "field_confidence": {
+        "ingredient": 0.78,
+        "quantity": 0.9,
+        "unit": 0.85,
+        "unit_price": 0.9,
+        "line_total": 0.9
+      }
+    }
+  ],
+  "validation_failures": [],
+  "parser_debug": [
+    {
+      "row_index": 1,
+      "ingredient": "Kin002",
+      "supplier_code": "KIN002",
+      "parser_debug": {
+        "source": "ocr_text",
+        "raw_row": [
+          "874.50",
+          "131.17",
+          "165.00",
+          "5.30",
+          "Black Butterfish PQ Portions",
+          "KIN002"
+        ],
+        "mapped_quantity": 5.3,
+        "mapped_unit_price": 165.0,
+        "mapped_line_total": 874.5,
+        "mapped_vat": 131.17,
+        "validation": {
+          "status": "ok",
+          "expected_total": 874.5,
+          "actual_total": 874.5,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      }
+    },
+    {
+      "row_index": 2,
+      "ingredient": "Wst006",
+      "supplier_code": "WST006",
+      "parser_debug": {
+        "source": "ocr_text",
+        "raw_row": [
+          "247.50",
+          "37.12",
+          "55.00",
+          "4.50",
+          "WhiteStump Frozen VP Dressed",
+          "WST006"
+        ],
+        "mapped_quantity": 4.5,
+        "mapped_unit_price": 55.0,
+        "mapped_line_total": 247.5,
+        "mapped_vat": 37.12,
+        "validation": {
+          "status": "ok",
+          "expected_total": 247.5,
+          "actual_total": 247.5,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      }
+    },
+    {
+      "row_index": 3,
+      "ingredient": "Hak028 Interest Will Be Levied At 2.00% Per Month On Overdue Accounts",
+      "supplier_code": "HAK028 INTEREST WILL BE LEVIED AT 2.00% PER MONTH ON OVERDUE ACCOUNTS",
+      "parser_debug": {
+        "source": "ocr_text",
+        "raw_row": [
+          "3 496.50",
+          "524.47",
+          "135.00",
+          "25.90",
+          "Hake Fillet Fresh 220-Jumbo",
+          "HAK028",
+          "INTEREST WILL BE LEVIED AT 2.00% PER MONTH ON OVERDUE ACCOUNTS"
+        ],
+        "mapped_quantity": 25.9,
+        "mapped_unit_price": 135.0,
+        "mapped_line_total": 3496.5,
+        "mapped_vat": 524.47,
+        "validation": {
+          "status": "ok",
+          "expected_total": 3496.5,
+          "actual_total": 3496.5,
+          "difference": 0.0,
+          "affected_field": ""
+        }
+      }
+    }
+  ],
+  "invoice_table_parser": {
+    "row_count": 3,
+    "rows": [
+      {
+        "supplier_code": "KIN002",
+        "ingredient": "Kin002",
+        "description": "Black Butterfish PQ Portions",
+        "quantity": 5.3,
+        "purchase_unit": "Black Butterfish PQ Portions",
+        "unit": "Black Butterfish PQ Portions",
+        "unit_price": 165.0,
+        "line_total": 874.5,
+        "vat": 131.17,
+        "validation": {
+          "status": "ok",
+          "expected_total": 874.5,
+          "actual_total": 874.5,
+          "difference": 0.0,
+          "affected_field": ""
+        },
+        "parser_debug": {
+          "source": "ocr_text",
+          "raw_row": [
+            "874.50",
+            "131.17",
+            "165.00",
+            "5.30",
+            "Black Butterfish PQ Portions",
+            "KIN002"
+          ],
+          "mapped_quantity": 5.3,
+          "mapped_unit_price": 165.0,
+          "mapped_line_total": 874.5,
+          "mapped_vat": 131.17,
+          "validation": {
+            "status": "ok",
+            "expected_total": 874.5,
+            "actual_total": 874.5,
+            "difference": 0.0,
+            "affected_field": ""
+          }
+        },
+        "field_confidence": {
+          "ingredient": 0.78,
+          "quantity": 0.9,
+          "unit": 0.85,
+          "unit_price": 0.9,
+          "line_total": 0.9
+        }
+      },
+      {
+        "supplier_code": "WST006",
+        "ingredient": "Wst006",
+        "description": "WhiteStump Frozen VP Dressed",
+        "quantity": 4.5,
+        "purchase_unit": "WhiteStump Frozen VP Dressed",
+        "unit": "WhiteStump Frozen VP Dressed",
+        "unit_price": 55.0,
+        "line_total": 247.5,
+        "vat": 37.12,
+        "validation": {
+          "status": "ok",
+          "expected_total": 247.5,
+          "actual_total": 247.5,
+          "difference": 0.0,
+          "affected_field": ""
+        },
+        "parser_debug": {
+          "source": "ocr_text",
+          "raw_row": [
+            "247.50",
+            "37.12",
+            "55.00",
+            "4.50",
+            "WhiteStump Frozen VP Dressed",
+            "WST006"
+          ],
+          "mapped_quantity": 4.5,
+          "mapped_unit_price": 55.0,
+          "mapped_line_total": 247.5,
+          "mapped_vat": 37.12,
+          "validation": {
+            "status": "ok",
+            "expected_total": 247.5,
+            "actual_total": 247.5,
+            "difference": 0.0,
+            "affected_field": ""
+          }
+        },
+        "field_confidence": {
+          "ingredient": 0.78,
+          "quantity": 0.9,
+          "unit": 0.85,
+          "unit_price": 0.9,
+          "line_total": 0.9
+        }
+      },
+      {
+        "supplier_code": "HAK028 INTEREST WILL BE LEVIED AT 2.00% PER MONTH ON OVERDUE ACCOUNTS",
+        "ingredient": "Hak028 Interest Will Be Levied At 2.00% Per Month On Overdue Accounts",
+        "description": "Hake Fillet Fresh 220-Jumbo",
+        "quantity": 25.9,
+        "purchase_unit": "Hake Fillet Fresh 220-Jumbo",
+        "unit": "Hake Fillet Fresh 220-Jumbo",
+        "unit_price": 135.0,
+        "line_total": 3496.5,
+        "vat": 524.47,
+        "validation": {
+          "status": "ok",
+          "expected_total": 3496.5,
+          "actual_total": 3496.5,
+          "difference": 0.0,
+          "affected_field": ""
+        },
+        "parser_debug": {
+          "source": "ocr_text",
+          "raw_row": [
+            "3 496.50",
+            "524.47",
+            "135.00",
+            "25.90",
+            "Hake Fillet Fresh 220-Jumbo",
+            "HAK028",
+            "INTEREST WILL BE LEVIED AT 2.00% PER MONTH ON OVERDUE ACCOUNTS"
+          ],
+          "mapped_quantity": 25.9,
+          "mapped_unit_price": 135.0,
+          "mapped_line_total": 3496.5,
+          "mapped_vat": 524.47,
+          "validation": {
+            "status": "ok",
+            "expected_total": 3496.5,
+            "actual_total": 3496.5,
+            "difference": 0.0,
+            "affected_field": ""
+          }
+        },
+        "field_confidence": {
+          "ingredient": 0.78,
+          "quantity": 0.9,
+          "unit": 0.85,
+          "unit_price": 0.9,
+          "line_total": 0.9
+        }
+      }
+    ],
+    "metadata": {
+      "supplier": "Tov Invoice",
+      "invoice_number": "FISHALICIOUS",
+      "invoice_date": "03/07/2026",
+      "customer": "BUT001",
+      "total": null,
+      "currency": null
+    },
+    "validation_failures": [],
+    "validation_pass_rate": 100.0,
+    "parser_debug": [
+      {
+        "row_index": 1,
+        "ingredient": "Kin002",
+        "supplier_code": "KIN002",
+        "parser_debug": {
+          "source": "ocr_text",
+          "raw_row": [
+            "874.50",
+            "131.17",
+            "165.00",
+            "5.30",
+            "Black Butterfish PQ Portions",
+            "KIN002"
+          ],
+          "mapped_quantity": 5.3,
+          "mapped_unit_price": 165.0,
+          "mapped_line_total": 874.5,
+          "mapped_vat": 131.17,
+          "validation": {
+            "status": "ok",
+            "expected_total": 874.5,
+            "actual_total": 874.5,
+            "difference": 0.0,
+            "affected_field": ""
+          }
+        }
+      },
+      {
+        "row_index": 2,
+        "ingredient": "Wst006",
+        "supplier_code": "WST006",
+        "parser_debug": {
+          "source": "ocr_text",
+          "raw_row": [
+            "247.50",
+            "37.12",
+            "55.00",
+            "4.50",
+            "WhiteStump Frozen VP Dressed",
+            "WST006"
+          ],
+          "mapped_quantity": 4.5,
+          "mapped_unit_price": 55.0,
+          "mapped_line_total": 247.5,
+          "mapped_vat": 37.12,
+          "validation": {
+            "status": "ok",
+            "expected_total": 247.5,
+            "actual_total": 247.5,
+            "difference": 0.0,
+            "affected_field": ""
+          }
+        }
+      },
+      {
+        "row_index": 3,
+        "ingredient": "Hak028 Interest Will Be Levied At 2.00% Per Month On Overdue Accounts",
+        "supplier_code": "HAK028 INTEREST WILL BE LEVIED AT 2.00% PER MONTH ON OVERDUE ACCOUNTS",
+        "parser_debug": {
+          "source": "ocr_text",
+          "raw_row": [
+            "3 496.50",
+            "524.47",
+            "135.00",
+            "25.90",
+            "Hake Fillet Fresh 220-Jumbo",
+            "HAK028",
+            "INTEREST WILL BE LEVIED AT 2.00% PER MONTH ON OVERDUE ACCOUNTS"
+          ],
+          "mapped_quantity": 25.9,
+          "mapped_unit_price": 135.0,
+          "mapped_line_total": 3496.5,
+          "mapped_vat": 524.47,
+          "validation": {
+            "status": "ok",
+            "expected_total": 3496.5,
+            "actual_total": 3496.5,
+            "difference": 0.0,
+            "affected_field": ""
+          }
+        }
+      }
+    ]
+  },
+  "universal_line_item_extractor": {
+    "row_count": 0,
+    "rows_found": 3,
+    "rows_accepted": 0,
+    "rows_discarded": 3,
+    "rows": [],
+    "detected_headers": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "headers": [
+          {
+            "header": "Item Code",
+            "field": "code",
+            "x": 235.5
+          },
+          {
+            "header": "Description",
+            "field": "description",
+            "x": 851.0
+          },
+          {
+            "header": "Quantity",
+            "field": "quantity",
+            "x": 1836.5
+          },
+          {
+            "header": "UnitPrice",
+            "field": "unit_price",
+            "x": 2326.5
+          },
+          {
+            "header": "VatAmnt",
+            "field": "vat",
+            "x": 3129.5
+          },
+          {
+            "header": "Line Total",
+            "field": "total",
+            "x": 3538.5
+          }
+        ]
+      }
+    ],
+    "detected_columns": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "columns": {
+          "code": 235.5,
+          "description": 851.0,
+          "quantity": 1836.5,
+          "unit_price": 2326.5,
+          "vat": 3129.5,
+          "total": 3538.5
+        }
+      }
+    ],
+    "discarded_rows": [
+      {
+        "reason": "not_enough_line_values",
+        "raw_text": "KIN002 37.12 247.50"
+      },
+      {
+        "reason": "noise",
+        "raw_text": "135.00 524.47"
+      },
+      {
+        "reason": "banking",
+        "raw_text": "Banking Details: Subtotal (Exclusive) 4 618.50"
+      }
+    ],
+    "confidence": 0.0,
+    "validation_failures": [],
+    "validation_pass_rate": 0.0
+  },
+  "needs_review": false
+}

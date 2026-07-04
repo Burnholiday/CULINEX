@@ -1,0 +1,1001 @@
+{
+  "file_id": "parser_test_20260703_154350",
+  "filename": "20260703_154350.jpg",
+  "file_type": "IMAGE",
+  "extraction_status": "completed",
+  "extracted_text": "Greeff's\nGreeff's Meat Market\n45 WATERFRONT DRIVE\nKNYSNA\n6571\nTel:\nGREAT QUALITY BETTER PRICE MEAT\n044-3822607\nFax:\n044-3823231\nInvoice #\nVAT Reg. #: 4430188286\n013666\nTax Invoice\nJESSE\nDate: 03/07/2026 11:17:45\nSalesmen :\nCustomer Information:\nAccount No. : W2\nBRENTON BLUE (Wild Route Rest.Gr\nTax Reg. No. :\n198 CR Swart Drive\nWINNER\nAcc. Audit No. : 337,883\nBrenton - on - Sea\nOrder No. :\nBEST OF KNYSNA\nKNYSNA\n&PLETT\nClerk Name : JESSE\nREADERS'CHOICE\nComputer Name : RECEIVING\nPhone:\nAWARDS 2024\nTerms:None\nAcc Type\nBalance Forward\nVAT %\nExcl.Line Total\nDisc. %\nDiscounted Price\nQuantity\nStockcode\nStock description\n532.07\n15.00\n0.00\n105.95\n5.022\n0952\nSTEAK MINCE 80/20\n288.10\n85.95\n15.00\n3.352\n0.00\n1197\nPORK BANGERS\n349.93\n15.00\n115.95\n3.018\n0.00\n1137\nGREEFF'S CRAFT BOEREWORS\n564.59\n15.00\n54.95\n10.275\n0.00\n0973\nMARROW BONES\n1,281.04\n15.00\n119.95\n10.680\n0.00\n0911\nCHUCK ON THE BONE\n3,015.73\nExcl. Sub Total:\nSplit Tender Summary\nBanking Details:\n452.36\n3,468.09\nVAT on Sale:\nAccount\n0.00\nCapitec Business\nRounding:\n3,468.09\nAccount No: 1051098599\nIncl. Sub Total:\n0.00\nDeposit:\nBranch Code: 450105\n3,468.09\nTender Amount:\nEmail: greeffsacc@gmail.com\n0.00\nChange:\n32.35\n5.00\nWeight :\nQuantity Items :\n10,135.24\n6,667.15\nNew.Balance\nPrev.Balance\n013666\nInvoice # :\nPowered by Odyssey: 11.0.448.30\nPlease email any inquiries to :greeffsacc@gmail.com\nNumber of Rows:\n5\nPage #:\n1 Of 1",
+  "extracted_tables": [
+    {
+      "type": "ocr_items",
+      "items": [
+        {
+          "text": "Greeff's",
+          "x": 2432.0,
+          "y": 1002.0,
+          "w": 1078.0,
+          "h": 585.0,
+          "page": 1
+        },
+        {
+          "text": "Greeff's Meat Market",
+          "x": 165.0,
+          "y": 1129.0,
+          "w": 1361.0,
+          "h": 259.0,
+          "page": 1
+        },
+        {
+          "text": "45 WATERFRONT DRIVE",
+          "x": 161.0,
+          "y": 1260.0,
+          "w": 588.0,
+          "h": 142.0,
+          "page": 1
+        },
+        {
+          "text": "KNYSNA",
+          "x": 161.0,
+          "y": 1338.0,
+          "w": 224.0,
+          "h": 95.0,
+          "page": 1
+        },
+        {
+          "text": "6571",
+          "x": 156.0,
+          "y": 1417.0,
+          "w": 133.0,
+          "h": 79.0,
+          "page": 1
+        },
+        {
+          "text": "Tel:",
+          "x": 153.0,
+          "y": 1494.0,
+          "w": 116.0,
+          "h": 84.0,
+          "page": 1
+        },
+        {
+          "text": "GREAT QUALITY BETTER PRICE MEAT",
+          "x": 2558.0,
+          "y": 1445.0,
+          "w": 761.0,
+          "h": 129.0,
+          "page": 1
+        },
+        {
+          "text": "044-3822607",
+          "x": 346.0,
+          "y": 1533.0,
+          "w": 297.0,
+          "h": 82.0,
+          "page": 1
+        },
+        {
+          "text": "Fax:",
+          "x": 149.0,
+          "y": 1568.0,
+          "w": 135.0,
+          "h": 88.0,
+          "page": 1
+        },
+        {
+          "text": "044-3823231",
+          "x": 344.0,
+          "y": 1606.0,
+          "w": 293.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "Invoice #",
+          "x": 148.0,
+          "y": 1668.0,
+          "w": 263.0,
+          "h": 101.0,
+          "page": 1
+        },
+        {
+          "text": "VAT Reg. #: 4430188286",
+          "x": 2496.0,
+          "y": 1645.0,
+          "w": 638.0,
+          "h": 113.0,
+          "page": 1
+        },
+        {
+          "text": "013666",
+          "x": 863.0,
+          "y": 1734.0,
+          "w": 166.0,
+          "h": 49.0,
+          "page": 1
+        },
+        {
+          "text": "Tax Invoice",
+          "x": 1591.0,
+          "y": 1807.0,
+          "w": 454.0,
+          "h": 85.0,
+          "page": 1
+        },
+        {
+          "text": "JESSE",
+          "x": 2888.0,
+          "y": 1862.0,
+          "w": 167.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "Date: 03/07/2026 11:17:45",
+          "x": 184.0,
+          "y": 1902.0,
+          "w": 635.0,
+          "h": 102.0,
+          "page": 1
+        },
+        {
+          "text": "Salesmen :",
+          "x": 2427.0,
+          "y": 1888.0,
+          "w": 294.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "Customer Information:",
+          "x": 137.0,
+          "y": 2016.0,
+          "w": 607.0,
+          "h": 109.0,
+          "page": 1
+        },
+        {
+          "text": "Account No. : W2",
+          "x": 2529.0,
+          "y": 2002.0,
+          "w": 454.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "BRENTON BLUE (Wild Route Rest.Gr",
+          "x": 172.0,
+          "y": 2119.0,
+          "w": 846.0,
+          "h": 101.0,
+          "page": 1
+        },
+        {
+          "text": "Tax Reg. No. :",
+          "x": 2525.0,
+          "y": 2096.0,
+          "w": 375.0,
+          "h": 82.0,
+          "page": 1
+        },
+        {
+          "text": "198 CR Swart Drive",
+          "x": 171.0,
+          "y": 2214.0,
+          "w": 451.0,
+          "h": 90.0,
+          "page": 1
+        },
+        {
+          "text": "WINNER",
+          "x": 1907.0,
+          "y": 2210.0,
+          "w": 313.0,
+          "h": 123.0,
+          "page": 1
+        },
+        {
+          "text": "Acc. Audit No. : 337,883",
+          "x": 2488.0,
+          "y": 2178.0,
+          "w": 609.0,
+          "h": 94.0,
+          "page": 1
+        },
+        {
+          "text": "Brenton - on - Sea",
+          "x": 165.0,
+          "y": 2294.0,
+          "w": 423.0,
+          "h": 94.0,
+          "page": 1
+        },
+        {
+          "text": "Order No. :",
+          "x": 2610.0,
+          "y": 2286.0,
+          "w": 300.0,
+          "h": 71.0,
+          "page": 1
+        },
+        {
+          "text": "BEST OF KNYSNA",
+          "x": 1881.0,
+          "y": 2315.0,
+          "w": 432.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "KNYSNA",
+          "x": 160.0,
+          "y": 2375.0,
+          "w": 226.0,
+          "h": 79.0,
+          "page": 1
+        },
+        {
+          "text": "&PLETT",
+          "x": 1877.0,
+          "y": 2394.0,
+          "w": 209.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "Clerk Name : JESSE",
+          "x": 2567.0,
+          "y": 2376.0,
+          "w": 520.0,
+          "h": 79.0,
+          "page": 1
+        },
+        {
+          "text": "READERS'CHOICE",
+          "x": 1881.0,
+          "y": 2466.0,
+          "w": 424.0,
+          "h": 74.0,
+          "page": 1
+        },
+        {
+          "text": "Computer Name : RECEIVING",
+          "x": 2450.0,
+          "y": 2465.0,
+          "w": 777.0,
+          "h": 98.0,
+          "page": 1
+        },
+        {
+          "text": "Phone:",
+          "x": 148.0,
+          "y": 2559.0,
+          "w": 203.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "AWARDS 2024",
+          "x": 1886.0,
+          "y": 2546.0,
+          "w": 339.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "Terms:None",
+          "x": 2718.0,
+          "y": 2572.0,
+          "w": 363.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "Acc Type",
+          "x": 142.0,
+          "y": 2636.0,
+          "w": 258.0,
+          "h": 91.0,
+          "page": 1
+        },
+        {
+          "text": "Balance Forward",
+          "x": 692.0,
+          "y": 2662.0,
+          "w": 374.0,
+          "h": 56.0,
+          "page": 1
+        },
+        {
+          "text": "VAT %",
+          "x": 2872.0,
+          "y": 2700.0,
+          "w": 166.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "Excl.Line Total",
+          "x": 3196.0,
+          "y": 2673.0,
+          "w": 344.0,
+          "h": 87.0,
+          "page": 1
+        },
+        {
+          "text": "Disc. %",
+          "x": 2097.0,
+          "y": 2731.0,
+          "w": 177.0,
+          "h": 58.0,
+          "page": 1
+        },
+        {
+          "text": "Discounted Price",
+          "x": 2361.0,
+          "y": 2721.0,
+          "w": 382.0,
+          "h": 60.0,
+          "page": 1
+        },
+        {
+          "text": "Quantity",
+          "x": 1786.0,
+          "y": 2737.0,
+          "w": 196.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "Stockcode",
+          "x": 200.0,
+          "y": 2763.0,
+          "w": 252.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "Stock description",
+          "x": 948.0,
+          "y": 2762.0,
+          "w": 380.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "532.07",
+          "x": 3431.0,
+          "y": 2752.0,
+          "w": 178.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "15.00",
+          "x": 2982.0,
+          "y": 2792.0,
+          "w": 141.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2203.0,
+          "y": 2823.0,
+          "w": 109.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "105.95",
+          "x": 2614.0,
+          "y": 2809.0,
+          "w": 164.0,
+          "h": 56.0,
+          "page": 1
+        },
+        {
+          "text": "5.022",
+          "x": 1912.0,
+          "y": 2823.0,
+          "w": 135.0,
+          "h": 60.0,
+          "page": 1
+        },
+        {
+          "text": "0952",
+          "x": 89.0,
+          "y": 2840.0,
+          "w": 138.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "STEAK MINCE 80/20",
+          "x": 566.0,
+          "y": 2858.0,
+          "w": 474.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "288.10",
+          "x": 3440.0,
+          "y": 2850.0,
+          "w": 184.0,
+          "h": 75.0,
+          "page": 1
+        },
+        {
+          "text": "85.95",
+          "x": 2643.0,
+          "y": 2902.0,
+          "w": 143.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "15.00",
+          "x": 2992.0,
+          "y": 2899.0,
+          "w": 136.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "3.352",
+          "x": 1914.0,
+          "y": 2927.0,
+          "w": 136.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2207.0,
+          "y": 2923.0,
+          "w": 109.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "1197",
+          "x": 88.0,
+          "y": 2945.0,
+          "w": 126.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "PORK BANGERS",
+          "x": 558.0,
+          "y": 2958.0,
+          "w": 407.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "349.93",
+          "x": 3452.0,
+          "y": 2952.0,
+          "w": 182.0,
+          "h": 73.0,
+          "page": 1
+        },
+        {
+          "text": "15.00",
+          "x": 2999.0,
+          "y": 3001.0,
+          "w": 136.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "115.95",
+          "x": 2629.0,
+          "y": 3006.0,
+          "w": 161.0,
+          "h": 59.0,
+          "page": 1
+        },
+        {
+          "text": "3.018",
+          "x": 1916.0,
+          "y": 3027.0,
+          "w": 137.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2209.0,
+          "y": 3023.0,
+          "w": 111.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "1137",
+          "x": 85.0,
+          "y": 3049.0,
+          "w": 123.0,
+          "h": 61.0,
+          "page": 1
+        },
+        {
+          "text": "GREEFF'S CRAFT BOEREWORS",
+          "x": 556.0,
+          "y": 3049.0,
+          "w": 778.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "564.59",
+          "x": 3460.0,
+          "y": 3052.0,
+          "w": 184.0,
+          "h": 77.0,
+          "page": 1
+        },
+        {
+          "text": "15.00",
+          "x": 3002.0,
+          "y": 3094.0,
+          "w": 144.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "54.95",
+          "x": 2660.0,
+          "y": 3113.0,
+          "w": 136.0,
+          "h": 53.0,
+          "page": 1
+        },
+        {
+          "text": "10.275",
+          "x": 1892.0,
+          "y": 3127.0,
+          "w": 163.0,
+          "h": 56.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2211.0,
+          "y": 3125.0,
+          "w": 112.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "0973",
+          "x": 74.0,
+          "y": 3151.0,
+          "w": 134.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "MARROW BONES",
+          "x": 550.0,
+          "y": 3158.0,
+          "w": 433.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "1,281.04",
+          "x": 3425.0,
+          "y": 3156.0,
+          "w": 231.0,
+          "h": 88.0,
+          "page": 1
+        },
+        {
+          "text": "15.00",
+          "x": 3008.0,
+          "y": 3198.0,
+          "w": 146.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "119.95",
+          "x": 2641.0,
+          "y": 3217.0,
+          "w": 157.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "10.680",
+          "x": 1896.0,
+          "y": 3231.0,
+          "w": 159.0,
+          "h": 51.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 2213.0,
+          "y": 3227.0,
+          "w": 112.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "0911",
+          "x": 66.0,
+          "y": 3255.0,
+          "w": 130.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "CHUCK ON THE BONE",
+          "x": 548.0,
+          "y": 3258.0,
+          "w": 541.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "3,015.73",
+          "x": 3395.0,
+          "y": 3287.0,
+          "w": 227.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "Excl. Sub Total:",
+          "x": 2503.0,
+          "y": 3337.0,
+          "w": 433.0,
+          "h": 60.0,
+          "page": 1
+        },
+        {
+          "text": "Split Tender Summary",
+          "x": 1732.0,
+          "y": 3356.0,
+          "w": 603.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "Banking Details:",
+          "x": 81.0,
+          "y": 3386.0,
+          "w": 516.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "452.36",
+          "x": 3446.0,
+          "y": 3377.0,
+          "w": 185.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "3,468.09",
+          "x": 2192.0,
+          "y": 3429.0,
+          "w": 239.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "VAT on Sale:",
+          "x": 2576.0,
+          "y": 3423.0,
+          "w": 356.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "Account",
+          "x": 1599.0,
+          "y": 3439.0,
+          "w": 223.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 3511.0,
+          "y": 3457.0,
+          "w": 128.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "Capitec Business",
+          "x": 75.0,
+          "y": 3486.0,
+          "w": 551.0,
+          "h": 76.0,
+          "page": 1
+        },
+        {
+          "text": "Rounding:",
+          "x": 2641.0,
+          "y": 3511.0,
+          "w": 293.0,
+          "h": 57.0,
+          "page": 1
+        },
+        {
+          "text": "3,468.09",
+          "x": 3417.0,
+          "y": 3542.0,
+          "w": 231.0,
+          "h": 80.0,
+          "page": 1
+        },
+        {
+          "text": "Account No: 1051098599",
+          "x": 69.0,
+          "y": 3594.0,
+          "w": 765.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "Incl. Sub Total:",
+          "x": 2521.0,
+          "y": 3588.0,
+          "w": 419.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 3526.0,
+          "y": 3624.0,
+          "w": 130.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "Deposit:",
+          "x": 2704.0,
+          "y": 3668.0,
+          "w": 244.0,
+          "h": 72.0,
+          "page": 1
+        },
+        {
+          "text": "Branch Code: 450105",
+          "x": 65.0,
+          "y": 3694.0,
+          "w": 666.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "3,468.09",
+          "x": 3432.0,
+          "y": 3701.0,
+          "w": 232.0,
+          "h": 81.0,
+          "page": 1
+        },
+        {
+          "text": "Tender Amount:",
+          "x": 2501.0,
+          "y": 3750.0,
+          "w": 451.0,
+          "h": 55.0,
+          "page": 1
+        },
+        {
+          "text": "Email: greeffsacc@gmail.com",
+          "x": 48.0,
+          "y": 3786.0,
+          "w": 939.0,
+          "h": 92.0,
+          "page": 1
+        },
+        {
+          "text": "0.00",
+          "x": 3544.0,
+          "y": 3792.0,
+          "w": 127.0,
+          "h": 66.0,
+          "page": 1
+        },
+        {
+          "text": "Change:",
+          "x": 2712.0,
+          "y": 3835.0,
+          "w": 246.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "32.35",
+          "x": 3511.0,
+          "y": 3940.0,
+          "w": 175.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "5.00",
+          "x": 2948.0,
+          "y": 3974.0,
+          "w": 132.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "Weight :",
+          "x": 3122.0,
+          "y": 3970.0,
+          "w": 234.0,
+          "h": 65.0,
+          "page": 1
+        },
+        {
+          "text": "Quantity Items :",
+          "x": 2331.0,
+          "y": 3984.0,
+          "w": 416.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "10,135.24",
+          "x": 1613.0,
+          "y": 3996.0,
+          "w": 245.0,
+          "h": 70.0,
+          "page": 1
+        },
+        {
+          "text": "6,667.15",
+          "x": 720.0,
+          "y": 4022.0,
+          "w": 212.0,
+          "h": 67.0,
+          "page": 1
+        },
+        {
+          "text": "New.Balance",
+          "x": 1031.0,
+          "y": 4016.0,
+          "w": 370.0,
+          "h": 64.0,
+          "page": 1
+        },
+        {
+          "text": "Prev.Balance",
+          "x": 51.0,
+          "y": 4037.0,
+          "w": 382.0,
+          "h": 62.0,
+          "page": 1
+        },
+        {
+          "text": "013666",
+          "x": 3524.0,
+          "y": 4134.0,
+          "w": 202.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "Invoice # :",
+          "x": 2783.0,
+          "y": 4161.0,
+          "w": 307.0,
+          "h": 68.0,
+          "page": 1
+        },
+        {
+          "text": "Powered by Odyssey: 11.0.448.30",
+          "x": 2722.0,
+          "y": 4263.0,
+          "w": 874.0,
+          "h": 93.0,
+          "page": 1
+        },
+        {
+          "text": "Please email any inquiries to :greeffsacc@gmail.com",
+          "x": 1159.0,
+          "y": 4296.0,
+          "w": 1241.0,
+          "h": 78.0,
+          "page": 1
+        },
+        {
+          "text": "Number of Rows:",
+          "x": 0.0,
+          "y": 4325.0,
+          "w": 471.0,
+          "h": 69.0,
+          "page": 1
+        },
+        {
+          "text": "5",
+          "x": 577.0,
+          "y": 4325.0,
+          "w": 50.0,
+          "h": 63.0,
+          "page": 1
+        },
+        {
+          "text": "Page #:",
+          "x": 3096.0,
+          "y": 6004.0,
+          "w": 244.0,
+          "h": 89.0,
+          "page": 1
+        },
+        {
+          "text": "1 Of 1",
+          "x": 3504.0,
+          "y": 5998.0,
+          "w": 264.0,
+          "h": 79.0,
+          "page": 1
+        }
+      ]
+    }
+  ],
+  "invoice_table_rows": [],
+  "invoice_metadata": {
+    "supplier": null,
+    "invoice_number": "1051098599",
+    "invoice_date": "03/07/2026",
+    "customer": "Information:",
+    "total": 0.0,
+    "currency": null
+  },
+  "line_item_extraction": {
+    "detected_headers": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "headers": []
+      }
+    ],
+    "detected_columns": [
+      {
+        "source": "ocr_items",
+        "page": null,
+        "table": 1,
+        "columns": {}
+      }
+    ],
+    "extracted_rows": [],
+    "discarded_rows": [
+      {
+        "reason": "headers_not_detected",
+        "raw_text": "OCR positioned table did not expose enough invoice headers."
+      }
+    ],
+    "confidence": 0.0
+  },
+  "extraction_engine": {
+    "source": "legacy_parser_fallback",
+    "source_label": "Legacy Parser Fallback",
+    "rows_found": 1,
+    "rows_accepted": 0,
+    "rows_discarded": 1,
+    "validation_pass_rate": 0.0,
+    "overall_confidence": 0,
+    "fallback_reason": "Universal Extractor returned zero accepted rows.",
+    "time_taken_ms": 6250,
+    "legacy_row_count": 0
+  },
+  "errors": [],
+  "created_at": "2026-07-04T13:11:19",
+  "engine": "PaddleOCR",
+  "fallback_used": false
+}

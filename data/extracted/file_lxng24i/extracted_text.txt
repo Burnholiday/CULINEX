@@ -1,0 +1,145 @@
+Tax Invoice
+Invoice From
+Telephone
+Farm Fresh Direct
+044 873 0076
+Fax
+farmfresh
+24 Meul Street
+E Mail
+Caledon Industrial Park
+deliveries
+direct
+accounts@farmfreshdirect.co.za
+straight from the farms
+Vat Registration No
+4310269016
+4 Unit George
+Invoice Date
+01/07/2026
+Deliver To
+Invoice To
+Butterfly Blu T/A Shavi Shavi Restaurant
+Butterfly Blu T/A Shavi Shavi Restaurant
+198 CR Swart Drive, Brenton on Sea,Knysn
+Representative
+Invoice Number
+Page
+Order Number
+Invoice Date
+Account No
+Rep 1
+INV1837
+1 of 1
+01/07/2026 MG
+1
+01/07/2026
+D2604
+UnitPrice
+Disc %
+VatAmnt
+Line Total
+Quantity
+Description
+Item Code
+35.85
+0.00
+41.94
+1.17
+Heads-kg
+WHO -BROCCOLI
+HEADS
+25.85
+0.00
+25.85
+1
+Punnet-125g
+WHO - BLUEBERRIES
+0.00
+77.01
+29.85
+2.58
+WHO - APPLES GRANNY kg Green
+SMITH
+0.00
+158.85
+158.85
+1
+WHO - ONION POCKET Brown 10kg
+0.00
+471.40
+117.85
+4
+WHO - POTATOES
+10kg Pocket Potatoes- LARGE
+0.00
+87.36
+4.19
+20.85
+kg
+WHO-BUTTERNUT
+WHOLE
+0.00
+535.00
+535.00
+1
+WHO-MUSHROOMS
+5KG White Mushrooms
+5KG
+0.00
+17.44
+1.1
+15.85
+kg -
+WHO - ORANGES
+0.00
+80.33
+2.18
+36.85
+Tomatoe - kg
+WHO - TOMATOES
+0.00
+221.40
+4
+55.35
+Cocktail Tomatoes - 500g
+WHO-COCKTAIL
+TOMATOES
+0.00
+271.95
+7
+38.85
+150g
+WHO - BABY LEAF
+SPINACH
+0.00
+73.40
+4
+18.35
+Each
+WHO -PINEAPPLE
+Number of Items
+2,061.94
+Extra Charges
+Subtotal (Exclusive)
+33.22
+Promotional
+Discount
+Discount Received
+Rounding
+0.00
+Vat
+0.00
+Total
+2,061.94
+Currency:
+ZAR
+CurrencyRate:
+1.00
+Banking Details:
+Created: 01/07/2026 01:59:02
+Standard Bank
+302784187
+Current
+Dewill
+051001

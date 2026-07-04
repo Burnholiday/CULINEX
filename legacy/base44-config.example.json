@@ -1,0 +1,5 @@
+{
+  "appId": "your-base44-app-id",
+  "apiKey": "keep-this-out-of-the-html-app",
+  "mode": "local-helper-or-base44-hosted-sdk"
+}

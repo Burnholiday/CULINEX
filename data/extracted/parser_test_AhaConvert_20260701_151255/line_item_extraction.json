@@ -1,0 +1,135 @@
+{
+  "detected_headers": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "headers": [
+        {
+          "header": "CODE",
+          "field": "code",
+          "x": 141.0
+        },
+        {
+          "header": "DESCRIPTION",
+          "field": "description",
+          "x": 575.5
+        },
+        {
+          "header": "QUANTITY",
+          "field": "quantity",
+          "x": 1859.5
+        },
+        {
+          "header": "PRICE",
+          "field": "unit_price",
+          "x": 2259.5
+        },
+        {
+          "header": "VAT",
+          "field": "vat",
+          "x": 3007.0
+        },
+        {
+          "header": "TOTAL",
+          "field": "total",
+          "x": 3441.5
+        }
+      ]
+    }
+  ],
+  "detected_columns": [
+    {
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "columns": {
+        "code": 141.0,
+        "description": 575.5,
+        "quantity": 1859.5,
+        "unit_price": 2259.5,
+        "vat": 3007.0,
+        "total": 3441.5
+      }
+    }
+  ],
+  "extracted_rows": [
+    {
+      "description": "MONIN PINEAPPLE SYRUP 700ML",
+      "quantity": "1",
+      "unit": "",
+      "unit_price": "152.00",
+      "total": "174.80",
+      "vat": "22.80",
+      "raw_text": "MONIN PINEAPPLE SYRUP 700ML 1 152.00 0.00 22.80 174.80",
+      "confidence": 1.0,
+      "role": "line_item",
+      "source": "ocr_items",
+      "page": null,
+      "table": 1,
+      "validation": {
+        "status": "failed",
+        "message": "Expected 152.00, got 174.80",
+        "expected_total": 152.0,
+        "actual_total": 174.8,
+        "difference": 22.8,
+        "affected_field": "line_total"
+      }
+    }
+  ],
+  "discarded_rows": [
+    {
+      "reason": "noise",
+      "raw_text": "42.50 0.00 6.38 48.88"
+    },
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "DELIVERY CHARGE PROMO REGION 2 -42.50 0.00 -6.38 -48.88"
+    },
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "NRB 340ML 272.02 0.00 40.80 312.82"
+    },
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "HEINEKEN 0.0 ALCOHOL NRB 330ML 298.73 0.00 44.81 343.54"
+    },
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "\"HENNESSYVS COGNAC 750ML 494.00 0.00 74.10 568.10"
+    },
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "ROSES KOLA TONIC 750ML 40.33 0.00 6.05 48.38"
+    },
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "ROSES P/FRUIT 750ML 40.33 0.00 6.05 48.38"
+    },
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "INVERROCHE CLASSIC GIN 750ML 387.64 0.00 58.15 445.79"
+    },
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "BACKSBERG DRY RED 750ML \u53e3 57.55 0.00 8.63 397.10"
+    },
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "FRYER'S COVE DRING B S/B 750ML \u53e3 77.62 0.00 11.64 535.58"
+    },
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "COKE/330MUCOKE CAN 300ML 241.32 0.00 36.20 277.52"
+    },
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "Totals 31 4412.50 861.91"
+    },
+    {
+      "reason": "not_enough_line_values",
+      "raw_text": "Outstanding Balance: 18158 27 PLEASE MARK EMPTIES RETURNED BELOW: \"WE ARE POPI COMPLIANT\" 5074.41"
+    }
+  ],
+  "confidence": 1.0
+}
