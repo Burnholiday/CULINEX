@@ -16,7 +16,7 @@
 
 # Current Version
 
-**CULINEX Import Engine v1.0**
+**CULINEX Import Engine v1.1.0**
 
 ---
 
@@ -37,7 +37,7 @@ Epic 1 — Import Engine
 Sprint 13
 
 Status:
-🚧 In Progress
+✅ Completed
 
 ---
 
@@ -236,9 +236,16 @@ Every feature should contribute toward helping restaurant owners make faster, mo
 
 # Version History
 
+## v1.1.0
+
+Completed Sprint 13: OCR Row Reconstruction
+- Implemented geometry-first OCR row reconstruction stage using dynamic bounding box height metrics.
+- Supplier-agnostic design matching fragment rows by vertical proximity and math relation check (`qty * price = total`).
+- Added detailed debug logging of raw OCR fragments, reconstructed candidate rows, and final validator inputs.
+
 ## v1.0
 
-Current Development
+Initial Development
 
 Import Engine
 
