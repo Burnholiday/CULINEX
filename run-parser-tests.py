@@ -110,6 +110,30 @@ def failure_reason_counts(results, parser_key):
     return counts
 
 
+def review_reason_counts(results):
+    counts = Counter()
+    for item in results:
+        parser = item.get("universal_line_item_extractor") or {}
+        for row in parser.get("recovered_needs_review") or []:
+            if not isinstance(row, dict):
+                continue
+            counts[row.get("review_reason") or "unknown"] += 1
+    return counts
+
+
+def review_reason_counts_by_supplier(results):
+    counts = {}
+    for item in results:
+        supplier = item.get("detected_supplier") or "Unknown"
+        parser = item.get("universal_line_item_extractor") or {}
+        for row in parser.get("recovered_needs_review") or []:
+            if not isinstance(row, dict):
+                continue
+            reason = row.get("review_reason") or "unknown"
+            counts.setdefault(supplier, Counter())[reason] += 1
+    return counts
+
+
 def discard_reason_counts(results):
     counts = Counter()
     for item in results:
@@ -152,7 +176,15 @@ def run_one(module, invoice_path):
     parsed = module.InvoiceTableParser(text, tables).parse()
     rows = parsed.get("rows") or content.get("invoice_table_rows") or []
     universal = module.LineItemExtractor().extract(text, tables)
-    universal_rows = universal.get("extracted_rows") or []
+    universal_all_rows = universal.get("extracted_rows") or []
+    universal_rows = universal.get("validated_rows") or [
+        row for row in universal_all_rows
+        if isinstance(row, dict) and (row.get("validation") or {}).get("status") == "ok"
+    ]
+    universal_review_rows = universal.get("recovered_needs_review") or [
+        row for row in universal_all_rows
+        if isinstance(row, dict) and row.get("review_status") == "recovered_needs_review"
+    ]
     metadata = {
         **(content.get("invoice_metadata") or {}),
         **(parsed.get("metadata") or {}),
@@ -161,7 +193,10 @@ def run_one(module, invoice_path):
     supplier = detect_supplier(text=text, metadata=metadata, filename=invoice_path.name)
     failures = validation_failures(rows)
     universal_failures = universal_validation_failures(universal_rows, module)
+    universal_review_failures = universal_validation_failures(universal_review_rows, module)
     line_total_sum = numeric_sum(row.get("line_total") for row in rows if isinstance(row, dict))
+    universal_visible_rows = len(universal_rows) + len(universal_review_rows)
+    universal_review_rate = pass_rate(universal_visible_rows, len(universal_rows)) if universal_visible_rows else 0.0
 
     return {
         "tested_at": now_iso(),
@@ -193,19 +228,30 @@ def run_one(module, invoice_path):
             "parser_debug": parser_debug(rows),
         },
         "universal_line_item_extractor": {
-            "row_count": len(universal_rows),
-            "rows_found": len(universal_rows) + len(universal.get("discarded_rows") or []),
+            "row_count": len(universal_all_rows),
+            "rows_found": len(universal_rows) + len(universal_review_rows) + len(universal.get("discarded_rows") or []),
             "rows_accepted": len(universal_rows),
+            "rows_recovered_needs_review": len(universal_review_rows),
             "rows_discarded": len(universal.get("discarded_rows") or []),
-            "rows": universal_rows,
+            "rows": universal_all_rows,
+            "validated_rows": universal_rows,
+            "recovered_needs_review": universal_review_rows,
             "detected_headers": universal.get("detected_headers") or [],
             "detected_columns": universal.get("detected_columns") or [],
             "discarded_rows": universal.get("discarded_rows") or [],
             "confidence": universal.get("confidence", 0),
             "validation_failures": universal_failures,
             "validation_pass_rate": pass_rate(len(universal_rows), len(universal_failures)),
+            "strict_validation_pass_rate": pass_rate(len(universal_rows), len(universal_failures)),
+            "recovered_needs_review_rate": universal_review_rate,
+            "review_reason_counts": dict(Counter(
+                row.get("review_reason") or "unknown"
+                for row in universal_review_rows
+                if isinstance(row, dict)
+            )),
+            "review_failures": universal_review_failures,
         },
-        "needs_review": bool(content.get("errors")) or (not rows and not universal_rows) or bool(failures) or bool(universal_failures),
+        "needs_review": bool(content.get("errors")) or (not rows and not universal_rows and not universal_review_rows) or bool(failures) or bool(universal_failures) or bool(universal_review_rows),
     }
 
 
@@ -303,17 +349,27 @@ def result_filename(invoice_path):
 
 
 def write_summary(results):
+    def parser_int(parser, key, default_key=None):
+        if key in parser:
+            return int(parser.get(key) or 0)
+        if default_key:
+            return int(parser.get(default_key) or 0)
+        return 0
+
     total_files = len(results)
     supplier_counts = Counter(item.get("detected_supplier") or "Unknown" for item in results)
     old_rows = sum(int((item.get("invoice_table_parser") or {}).get("row_count") or 0) for item in results)
     new_rows = sum(int((item.get("universal_line_item_extractor") or {}).get("row_count") or 0) for item in results)
-    new_found = sum(int((item.get("universal_line_item_extractor") or {}).get("rows_found") or (item.get("universal_line_item_extractor") or {}).get("row_count") or 0) for item in results)
-    new_accepted = sum(int((item.get("universal_line_item_extractor") or {}).get("rows_accepted") or (item.get("universal_line_item_extractor") or {}).get("row_count") or 0) for item in results)
-    new_discarded = sum(int((item.get("universal_line_item_extractor") or {}).get("rows_discarded") or 0) for item in results)
+    new_found = sum(parser_int(item.get("universal_line_item_extractor") or {}, "rows_found", "row_count") for item in results)
+    new_accepted = sum(parser_int(item.get("universal_line_item_extractor") or {}, "rows_accepted", "row_count") for item in results)
+    new_review = sum(parser_int(item.get("universal_line_item_extractor") or {}, "rows_recovered_needs_review") for item in results)
+    new_discarded = sum(parser_int(item.get("universal_line_item_extractor") or {}, "rows_discarded") for item in results)
     old_failures = sum(len((item.get("invoice_table_parser") or {}).get("validation_failures") or []) for item in results)
     new_failures = sum(len((item.get("universal_line_item_extractor") or {}).get("validation_failures") or []) for item in results)
     old_pass_rate = pass_rate(old_rows, old_failures)
-    new_pass_rate = pass_rate(new_rows, new_failures)
+    new_pass_rate = pass_rate(new_accepted, new_failures)
+    review_denominator = new_accepted + new_review
+    review_rate = round((new_review / review_denominator) * 100, 1) if review_denominator else 0.0
     universal_improved = [
         item for item in results
         if int((item.get("universal_line_item_extractor") or {}).get("row_count") or 0) > 0
@@ -326,6 +382,8 @@ def write_summary(results):
     ]
     review_files = [item for item in results if item.get("needs_review")]
     universal_failure_reasons = failure_reason_counts(results, "universal_line_item_extractor")
+    universal_review_reasons = review_reason_counts(results)
+    universal_review_reasons_by_supplier = review_reason_counts_by_supplier(results)
     universal_discard_reasons = discard_reason_counts(results)
 
     lines = [
@@ -338,10 +396,12 @@ def write_summary(results):
         f"- Total files tested: {total_files}",
         f"- InvoiceTableParser rows extracted: {old_rows}",
         f"- UniversalExtractor rows found: {new_found}",
-        f"- UniversalExtractor rows accepted: {new_accepted}",
+        f"- UniversalExtractor validated rows: {new_accepted}",
+        f"- UniversalExtractor recovered_needs_review rows: {new_review}",
+        f"- UniversalExtractor recovered_needs_review rate: {review_rate:.1f}%",
         f"- UniversalExtractor rows discarded: {new_discarded}",
         f"- InvoiceTableParser validation pass rate: {old_pass_rate:.1f}%",
-        f"- UniversalExtractor validation pass rate: {new_pass_rate:.1f}%",
+        f"- UniversalExtractor strict validation pass rate: {new_pass_rate:.1f}%",
         f"- Files where UniversalExtractor found rows but InvoiceTableParser found none: {len(universal_improved)}",
         f"- Files where both failed: {len(both_failed)}",
         f"- Files needing review: {len(review_files)}",
@@ -355,10 +415,28 @@ def write_summary(results):
     else:
         lines.append("- No invoices tested yet.")
 
-    lines.extend(["", "## UniversalExtractor Common Failure Reasons", ""])
+    lines.extend(["", "## UniversalExtractor Strict Validation Failure Reasons", ""])
     if universal_failure_reasons:
         for reason, count in universal_failure_reasons.most_common(12):
             lines.append(f"- {reason}: {count}")
+    else:
+        lines.append("- None.")
+
+    lines.extend(["", "## UniversalExtractor Review Reasons", ""])
+    if universal_review_reasons:
+        for reason, count in universal_review_reasons.most_common(12):
+            lines.append(f"- {reason}: {count}")
+    else:
+        lines.append("- None.")
+
+    lines.extend(["", "## UniversalExtractor Review Reasons By Supplier", ""])
+    if universal_review_reasons_by_supplier:
+        for supplier in sorted(universal_review_reasons_by_supplier):
+            reason_counts = ", ".join(
+                f"{reason}: {count}"
+                for reason, count in universal_review_reasons_by_supplier[supplier].most_common()
+            )
+            lines.append(f"- {supplier}: {reason_counts}")
     else:
         lines.append("- None.")
 
@@ -381,10 +459,13 @@ def write_summary(results):
                 reasons.append("no rows")
             old_issue_count = len((item.get("invoice_table_parser") or {}).get("validation_failures") or [])
             new_issue_count = len((item.get("universal_line_item_extractor") or {}).get("validation_failures") or [])
+            review_count = int((item.get("universal_line_item_extractor") or {}).get("rows_recovered_needs_review") or 0)
             if old_issue_count:
                 reasons.append(f"InvoiceTableParser {old_issue_count} validation issue(s)")
             if new_issue_count:
-                reasons.append(f"UniversalExtractor {new_issue_count} validation issue(s)")
+                reasons.append(f"UniversalExtractor {new_issue_count} strict validation issue(s)")
+            if review_count:
+                reasons.append(f"UniversalExtractor {review_count} recovered review row(s)")
             lines.append(f"- {item.get('filename')}: {', '.join(reasons)}")
     else:
         lines.append("- None.")
@@ -412,8 +493,9 @@ def write_summary(results):
         lines.append(
             f"- {item.get('filename')}: {item.get('detected_supplier')} | "
             f"InvoiceTableParser {old_parser.get('row_count', 0)} rows / {len(old_parser.get('validation_failures') or [])} issue(s) | "
-            f"UniversalExtractor {new_parser.get('rows_accepted', new_parser.get('row_count', 0))} accepted, "
-            f"{new_parser.get('rows_discarded', 0)} discarded / {len(new_parser.get('validation_failures') or [])} issue(s)"
+            f"UniversalExtractor {new_parser.get('rows_accepted', new_parser.get('row_count', 0))} validated, "
+            f"{new_parser.get('rows_recovered_needs_review', 0)} review, "
+            f"{new_parser.get('rows_discarded', 0)} discarded / {len(new_parser.get('validation_failures') or [])} strict issue(s)"
         )
 
     (RESULT_DIR / "summary.md").write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -1,5 +1,66 @@
 import atexit
-import cgi
+try:
+    import cgi
+except ImportError:
+    import sys
+    import types
+    cgi_mock = types.ModuleType("cgi")
+    def parse_header(line):
+        parts = [p.strip() for p in line.split(';')]
+        key = parts[0].lower()
+        pdict = {}
+        for p in parts[1:]:
+            if '=' in p:
+                k, v = p.split('=', 1)
+                pdict[k.strip().lower()] = v.strip('"\'')
+        return key, pdict
+    class FieldStorage:
+        def __init__(self, fp, headers, environ=None):
+            self.fields = {}
+            content_length = int(headers.get('content-length', 0) or 0)
+            body = fp.read(content_length)
+            import email.parser
+            header_bytes = b"".join(f"{k}: {v}\r\n".encode('utf-8') for k, v in headers.items())
+            full_bytes = header_bytes + b"\r\n" + body
+            parsed_msg = email.parser.BytesParser().parsebytes(full_bytes)
+            if parsed_msg.is_multipart():
+                for part in parsed_msg.get_payload():
+                    cdisp = part.get('content-disposition', '')
+                    if not cdisp:
+                        continue
+                    params = {}
+                    for p in cdisp.split(';'):
+                        if '=' in p:
+                            k, v = p.split('=', 1)
+                            params[k.strip().lower()] = v.strip('"\' ')
+                    name = params.get('name')
+                    if not name:
+                        continue
+                    filename = params.get('filename')
+                    if filename is not None:
+                        class FileUpload:
+                            def __init__(self, fname, content):
+                                self.filename = fname
+                                import io
+                                self.file = io.BytesIO(content)
+                        self.fields[name] = FileUpload(filename, part.get_payload(decode=True))
+                    else:
+                        self.fields[name] = part.get_payload(decode=True).decode('utf-8', errors='ignore')
+        def __contains__(self, key):
+            return key in self.fields
+        def __getitem__(self, key):
+            return self.fields[key]
+        def getfirst(self, key, default=None):
+            val = self.fields.get(key, default)
+            if val is None:
+                return default
+            if hasattr(val, 'filename'):
+                return val
+            return str(val)
+    cgi_mock.parse_header = parse_header
+    cgi_mock.FieldStorage = FieldStorage
+    sys.modules["cgi"] = cgi_mock
+    cgi = cgi_mock
 import csv
 import http.server
 import io
@@ -20,7 +81,11 @@ import xml.etree.ElementTree as ET
 
 
 ROOT = Path(__file__).resolve().parent
-OCR_ROOT = ROOT / "recipe-vault-paddle-ocr"
+OCR_ROOT_CANDIDATES = [
+    ROOT / "recipe-vault-paddle-ocr",
+    ROOT / "legacy" / "recipe-vault-paddle-ocr",
+]
+OCR_ROOT = next((path for path in OCR_ROOT_CANDIDATES if path.exists()), OCR_ROOT_CANDIDATES[0])
 PYTHON = OCR_ROOT / ".venv" / "Scripts" / "python.exe"
 APP_FILE = ROOT / "restaurant-costing-app.html"
 PID_FILE = ROOT / ".recipe-vault-local.json"
@@ -677,10 +742,16 @@ class LineItemExtractor:
             extracted_rows.extend(parsed)
             discarded_rows.extend(discarded)
         confidence = round(sum(row.get("confidence", 0) for row in extracted_rows) / len(extracted_rows), 2) if extracted_rows else 0.0
+        validated_rows = [row for row in extracted_rows if row.get("review_status") == "validated" or (row.get("validation") or {}).get("status") == "ok"]
+        recovered_needs_review = [row for row in extracted_rows if row.get("review_status") == "recovered_needs_review"]
+        rejected_rows = [row for row in discarded_rows if row.get("status") == "rejected" or row.get("reason")]
         return {
             "detected_headers": detected_headers,
             "detected_columns": detected_columns,
             "extracted_rows": extracted_rows,
+            "validated_rows": validated_rows,
+            "recovered_needs_review": recovered_needs_review,
+            "rejected_rows": rejected_rows[:250],
             "discarded_rows": discarded_rows[:250],
             "confidence": confidence,
         }
@@ -759,14 +830,323 @@ class LineItemExtractor:
                 clusters[-1]["y"] = sum(self.item_y(member) for member in clusters[-1]["items"]) / len(clusters[-1]["items"])
         return clusters
 
+    def cluster_physical_lines(self, items):
+        clean_items = [item for item in items if isinstance(item, dict) and self.item_text(item)]
+        heights = [float(item.get("h", 0) or 0) for item in clean_items if float(item.get("h", 0) or 0) > 0]
+        median_height = sorted(heights)[len(heights) // 2] if heights else 16.0
+        line_tolerance = max(8.0, median_height * 0.35)
+        lines = []
+        for item in sorted(clean_items, key=self.item_y):
+            y = self.item_y(item)
+            matched = False
+            for line in lines:
+                if abs(y - line["y"]) <= line_tolerance:
+                    line["items"].append(item)
+                    line["y"] = sum(self.item_y(member) for member in line["items"]) / len(line["items"])
+                    matched = True
+                    break
+            if not matched:
+                lines.append({"y": y, "items": [item]})
+        for line in lines:
+            line["items"].sort(key=self.item_x)
+        return lines
+
+    def cluster_numeric_columns(self, numeric_items):
+        if not numeric_items:
+            return []
+        widths = [float(item.get("w", 0) or 0) for item in numeric_items if float(item.get("w", 0) or 0) > 0]
+        median_width = sorted(widths)[len(widths) // 2] if widths else 20.0
+        tolerance = max(18.0, median_width * 0.85)
+        clusters = []
+        for item in sorted(numeric_items, key=self.item_x):
+            x = self.item_x(item)
+            if not clusters or abs(x - clusters[-1]["x"]) > tolerance:
+                clusters.append({"x": x, "items": [item]})
+            else:
+                clusters[-1]["items"].append(item)
+                clusters[-1]["x"] = sum(self.item_x(member) for member in clusters[-1]["items"]) / len(clusters[-1]["items"])
+        return clusters
+
+    def infer_positioned_headers(self, items):
+        clean_items = [item for item in items if isinstance(item, dict) and self.item_text(item)]
+        numeric_items = [item for item in clean_items if is_numeric_cell(self.item_text(item))]
+        numeric_columns = self.cluster_numeric_columns(numeric_items)
+        if len(numeric_columns) < 3:
+            return {}, {}, []
+
+        evidence_rows = []
+        for line in self.cluster_physical_lines(clean_items):
+            raw_text = " ".join(self.item_text(item) for item in line["items"])
+            if self.row_role(raw_text) != "line_item":
+                continue
+            text_items = [item for item in line["items"] if not is_numeric_cell(self.item_text(item))]
+            numeric_cells = [
+                {
+                    "text": self.item_text(item),
+                    "value": parse_money_number(self.item_text(item)),
+                    "x": self.item_x(item),
+                    "column": None,
+                }
+                for item in line["items"]
+                if is_numeric_cell(self.item_text(item))
+            ]
+            if len(numeric_cells) < 3 or not any(re.search(r"[A-Za-z]{3,}", self.item_text(item)) for item in text_items):
+                continue
+            roles = self.choose_numeric_role_cells(numeric_cells)
+            if roles:
+                evidence_rows.append({"line": line, "text_items": text_items, "roles": roles})
+
+        required_evidence = 1 if len(evidence_rows) <= 2 else 2
+        if len(evidence_rows) < required_evidence:
+            return {}, {}, []
+
+        def median(values):
+            ordered = sorted(values)
+            return ordered[len(ordered) // 2] if ordered else None
+
+        quantity_x = median([row["roles"]["quantity"]["x"] for row in evidence_rows])
+        unit_price_x = median([row["roles"]["unit_price"]["x"] for row in evidence_rows])
+        total_x = median([row["roles"]["total"]["x"] for row in evidence_rows])
+        description_x_values = []
+        for row in evidence_rows:
+            first_number_x = min(cell["x"] for cell in row["roles"].values())
+            left_text = [self.item_x(item) for item in row["text_items"] if self.item_x(item) < first_number_x]
+            if left_text:
+                description_x_values.append(min(left_text))
+        description_x = median(description_x_values) or min(self.item_x(item) for item in clean_items)
+        if not (description_x < quantity_x < unit_price_x < total_x):
+            return {}, {}, []
+
+        headers = {
+            "description": description_x,
+            "quantity": quantity_x,
+            "unit_price": unit_price_x,
+            "total": total_x,
+        }
+        header_items = {
+            key: min(clean_items, key=lambda item, target=x: abs(self.item_x(item) - target))
+            for key, x in headers.items()
+        }
+        detected_headers = [
+            {"header": "inferred description zone", "field": "description", "x": round(description_x, 2)},
+            {"header": "inferred quantity zone", "field": "quantity", "x": round(quantity_x, 2)},
+            {"header": "inferred unit price zone", "field": "unit_price", "x": round(unit_price_x, 2)},
+            {"header": "inferred total zone", "field": "total", "x": round(total_x, 2)},
+        ]
+        return headers, header_items, detected_headers
+
     def nearest_header(self, item, headers, allowed=None):
         allowed = allowed or headers.keys()
         candidates = [(key, abs(self.item_x(item) - headers[key])) for key in allowed if key in headers]
         return sorted(candidates, key=lambda pair: pair[1])[0][0] if candidates else None
 
+    def is_percentage_cell(self, text):
+        return bool(re.search(r"%\s*$", clean_cell(text)))
+
+    def is_pack_size_cell(self, text):
+        value = clean_cell(text)
+        return bool(re.fullmatch(r"\d+(?:[.,]\d+)?\s*(?:g|kg|ml|l|lt|ltr|x|pack|packs?|punnet|punnets?)s?", value, re.I))
+
+    def is_obvious_item_code_cell(self, cell):
+        text = clean_cell(cell.get("text", ""))
+        value = cell.get("value")
+        if value is None:
+            return False
+        if cell.get("nearest_column") == "code":
+            return True
+        if cell.get("x") is not None and cell.get("quantity_x") is not None and cell["x"] < (cell["quantity_x"] - 40):
+            return True
+        if re.fullmatch(r"\d{5,}", text) and value >= 1000:
+            return True
+        return False
+
+    def is_numeric_noise_for_role(self, cell, role):
+        text = clean_cell(cell.get("text", ""))
+        if role in {"unit_price", "total"} and (self.is_percentage_cell(text) or self.is_pack_size_cell(text)):
+            return True
+        if role == "quantity" and self.is_obvious_item_code_cell(cell):
+            return True
+        if role in {"unit_price", "total"} and self.is_obvious_item_code_cell(cell):
+            return True
+        return False
+
+    def same_vertical_band(self, cells):
+        y_values = [cell.get("y") for cell in cells if cell.get("y") is not None]
+        if len(y_values) < 2:
+            return True
+        heights = [float(cell.get("h", 0) or 0) for cell in cells if float(cell.get("h", 0) or 0) > 0]
+        tolerance = max(12.0, (sorted(heights)[len(heights) // 2] if heights else 16.0) * 0.85)
+        return max(y_values) - min(y_values) <= tolerance
+
+    def classify_review_reason(self, row):
+        validation = row.get("validation") or {}
+        affected = validation.get("affected_field") or ""
+        status = validation.get("status") or ""
+        raw_text = clean_cell(row.get("raw_text") or "")
+        numeric_texts = re.findall(r"(?<![A-Za-z])[-+]?\d+(?:[.,]\d+)?%?", raw_text)
+
+        if status == "missing" or affected in {"quantity", "unit_price", "line_total"}:
+            return "missing_same_band_total"
+
+        quantity = parse_money_number(row.get("quantity"))
+        unit_price = parse_money_number(row.get("unit_price"))
+        total = parse_money_number(row.get("total"))
+        vat = parse_money_number(row.get("vat"))
+
+        if quantity is not None and unit_price is not None and total is not None:
+            expected = round(quantity * unit_price, 2)
+            if vat is not None:
+                gross_total = round(expected + vat, 2)
+                tolerance = max(0.05, abs(total) * 0.02)
+                if abs(total - gross_total) <= tolerance:
+                    return "gross_total_includes_vat"
+
+            if unit_price:
+                implied_quantity = round(total / unit_price, 2)
+                if (
+                    implied_quantity > 0
+                    and abs(implied_quantity - quantity) > 0.05
+                    and abs(round(implied_quantity) - implied_quantity) <= 0.05
+                    and abs(implied_quantity) <= max(abs(quantity), 1)
+                ):
+                    return "ambiguous_quantity_ocr"
+
+        if len(numeric_texts) >= 6:
+            return "merged_row_candidate"
+
+        return "neighboring_total_mismatch"
+
+    def mark_row_status(self, row):
+        validation = row.get("validation") or {}
+        if validation.get("status") == "ok":
+            row["extraction_status"] = "validated"
+            row["review_status"] = "validated"
+            return
+        row["extraction_status"] = "recovered_needs_review"
+        row["review_status"] = "recovered_needs_review"
+        row["review_reason"] = self.classify_review_reason(row)
+        row["confidence"] = min(row.get("confidence", 0), 0.62)
+
+    def is_items_complete(self, items, headers):
+        desc_parts = []
+        limit_x = min(headers.get("quantity", 10**9), headers.get("unit_price", 10**9))
+        numeric_values = []
+        for item in items:
+            text = clean_cell(item.get("text") if isinstance(item, dict) else "")
+            if not text:
+                continue
+            x = float(item.get("x", 0) or 0) + (float(item.get("w", 0) or 0) / 2)
+            is_desc = (x <= limit_x or 
+                       self.nearest_header(item, headers, {"description", "code"}) in {"description", "code"})
+            if is_desc and not is_numeric_cell(text):
+                desc_parts.append(text)
+            elif is_numeric_cell(text):
+                val = parse_money_number(text)
+                if val is not None:
+                    numeric_values.append(val)
+        if not desc_parts:
+            return False
+        for q in numeric_values:
+            if q <= 0:
+                continue
+            for p in numeric_values:
+                if p <= 0:
+                    continue
+                for t in numeric_values:
+                    if t <= 0:
+                        continue
+                    val_res = validate_invoice_math(q, p, t)
+                    if val_res.get("status") == "ok":
+                        return True
+        return False
+
+    def reconstruct_ocr_rows(self, data_items, headers):
+        heights = [float(item.get("h", 0) or 0) for item in data_items if float(item.get("h", 0) or 0) > 0]
+        median_height = sorted(heights)[len(heights) // 2] if heights else 16.0
+        physical_lines = self.cluster_physical_lines(data_items)
+            
+        limit_x = min(headers.get("quantity", 10**9), headers.get("unit_price", 10**9))
+        
+        def has_desc(line_items):
+            for item in line_items:
+                text = clean_cell(item.get("text", ""))
+                if not text:
+                    continue
+                x = float(item.get("x", 0) or 0) + float(item.get("w", 0) or 0) / 2
+                is_desc_col = (x <= limit_x or 
+                               self.nearest_header(item, headers, {"description", "code"}) in {"description", "code"})
+                if is_desc_col and re.search(r'[A-Za-z]{3,}', text):
+                    return True
+            return False
+            
+        def has_nums(line_items):
+            return any(is_numeric_cell(clean_cell(item.get("text", ""))) for item in line_items)
+            
+        for line in physical_lines:
+            line["has_desc"] = has_desc(line["items"])
+            line["has_nums"] = has_nums(line["items"])
+            line["raw_text"] = " ".join(clean_cell(item.get("text", "")) for item in line["items"])
+            
+        logical_rows = []
+        max_merge_gap = max(45.0, median_height * 1.1)
+        
+        for line in physical_lines:
+            if not logical_rows:
+                logical_rows.append({
+                    "y": line["y"],
+                    "items": list(line["items"]),
+                    "has_desc": line["has_desc"],
+                    "has_nums": line["has_nums"],
+                })
+                continue
+                
+            last_row = logical_rows[-1]
+            gap = line["y"] - last_row["y"]
+            
+            is_complete = self.is_items_complete(last_row["items"], headers)
+            
+            should_merge = False
+            if gap <= max_merge_gap:
+                if not last_row["has_desc"]:
+                    should_merge = True
+                elif not last_row["has_nums"] and line["has_nums"]:
+                    should_merge = True
+                elif not line["has_nums"]:
+                    should_merge = True
+                elif not is_complete and gap <= (median_height * 0.75):
+                    should_merge = True
+                    
+            if should_merge:
+                last_row["items"].extend(line["items"])
+                last_row["items"].sort(key=lambda it: (float(it.get("y", 0) or 0), float(it.get("x", 0) or 0)))
+                last_row["y"] = line["y"]
+                last_row["has_desc"] = last_row["has_desc"] or line["has_desc"]
+                last_row["has_nums"] = last_row["has_nums"] or line["has_nums"]
+            else:
+                logical_rows.append({
+                    "y": line["y"],
+                    "items": list(line["items"]),
+                    "has_desc": line["has_desc"],
+                    "has_nums": line["has_nums"],
+                })
+                
+        return logical_rows
+
     def extract_from_positioned_items(self, table):
+        def print_safe(msg):
+            try:
+                enc = sys.stdout.encoding or 'utf-8'
+                sys.stdout.write(msg.encode(enc, errors='replace').decode(enc) + "\n")
+                sys.stdout.flush()
+            except Exception:
+                pass
+
         items = [item for item in (table.get("items") or []) if isinstance(item, dict) and self.item_text(item)]
         headers, header_items, detected_headers = self.detect_positioned_headers(items)
+        inferred_headers = False
+        if not headers:
+            headers, header_items, detected_headers = self.infer_positioned_headers(items)
+            inferred_headers = bool(headers)
         debug = {
             "source": "ocr_items",
             "page": table.get("page"),
@@ -776,17 +1156,31 @@ class LineItemExtractor:
         }
         if not headers:
             return [], [{"reason": "headers_not_detected", "raw_text": "OCR positioned table did not expose enough invoice headers."}], debug
-        header_bottom = max(float(item.get("y", 0) or 0) + float(item.get("h", 0) or 0) for item in header_items.values())
-        data_items = [item for item in items if self.item_y(item) > header_bottom]
+        if inferred_headers:
+            data_items = items
+        else:
+            header_bottom = max(float(item.get("y", 0) or 0) + float(item.get("h", 0) or 0) for item in header_items.values())
+            data_items = [item for item in items if self.item_y(item) > header_bottom]
+        
+        reconstructed_groups = self.reconstruct_ocr_rows(data_items, headers)
+        
+        # Detailed debug logging
+        print_safe(f"\n[OCR RECONSTRUCTION] Processing table {table.get('table')} on page {table.get('page')}")
+        print_safe("--- Original OCR fragments ---")
+        for item in items:
+            print_safe(f"  - Box: text={self.item_text(item)!r} x={self.item_x(item):.1f} y={self.item_y(item):.1f} w={float(item.get('w',0)):.1f} h={float(item.get('h',0)):.1f}")
+            
+        print_safe("--- Reconstructed candidate rows ---")
+        for i, group in enumerate(reconstructed_groups, 1):
+            group_texts = [self.item_text(it) for it in sorted(group["items"], key=self.item_x)]
+            print_safe(f"  - Candidate Row {i} (Y center: {group['y']:.1f}): {' '.join(group_texts)}")
+            
         parsed = []
         discarded = []
         active = None
-        for cluster in self.cluster_positioned_rows(data_items):
-            row_y = cluster["y"]
-            all_row_ys = sorted({round(self.item_y(item), 1) for item in data_items if is_numeric_cell(self.item_text(item))})
-            gaps = [abs(value - row_y) for value in all_row_ys if abs(value - row_y) > 0]
-            y_window = max(18.0, min(gaps) * 0.48 if gaps else 22.0)
-            row_items = [item for item in data_items if abs(self.item_y(item) - row_y) <= y_window]
+        
+        for group in reconstructed_groups:
+            row_items = group["items"]
             raw_text = " ".join(self.item_text(item) for item in sorted(row_items, key=self.item_x))
             role = self.row_role(raw_text)
             if role != "line_item":
@@ -803,8 +1197,20 @@ class LineItemExtractor:
                 if not is_numeric_cell(text):
                     continue
                 value = parse_money_number(text)
-                numeric_cells.append({"text": text, "value": value, "x": self.item_x(item), "column": self.nearest_header(item, headers, {"quantity", "unit_price", "vat", "total"})})
+                nearest_column = self.nearest_header(item, headers)
+                numeric_cells.append({
+                    "text": text,
+                    "value": value,
+                    "x": self.item_x(item),
+                    "y": self.item_y(item),
+                    "h": float(item.get("h", 0) or 0),
+                    "column": self.nearest_header(item, headers, {"quantity", "unit_price", "vat", "total"}),
+                    "nearest_column": nearest_column,
+                    "quantity_x": headers.get("quantity"),
+                })
                 column = self.nearest_header(item, headers, {"quantity", "unit_price", "vat", "total"})
+                if column and self.is_numeric_noise_for_role(numeric_cells[-1], column):
+                    continue
                 if column and column not in mapped:
                     mapped[column] = text
             math_roles = self.choose_numeric_roles(numeric_cells)
@@ -835,10 +1241,16 @@ class LineItemExtractor:
             if self.has_line_values(row):
                 self.finalize_row(row, role, structured=True)
                 row["confidence"] = self.score_row(row, structured=True)
+                self.mark_row_status(row)
                 parsed.append(row)
                 active = row
             else:
-                discarded.append({"reason": "not_enough_line_values", "raw_text": raw_text})
+                discarded.append({"reason": "not_enough_line_values", "status": "rejected", "raw_text": raw_text})
+                
+        print_safe("--- Final rows passed to validation ---")
+        for i, row in enumerate(parsed, 1):
+            print_safe(f"  - Parsed Row {i}: desc={row.get('description')!r} qty={row.get('quantity')} price={row.get('unit_price')} total={row.get('total')} vat={row.get('vat')} confidence={row.get('confidence')} status={row.get('validation', {}).get('status')}")
+            
         return parsed, discarded, debug
 
     def positioned_description(self, items, headers):
@@ -881,6 +1293,7 @@ class LineItemExtractor:
                 continue
             if self.has_line_values(row):
                 self.finalize_row(row, role, structured=True)
+                self.mark_row_status(row)
                 row["source"] = table.get("source")
                 row["page"] = table.get("page")
                 row["table"] = table.get("table")
@@ -933,6 +1346,7 @@ class LineItemExtractor:
                 continue
             if self.has_line_values(row):
                 self.finalize_row(row, role, structured=False)
+                self.mark_row_status(row)
                 row["source"] = table.get("source")
                 row["page"] = table.get("page")
                 row["table"] = table.get("table")
@@ -1052,45 +1466,72 @@ class LineItemExtractor:
             return "noise"
         return "noise"
 
-    def choose_numeric_roles(self, numeric_cells):
+    def choose_numeric_role_cells(self, numeric_cells):
         values = []
         for index, cell in enumerate(numeric_cells or []):
             value = cell.get("value")
             if value is None:
                 continue
-            values.append({"index": index, "text": cell.get("text", ""), "value": value, "column": cell.get("column"), "x": cell.get("x")})
+            values.append({
+                "index": index,
+                "text": cell.get("text", ""),
+                "value": value,
+                "column": cell.get("column"),
+                "nearest_column": cell.get("nearest_column"),
+                "quantity_x": cell.get("quantity_x"),
+                "x": cell.get("x"),
+                "y": cell.get("y"),
+                "h": cell.get("h"),
+            })
         if len(values) < 3:
             return {}
         candidates = []
         for q in values:
-            if q["value"] <= 0:
+            if q["value"] <= 0 or self.is_numeric_noise_for_role(q, "quantity"):
                 continue
             for price in values:
-                if price["index"] == q["index"] or price["value"] < 0:
+                if price["index"] == q["index"] or price["value"] < 0 or self.is_numeric_noise_for_role(price, "unit_price"):
                     continue
                 for total in values:
-                    if total["index"] in {q["index"], price["index"]} or total["value"] < 0:
+                    if total["index"] in {q["index"], price["index"]} or total["value"] < 0 or self.is_numeric_noise_for_role(total, "total"):
+                        continue
+                    if not self.same_vertical_band([q, price, total]):
+                        continue
+                    if q.get("x") is not None and price.get("x") is not None and q["x"] > price["x"]:
+                        continue
+                    if price.get("x") is not None and total.get("x") is not None and price["x"] > total["x"]:
                         continue
                     validation = validate_invoice_math(q["value"], price["value"], total["value"])
                     if validation.get("status") != "ok":
                         continue
                     order_penalty = 0
                     if q["index"] > price["index"]:
-                        order_penalty += 1
+                        order_penalty += 2
                     if price["index"] > total["index"]:
-                        order_penalty += 1
+                        order_penalty += 2
+                    if q.get("x") is not None and price.get("x") is not None and q["x"] > price["x"]:
+                        order_penalty += 2
+                    if price.get("x") is not None and total.get("x") is not None and price["x"] > total["x"]:
+                        order_penalty += 2
                     column_bonus = 0
                     if q.get("column") == "quantity":
-                        column_bonus -= 1
+                        column_bonus -= 2
                     if price.get("column") == "unit_price":
-                        column_bonus -= 1
+                        column_bonus -= 2
                     if total.get("column") == "total":
-                        column_bonus -= 1
+                        column_bonus -= 2
+                    wrong_column_penalty = 0
+                    if q.get("column") in {"unit_price", "vat", "total"}:
+                        wrong_column_penalty += 3
+                    if price.get("column") in {"quantity", "vat", "total"}:
+                        wrong_column_penalty += 3
+                    if total.get("column") in {"quantity", "unit_price", "vat"}:
+                        wrong_column_penalty += 3
                     candidates.append({
                         "quantity": q,
                         "unit_price": price,
                         "total": total,
-                        "score": abs(validation.get("difference", 0)) + order_penalty + column_bonus,
+                        "score": abs(validation.get("difference", 0)) + order_penalty + column_bonus + wrong_column_penalty,
                     })
         if not candidates:
             return {}
@@ -1102,12 +1543,25 @@ class LineItemExtractor:
                 vat = item
                 break
         result = {
-            "quantity": best["quantity"]["text"],
-            "unit_price": best["unit_price"]["text"],
-            "total": best["total"]["text"],
+            "quantity": best["quantity"],
+            "unit_price": best["unit_price"],
+            "total": best["total"],
         }
         if vat:
-            result["vat"] = vat["text"]
+            result["vat"] = vat
+        return result
+
+    def choose_numeric_roles(self, numeric_cells):
+        role_cells = self.choose_numeric_role_cells(numeric_cells)
+        if not role_cells:
+            return {}
+        result = {
+            "quantity": role_cells["quantity"]["text"],
+            "unit_price": role_cells["unit_price"]["text"],
+            "total": role_cells["total"]["text"],
+        }
+        if role_cells.get("vat"):
+            result["vat"] = role_cells["vat"]["text"]
         return result
 
     def finalize_row(self, row, role, structured=False):
