@@ -1,6 +1,6 @@
 [project]
 name = "culinex"
-version = "1.0.0"
+version = "1.2.0"
 description = "CULINEX - AI-powered restaurant operating platform for invoice importing, inventory, recipe costing, and kitchen intelligence."
 requires-python = ">=3.12"
 dependencies = [

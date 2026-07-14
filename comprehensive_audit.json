@@ -1,0 +1,530 @@
+{
+  "summary": {
+    "total_rows": 47,
+    "row_type_counts": {
+      "vat": 43,
+      "unknown": 4
+    },
+    "row_type_averages": {
+      "vat": 0.333,
+      "unknown": 0.0
+    },
+    "low_confidence_count": 47,
+    "unknown_count": 0,
+    "conflicting_signals_count": 0
+  },
+  "detailed_results": [
+    {
+      "filename": "20260617_162216.json",
+      "raw_text": "POWER (4,45KG) COFFEE WOW POWER BEANS 1KG 2.00 327.35 0.00 98.21 654.70",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260617_181146.json",
+      "raw_text": "10 MILK FRESH LEEUWENBOSCH (2LT) 12.00 1.00 109.99 34.50 0.00 0.00 16.50 109.99",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260617_181146.json",
+      "raw_text": "BC CHEESE BLUE CRUMBS (1KG) 2.00 22.99 0.00 6.90 45.98",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260617_181146.json",
+      "raw_text": "5 SUGAR ICING 1KG FLOUR SELF RAISING SNOWFLAKE (1KG) 4.00 25.71 0.00 15.43 102.84",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260617_181146.json",
+      "raw_text": "OIL OLIVE ENIRG P/ALBERT 1LT 3.00 209.04 0.00 94.07 627.12",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260617_181146.json",
+      "raw_text": "CHOCOLATE COUVETURE BELGIUM 70% (1KG) 1.00 340.99 0.00 51.15 340.99",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260617_181146.json",
+      "raw_text": "4 VINEGAR BALSAMIC IMPORTED 1LT 2.00 223.99 46.99 0.00 0.00 14.10 33.60 93.98 223.99",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260617_181146.json",
+      "raw_text": "03 CHOCOLATE COUVETURE BELGIUM MILK (1KG) 1.00 277.50 14.63 97.50",
+      "parser_outcome": "recovered_needs_review",
+      "row_type": "unknown",
+      "confidence": 0.0,
+      "matched_signals": [],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260617_181146.json",
+      "raw_text": "SALT COARSE SALNOVA 1KG 5.00 12.00 19.50 63.50 0.00 0.00 114.30 762.00",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260617_181146.json",
+      "raw_text": "33 BUTTER SALTED FIRST CHOICE (500G) 1.00 94.99 0.00 0.00 94.99 25100004 MILK F/CHOICE FULL CREAM UHT (6X1LT)",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b",
+        "\\b(?:footer|page|total|amount|payment|due|balance|remaining|outstanding|paid|settled|cleared|final|complete|done|finished|processed|approved|accepted|confirmed|authorized|approved|signed|signature|date|time|company|address|contact|phone|email|website|terms|conditions|disclaimer|copyright|license|agreement|contract|policy|procedure|process|workflow|flow|sequence|order|reference|number|id|identifier|code|key|token|credential|password|login|account|profile|user|member|client|customer|supplier|vendor|provider|partner|affiliate|associate|collaborator|contributor|developer|engineer|technician|specialist|expert|consultant|advisor|advisor|manager|supervisor|leader|head|director|executive|officer|administrator|admin|operator|staff|employee|worker|personnel|team|group|department|division|section|unit|facility|location|site|place|area|zone|region|district|state|province|territory|country|nation|world|global|international|local|regional|national|community|organization|institution|corporation|company|enterprise|business|firm|shop|store|retail|commerce|trade|market|exchange|platform|portal|website|web|digital|online|virtual|remote|cloud|network|internet|connection|communication|contact|link|url|address|domain|host|server|machine|computer|device|equipment|hardware|software|application|program|code|script|database|data|information|knowledge|intelligence|wisdom|understanding|awareness|perception|recognition|identification|detection|observation|measurement|analysis|evaluation|assessment|review|inspection|audit|check|verification|validation|confirmation|approval|acceptance|authorization|permission|right|privilege|access|entry|admission|invitation|engagement|participation|involvement|commitment|dedication|devotion|loyalty|faithfulness|trust|confidence|reliability|dependability|stability|consistency|uniformity|regularity|frequency|occurrence|event|incident|case|instance|example|sample|model|pattern|template|format|layout|design|structure|framework|architecture|system|method|approach|technique|strategy|tactic|plan|scheme|proposal|idea|concept|theory|principle|rule|law|regulation|policy|guideline|standard|benchmark|criteria|requirement|condition|term|clause|provision|article|paragraph|sentence|phrase|word|letter|character|symbol|sign|mark|logo|brand|name|title|caption|heading|subheading|subtitle|tag|label|descriptor|attribute|property|feature|quality|characteristic|trait|aspect|dimension|element|component|part|portion|segment|section|subsection|chapter|volume|book|publication|document|paper|report|study|research|investigation|exploration|discovery|finding|conclusion|outcome|result|effect|impact|consequence|implication|meaning|interpretation|understanding|comprehension|knowledge|wisdom|insight|perspective|viewpoint|opinion|judgment|decision|choice|selection|option|alternative|possibility|potential|capability|capacity|ability|skill|talent|gift|aptitude|competence|proficiency|expertise|mastery|virtuosity|performance|execution|achievement|success|victory|triumph|glory|honor|recognition|award|prize|reward|recognition|celebration|honoring|appreciation|gratitude|thanks|acknowledgment|recognition|credit|kudos|commendation|acclaim|praise|glory|fame|renown|reputation|standing|prestige|status|position|rank|grade|level|degree|scale|rating|score|mark|grade|classification|category|type|kind|sort|variety|species|breed|strain|line|version|edition|release|update|patch|fix|correction|amendment|modification|revision|alteration|change|modification|adjustment|tweak|fine-tuning|optimization|improvement|enhancement|upgrade|enhancement|refinement|polish|finish|completion|closure|termination|end|conclusion|close|wrap-up)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260617_181158.json",
+      "raw_text": "000110 MILK FRESH LEEUWENBOSCH (2LT) 12.00 34.50 0.00 0.00 414.00",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260617_181158.json",
+      "raw_text": "CBMBC CHEESE BLUE CRUMBS (1KG) 1.00 109.99 0.00 16.50 109.99",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260617_181158.json",
+      "raw_text": "10365 SUGAR ICING 1KG 2.00 22.99 0.00 6.90 45.98",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260617_181158.json",
+      "raw_text": "Insert 1137 FLOUR SELF RAISING SNOWFLAKE (1KG) 4.00 25.71 0.00 15.43 102.84",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260617_181158.json",
+      "raw_text": "570 OIL OLIVE E/VIRG P/ALBERT 1LT 3.00 209.04 0.00 94.07 627.12",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260617_181158.json",
+      "raw_text": "816 CHOCOLATE COUVETURE BELGIUM 70% (1KG) 1.00 340.99 0.00 51.15 340.99",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260617_181158.json",
+      "raw_text": "90014 VINEGAR BALSAMIC IMPORTED 1LT 2.00 46.99 0.00 14.10 93.98",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260617_181158.json",
+      "raw_text": "AGT45 SAUCE TOMATO ALL GOLD (4,5LT) 1.00 223.99 0.00 33.60 223.99",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260617_181158.json",
+      "raw_text": "BEL003 CHOCOLATE COUVETURE BELGIUM MILK (1KG) 1.00 277.50 0.00 41.63 277.50",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260617_181158.json",
+      "raw_text": "SAL SALT COARSE SALNOVA 1KG 5.00 19.50 0.00 14.63 97.50",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260617_181158.json",
+      "raw_text": "003433 BUTTER SALTED FIRST CHOICE (500G) 12.00 63.50 0.00 114.30 762.00",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b",
+        "\\b(?:footer|page|total|amount|payment|due|balance|remaining|outstanding|paid|settled|cleared|final|complete|done|finished|processed|approved|accepted|confirmed|authorized|approved|signed|signature|date|time|company|address|contact|phone|email|website|terms|conditions|disclaimer|copyright|license|agreement|contract|policy|procedure|process|workflow|flow|sequence|order|reference|number|id|identifier|code|key|token|credential|password|login|account|profile|user|member|client|customer|supplier|vendor|provider|partner|affiliate|associate|collaborator|contributor|developer|engineer|technician|specialist|expert|consultant|advisor|advisor|manager|supervisor|leader|head|director|executive|officer|administrator|admin|operator|staff|employee|worker|personnel|team|group|department|division|section|unit|facility|location|site|place|area|zone|region|district|state|province|territory|country|nation|world|global|international|local|regional|national|community|organization|institution|corporation|company|enterprise|business|firm|shop|store|retail|commerce|trade|market|exchange|platform|portal|website|web|digital|online|virtual|remote|cloud|network|internet|connection|communication|contact|link|url|address|domain|host|server|machine|computer|device|equipment|hardware|software|application|program|code|script|database|data|information|knowledge|intelligence|wisdom|understanding|awareness|perception|recognition|identification|detection|observation|measurement|analysis|evaluation|assessment|review|inspection|audit|check|verification|validation|confirmation|approval|acceptance|authorization|permission|right|privilege|access|entry|admission|invitation|engagement|participation|involvement|commitment|dedication|devotion|loyalty|faithfulness|trust|confidence|reliability|dependability|stability|consistency|uniformity|regularity|frequency|occurrence|event|incident|case|instance|example|sample|model|pattern|template|format|layout|design|structure|framework|architecture|system|method|approach|technique|strategy|tactic|plan|scheme|proposal|idea|concept|theory|principle|rule|law|regulation|policy|guideline|standard|benchmark|criteria|requirement|condition|term|clause|provision|article|paragraph|sentence|phrase|word|letter|character|symbol|sign|mark|logo|brand|name|title|caption|heading|subheading|subtitle|tag|label|descriptor|attribute|property|feature|quality|characteristic|trait|aspect|dimension|element|component|part|portion|segment|section|subsection|chapter|volume|book|publication|document|paper|report|study|research|investigation|exploration|discovery|finding|conclusion|outcome|result|effect|impact|consequence|implication|meaning|interpretation|understanding|comprehension|knowledge|wisdom|insight|perspective|viewpoint|opinion|judgment|decision|choice|selection|option|alternative|possibility|potential|capability|capacity|ability|skill|talent|gift|aptitude|competence|proficiency|expertise|mastery|virtuosity|performance|execution|achievement|success|victory|triumph|glory|honor|recognition|award|prize|reward|recognition|celebration|honoring|appreciation|gratitude|thanks|acknowledgment|recognition|credit|kudos|commendation|acclaim|praise|glory|fame|renown|reputation|standing|prestige|status|position|rank|grade|level|degree|scale|rating|score|mark|grade|classification|category|type|kind|sort|variety|species|breed|strain|line|version|edition|release|update|patch|fix|correction|amendment|modification|revision|alteration|change|modification|adjustment|tweak|fine-tuning|optimization|improvement|enhancement|upgrade|enhancement|refinement|polish|finish|completion|closure|termination|end|conclusion|close|wrap-up)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260617_181158.json",
+      "raw_text": "600725100004 MILK F/CHOICE FULL CREAM UHT (6X1LT) 1.00 94.99 0.00 0.00 94.99",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b",
+        "\\b(?:footer|page|total|amount|payment|due|balance|remaining|outstanding|paid|settled|cleared|final|complete|done|finished|processed|approved|accepted|confirmed|authorized|approved|signed|signature|date|time|company|address|contact|phone|email|website|terms|conditions|disclaimer|copyright|license|agreement|contract|policy|procedure|process|workflow|flow|sequence|order|reference|number|id|identifier|code|key|token|credential|password|login|account|profile|user|member|client|customer|supplier|vendor|provider|partner|affiliate|associate|collaborator|contributor|developer|engineer|technician|specialist|expert|consultant|advisor|advisor|manager|supervisor|leader|head|director|executive|officer|administrator|admin|operator|staff|employee|worker|personnel|team|group|department|division|section|unit|facility|location|site|place|area|zone|region|district|state|province|territory|country|nation|world|global|international|local|regional|national|community|organization|institution|corporation|company|enterprise|business|firm|shop|store|retail|commerce|trade|market|exchange|platform|portal|website|web|digital|online|virtual|remote|cloud|network|internet|connection|communication|contact|link|url|address|domain|host|server|machine|computer|device|equipment|hardware|software|application|program|code|script|database|data|information|knowledge|intelligence|wisdom|understanding|awareness|perception|recognition|identification|detection|observation|measurement|analysis|evaluation|assessment|review|inspection|audit|check|verification|validation|confirmation|approval|acceptance|authorization|permission|right|privilege|access|entry|admission|invitation|engagement|participation|involvement|commitment|dedication|devotion|loyalty|faithfulness|trust|confidence|reliability|dependability|stability|consistency|uniformity|regularity|frequency|occurrence|event|incident|case|instance|example|sample|model|pattern|template|format|layout|design|structure|framework|architecture|system|method|approach|technique|strategy|tactic|plan|scheme|proposal|idea|concept|theory|principle|rule|law|regulation|policy|guideline|standard|benchmark|criteria|requirement|condition|term|clause|provision|article|paragraph|sentence|phrase|word|letter|character|symbol|sign|mark|logo|brand|name|title|caption|heading|subheading|subtitle|tag|label|descriptor|attribute|property|feature|quality|characteristic|trait|aspect|dimension|element|component|part|portion|segment|section|subsection|chapter|volume|book|publication|document|paper|report|study|research|investigation|exploration|discovery|finding|conclusion|outcome|result|effect|impact|consequence|implication|meaning|interpretation|understanding|comprehension|knowledge|wisdom|insight|perspective|viewpoint|opinion|judgment|decision|choice|selection|option|alternative|possibility|potential|capability|capacity|ability|skill|talent|gift|aptitude|competence|proficiency|expertise|mastery|virtuosity|performance|execution|achievement|success|victory|triumph|glory|honor|recognition|award|prize|reward|recognition|celebration|honoring|appreciation|gratitude|thanks|acknowledgment|recognition|credit|kudos|commendation|acclaim|praise|glory|fame|renown|reputation|standing|prestige|status|position|rank|grade|level|degree|scale|rating|score|mark|grade|classification|category|type|kind|sort|variety|species|breed|strain|line|version|edition|release|update|patch|fix|correction|amendment|modification|revision|alteration|change|modification|adjustment|tweak|fine-tuning|optimization|improvement|enhancement|upgrade|enhancement|refinement|polish|finish|completion|closure|termination|end|conclusion|close|wrap-up)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260618_095804.json",
+      "raw_text": "UXI MORNINGSIDEX-LARGETRAYS 75.00 26.80 0.00 2,010.00",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260701_151255.json",
+      "raw_text": "MPA/700/6 MONIN PINEAPPLE SYRUP 700ML 1 152.00 0.00 22.80 174.80",
+      "parser_outcome": "recovered_needs_review",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260701_151303.json",
+      "raw_text": "OXT MORNINGSIDE X-LARGE TRAYS 75.00 26.80 0.00 2,010.00",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260701_171947.json",
+      "raw_text": "1137 GREEFF'S CRAFT BOEREWORS 10.065 4.402 0.00 0.00 115.95 105.95 15.00 15.00 1,066.37",
+      "parser_outcome": "recovered_needs_review",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260701_171947.json",
+      "raw_text": "0952 STEAK MINCE 80/20 4.364 0.00 85.95 15.00 375.08",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260702_153727.json",
+      "raw_text": "1059 ZIPLOCK BAGS 215 X 315 (100'S) 1.00 82.98 0.00 139.99",
+      "parser_outcome": "recovered_needs_review",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260702_153727.json",
+      "raw_text": "31264 FOIL HEAVY DUTY (440X70M) 1.00 139.99 0.00 21.00 108.07",
+      "parser_outcome": "recovered_needs_review",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260702_153727.json",
+      "raw_text": "EA1125 ZIPLOCK BAGS 250 X 360 (100'S) 1.00 108.07 0.00 16.21 27.98",
+      "parser_outcome": "recovered_needs_review",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260703_152555.json",
+      "raw_text": "KIN002 Black Butterfish PQ Portions 5.30 4.50 55.00 37.12 247.50",
+      "parser_outcome": "validated",
+      "row_type": "unknown",
+      "confidence": 0.0,
+      "matched_signals": [],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260703_152555.json",
+      "raw_text": "HAK028 WST006 Hake Fillet Fresh 220-Jumbo WhiteStump Frozen VP Dressed 25.90 135.00 524.47 3 496.50",
+      "parser_outcome": "validated",
+      "row_type": "unknown",
+      "confidence": 0.0,
+      "matched_signals": [],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260703_154334.json",
+      "raw_text": "52 STEAK MINCE 80/20 5.022 0.00 105.95 15.00 288.10",
+      "parser_outcome": "recovered_needs_review",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260703_154334.json",
+      "raw_text": "97 PORK BANGERS 3.352 0.00 85.95 15.00 349.93",
+      "parser_outcome": "recovered_needs_review",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260703_154334.json",
+      "raw_text": "37 GREEFF'S CRAFT BOEREWORS 3.018 0.00 115.95 15.00 564.59",
+      "parser_outcome": "recovered_needs_review",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260703_154334.json",
+      "raw_text": "73 MARROW BONES 10.275 0.00 54.95 15.00 1,281.04",
+      "parser_outcome": "recovered_needs_review",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260703_154334.json",
+      "raw_text": "11 CHUCK ON THE BONE 10.680 0.00 119.95 15.00",
+      "parser_outcome": "recovered_needs_review",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260703_154350.json",
+      "raw_text": "0952 STEAK MINCE 80/20 5.022 0.00 105.95 288.10",
+      "parser_outcome": "recovered_needs_review",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260703_154350.json",
+      "raw_text": "1197 PORK BANGERS 3.352 0.00 85.95 15.00 349.93",
+      "parser_outcome": "recovered_needs_review",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260703_154350.json",
+      "raw_text": "1137 GREEFF'S CRAFT BOEREWORS 3.018 0.00 115.95 15.00 564.59",
+      "parser_outcome": "recovered_needs_review",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260703_154350.json",
+      "raw_text": "0973 MARROW BONES 10.275 0.00 54.95 15.00 1,281.04",
+      "parser_outcome": "recovered_needs_review",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260703_174437.json",
+      "raw_text": "1028 MILKSHAKE SYRUP CHOCOLATE 1LT C\"DOR 1.00 41.98 0.00 6.30 41.98",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260703_174437.json",
+      "raw_text": "1105 84015 MILKLAB ALMOND 1LT 8.00 48.24 0.00 57.89 385.92",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260706_160621.json",
+      "raw_text": "JP11 ASIAN GINGER PICKLED MyASIA (1.5KG) 2.00 53.99 0.00 16.20 107.98",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260707_145740.json",
+      "raw_text": "\u8865## ### CRA001 NOR002 Crabsticks 800gr Nori Nico 50 Sheets 1.00 pkt 1.00 800gr 129.80 40.55 19.47 6.08 2 556.52 149.27",
+      "parser_outcome": "validated",
+      "row_type": "unknown",
+      "confidence": 0.0,
+      "matched_signals": [],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260707_145751.json",
+      "raw_text": "62589 ESSENCE VANILLA MOIRS (1LT) 1.00 66.58 0.00 9.99 66.58",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    },
+    {
+      "filename": "20260707_145751.json",
+      "raw_text": "MBALL1 CHEESE BUFFALO MOZZ BALLS 2x125G (ITALY) 5.00 89.99 0.00 67.49 449.95",
+      "parser_outcome": "validated",
+      "row_type": "vat",
+      "confidence": 0.3333333333333333,
+      "matched_signals": [
+        "\\b(?:0\\.00|0\\.0|0\\.|0)\\b"
+      ],
+      "conflicting_signals": []
+    }
+  ]
+}

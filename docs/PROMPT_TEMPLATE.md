@@ -1,4 +1,4 @@
-You are continuing development of CULINEX Import Engine v1.0.
+You are continuing development of CULINEX Import Engine v1.2.0.
 
 Read:
 - PROJECT_CONTEXT.md

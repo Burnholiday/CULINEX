@@ -2,7 +2,7 @@
 # CULINEX Development Rules
 
 Version:
-CULINEX Import Engine v1.0
+CULINEX Import Engine v1.2.0
 
 These rules apply to ALL future development.
 
@@ -260,7 +260,7 @@ Documentation should always reflect the current project.
 
 Always reference the current version:
 
-CULINEX Import Engine v1.0
+CULINEX Import Engine v1.2.0
 
 Do not invent version numbers.
 

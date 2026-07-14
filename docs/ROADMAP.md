@@ -2,19 +2,19 @@
 # CULINEX Development Roadmap
 
 Project:
-CULINEX – Your Culinary Next Step
+CULINEX - Your Culinary Next Step
 
 Current Version:
-CULINEX Import Engine v1.0
+CULINEX Import Engine v1.5.0
 
 Current Status:
 ACTIVE DEVELOPMENT
 
 Current Sprint:
-Sprint 13
+Sprint 17 - Adaptive Header Intelligence
 
 Current Epic:
-Epic 1 – Import Engine
+Epic 1 - Import Engine
 
 ---
 
@@ -24,18 +24,18 @@ CULINEX is an AI-powered restaurant operating platform designed to automate rest
 
 Long-term platform modules include:
 
-✓ Invoice Importing
-✓ Inventory Management
-✓ Recipe Vault
-✓ Recipe Costing
-✓ Supplier Management
-✓ Purchase Analytics
-✓ Stock Forecasting
-✓ Waste Tracking
-✓ Menu Engineering
-✓ Kitchen Dashboard
-✓ Staff Training
-✓ Business Intelligence
+- Invoice Importing
+- Inventory Management
+- Recipe Vault
+- Recipe Costing
+- Supplier Management
+- Purchase Analytics
+- Stock Forecasting
+- Waste Tracking
+- Menu Engineering
+- Kitchen Dashboard
+- Staff Training
+- Business Intelligence
 
 The Import Engine is the foundation of the platform.
 
@@ -43,17 +43,19 @@ The Import Engine is the foundation of the platform.
 
 # Development Principles
 
-• Build one sprint at a time.
-• Never redesign working architecture.
-• Maintain backwards compatibility.
-• Keep modules independent.
-• Test with multiple suppliers.
-• Avoid supplier-specific logic.
-• Keep AI prompts and documentation up to date.
+- Build one sprint at a time.
+- Never redesign working architecture.
+- Maintain backwards compatibility.
+- Keep modules independent.
+- Test with multiple suppliers.
+- Avoid supplier-specific logic.
+- Keep AI prompts and documentation up to date.
+- Preserve strict validation.
+- Keep recovered rows visible without forcing them into validated status.
 
 ---
 
-# EPIC 1 — IMPORT ENGINE
+# EPIC 1 - IMPORT ENGINE
 
 Status:
 IN PROGRESS
@@ -63,10 +65,10 @@ Transform invoices into structured purchase records.
 
 ---
 
-## Sprint 1 — Upload Centre
+## Sprint 1 - Upload Centre
 
 Status:
-✅ Completed
+Completed
 
 Goal:
 Upload files into CULINEX.
@@ -74,17 +76,17 @@ Upload files into CULINEX.
 Deliverables:
 
 - File upload
-- Drag & drop
+- Drag and drop
 - File type detection
 - Upload cards
 - Upload logging
 
 ---
 
-## Sprint 2 — Content Extraction
+## Sprint 2 - Content Extraction
 
 Status:
-✅ Completed
+Completed
 
 Goal:
 Read uploaded documents.
@@ -100,10 +102,10 @@ Deliverables:
 
 ---
 
-## Sprint 3 — Universal Extractor
+## Sprint 3 - Universal Extractor
 
 Status:
-✅ Completed
+Completed
 
 Goal:
 Combine all extraction methods.
@@ -111,16 +113,16 @@ Combine all extraction methods.
 Deliverables:
 
 - Multi-source extraction
-- OCR + PDF merge
+- OCR and PDF merge
 - Structured output
 - Initial purchase rows
 
 ---
 
-## Sprint 4 — Invoice Validation
+## Sprint 4 - Invoice Validation
 
 Status:
-✅ Completed
+Completed
 
 Goal:
 Validate extracted purchase data.
@@ -134,10 +136,10 @@ Deliverables:
 
 ---
 
-## Sprint 5 — Approval Queue
+## Sprint 5 - Approval Queue
 
 Status:
-✅ Completed
+Completed
 
 Goal:
 Manual review before import.
@@ -151,10 +153,10 @@ Deliverables:
 
 ---
 
-## Sprint 6 — Database Import
+## Sprint 6 - Database Import
 
 Status:
-✅ Completed
+Completed
 
 Goal:
 Store approved purchases.
@@ -167,10 +169,10 @@ Deliverables:
 
 ---
 
-## Sprint 7 — Purchase History
+## Sprint 7 - Purchase History
 
 Status:
-✅ Completed
+Completed
 
 Goal:
 Historical purchasing.
@@ -183,10 +185,10 @@ Deliverables:
 
 ---
 
-## Sprint 8 — Supplier Intelligence
+## Sprint 8 - Supplier Intelligence
 
 Status:
-✅ Completed
+Completed
 
 Goal:
 Track supplier performance.
@@ -199,10 +201,10 @@ Deliverables:
 
 ---
 
-## Sprint 9 — Universal Extractor Improvements
+## Sprint 9 - Universal Extractor Improvements
 
 Status:
-✅ Completed
+Completed
 
 Goal:
 Improve extraction accuracy.
@@ -214,10 +216,10 @@ Focus:
 
 ---
 
-## Sprint 10 — Confidence Engine
+## Sprint 10 - Confidence Engine
 
 Status:
-✅ Completed
+Completed
 
 Goal:
 Improve confidence scoring.
@@ -229,10 +231,10 @@ Deliverables:
 
 ---
 
-## Sprint 11 — Benchmarking
+## Sprint 11 - Benchmarking
 
 Status:
-✅ Completed
+Completed
 
 Goal:
 Measure extraction quality.
@@ -245,10 +247,10 @@ Deliverables:
 
 ---
 
-## Sprint 12 — Universal Extractor Integration
+## Sprint 12 - Universal Extractor Integration
 
 Status:
-✅ Completed
+Completed
 
 Goal:
 Make Universal Extractor the primary parser.
@@ -259,42 +261,127 @@ Deliverables:
 - InvoiceTableParser fallback
 - Integration testing
 
-Current Result:
+---
 
-Approximately 97–98% extraction success.
+## Sprint 13 - OCR Row Reconstruction
+
+Status:
+Completed
+
+Goal:
+Improve OCR row reconstruction before validation.
+
+Deliverables:
+
+- Geometry-first OCR row reconstruction.
+- Fragment merging by vertical proximity.
+- Improved multiline item reconstruction.
+- Supplier-agnostic row recovery.
 
 ---
 
-## Sprint 13 — OCR Row Reconstruction
+## Sprint 14 - Validation Recovery Classification
 
 Status:
-🚧 In Progress
+Completed
 
-Current Goal:
+Goal:
+Improve validation quality while preserving recovered row visibility.
 
-Improve OCR row reconstruction before validation.
+Deliverables:
 
-Current Problems:
+- Validation Recovery Classification.
+- Separation of Validated, Recovered Needs Review, and Rejected rows.
+- Review reason classification.
+- Strict mathematical validation.
+- Improved benchmark reporting.
+- Supplier-agnostic recovery workflow.
 
-- Wrapped descriptions
-- Split quantities
-- Broken rows
-- Detached totals
-- OCR fragmentation
-- Supplier layout differences
+Benchmark philosophy:
 
-Success Criteria:
+- Validated rows are mathematically strict.
+- Recovered Needs Review rows remain visible but do not reduce strict validation pass rate.
+- Rejected rows remain excluded from accepted results.
 
-- Better row merging
-- Better description reconstruction
-- No regression
-- Higher multi-supplier accuracy
+---
+
+## Sprint 15 - Adaptive Column Intelligence
+
+Status:
+Current
+
+Goal:
+Teach the Universal Extractor to infer invoice column structure using OCR geometry, repeated column alignment, mathematical consistency, and semantic scoring rather than supplier-specific layouts.
+
+Planned focus:
+
+- Infer columns from OCR geometry.
+- Detect repeated alignment across rows.
+- Use math consistency to support quantity, unit price, VAT, and total roles.
+- Improve header fallback without supplier-specific layouts.
+- Preserve strict validation and review classification.
+
+Do not implement Sprint 15 until explicitly approved.
+
+---
+
+# Current Import Pipeline
+
+Upload Centre
+
+↓
+
+Content Extraction
+
+↓
+
+Universal Extractor
+
+↓
+
+OCR Row Reconstruction
+
+↓
+
+Header Detection
+
+↓
+
+Adaptive Column Detection
+
+↓
+
+Numeric Role Selection
+
+↓
+
+Validation
+
+↓
+
+Classification
+
+    ✅ Validated
+    ⚠️ Recovered - Needs Review
+    ❌ Rejected
+
+↓
+
+Approval Queue
+
+↓
+
+Purchase Database
+
+↓
+
+Analytics
 
 ---
 
 # Future Epics
 
-## Epic 2 — Recipe Vault
+## Epic 2 - Recipe Vault
 
 Status:
 Planned
@@ -309,7 +396,7 @@ Features:
 
 ---
 
-## Epic 3 — Inventory Engine
+## Epic 3 - Inventory Engine
 
 Status:
 Planned
@@ -323,7 +410,7 @@ Features:
 
 ---
 
-## Epic 4 — Recipe Costing
+## Epic 4 - Recipe Costing
 
 Status:
 Planned
@@ -336,7 +423,7 @@ Features:
 
 ---
 
-## Epic 5 — Restaurant Analytics
+## Epic 5 - Restaurant Analytics
 
 Status:
 Planned
@@ -351,7 +438,7 @@ Features:
 
 ---
 
-## Epic 6 — AI Assistant
+## Epic 6 - AI Assistant
 
 Status:
 Planned
@@ -369,11 +456,14 @@ Features:
 
 Current focus:
 
-Improve OCR reconstruction without affecting validated invoices.
+Improve adaptive column detection without weakening validation or affecting validated invoices.
 
-Current benchmark:
+Current benchmark reporting:
 
-~97–98% successful extraction.
+- Validated rows
+- Recovered Needs Review rows
+- Rejected rows
+- Strict Validation Pass Rate calculated only from Validated rows
 
 Goal:
 
