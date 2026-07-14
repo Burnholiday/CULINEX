@@ -78,6 +78,20 @@ import urllib.error
 import webbrowser
 import zipfile
 import xml.etree.ElementTree as ET
+from dataclasses import asdict, is_dataclass
+from adaptive_header_framework import HeaderCandidate, HeaderNormalizer, HeaderConfidenceEngine, HeaderBandDetector, HeaderType
+from table_boundary_framework import TableRegionDetector, HeaderRegionLocator, FooterRegionLocator, TableConfidenceEngine
+from invoice_row_classifier import InvoiceRowClassifier, RowType, ClassificationResult
+from ingredient_intelligence import IngredientIntelligenceEngine, IngredientCandidate
+from ingredient_matcher import IngredientMatcher, CanonicalMatchCandidate
+from ingredient_memory import DEFAULT_MEMORY_PATH, LocalJsonIngredientMemoryRepository
+from ingredient_proposals import DEFAULT_PROPOSAL_PATH, IngredientProposalEngine, LocalJsonIngredientProposalRepository
+
+
+def is_product_row_type(value):
+    if isinstance(value, RowType):
+        return value == RowType.PRODUCT
+    return str(value or "").strip().lower() == RowType.PRODUCT.value
 
 
 ROOT = Path(__file__).resolve().parent
@@ -102,6 +116,19 @@ AI_PROVIDER = os.environ.get("RECIPE_VAULT_AI_PROVIDER", "ollama").strip().lower
 OLLAMA_MODEL = os.environ.get("RECIPE_VAULT_OLLAMA_MODEL", "qwen3:latest")
 OLLAMA_URL = os.environ.get("RECIPE_VAULT_OLLAMA_URL", "http://localhost:11434/api/generate")
 OPENAI_MODEL = os.environ.get("RECIPE_VAULT_OPENAI_MODEL", "gpt-4.1-mini")
+
+
+def env_bool(name, default=False):
+    value = os.environ.get(name)
+    if value is None:
+        return bool(default)
+    return str(value).strip().lower() in {"1", "true", "yes", "on"}
+
+
+enable_ingredient_proposals = env_bool("CULINEX_ENABLE_INGREDIENT_PROPOSALS", False)
+INGREDIENT_MEMORY_PATH = Path(os.environ.get("CULINEX_INGREDIENT_MEMORY_PATH", DEFAULT_MEMORY_PATH))
+INGREDIENT_PROPOSAL_PATH = Path(os.environ.get("CULINEX_INGREDIENT_PROPOSAL_PATH", DEFAULT_PROPOSAL_PATH))
+PARSER_DEBUG_PRINTS = env_bool("CULINEX_PARSER_DEBUG_PRINTS", False)
 
 
 def port_open(port):
@@ -496,6 +523,81 @@ def validation_pass_rate(rows):
     return round(passed / len(rows), 4)
 
 
+def json_safe_dataclass(value):
+    if value is None:
+        return None
+    if is_dataclass(value):
+        return asdict(value)
+    if hasattr(value, "to_dict"):
+        return value.to_dict()
+    if isinstance(value, dict):
+        return dict(value)
+    return None
+
+
+def ingredient_proposal_diagnostics(match_candidate=None):
+    return {
+        "ingredient_proposal_generated": bool(getattr(match_candidate, "proposal_generated", False)),
+        "ingredient_proposal_id": getattr(match_candidate, "proposal_id", None) if match_candidate else None,
+        "ingredient_proposal_type": getattr(match_candidate, "proposal_type", None) if match_candidate else None,
+        "ingredient_proposal_status": getattr(match_candidate, "proposal_status", None) if match_candidate else None,
+        "ingredient_proposal_error": getattr(match_candidate, "proposal_error", None) if match_candidate else None,
+    }
+
+
+def should_generate_ingredient_proposals(enabled=None):
+    if enabled is not None:
+        return bool(enabled)
+    return bool(enable_ingredient_proposals)
+
+
+def build_ingredient_matcher(enable_proposals=False, memory_path=None, proposal_path=None):
+    if not enable_proposals:
+        return IngredientMatcher(), None
+    memory_repository = LocalJsonIngredientMemoryRepository(memory_path or INGREDIENT_MEMORY_PATH)
+    proposal_repository = LocalJsonIngredientProposalRepository(proposal_path or INGREDIENT_PROPOSAL_PATH)
+    proposal_engine = IngredientProposalEngine(memory_repository, proposal_repository)
+    return IngredientMatcher(memory_repository=memory_repository, proposal_engine=proposal_engine), proposal_engine
+
+
+def viable_ingredient_candidate(ingredient_candidate):
+    candidate_name = str(getattr(ingredient_candidate, "candidate_name", "") or "").strip()
+    if not candidate_name:
+        return False
+    return bool(re.search(r"[A-Za-z]", candidate_name)) and not re.fullmatch(r"[\d\s.,+-]+", candidate_name)
+
+
+def match_ingredient_candidate_for_row(
+    ingredient_candidate,
+    row=None,
+    context=None,
+    enable_proposals=None,
+    ingredient_matcher=None,
+    proposal_engine=None,
+):
+    if not ingredient_candidate:
+        return None
+    enabled = should_generate_ingredient_proposals(enable_proposals)
+    matcher = ingredient_matcher
+    engine = proposal_engine
+    if matcher is None:
+        matcher, engine = build_ingredient_matcher(enabled)
+    if enabled and not viable_ingredient_candidate(ingredient_candidate):
+        return matcher.analyze_candidate(ingredient_candidate)
+    try:
+        return matcher.match_ingredient(
+            ingredient_candidate,
+            context=context or {},
+            generate_proposals=enabled,
+            proposal_engine=engine,
+        )
+    except Exception as exc:
+        analyzed = matcher.analyze_candidate(ingredient_candidate)
+        if analyzed:
+            analyzed.proposal_error = f"Unable to run ingredient proposal integration: {friendly_extraction_error(exc)}"
+        return analyzed
+
+
 def universal_row_to_invoice_row(row):
     description = clean_cell(row.get("description") or row.get("raw_text") or "")
     supplier_code = clean_cell(row.get("supplier_code") or "")
@@ -509,6 +611,29 @@ def universal_row_to_invoice_row(row):
     validation = row.get("validation") or validate_invoice_math(quantity, unit_price, line_total)
     ingredient = clean_invoice_ingredient_name(supplier_code or description, description)
     purchase_unit = clean_cell(row.get("purchase_unit") or row.get("unit") or extract_purchase_unit(description) or extract_line_item_unit(raw_text) or "")
+    
+    # Initialize ingredient intelligence engine
+    ingredient_engine = IngredientIntelligenceEngine()
+    
+    # Run ingredient intelligence only on PRODUCT rows (shadow mode)
+    ingredient_candidate = None
+    canonical_match_candidate = None
+    if is_product_row_type(row.get("row_type")):
+        ingredient_candidate = ingredient_engine.analyze_product_row(raw_text, row)
+        if ingredient_candidate:
+            canonical_match_candidate = match_ingredient_candidate_for_row(
+                ingredient_candidate,
+                row=row,
+                context={
+                    "source_filename": row.get("source_filename") or row.get("filename") or row.get("document_id"),
+                    "source_row_id": row.get("row_id") or row.get("row_index"),
+                    "supplier_name": row.get("supplier") or row.get("supplier_name"),
+                    "supplier_code": supplier_code or None,
+                },
+            )
+    ingredient_candidate_json = json_safe_dataclass(ingredient_candidate)
+    canonical_match_candidate_json = json_safe_dataclass(canonical_match_candidate)
+    
     return {
         "supplier_code": supplier_code or None,
         "ingredient": ingredient,
@@ -533,6 +658,24 @@ def universal_row_to_invoice_row(row):
             "role": row.get("role"),
             "raw_text": raw_text,
         },
+        "column_confidence": row.get("column_confidence", 0.0),
+        "role_source": row.get("role_source", "unknown"),
+        # Add ingredient intelligence diagnostics for shadow mode
+        "ingredient_candidate": ingredient_candidate_json,
+        "ingredient_confidence": ingredient_candidate.confidence if ingredient_candidate else 0.0,
+        "ingredient_reasons": ingredient_candidate.reasons if ingredient_candidate else [],
+        "ingredient_matched_signals": ingredient_candidate.matched_signals if ingredient_candidate else [],
+        "ingredient_conflicting_signals": ingredient_candidate.conflicting_signals if ingredient_candidate else [],
+        "canonical_match_candidate": canonical_match_candidate_json,
+        "normalized_match_key": canonical_match_candidate.normalized_match_key if canonical_match_candidate else None,
+        "proposed_canonical_name": canonical_match_candidate.proposed_canonical_name if canonical_match_candidate else None,
+        "match_confidence": canonical_match_candidate.match_confidence if canonical_match_candidate else 0.0,
+        "match_reasons": canonical_match_candidate.match_reasons if canonical_match_candidate else [],
+        "canonical_matched_signals": canonical_match_candidate.matched_signals if canonical_match_candidate else [],
+        "canonical_conflicting_signals": canonical_match_candidate.conflicting_signals if canonical_match_candidate else [],
+        "alternative_candidates": canonical_match_candidate.alternative_candidates if canonical_match_candidate else [],
+        "review_required": canonical_match_candidate.review_required if canonical_match_candidate else False,
+        **ingredient_proposal_diagnostics(canonical_match_candidate),
     }
 
 
@@ -698,16 +841,316 @@ class TableDetector:
         return rows
 
 
+class ColumnGeometryAnalyzer:
+    def __init__(self):
+        self.column_positions = {}
+        self.alignment_scores = {}
+        
+    def analyze_ocr_positions(self, items):
+        """Track column x-ranges across OCR items"""
+        numeric_items = [item for item in items 
+                        if is_numeric_cell(self.item_text(item))]
+        
+        # Cluster by x-position to find column boundaries
+        if not numeric_items:
+            return {}
+            
+        clusters = []
+        for item in sorted(numeric_items, key=self.item_x):
+            x = self.item_x(item)
+            if not clusters or abs(x - clusters[-1]["x"]) > 20:
+                clusters.append({"x": x, "items": [item]})
+            else:
+                clusters[-1]["items"].append(item)
+                clusters[-1]["x"] = sum(self.item_x(i) for i in clusters[-1]["items"]) / len(clusters[-1]["items"])
+                
+        # Calculate confidence scores for each cluster
+        column_data = {}
+        for i, cluster in enumerate(clusters):
+            x_values = [self.item_x(item) for item in cluster["items"]]
+            std_dev = (max(x_values) - min(x_values)) if x_values else 0
+            column_data[f"col_{i}"] = {
+                "x": cluster["x"],
+                "min_x": min(x_values, default=cluster["x"]),
+                "max_x": max(x_values, default=cluster["x"]),
+                "confidence": 1.0 - min(std_dev / 50.0, 1.0),
+                "count": len(cluster["items"])
+            }
+            
+        self.column_positions = column_data
+        return column_data
+        
+    def calculate_alignment_confidence(self):
+        """Score consistency of column boundaries"""
+        if not self.column_positions:
+            return 0.0
+            
+        total_confidence = sum(
+            col["confidence"] * col["count"] 
+            for col in self.column_positions.values()
+        )
+        total_count = sum(col["count"] for col in self.column_positions.values())
+        
+        return round(total_confidence / max(1, total_count), 2)
+
+
+class RowReconstructor:
+    """Recovers split rows and wrapped descriptions in OCR-extracted invoice data."""
+    
+    def __init__(self):
+        self.recovery_log = []
+    
+    def recover_rows(self, reconstructed_groups, physical_lines):
+        """
+        Attempt to recover split rows and wrapped descriptions.
+        
+        Args:
+            reconstructed_groups: List of reconstructed row groups with structure:
+                {y, items, has_desc, has_nums}
+            physical_lines: List of physical line clusters (not used in this implementation)
+        
+        Returns:
+            List of recovered row groups with added recovery metadata
+        """
+        if not reconstructed_groups:
+            return []
+        
+        recovered = []
+        for i, group in enumerate(reconstructed_groups):
+            # Check if this row needs recovery
+            if self._is_split_row(group):
+                # Try to merge with nearby rows
+                merged_group = self._merge_split_row(group, reconstructed_groups, i)
+                if merged_group:
+                    merged_group["recovery_source"] = "split_row_merged"
+                    merged_group["recovery_confidence"] = 0.85
+                    merged_group["original_row_count"] = 1
+                    recovered.append(merged_group)
+                    continue
+            
+            if self._has_wrapped_description(group):
+                # Try to merge description from nearby rows
+                merged_group = self._merge_description(group, reconstructed_groups, i)
+                if merged_group:
+                    merged_group["recovery_source"] = "wrapped_description"
+                    merged_group["recovery_confidence"] = 0.80
+                    merged_group["original_row_count"] = 1
+                    recovered.append(merged_group)
+                    continue
+            
+            # Check for fragmented rows that can be merged with nearby groups
+            fragmented_group = self._merge_fragmented_row(group, reconstructed_groups, i)
+            if fragmented_group:
+                fragmented_group["recovery_source"] = "fragment_merge"
+                fragmented_group["recovery_confidence"] = 0.90
+                fragmented_group["original_row_count"] = 1
+                recovered.append(fragmented_group)
+                continue
+            
+            # No recovery needed
+            group["recovery_source"] = "none"
+            group["recovery_confidence"] = 1.0
+            group["original_row_count"] = 1
+            recovered.append(group)
+        
+        return recovered
+    
+    def _is_split_row(self, row):
+        """Check if a row appears to be split across multiple physical lines."""
+        has_desc = row.get("has_desc", False)
+        has_nums = row.get("has_nums", False)
+        
+        # Split row: has description but missing numeric values
+        return has_desc and not has_nums
+    
+    def _has_wrapped_description(self, row):
+        """Check if description appears to be wrapped."""
+        has_desc = row.get("has_desc", False)
+        has_nums = row.get("has_nums", False)
+        items = row.get("items", [])
+        
+        # Wrapped description: has description but no numbers, and items exist
+        return has_desc and not has_nums and len(items) > 0
+    
+    def _merge_split_row(self, group, all_groups, index):
+        """Merge a split row with nearby rows that contain numeric values."""
+        if not group.get("items"):
+            return None
+        
+        # Look for nearby rows with numeric values
+        for offset in [1, -1, 2, -2]:
+            neighbor_idx = index + offset
+            if 0 <= neighbor_idx < len(all_groups):
+                neighbor = all_groups[neighbor_idx]
+                if neighbor.get("has_nums") and neighbor.get("items"):
+                    # Merge items from neighbor
+                    merged_items = list(group.get("items", []))
+                    neighbor_items = neighbor.get("items", [])
+                    
+                    # Only merge if both rows already contain OCR items
+                    if neighbor_items:
+                        merged_items.extend(neighbor_items)
+                        merged_items.sort(key=lambda x: (float(x.get("y", 0) or 0), float(x.get("x", 0) or 0)))
+                        
+                        return {
+                            "y": group.get("y"),
+                            "items": merged_items,
+                            "has_desc": True,
+                            "has_nums": True,
+                            "recovery_source": "split_row_merged",
+                            "recovery_confidence": 0.85,
+                            "original_row_count": 2
+                        }
+        
+        return None
+    
+    def _merge_description(self, group, all_groups, index):
+        """Merge description from nearby rows."""
+        if not group.get("items"):
+            return None
+        
+        # Look for nearby rows with description but no numbers
+        for offset in [1, -1, 2, -2]:
+            neighbor_idx = index + offset
+            if 0 <= neighbor_idx < len(all_groups):
+                neighbor = all_groups[neighbor_idx]
+                if neighbor.get("has_desc") and not neighbor.get("has_nums") and neighbor.get("items"):
+                    # Merge items from neighbor
+                    merged_items = list(group.get("items", []))
+                    neighbor_items = neighbor.get("items", [])
+                    
+                    # Only merge if both rows already contain OCR items
+                    if neighbor_items:
+                        merged_items.extend(neighbor_items)
+                        merged_items.sort(key=lambda x: (float(x.get("y", 0) or 0), float(x.get("x", 0) or 0)))
+                        
+                        return {
+                            "y": group.get("y"),
+                            "items": merged_items,
+                            "has_desc": True,
+                            "has_nums": group.get("has_nums", False),
+                            "recovery_source": "wrapped_description",
+                            "recovery_confidence": 0.80,
+                            "original_row_count": 2
+                        }
+        
+        return None
+    
+    def _merge_fragmented_row(self, group, all_groups, index):
+        """Merge fragmented OCR items from nearby groups to create complete rows."""
+        if not group.get("items"):
+            return None
+            
+        # Check if this is a fragmented row that might benefit from merging
+        # Look for nearby groups that might contain missing OCR fragments
+        for offset in [1, -1, 2, -2]:
+            neighbor_idx = index + offset
+            if 0 <= neighbor_idx < len(all_groups):
+                neighbor = all_groups[neighbor_idx]
+                # Only merge if both groups contain OCR items and the neighbor has different content
+                if neighbor.get("items") and neighbor != group:
+                    # Check if we can merge to create a more complete row
+                    # This is a safe merge that doesn't invent values
+                    merged_items = list(group.get("items", []))
+                    neighbor_items = neighbor.get("items", [])
+                    
+                    # Only merge if both rows already contain OCR items
+                    if neighbor_items:
+                        # Apply stricter merging rules
+                        # Rule 1: Only allow merge when one group is description/text-only and the adjacent group is numeric-only
+                        group_has_desc_only = group.get("has_desc", False) and not group.get("has_nums", False)
+                        group_has_nums_only = group.get("has_nums", False) and not group.get("has_desc", False)
+                        neighbor_has_desc_only = neighbor.get("has_desc", False) and not neighbor.get("has_nums", False)
+                        neighbor_has_nums_only = neighbor.get("has_nums", False) and not neighbor.get("has_desc", False)
+                        
+                        # Rule 2: Never merge if both groups contain product descriptions
+                        # Rule 3: Never merge if both groups contain quantities/prices/totals
+                        # Rule 4: Never merge footer, banking, subtotal, total, VAT-summary, payment, tender, deposit, currency, account, rounding, or change rows
+                        group_raw_text = " ".join([item.get("text", "") for item in group.get("items", [])])
+                        neighbor_raw_text = " ".join([item.get("text", "") for item in neighbor.get("items", [])])
+                        combined_text = group_raw_text + " " + neighbor_raw_text
+                        
+                        # Check for forbidden row types
+                        forbidden_patterns = [
+                            r"subtotal|sub\s*total|total\s+(?:nett|net|incl|excl|due)|amount\s+excl|vat\s*$|tax\s*$|discount|rounding|"
+                            r"banking details|terms|conditions|signature|signed|received in good order|cash collected|created:|currency|"
+                            r"page\s+\d+\s+of\s+\d+|number of items|extra charges|please note",
+                            r"bank|banking|branch|account|acc\s*no|swift|iban|payment|tender|deposit|change"
+                        ]
+                        
+                        is_forbidden = any(re.search(pattern, combined_text, re.I) for pattern in forbidden_patterns)
+                        
+                        # Determine if merge is allowed based on rules
+                        can_merge = False
+                        skip_reason = None
+                        
+                        if is_forbidden:
+                            skip_reason = "skip_footer_or_banking"
+                        elif group.get("has_desc", False) and neighbor.get("has_desc", False):
+                            # Rule 2: Never merge if both groups contain product descriptions
+                            skip_reason = "skip_both_have_descriptions"
+                        elif group.get("has_nums", False) and neighbor.get("has_nums", False):
+                            # Rule 3: Never merge if both groups contain quantities/prices/totals
+                            skip_reason = "skip_both_have_numeric_values"
+                        elif group_has_desc_only and neighbor_has_nums_only:
+                            # Description-only group merging with numeric-only group - allowed
+                            can_merge = True
+                        elif group_has_nums_only and neighbor_has_desc_only:
+                            # Numeric-only group merging with description-only group - allowed
+                            can_merge = True
+                        else:
+                            # Other combinations are not allowed
+                            skip_reason = "skip_mixed_content_types"
+                        
+                        # Rule 5: A group may only merge once
+                        # This is handled by the fact that we only process each group once
+                        
+                        # Rule 6: Vertical gap must be small
+                        y_gap = abs(group.get("y", 0) - neighbor.get("y", 0))
+                        if can_merge and y_gap > 20:  # Small vertical gap threshold
+                            can_merge = False
+                            skip_reason = "skip_gap_too_large"
+                        
+                        if can_merge:
+                            merged_items.extend(neighbor_items)
+                            merged_items.sort(key=lambda x: (float(x.get("y", 0) or 0), float(x.get("x", 0) or 0)))
+                            
+                            # Create a new group with merged items
+                            return {
+                                "y": group.get("y"),
+                                "items": merged_items,
+                                "has_desc": group.get("has_desc") or neighbor.get("has_desc", False),
+                                "has_nums": group.get("has_nums") or neighbor.get("has_nums", False),
+                                "recovery_source": "fragment_merge",
+                                "recovery_confidence": 0.90,
+                                "original_row_count": 2
+                            }
+                        elif skip_reason:
+                            # Add parser_debug reason when a merge is skipped
+                            group.setdefault("parser_debug", {})["skip_merge_reason"] = skip_reason
+        
+        return None
+
+
 class LineItemExtractor:
     def __init__(self):
         self.table_detector = TableDetector()
         self.column_detector = ColumnDetector()
+        self.geometry_analyzer = ColumnGeometryAnalyzer()
+        self.row_reconstructor = RowReconstructor()
+        self.table_region_detector = TableRegionDetector()
+        self.header_region_locator = HeaderRegionLocator()
+        self.footer_region_locator = FooterRegionLocator()
+        self.table_confidence_engine = TableConfidenceEngine()
+        # Initialize the invoice row classifier for shadow mode
+        self.invoice_row_classifier = InvoiceRowClassifier()
 
     def extract(self, extracted_text="", tables=None):
         detected_tables, discarded_rows = self.table_detector.detect_tables(extracted_text, tables)
         extracted_rows = []
         detected_headers = []
         detected_columns = []
+        geometry_debug = []
         for table_index, table in enumerate(detected_tables, 1):
             if table.get("source") == "ocr_items" and table.get("items"):
                 parsed, discarded, positioned_debug = self.extract_from_positioned_items(table)
@@ -717,6 +1160,8 @@ class LineItemExtractor:
                     detected_headers.append(positioned_debug["detected_headers"])
                 if positioned_debug.get("detected_columns"):
                     detected_columns.append(positioned_debug["detected_columns"])
+                if positioned_debug.get("geometry_debug"):
+                    geometry_debug.append(positioned_debug["geometry_debug"])
                 continue
             rows = table.get("rows") or []
             detection = self.column_detector.detect(rows)
@@ -753,8 +1198,68 @@ class LineItemExtractor:
             "recovered_needs_review": recovered_needs_review,
             "rejected_rows": rejected_rows[:250],
             "discarded_rows": discarded_rows[:250],
+            "geometry_debug": geometry_debug,
             "confidence": confidence,
         }
+
+    def geometry_shadow_debug(self, table):
+        raw_items = table.get("items") or []
+        debug = {
+            "source": "ocr_items",
+            "page": table.get("page"),
+            "table": table.get("table"),
+            "table_region_detected": False,
+            "table_confidence": 0.0,
+            "table_top": None,
+            "table_bottom": None,
+            "table_left": None,
+            "table_right": None,
+            "header_region_candidates": [],
+            "footer_region_candidates": [],
+            "original_ocr_item_count": len(raw_items),
+        }
+        try:
+            text_content = " ".join(self.item_text(item) for item in raw_items if isinstance(item, dict))
+            table_regions = self.table_region_detector.detect_table_regions(text_content, raw_items)
+            table_regions = [region for region in table_regions if region]
+            if not table_regions:
+                debug["failure"] = "no_table_regions_detected"
+                return debug
+            table_region = max(
+                table_regions,
+                key=lambda region: (
+                    float(region.get("confidence", 0) or 0),
+                    int(region.get("item_count", 0) or 0),
+                ),
+            )
+            header_regions = self.header_region_locator.locate_header_regions(table_region, raw_items)
+            footer_regions = self.footer_region_locator.locate_footer_regions(text_content, raw_items)
+            table_confidence = self.table_confidence_engine.calculate_table_confidence(
+                table_region,
+                header_regions,
+                footer_regions,
+                raw_items,
+            )
+            structure_diagnostics = self.table_confidence_engine.calculate_structure_diagnostics(
+                table_region,
+                raw_items,
+                header_regions,
+                footer_regions,
+            )
+            debug.update({
+                "table_region_detected": True,
+                "table_confidence": table_confidence,
+                "table_top": table_region.get("start_y"),
+                "table_bottom": table_region.get("end_y"),
+                "table_left": table_region.get("start_x"),
+                "table_right": table_region.get("end_x"),
+                "header_region_candidates": header_regions,
+                "footer_region_candidates": footer_regions,
+            })
+            debug.update(structure_diagnostics)
+        except Exception as exc:
+            debug["failure"] = f"{type(exc).__name__}: {exc}"
+        return debug
 
     def item_text(self, item):
         return clean_cell(item.get("text") if isinstance(item, dict) else "")
@@ -909,7 +1414,13 @@ class LineItemExtractor:
         total_x = median([row["roles"]["total"]["x"] for row in evidence_rows])
         description_x_values = []
         for row in evidence_rows:
-            first_number_x = min(cell["x"] for cell in row["roles"].values())
+            role_cells = [
+                cell for cell in row["roles"].values()
+                if isinstance(cell, dict) and "x" in cell
+            ]
+            if not role_cells:
+                continue
+            first_number_x = min(cell["x"] for cell in role_cells)
             left_text = [self.item_x(item) for item in row["text_items"] if self.item_x(item) < first_number_x]
             if left_text:
                 description_x_values.append(min(left_text))
@@ -933,6 +1444,163 @@ class LineItemExtractor:
             {"header": "inferred unit price zone", "field": "unit_price", "x": round(unit_price_x, 2)},
             {"header": "inferred total zone", "field": "total", "x": round(total_x, 2)},
         ]
+        return headers, header_items, detected_headers
+
+    def detect_headers_adaptive(self, items):
+        """
+        Adaptive header detection using the adaptive header framework.
+        This method uses OCR geometry, repeated column alignment, mathematical consistency,
+        and semantic scoring to detect headers when traditional methods fail.
+        """
+        # Create header candidates from items
+        candidates = []
+        clean_items = [item for item in items if isinstance(item, dict) and self.item_text(item)]
+        
+        for item in clean_items:
+            text = self.item_text(item)
+            # Create a HeaderCandidate with position information
+            candidate = HeaderCandidate(
+                text=text,
+                normalized_text=HeaderNormalizer.normalize_text(text),
+                field_type=HeaderNormalizer.identify_field_type(text),
+                position=(self.item_x(item), self.item_y(item))
+            )
+            candidates.append(candidate)
+        
+        # Debug logging for headers_not_detected cases
+        debug_info = {
+            "total_candidates": len(candidates),
+            "candidates": [],
+            "selected_band": None,
+            "rejected_reason": None,
+            "confidence_scores": []
+        }
+        
+        for candidate in candidates:
+            debug_info["candidates"].append({
+                "text": candidate.text,
+                "normalized_text": candidate.normalized_text,
+                "field_type": str(candidate.field_type),
+                "position": candidate.position,
+                "confidence": getattr(candidate, 'confidence', 'not calculated yet')
+            })
+        
+        # If we don't have enough candidates, return empty results
+        if len(candidates) < 3:
+            debug_info["rejected_reason"] = "Not enough candidates (< 3)"
+            # Log debug info for headers_not_detected cases
+            # if debug_info["rejected_reason"]:
+            #     print(f"ADAPTIVE_HEADER_DEBUG: {debug_info}")
+            return {}, {}, []
+        
+        confidence_engine = HeaderConfidenceEngine()
+        frequency_map = {}
+        for candidate in candidates:
+            frequency_map[candidate.normalized_text] = frequency_map.get(candidate.normalized_text, 0) + 1
+        heights = [float(item.get("h", 0) or 0) for item in clean_items if float(item.get("h", 0) or 0) > 0]
+        median_height = sorted(heights)[len(heights) // 2] if heights else 16.0
+        header_band_threshold = max(20.0, median_height * 1.2)
+        
+        for candidate in candidates:
+            candidate.alignment_score = confidence_engine.calculate_alignment_score(candidate, {})
+            candidate.context_score = confidence_engine.calculate_context_score(candidate)
+            candidate.geometric_score = confidence_engine.calculate_geometric_score(candidate, header_band_threshold, median_height)
+            candidate.frequency_score = confidence_engine.calculate_frequency_score(candidate, frequency_map)
+            candidate.confidence = candidate.calculate_overall_confidence()
+        
+        for debug_candidate, candidate in zip(debug_info["candidates"], candidates):
+            debug_candidate["confidence"] = candidate.confidence
+        
+        # Use HeaderBandDetector to group candidates into bands
+        band_detector = HeaderBandDetector(band_threshold=header_band_threshold)
+        bands = band_detector.detect_header_bands(candidates)
+        
+        # Find the best header band
+        best_band = band_detector.find_best_header_row(bands)
+        debug_info["selected_band"] = [str(c.text) for c in best_band] if best_band else None
+        if not best_band or len(best_band) < 3:
+            debug_info["rejected_reason"] = f"No best band found or band too small (size: {len(best_band) if best_band else 0})"
+            if PARSER_DEBUG_PRINTS:
+                print(f"ADAPTIVE_HEADER_DEBUG: {debug_info}")
+            return {}, {}, []
+        
+        # Filter candidates with high confidence and required fields
+        high_confidence_candidates = [c for c in best_band if c.confidence >= 0.5]
+        debug_info["confidence_scores"] = [c.confidence for c in best_band]
+        if len(high_confidence_candidates) < 3:
+            debug_info["rejected_reason"] = f"Not enough high confidence candidates (count: {len(high_confidence_candidates)})"
+            if PARSER_DEBUG_PRINTS:
+                print(f"ADAPTIVE_HEADER_DEBUG: {debug_info}")
+            return {}, {}, []
+        
+        # Check if we have the required header types
+        field_types = {c.field_type for c in high_confidence_candidates}
+        required_fields = {HeaderType.DESCRIPTION, HeaderType.QUANTITY, HeaderType.UNIT_PRICE, HeaderType.TOTAL}
+        if not required_fields.issubset(field_types):
+            # Try to map candidates to required fields based on confidence
+            field_mapping = {}
+            for field_type in required_fields:
+                candidates_for_type = [c for c in high_confidence_candidates if c.field_type == field_type]
+                if not candidates_for_type:
+                    # Find the best candidate for this field type based on text matching
+                    candidates_for_type = [c for c in high_confidence_candidates if HeaderNormalizer.identify_field_type(c.text) == field_type]
+                
+                if candidates_for_type:
+                    # Sort by confidence and take the best one
+                    best_candidate = max(candidates_for_type, key=lambda c: c.confidence)
+                    field_mapping[field_type] = best_candidate
+        
+            # If we still don't have all required fields, return empty results
+            if len(field_mapping) < 4:
+                return {}, {}, []
+        else:
+            # Map candidates to their field types
+            field_mapping = {c.field_type: c for c in high_confidence_candidates if c.field_type in required_fields}
+        
+        # Create headers dictionary with x positions
+        headers = {}
+        header_items = {}
+        detected_headers = []
+        
+        # Map field types to standard keys
+        field_type_to_key = {
+            HeaderType.DESCRIPTION: "description",
+            HeaderType.QUANTITY: "quantity",
+            HeaderType.UNIT: "unit",
+            HeaderType.UNIT_PRICE: "unit_price",
+            HeaderType.TOTAL: "total",
+            HeaderType.VAT: "vat",
+            HeaderType.CODE: "code"
+        }
+        
+        for field_type, candidate in field_mapping.items():
+            key = field_type_to_key.get(field_type)
+            if key:
+                headers[key] = candidate.position[0]  # x position
+                # Find the corresponding item in clean_items
+                for item in clean_items:
+                    if self.item_x(item) == candidate.position[0] and self.item_y(item) == candidate.position[1]:
+                        header_items[key] = item
+                        break
+                detected_headers.append({
+                    "header": candidate.text,
+                    "field": key,
+                    "x": round(candidate.position[0], 2),
+                    "confidence": candidate.confidence
+                })
+        
+        # Ensure we have the minimum required headers
+        required_keys = {"description", "quantity", "unit_price", "total"}
+        if not required_keys.issubset(headers.keys()):
+            debug_info["rejected_reason"] = f"Missing required keys. Found: {set(headers.keys())}, Required: {required_keys}"
+            if PARSER_DEBUG_PRINTS:
+                print(f"ADAPTIVE_HEADER_DEBUG: {debug_info}")
+            return {}, {}, []
+        
+        # Log successful header detection
+        debug_info["rejected_reason"] = None
+        if PARSER_DEBUG_PRINTS:
+            print(f"ADAPTIVE_HEADER_DEBUG: {debug_info}")
         return headers, header_items, detected_headers
 
     def nearest_header(self, item, headers, allowed=None):
@@ -1141,18 +1809,24 @@ class LineItemExtractor:
             except Exception:
                 pass
 
+        geometry_debug = self.geometry_shadow_debug(table)
         items = [item for item in (table.get("items") or []) if isinstance(item, dict) and self.item_text(item)]
         headers, header_items, detected_headers = self.detect_positioned_headers(items)
         inferred_headers = False
+        adaptive_headers = False
         if not headers:
             headers, header_items, detected_headers = self.infer_positioned_headers(items)
             inferred_headers = bool(headers)
+        if not headers:
+            headers, header_items, detected_headers = self.detect_headers_adaptive(items)
+            adaptive_headers = bool(headers)
         debug = {
             "source": "ocr_items",
             "page": table.get("page"),
             "table": table.get("table"),
             "detected_headers": {"source": "ocr_items", "page": table.get("page"), "table": table.get("table"), "headers": detected_headers},
             "detected_columns": {"source": "ocr_items", "page": table.get("page"), "table": table.get("table"), "columns": headers},
+            "geometry_debug": geometry_debug,
         }
         if not headers:
             return [], [{"reason": "headers_not_detected", "raw_text": "OCR positioned table did not expose enough invoice headers."}], debug
@@ -1162,18 +1836,41 @@ class LineItemExtractor:
             header_bottom = max(float(item.get("y", 0) or 0) + float(item.get("h", 0) or 0) for item in header_items.values())
             data_items = [item for item in items if self.item_y(item) > header_bottom]
         
+        # Get physical lines for recovery
+        physical_lines = self.cluster_physical_lines(data_items)
+        
         reconstructed_groups = self.reconstruct_ocr_rows(data_items, headers)
         
-        # Detailed debug logging
-        print_safe(f"\n[OCR RECONSTRUCTION] Processing table {table.get('table')} on page {table.get('page')}")
-        print_safe("--- Original OCR fragments ---")
-        for item in items:
-            print_safe(f"  - Box: text={self.item_text(item)!r} x={self.item_x(item):.1f} y={self.item_y(item):.1f} w={float(item.get('w',0)):.1f} h={float(item.get('h',0)):.1f}")
-            
-        print_safe("--- Reconstructed candidate rows ---")
-        for i, group in enumerate(reconstructed_groups, 1):
-            group_texts = [self.item_text(it) for it in sorted(group["items"], key=self.item_x)]
-            print_safe(f"  - Candidate Row {i} (Y center: {group['y']:.1f}): {' '.join(group_texts)}")
+        # Apply Row Recovery Engine
+        recovery_log = []
+        try:
+            recovered_groups = self.row_reconstructor.recover_rows(reconstructed_groups, physical_lines)
+            if recovered_groups and len(recovered_groups) > 0:
+                # Recovery produced results, use them
+                for i, group in enumerate(recovered_groups):
+                    if group.get("recovery_source") != "none":
+                        recovery_log.append({
+                            "row_index": i,
+                            "recovery_source": group.get("recovery_source"),
+                            "recovery_confidence": group.get("recovery_confidence"),
+                            "original_row_count": group.get("original_row_count", 1),
+                        })
+                reconstructed_groups = recovered_groups
+        except Exception as e:
+            # If recovery fails, continue with original groups
+            recovery_log.append({"error": f"Recovery failed: {str(e)}", "using_original": True})
+        
+        if PARSER_DEBUG_PRINTS:
+            print_safe(f"\n[OCR RECONSTRUCTION] Processing table {table.get('table')} on page {table.get('page')}")
+            print_safe("--- Original OCR fragments ---")
+            for item in items:
+                print_safe(f"  - Box: text={self.item_text(item)!r} x={self.item_x(item):.1f} y={self.item_y(item):.1f} w={float(item.get('w',0)):.1f} h={float(item.get('h',0)):.1f}")
+                
+            print_safe("--- Reconstructed candidate rows ---")
+            for i, group in enumerate(reconstructed_groups, 1):
+                group_texts = [self.item_text(it) for it in sorted(group["items"], key=self.item_x)]
+                recovery_info = f" [recovery: {group.get('recovery_source')}]" if group.get("recovery_source") != "none" else ""
+                print_safe(f"  - Candidate Row {i} (Y center: {group['y']:.1f}){recovery_info}: {' '.join(group_texts)}")
             
         parsed = []
         discarded = []
@@ -1229,6 +1926,8 @@ class LineItemExtractor:
                 "source": "ocr_items",
                 "page": table.get("page"),
                 "table": table.get("table"),
+                "recovery_source": group.get("recovery_source", "none"),
+                "recovery_confidence": group.get("recovery_confidence", 1.0),
             }
             if self.is_wrapped_normalized_row(row):
                 if active:
@@ -1247,9 +1946,10 @@ class LineItemExtractor:
             else:
                 discarded.append({"reason": "not_enough_line_values", "status": "rejected", "raw_text": raw_text})
                 
-        print_safe("--- Final rows passed to validation ---")
-        for i, row in enumerate(parsed, 1):
-            print_safe(f"  - Parsed Row {i}: desc={row.get('description')!r} qty={row.get('quantity')} price={row.get('unit_price')} total={row.get('total')} vat={row.get('vat')} confidence={row.get('confidence')} status={row.get('validation', {}).get('status')}")
+        if PARSER_DEBUG_PRINTS:
+            print_safe("--- Final rows passed to validation ---")
+            for i, row in enumerate(parsed, 1):
+                print_safe(f"  - Parsed Row {i}: desc={row.get('description')!r} qty={row.get('quantity')} price={row.get('unit_price')} total={row.get('total')} vat={row.get('vat')} confidence={row.get('confidence')} status={row.get('validation', {}).get('status')}")
             
         return parsed, discarded, debug
 
@@ -1485,6 +2185,22 @@ class LineItemExtractor:
             })
         if len(values) < 3:
             return {}
+        
+        # Geometric analysis for column confidence
+        column_confidence = 0.0
+        if values:
+            # Calculate column confidence based on x-position consistency
+            x_values = [v["x"] for v in values if v.get("x") is not None]
+            if len(x_values) >= 3:
+                # Sort by x-position and check for consistent spacing
+                sorted_x = sorted(x_values)
+                gaps = [sorted_x[i+1] - sorted_x[i] for i in range(len(sorted_x)-1)]
+                if gaps:
+                    avg_gap = sum(gaps) / len(gaps)
+                    # Check if gaps are consistent (within 30% variance)
+                    gap_variance = max(gaps) - min(gaps) if len(gaps) > 1 else 0
+                    column_confidence = max(0.0, 1.0 - (gap_variance / max(avg_gap, 1)) if avg_gap > 0 else 0.0)
+        
         candidates = []
         for q in values:
             if q["value"] <= 0 or self.is_numeric_noise_for_role(q, "quantity"):
@@ -1527,11 +2243,16 @@ class LineItemExtractor:
                         wrong_column_penalty += 3
                     if total.get("column") in {"quantity", "unit_price", "vat"}:
                         wrong_column_penalty += 3
+                    
+                    # Apply geometric confidence penalty
+                    geometric_penalty = (1.0 - column_confidence) * 10
+                    
                     candidates.append({
                         "quantity": q,
                         "unit_price": price,
                         "total": total,
-                        "score": abs(validation.get("difference", 0)) + order_penalty + column_bonus + wrong_column_penalty,
+                        "score": abs(validation.get("difference", 0)) + order_penalty + column_bonus + wrong_column_penalty + geometric_penalty,
+                        "column_confidence": column_confidence,
                     })
         if not candidates:
             return {}
@@ -1546,6 +2267,7 @@ class LineItemExtractor:
             "quantity": best["quantity"],
             "unit_price": best["unit_price"],
             "total": best["total"],
+            "column_confidence": best.get("column_confidence", 0.0),
         }
         if vat:
             result["vat"] = vat
@@ -1761,7 +2483,19 @@ class InvoiceTableParser:
         }
         if validation.get("status") == "failed":
             debug["warning"] = "Validation failed. Numeric values were assigned by nearest header x-position and were not corrected."
-            print("InvoiceTableParser validation failed " + json.dumps(debug, default=str), file=sys.stderr)
+            if PARSER_DEBUG_PRINTS:
+                print("InvoiceTableParser validation failed " + json.dumps(debug, default=str), file=sys.stderr)
+        # Calculate column confidence based on x-position consistency
+        x_positions = [mapped_cells.get(col, {}).get("x") for col in ["quantity", "unit_price", "line_total"] if mapped_cells.get(col, {}).get("x") is not None]
+        column_confidence = 0.0
+        if len(x_positions) >= 3:
+            sorted_x = sorted(x_positions)
+            gaps = [sorted_x[i+1] - sorted_x[i] for i in range(len(sorted_x)-1)]
+            if gaps:
+                avg_gap = sum(gaps) / len(gaps)
+                gap_variance = max(gaps) - min(gaps) if len(gaps) > 1 else 0
+                column_confidence = max(0.0, 1.0 - (gap_variance / max(avg_gap, 1)) if avg_gap > 0 else 0.0)
+        
         return {
             "supplier_code": supplier_code or None,
             "ingredient": ingredient,
@@ -1781,6 +2515,8 @@ class InvoiceTableParser:
                 "unit_price": 0.98 if unit_price is not None else 0.35,
                 "line_total": 0.98 if line_total is not None else 0.35,
             },
+            "column_confidence": column_confidence,
+            "role_source": "geometry",
         }
 
     def positioned_code_and_description(self, items, headers):
@@ -2606,7 +3342,7 @@ def build_document_prompt(document_type, extracted_text="", tables=None, classif
 
 def parse_ai_response(text):
     raw = (text or "").strip()
-    raw = re.sub(r"<think>.*?</think>", "", raw, flags=re.IGNORECASE | re.DOTALL).strip()
+    raw = re.sub(r"<tool_call>.*?</tool_call>", "", raw, flags=re.IGNORECASE | re.DOTALL).strip()
     if raw.startswith("```"):
         raw = raw.strip("`")
         if raw.lower().startswith("json"):
@@ -2818,7 +3554,7 @@ def cleanup_invoice_rows_with_ai(rows, provider=AI_PROVIDER, model=None):
         prompt = invoice_cleanup_prompt(rows)
         response = call_openai(prompt) if provider == "openai" else call_ollama(prompt, model or OLLAMA_MODEL)
         text = response_output_text(response)
-        raw = re.sub(r"<think>.*?</think>", "", text or "", flags=re.IGNORECASE | re.DOTALL).strip()
+        raw = re.sub(r"<tool_call>.*?</tool_call>", "", text or "", flags=re.IGNORECASE | re.DOTALL).strip()
         start = raw.find("{")
         end = raw.rfind("}")
         if start >= 0 and end >= start:

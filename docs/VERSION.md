@@ -16,61 +16,159 @@
 
 # Current Version
 
-**CULINEX Import Engine v1.1.0**
+**CULINEX Import Engine v2.0.0**
 
 ---
 
 # Release Status
 
-Development
+Sprint 26 Complete
+
+---
+
+# Release Summary
+
+CULINEX Import Engine v2.0.0 introduces the first controlled Ingredient Learning and Proposal Pipeline milestone.
+
+This release adds review-only ingredient intelligence around the existing parser:
+Ingredient Memory, canonical ingredient matching, proposal generation, and
+parser-level proposal observation. Proposal generation is disabled by default
+and remains shadow-only.
+
+Verified Sprint 26 benchmark status:
+
+- 49 files tested
+- 166 validated rows
+- 21 review rows
+- 95 discarded rows
+- 0 extraction errors
+- 100% strict validation
+- Ingredient Memory unchanged in shadow-mode benchmarks
+
+Historical note:
+
+CULINEX Import Engine v1.3.0 introduces Adaptive Column Intelligence.
+
+This release improves supplier-agnostic invoice extraction by introducing
+geometry-aware column analysis, column confidence scoring and metadata,
+while preserving strict mathematical validation and backwards compatibility.
+
+Benchmark Status
+
+✓ 113 validated rows
+✓ 100% strict validation
+✓ 8.1% review rate
+✓ +19% validation improvement over InvoiceTableParser
 
 ---
 
 # Current Epic
 
-Epic 1 — Import Engine
+Epic 2 - Invoice Intelligence Engine
 
 ---
 
 # Current Sprint
 
-Sprint 13
+Sprint 26 - Ingredient Learning and Proposal Pipeline
 
 Status:
-✅ Completed
+Completed
 
+Goal:
+
+Create a safe review-only learning layer between extracted invoice rows and
+future restaurant-specific ingredient memory.
+
+No data inference.
+No supplier-specific logic.
+Validation remains unchanged.
+No automatic approval.
+No automatic merge.
+
+---
+
+# Release History
+
+v2.0.0 - Ingredient Learning and Proposal Pipeline
+Sprint 26
+
+v1.3.0 — Adaptive Column Intelligence
+Sprint 15
+
+v1.2.0 — Validation Recovery Classification
+Sprint 14
+
+v1.1.0 — OCR Row Reconstruction
+Sprint 13
+
+v1.0.0 — Universal Import Engine Foundation
+Sprints 1–12
+
+# Completed Sprint
+
+Current Version:
+CULINEX Import Engine v1.4.0
+
+Completed Sprint:
+Sprint 16 — Row Recovery Engine
+
+Current Development Stage:
+Sprint 17 — Adaptive Header Intelligence
+
+Status:
+Completed
 ---
 
 # Current Focus
 
-Improve Universal OCR Row Reconstruction.
+Improve deterministic OCR row recovery before validation.
 
-Objectives:
+Current work focuses on reducing
+not_enough_line_values
+through supplier-agnostic row reconstruction.
 
-- Better multiline item reconstruction
-- Better OCR fragment merging
-- Better quantity detection
-- Better total detection
-- Improve supplier independence
-- Maintain backwards compatibility
+Validation remains unchanged.
 
+Recovery reorganizes OCR fragments only.
 ---
 
 # Current Architecture
 
-Upload Centre
-
-↓
-
-Content Extraction
-
-↓
 
 Universal Extractor
 
 ↓
 
-Invoice Validator
+OCR Row Reconstruction
+
+↓
+
+Row Recovery Engine
+
+↓
+
+Header Detection
+
+↓
+
+Adaptive Column Detection
+
+↓
+
+Numeric Role Selection
+
+↓
+
+Validation
+
+↓
+
+Classification
+
+    ✓ Validated
+    ⚠ Recovered – Needs Review
+    ✗ Rejected
 
 ↓
 
@@ -83,20 +181,21 @@ Purchase Database
 ↓
 
 Analytics
-
 ---
 
-# Current Benchmark
+# Current Benchmark Philosophy
 
-Universal Extractor
+The benchmark now reports Universal Extractor rows in separate groups:
 
-Current validation success:
+- Validated rows
+- Recovered Needs Review rows
+- Rejected rows
 
-Approximately **97–98%**
+Strict Validation Pass Rate is calculated only from Validated rows.
 
-Primary remaining issue:
+Recovered Needs Review rows remain visible for user review and do not count as validation failures.
 
-OCR row fragmentation.
+Rows are only validated when they satisfy strict mathematical validation. Rows with unclear geometric or mathematical evidence remain in review or rejected status.
 
 ---
 
@@ -130,6 +229,14 @@ OCR row fragmentation.
 
 ✓ Universal Extractor
 
+✓ OCR Row Reconstruction
+
+✓ Header Detection
+
+✓ Numeric Role Selection
+
+✓ Validation Recovery Classification
+
 ✓ Invoice Validation
 
 ✓ Approval Queue
@@ -137,6 +244,12 @@ OCR row fragmentation.
 ✓ Purchase Storage
 
 ✓ Benchmark Testing
+
+✓ Adaptive Column Intelligence
+
+✓ Geometry Analysis
+
+✓ Column Confidence Metadata
 
 ---
 
@@ -234,43 +347,61 @@ Every feature should contribute toward helping restaurant owners make faster, mo
 
 ---
 
-# Version History
+# Sprint History
 
-## v1.1.0
+## Sprint 15 - Adaptive Column Intelligence
+
+Completed Sprint 15
+
+- Introduced ColumnGeometryAnalyzer.
+- Added geometry-aware numeric role selection.
+- Added column confidence metadata.
+- Added role source metadata.
+- Added geometric benchmark reporting.
+- Preserved strict validation.
+- Maintained supplier-agnostic extraction.
+
+## Sprint 14 - Validation Recovery Classification
+
+Completed Sprint 14: Validation Recovery Classification
+
+- Introduced Validation Recovery Classification.
+- Separated Universal Extractor rows into Validated, Recovered Needs Review, and Rejected.
+- Added review reason classification for recovered rows.
+- Preserved strict mathematical validation.
+- Improved benchmark reporting so review rows do not reduce strict validation pass rate.
+- Maintained a supplier-agnostic recovery workflow.
+
+## Sprint 13 - OCR Row Reconstruction
 
 Completed Sprint 13: OCR Row Reconstruction
+
 - Implemented geometry-first OCR row reconstruction stage using dynamic bounding box height metrics.
-- Supplier-agnostic design matching fragment rows by vertical proximity and math relation check (`qty * price = total`).
+- Used supplier-agnostic vertical proximity and mathematical relation checks.
 - Added detailed debug logging of raw OCR fragments, reconstructed candidate rows, and final validator inputs.
 
-## v1.0
+## Initial Import Engine Development
 
-Initial Development
+Initial Import Engine development
 
-Import Engine
-
-Universal Extractor
-
-OCR Pipeline
-
-Approval Queue
-
-Benchmark Testing
+- Upload Centre
+- Content Extraction
+- Universal Extractor
+- OCR Pipeline
+- Approval Queue
+- Benchmark Testing
 
 ---
 
 # Next Milestone
 
-CULINEX Import Engine v1.1
+CULINEX Import Engine v1.4.0
 
-Target Features:
-
-- Advanced OCR Row Reconstruction
-- Improved Column Detection
-- Better Confidence Scoring
-- Universal Supplier Support
-- Higher Extraction Accuracy
-
+- Row Recovery Engine
+- Description continuation detection
+- OCR fragment merging
+- Recovery confidence metadata
+- Reduced not_enough_line_values discard rate
 ---
 
 # Long-Term Vision
@@ -281,4 +412,4 @@ CULINEX will evolve into a complete restaurant management ecosystem capable of m
 
 Last Updated:
 
-2026-07-05
+2026-07-07

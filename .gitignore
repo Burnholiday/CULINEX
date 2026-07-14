@@ -17,10 +17,20 @@ env/
 # Logs
 logs/
 *.log
+data/logs/
+recipe-vault-*.log
 
 # Temporary
 temp/
 tmp/
+
+# Local runtime stores
+data/ingredient-memory.json
+data/ingredient-proposals.json
+
+# Generated parser benchmark artifacts
+data/extracted/
+data/parser-test-results/
 
 # Generated outputs (keep if these are reproducible)
 # outputs/

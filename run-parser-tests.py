@@ -46,6 +46,14 @@ def load_recipe_vault_module():
     return module
 
 
+def is_product_row_type(value, row_type_cls=None):
+    product = getattr(row_type_cls, "PRODUCT", None) if row_type_cls else None
+    if product is not None and isinstance(value, row_type_cls):
+        return value == product
+    product_value = getattr(product, "value", "product")
+    return str(value or "").strip().lower() == product_value
+
+
 def detect_supplier(text="", metadata=None, filename=""):
     candidates = [
         str((metadata or {}).get("supplier") or ""),
@@ -143,6 +151,51 @@ def discard_reason_counts(results):
     return counts
 
 
+def proposal_summary_from_rows(rows):
+    summary = {
+        "accepted_rows_evaluated": 0,
+        "strong_memory_matches": 0,
+        "proposals_generated_by_type": {},
+        "duplicate_proposals_reused": 0,
+        "proposal_errors": 0,
+    }
+    generated_by_type = Counter()
+    for row in rows or []:
+        if not isinstance(row, dict) or not row.get("ingredient_candidate"):
+            continue
+        summary["accepted_rows_evaluated"] += 1
+        if row.get("canonical_match_candidate", {}).get("canonical_match_id") or row.get("canonical_match_id"):
+            summary["strong_memory_matches"] += 1
+        if row.get("ingredient_proposal_generated"):
+            generated_by_type[row.get("ingredient_proposal_type") or "unknown"] += 1
+        elif row.get("ingredient_proposal_id") and row.get("ingredient_proposal_status"):
+            summary["duplicate_proposals_reused"] += 1
+        if row.get("ingredient_proposal_error"):
+            summary["proposal_errors"] += 1
+    summary["proposals_generated_by_type"] = dict(generated_by_type)
+    return summary
+
+
+def proposal_summary_metrics(results):
+    aggregate = {
+        "accepted_rows_evaluated": 0,
+        "strong_memory_matches": 0,
+        "proposals_generated_by_type": Counter(),
+        "duplicate_proposals_reused": 0,
+        "proposal_errors": 0,
+    }
+    for item in results:
+        parser = item.get("universal_line_item_extractor") or {}
+        summary = parser.get("ingredient_proposals") or proposal_summary_from_rows(parser.get("rows") or [])
+        aggregate["accepted_rows_evaluated"] += int(summary.get("accepted_rows_evaluated") or 0)
+        aggregate["strong_memory_matches"] += int(summary.get("strong_memory_matches") or 0)
+        aggregate["duplicate_proposals_reused"] += int(summary.get("duplicate_proposals_reused") or 0)
+        aggregate["proposal_errors"] += int(summary.get("proposal_errors") or 0)
+        aggregate["proposals_generated_by_type"].update(summary.get("proposals_generated_by_type") or {})
+    aggregate["proposals_generated_by_type"] = dict(aggregate["proposals_generated_by_type"])
+    return aggregate
+
+
 def parser_debug(rows):
     debug = []
     for index, row in enumerate(rows or [], 1):
@@ -198,6 +251,118 @@ def run_one(module, invoice_path):
     universal_visible_rows = len(universal_rows) + len(universal_review_rows)
     universal_review_rate = pass_rate(universal_visible_rows, len(universal_rows)) if universal_visible_rows else 0.0
 
+    # Add invoice row classification diagnostics
+    classifier = module.InvoiceRowClassifier()
+    classified_rows = []
+    proposal_generation_enabled = bool(getattr(module, "enable_ingredient_proposals", False))
+    proposal_matcher = None
+    proposal_engine = None
+    if proposal_generation_enabled and hasattr(module, "build_ingredient_matcher"):
+        proposal_matcher, proposal_engine = module.build_ingredient_matcher(True)
+    
+    # Classify all rows from universal extractor
+    for row in universal_all_rows:
+        if isinstance(row, dict):
+            # Get the raw text for classification
+            raw_text = row.get("raw_text") or row.get("description") or ""
+            classification_result = classifier.classify(raw_text)
+            
+            # Add classification diagnostics to the row
+            row_with_classification = dict(row)
+            row_with_classification["row_type"] = classification_result.row_type.value
+            row_with_classification["row_type_confidence"] = classification_result.confidence
+            row_with_classification["classification_reasons"] = classification_result.reasons
+            row_with_classification["matched_signals"] = classification_result.matched_signals
+            row_with_classification["conflicting_signals"] = classification_result.conflicting_signals
+            
+            # Add ingredient intelligence diagnostics for PRODUCT rows
+            if is_product_row_type(row_with_classification.get("row_type"), module.RowType):
+                # Initialize ingredient engine for this row
+                ingredient_engine = module.IngredientIntelligenceEngine()
+                ingredient_candidate = ingredient_engine.analyze_product_row(raw_text, row)
+                
+                # Convert IngredientCandidate to JSON-safe dictionary
+                if ingredient_candidate:
+                    from dataclasses import asdict, is_dataclass
+                    if is_dataclass(ingredient_candidate):
+                        ingredient_candidate_json = asdict(ingredient_candidate)
+                    elif hasattr(ingredient_candidate, "to_dict"):
+                        ingredient_candidate_json = ingredient_candidate.to_dict()
+                    elif isinstance(ingredient_candidate, dict):
+                        ingredient_candidate_json = ingredient_candidate
+                    else:
+                        ingredient_candidate_json = {}
+                    
+                    # Add ingredient diagnostics to the row
+                    row_with_classification["ingredient_candidate"] = ingredient_candidate_json
+                    row_with_classification["ingredient_confidence"] = float(
+                        ingredient_candidate_json.get("confidence", 0.0) or 0.0
+                    )
+                    row_with_classification["ingredient_reasons"] = list(
+                        ingredient_candidate_json.get("reasons", []) or []
+                    )
+                    row_with_classification["ingredient_matched_signals"] = list(
+                        ingredient_candidate_json.get("matched_signals", []) or []
+                    )
+                    row_with_classification["ingredient_conflicting_signals"] = list(
+                        ingredient_candidate_json.get("conflicting_signals", []) or []
+                    )
+                    if hasattr(module, "match_ingredient_candidate_for_row"):
+                        canonical_match_candidate = module.match_ingredient_candidate_for_row(
+                            ingredient_candidate,
+                            row=row,
+                            context={
+                                "source_filename": invoice_path.name,
+                                "source_row_id": row.get("row_id") or row.get("row_index") or len(classified_rows) + 1,
+                                "supplier_name": supplier,
+                                "supplier_code": row.get("supplier_code"),
+                            },
+                            enable_proposals=proposal_generation_enabled,
+                            ingredient_matcher=proposal_matcher,
+                            proposal_engine=proposal_engine,
+                        )
+                    else:
+                        ingredient_matcher = module.IngredientMatcher()
+                        canonical_match_candidate = ingredient_matcher.analyze_candidate(ingredient_candidate)
+                    if canonical_match_candidate:
+                        canonical_match_candidate_json = asdict(canonical_match_candidate)
+                        row_with_classification["canonical_match_candidate"] = canonical_match_candidate_json
+                        row_with_classification["normalized_match_key"] = canonical_match_candidate_json.get("normalized_match_key")
+                        row_with_classification["proposed_canonical_name"] = canonical_match_candidate_json.get("proposed_canonical_name")
+                        row_with_classification["match_confidence"] = float(
+                            canonical_match_candidate_json.get("match_confidence", 0.0) or 0.0
+                        )
+                        row_with_classification["match_reasons"] = list(
+                            canonical_match_candidate_json.get("match_reasons", []) or []
+                        )
+                        row_with_classification["canonical_matched_signals"] = list(
+                            canonical_match_candidate_json.get("matched_signals", []) or []
+                        )
+                        row_with_classification["canonical_conflicting_signals"] = list(
+                            canonical_match_candidate_json.get("conflicting_signals", []) or []
+                        )
+                        row_with_classification["alternative_candidates"] = list(
+                            canonical_match_candidate_json.get("alternative_candidates", []) or []
+                        )
+                        row_with_classification["review_required"] = bool(
+                            canonical_match_candidate_json.get("review_required", False)
+                        )
+                        row_with_classification["ingredient_proposal_generated"] = bool(
+                            canonical_match_candidate_json.get("proposal_generated", False)
+                        )
+                        row_with_classification["ingredient_proposal_id"] = canonical_match_candidate_json.get("proposal_id")
+                        row_with_classification["ingredient_proposal_type"] = canonical_match_candidate_json.get("proposal_type")
+                        row_with_classification["ingredient_proposal_status"] = canonical_match_candidate_json.get("proposal_status")
+                        row_with_classification["ingredient_proposal_error"] = canonical_match_candidate_json.get("proposal_error")
+                    elif hasattr(module, "ingredient_proposal_diagnostics"):
+                        row_with_classification.update(module.ingredient_proposal_diagnostics(None))
+            
+            classified_rows.append(row_with_classification)
+        else:
+            classified_rows.append(row)
+
+    ingredient_proposals_summary = proposal_summary_from_rows(classified_rows)
+
     return {
         "tested_at": now_iso(),
         "file_id": file_id,
@@ -233,11 +398,12 @@ def run_one(module, invoice_path):
             "rows_accepted": len(universal_rows),
             "rows_recovered_needs_review": len(universal_review_rows),
             "rows_discarded": len(universal.get("discarded_rows") or []),
-            "rows": universal_all_rows,
+            "rows": classified_rows,  # Use classified rows instead of original
             "validated_rows": universal_rows,
             "recovered_needs_review": universal_review_rows,
             "detected_headers": universal.get("detected_headers") or [],
             "detected_columns": universal.get("detected_columns") or [],
+            "geometry_debug": universal.get("geometry_debug") or [],
             "discarded_rows": universal.get("discarded_rows") or [],
             "confidence": universal.get("confidence", 0),
             "validation_failures": universal_failures,
@@ -250,6 +416,7 @@ def run_one(module, invoice_path):
                 if isinstance(row, dict)
             )),
             "review_failures": universal_review_failures,
+            "ingredient_proposals": ingredient_proposals_summary,
         },
         "needs_review": bool(content.get("errors")) or (not rows and not universal_rows and not universal_review_rows) or bool(failures) or bool(universal_failures) or bool(universal_review_rows),
     }
@@ -333,6 +500,7 @@ def error_result(invoice_path, message, trace=""):
             "rows": [],
             "detected_headers": [],
             "detected_columns": [],
+            "geometry_debug": [],
             "discarded_rows": [],
             "confidence": 0,
             "validation_failures": [],
@@ -346,6 +514,62 @@ def error_result(invoice_path, message, trace=""):
 
 def result_filename(invoice_path):
     return RESULT_DIR / f"{safe_name(invoice_path.stem)}.json"
+
+
+def geometry_debug_entries(parser):
+    geometry_debug = (parser or {}).get("geometry_debug") or []
+    if isinstance(geometry_debug, dict):
+        return [geometry_debug]
+    if isinstance(geometry_debug, list):
+        return [entry for entry in geometry_debug if isinstance(entry, dict)]
+    return []
+
+
+def geometry_summary_metrics(results):
+    files_with_geometry_debug = 0
+    files_with_table_region_detected = 0
+    files_with_no_table_region = 0
+    geometry_detection_errors = 0
+    confidence_values = []
+
+    for item in results:
+        extractor = item.get("universal_line_item_extractor") or {}
+        entries = geometry_debug_entries(extractor)
+        if not entries:
+            continue
+
+        files_with_geometry_debug += 1
+        detected = any(entry.get("table_region_detected") is True for entry in entries)
+        has_detection_error = False
+
+        for entry in entries:
+            confidence = entry.get("table_confidence")
+            if isinstance(confidence, (int, float)):
+                confidence_values.append(float(confidence))
+
+            failure = entry.get("failure")
+            if failure and failure != "no_table_regions_detected":
+                has_detection_error = True
+
+        if detected:
+            files_with_table_region_detected += 1
+        else:
+            files_with_no_table_region += 1
+        if has_detection_error:
+            geometry_detection_errors += 1
+
+    average_table_confidence = (
+        round(sum(confidence_values) / len(confidence_values), 3)
+        if confidence_values else 0.0
+    )
+
+    return {
+        "files_with_geometry_debug": files_with_geometry_debug,
+        "files_with_table_region_detected": files_with_table_region_detected,
+        "files_with_no_table_region": files_with_no_table_region,
+        "geometry_detection_errors": geometry_detection_errors,
+        "average_table_confidence": average_table_confidence,
+    }
 
 
 def write_summary(results):
@@ -385,7 +609,45 @@ def write_summary(results):
     universal_review_reasons = review_reason_counts(results)
     universal_review_reasons_by_supplier = review_reason_counts_by_supplier(results)
     universal_discard_reasons = discard_reason_counts(results)
-
+    geometry_metrics = geometry_summary_metrics(results)
+    proposal_metrics = proposal_summary_metrics(results)
+    
+    # Benchmark metrics for geometric analysis
+    avg_column_confidence = 0.0
+    total_rows_with_confidence = 0
+    total_confidence_sum = 0.0
+    for item in results:
+        extractor = item.get("universal_line_item_extractor") or {}
+        for row in extractor.get("rows") or []:
+            if isinstance(row, dict) and row.get("column_confidence"):
+                total_confidence_sum += row.get("column_confidence", 0.0)
+                total_rows_with_confidence += 1
+    if total_rows_with_confidence > 0:
+        avg_column_confidence = round(total_confidence_sum / total_rows_with_confidence, 3)
+    
+    # Count rows with high confidence (>0.8)
+    high_confidence_rows = 0
+    for item in results:
+        extractor = item.get("universal_line_item_extractor") or {}
+        for row in extractor.get("rows") or []:
+            if isinstance(row, dict) and row.get("column_confidence", 0) >= 0.8:
+                high_confidence_rows += 1
+    
+    # Benchmark metric: percentage of rows with good column confidence
+    confidence_quality_rate = round((high_confidence_rows / new_accepted * 100), 1) if new_accepted > 0 else 0.0
+    
+    # Benchmark metric: average extraction time (if available in results)
+    avg_extraction_time_ms = 0
+    extraction_times = []
+    for item in results:
+        extraction_engine = item.get("extraction_engine") or {}
+        if isinstance(extraction_engine, dict) and extraction_engine.get("time_taken_ms"):
+            extraction_times.append(extraction_engine.get("time_taken_ms"))
+    if extraction_times:
+        avg_extraction_time_ms = round(sum(extraction_times) / len(extraction_times), 1)
+    
+    # Benchmark metric: validation pass rate improvement
+    validation_improvement = round(new_pass_rate - old_pass_rate, 1)
     lines = [
         "# Parser Test Results",
         "",
@@ -402,9 +664,33 @@ def write_summary(results):
         f"- UniversalExtractor rows discarded: {new_discarded}",
         f"- InvoiceTableParser validation pass rate: {old_pass_rate:.1f}%",
         f"- UniversalExtractor strict validation pass rate: {new_pass_rate:.1f}%",
+        f"- Validation pass rate improvement: {validation_improvement:+.1f} percentage points",
         f"- Files where UniversalExtractor found rows but InvoiceTableParser found none: {len(universal_improved)}",
         f"- Files where both failed: {len(both_failed)}",
         f"- Files needing review: {len(review_files)}",
+        "",
+        "## Geometric Analysis Benchmarks",
+        "",
+        f"- Average column confidence: {avg_column_confidence}",
+        f"- Rows with high column confidence (>=0.8): {high_confidence_rows}",
+        f"- Confidence quality rate: {confidence_quality_rate}%",
+        f"- Average extraction time: {avg_extraction_time_ms}ms",
+        "",
+        "## Geometry Shadow Mode Coverage",
+        "",
+        f"- Files with geometry debug: {geometry_metrics['files_with_geometry_debug']}",
+        f"- Files with table region detected: {geometry_metrics['files_with_table_region_detected']}",
+        f"- Files with no table region: {geometry_metrics['files_with_no_table_region']}",
+        f"- Geometry detection errors: {geometry_metrics['geometry_detection_errors']}",
+        f"- Average table confidence: {geometry_metrics['average_table_confidence']}",
+        "",
+        "## Ingredient Proposal Observation",
+        "",
+        f"- Accepted rows evaluated for ingredient proposals: {proposal_metrics['accepted_rows_evaluated']}",
+        f"- Strong Ingredient Memory matches: {proposal_metrics['strong_memory_matches']}",
+        f"- Proposals generated by type: {proposal_metrics['proposals_generated_by_type']}",
+        f"- Duplicate proposals reused: {proposal_metrics['duplicate_proposals_reused']}",
+        f"- Proposal errors: {proposal_metrics['proposal_errors']}",
         "",
         "## Supplier Breakdown",
         "",
